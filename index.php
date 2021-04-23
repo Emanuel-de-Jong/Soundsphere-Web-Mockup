@@ -14,20 +14,16 @@
 <body>
     <?php require('components/navbar.php'); ?>
 
-    <main role="main">
-        <div class="container">
-            <?php
-                $page;
-                if (isset($_GET["a"])) {
-                    $page = $_GET["a"];
-                } else {
-                    $page = "home";
-                }
+    <?php
+        $page;
+        if (isset($_GET["a"])) {
+            $page = $_GET["a"];
+        } else {
+            $page = "home";
+        }
 
-                require('pages/' . $page . '.php'); 
-            ?>
-        </div>
-    </main>
+        require('pages/' . $page . '.php'); 
+    ?>
 
     <?php require('components/footer.php'); ?>
 
