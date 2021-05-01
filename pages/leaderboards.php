@@ -1,3 +1,5 @@
+<?php require('components/subnavbar.php'); ?>
+
 <main class="container h-100">
     <div class="bg-light p-5 rounded h-100">
         <h1>Leaderboards</h1>
