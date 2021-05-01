@@ -1,28 +1,4 @@
-.navbar {
-    background-color: #ccc;
-}
-
 main {
-    padding: 50px 0;
-}
-
-.footer {
-    background-color: #ccc;
-}
-
-.headline {
-    font-size: 60px;
-    font-weight: bold;
-    color: #3f9eff;
-}
-
-#bgvid {
-    object-fit: fit;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 475px;
-    width: 100%;
-    background-color: #283d4f;
+    margin-top: 110px;
+    margin-bottom: 30px;
 }

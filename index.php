@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="utf-8" />
@@ -12,10 +12,9 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/sticky-footer.css" />
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <?php require('components/navbar.html'); ?>
 
     <?php
