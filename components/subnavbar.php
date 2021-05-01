@@ -1,11 +1,7 @@
-<div class="nav-scroller bg-body shadow-sm">
-    <nav class="nav nav-underline" aria-label="Secondary navigation">
-        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-        <a class="nav-link" href="#">
-            Friends
-            <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
-        </a>
-        <a class="nav-link" href="#">Explore</a>
-        <a class="nav-link" href="#">Suggestions</a>
+<div id="secondary-navbar" class="nav-scroller bg-body shadow-sm">
+    <nav class="nav nav-underline">
+        <a class="nav-link" href="#">Summary</a>
+        <a class="nav-link" href="#">Top</a>
+        <a class="nav-link" href="#">Recent</a>
     </nav>
 </div>

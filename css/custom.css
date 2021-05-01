@@ -1,12 +1,93 @@
+/* NAVBAR */
+#primary-navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+#primary-navbar .nav-link:hover {
+    color: #bbb !important;
+}
+
+#primary-navbar input {
+    height: 35px;
+    border-color: white;
+}
+
+#primary-navbar button {
+    height: 35px;
+}
+
+#primary-navbar button:hover {
+    color: #bbb;
+    background-color: white;
+}
+
+
+
+
+
+/* MAIN */
 main {
-    height: 100%!important;
+    height: 100% !important;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .main-box {
-    height: 100%!important;
-    padding: 3rem;
-    border-radius: .25rem;
+    height: 100% !important;
+    padding: 1.5rem 3rem;
+    border-radius: 0.25rem;
     background-color: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+    .main-box {
+        margin: 0 60px;
+    }
+}
+
+
+
+
+/* FOOTER */
+.social a {
+    color: #999;
+    font-size: 25px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #999;
+    border-radius: 50%;
+    border-width: 2px;
+    margin: 0 10px 10px 10px;
+    width: 42px;
+    height: 42px;
+    line-height: 38px;
+    display: inline-block;
+}
+
+.social a:hover {
+    color: #6c757d;
+    font-size: 25px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #6c757d;
+    border-radius: 50%;
+    border-width: 2px;
+    margin: 0 10px;
+    width: 42px;
+    height: 42px;
+    line-height: 38px;
+    display: inline-block;
+}
+
+
+
+
+/* COLORS */
+.blue {
+    color: rgb(64, 142, 255);
+}
+
+.bg-blue {
+    background-color: rgb(64, 142, 255);
 }

@@ -1,3 +1,5 @@
+<?php require('components/subnavbar.php'); ?>
+
 <main class="container">
     <div class="main-box">
         <h1>Communities</h1>
