@@ -15,7 +15,7 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-    <?php require('components/navbar.html'); ?>
+    <?php require('components/navbar.php'); ?>
 
     <?php
     $page;
@@ -25,10 +25,10 @@
         $page = "home";
     }
 
-    require('pages/' . $page . '.html');
+    require('pages/' . $page . '.php');
     ?>
 
-    <?php require('components/footer.html'); ?>
+    <?php require('components/footer.php'); ?>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
