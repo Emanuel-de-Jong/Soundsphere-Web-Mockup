@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <?php require('components/navbar.php'); ?>
+    <?php require('components/navbar.html'); ?>
 
     <?php
     $page;
@@ -26,10 +26,10 @@
         $page = "home";
     }
 
-    require('pages/' . $page . '.php');
+    require('pages/' . $page . '.html');
     ?>
 
-    <?php require('components/footer.php'); ?>
+    <?php require('components/footer.html'); ?>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
