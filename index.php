@@ -11,6 +11,7 @@
     <title>soundsphere</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
 </head>
 
@@ -32,6 +33,7 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 

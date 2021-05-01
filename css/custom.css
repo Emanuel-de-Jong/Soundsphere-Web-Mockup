@@ -1,4 +1,12 @@
 main {
+    height: 100%!important;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.main-box {
+    height: 100%!important;
+    padding: 3rem;
+    border-radius: .25rem;
+    background-color: #f8f9fa;
 }

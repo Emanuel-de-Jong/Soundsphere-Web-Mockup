@@ -1,5 +1,5 @@
-<main class="container h-100">
-    <div class="bg-light p-5 rounded h-100">
+<main class="container">
+    <div class="main-box">
         <h1>Communities</h1>
         <p class="lead">
             Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus

@@ -7,21 +7,31 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <ul class="navbar-nav mb-2 mb-md-0 me-2">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=leaderboards">Leaderboard</a>
+                    <a class="nav-link" href="?a=leaderboards">Leaderboards</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=communities">Community</a>
+                    <a class="nav-link" href="?a=communities">Communities</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="me-auto">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="User or chart" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </div>
             </form>
+            <ul class="navbar-nav mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Register</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
