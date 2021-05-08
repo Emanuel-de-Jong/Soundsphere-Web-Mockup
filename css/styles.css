@@ -23,6 +23,7 @@ a:focus {
 
 
 /* NAVBAR */
+/* primary */
 #primary-navbar .nav-link {
     color: rgb(238, 238, 238);
     font-weight: 500;
@@ -53,6 +54,23 @@ a:focus {
 
 #primary-navbar button:focus {
     box-shadow: none;
+}
+
+/* secondary */
+#secondary-navbar {
+    z-index: 100;
+    margin-top: 66px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#secondary-navbar .nav-link {
+    padding: 8px 20px;
+}
+
+@media (min-width: 768px) {
+    #secondary-navbar {
+        padding-left: 70px;
+    }
 }
 
 
