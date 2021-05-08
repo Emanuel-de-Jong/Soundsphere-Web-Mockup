@@ -1,4 +1,5 @@
-/* COLORS */
+/* DEFAULT STYLE */
+/* Colors */
 .blue {
     color: rgb(64, 142, 255);
 }
@@ -7,6 +8,16 @@
     background-color: rgb(64, 142, 255);
 }
 
+/* Remove bootstrap box shadows */
+input:focus {
+    box-shadow: none !important;
+}
+select:focus {
+    box-shadow: none !important;
+}
+a:focus {
+    box-shadow: none !important;
+}
 
 
 
@@ -43,7 +54,6 @@
 #primary-navbar button:focus {
     box-shadow: none;
 }
-
 
 
 
@@ -101,3 +111,15 @@ main {
     line-height: 38px;
     display: inline-block;
 }
+
+
+
+
+/* TABLE */
+.data-table {
+    width: 100%;
+}
+
+
+
+
