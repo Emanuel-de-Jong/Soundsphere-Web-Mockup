@@ -2,7 +2,7 @@
     <div class="main-box">
         <div class="text-center form-login">
             <form>
-                <img class="mb-4" src="resources/logo.png" width="150" />
+                <img class="mb-4" src="resources/logo.png" width="130" />
                 <h1 class="h2 mb-3 fw-normal">Please login</h1>
 
                 <div class="form-floating">
