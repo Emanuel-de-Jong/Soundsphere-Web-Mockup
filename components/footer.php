@@ -12,6 +12,12 @@
             </a>
         </div>
         
-        <p class="text-muted">Copyright © 2021 soundsphere by semyon422. All Rights Reserved<br /></p>
+        <p class="text-muted">Copyright © 
+            <script>
+                var currentDate =new Date()
+                document.write(currentDate.getFullYear())
+            </script>
+             soundsphere by semyon422. All Rights Reserved.
+        </p>
     </div>
 </footer>

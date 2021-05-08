@@ -1,4 +1,4 @@
-<!-- <div style="background-color: rgb(41, 187, 21); height: 300px;"></div> -->
+<div style="background-color: rgb(60, 200, 100); height: 500px;"></div>
 
 <main class="container">
     <div class="main-box">
