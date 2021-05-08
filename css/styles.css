@@ -1,4 +1,8 @@
 /* DEFAULT STYLE */
+body {
+    min-height: 100%;
+}
+
 /* Colors */
 .blue {
     color: rgb(64, 142, 255);
@@ -24,11 +28,14 @@ a:focus {
 
 /* NAVBAR */
 /* primary */
-#primary-navbar .nav-link {
-    color: rgb(238, 238, 238);
-    font-weight: 500;
+#primary-navbar {
+    background-color: rgb(23, 105, 228);
 }
 
+#primary-navbar .nav-link {
+    color: rgb(234, 234, 234);
+    font-weight: 500;
+}
 #primary-navbar .nav-link:hover {
     color: white;
     
@@ -38,7 +45,6 @@ a:focus {
     height: 35px;
     border-color: white;
 }
-
 #primary-navbar input:focus {
     box-shadow: none;
 }
@@ -46,12 +52,10 @@ a:focus {
 #primary-navbar button {
     height: 35px;
 }
-
 #primary-navbar button:hover {
     color: rgb(170, 170, 170);
     background-color: white;
 }
-
 #primary-navbar button:focus {
     box-shadow: none;
 }
@@ -143,10 +147,16 @@ main {
 
 /* PAGES */
 /* Login and register */
+#login .main-box {
+    max-width: 516px;
+    margin: auto;
+}
+
 .form-login {
     width: 100%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
     max-width: 330px;
 }
 .form-login #email {

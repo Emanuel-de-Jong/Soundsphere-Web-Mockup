@@ -1,4 +1,4 @@
-<nav id="primary-navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+<nav id="primary-navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand ms-4 me-4" href="/">
             <img src="resources/logo-trans.png" width="40" />

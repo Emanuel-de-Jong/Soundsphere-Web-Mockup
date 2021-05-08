@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column">
     <?php require('components/navbar.php'); ?>
 
     <?php
