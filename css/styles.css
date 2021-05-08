@@ -123,3 +123,24 @@ main {
 
 
 
+/* PAGES */
+/* Login and register */
+.form-login {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 330px;
+}
+.form-login #email {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-login #password {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-login button {
+    min-width: 110px;
+    width: 40%;
+}

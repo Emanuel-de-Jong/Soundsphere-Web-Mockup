@@ -26,10 +26,10 @@
             </form>
             <ul class="navbar-nav mb-2 mb-md-0 me-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Login</a>
+                    <a class="nav-link" href="?a=login">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Register</a>
+                    <a class="nav-link" href="?a=register">Register</a>
                 </li>
             </ul>
         </div>
