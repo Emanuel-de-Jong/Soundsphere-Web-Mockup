@@ -25,12 +25,25 @@
                 </div>
             </form>
             <ul class="navbar-nav mb-2 mb-md-0 me-4">
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=register">Register</a>
-                </li>
+                <?php
+                    if(isset($_COOKIE["logged-in"])) {
+                        echo '
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="logout.php">Logout</a>
+                            </li>';
+                    } else {
+                        echo '
+                            <li class="nav-item">
+                            <a class="nav-link" href="?a=login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="?a=register">Register</a>
+                            </li>';
+                    }
+                ?>
             </ul>
         </div>
     </div>

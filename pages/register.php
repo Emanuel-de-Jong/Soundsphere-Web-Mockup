@@ -4,7 +4,7 @@
             <div class="text-center form-login">
                 <form action="login.php" method="post">
                     <img class="mb-4" src="resources/logo.png" width="130" />
-                    <h1 class="h2 mb-3 fw-normal">Please login</h1>
+                    <h1 class="h2 mb-3 fw-normal">Make an account</h1>
 
                     <div class="form-floating">
                         <input type="email" class="form-control" name="email" placeholder="Email address" />
@@ -20,7 +20,7 @@
                             <input type="checkbox" name="remember-me" /> Remember me
                         </label>
                     </div>
-                    <button class="btn btn-lg btn-primary" type="submit">Login</button>
+                    <button class="btn btn-lg btn-primary" type="submit">Register</button>
                 </form>
             </div>
         </div>
