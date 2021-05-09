@@ -1,22 +1,9 @@
 <div id="profile">
-    <nav id="secondary-navbar">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="">Summary</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Top</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Recent</a>
-            </li>
-        </ul>
-    </nav>
-    <div id="secondary-navbar-box"></div>
+    <?php require('pages/profile/subnavbar.php'); ?>
 
     <main class="container">
         <div class="main-box">
-            <h1>Profile</h1>
+            <h1>Profile - Top</h1>
             <p class="lead">
                 Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                 velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet

@@ -29,7 +29,7 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=profile">Profile</a>
+                                <a class="nav-link" href="?a=profile_summary">Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="logout.php">Logout</a>

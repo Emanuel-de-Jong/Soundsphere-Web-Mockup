@@ -21,7 +21,7 @@
     <?php
     $page;
     if (isset($_GET["a"])) {
-        $page = $_GET["a"];
+        $page = str_replace("_", "/", $_GET["a"]);
     } else {
         $page = "home";
     }
