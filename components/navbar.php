@@ -29,7 +29,7 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Profile</a>
+                                <a class="nav-link" href="?a=profile">Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="logout.php">Logout</a>
@@ -48,5 +48,4 @@
         </div>
     </div>
 </nav>
-
-<div style="min-height: 66px;"></div>
+<div id="primary-navbar-box"></div>

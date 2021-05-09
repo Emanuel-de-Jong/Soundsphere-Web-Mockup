@@ -1,4 +1,4 @@
-<nav id="secondary-navbar" class="fixed-top shadow-sm">
+<nav id="secondary-navbar">
     <ul class="nav">
         <li class="nav-item">
             <a class="nav-link" href="">Summary</a>
@@ -11,5 +11,4 @@
         </li>
     </ul>
 </nav>
-
-<div style="min-height: 40px;"></div>
+<div id="secondary-navbar-box"></div>

@@ -1,4 +1,4 @@
-<div id="leaderboards">
+<div id="profile">
     <nav id="secondary-navbar">
         <ul class="nav">
             <li class="nav-item">
@@ -16,7 +16,7 @@
 
     <main class="container">
         <div class="main-box">
-            <h1>Leaderboards</h1>
+            <h1>Profile</h1>
             <p class="lead">
                 Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                 velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet
