@@ -4,7 +4,7 @@
     <main class="container">
         <div class="main-box">
             <h1>Profile - Recent</h1>
-            <p class="lead">
+            <p>
                 Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                 velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet
                 lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis

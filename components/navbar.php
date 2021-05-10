@@ -12,9 +12,6 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=leaderboards">Leaderboards</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="?a=communities">Communities</a>
                 </li>
             </ul>

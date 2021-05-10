@@ -113,6 +113,11 @@ main {
     }
 }
 
+.main-box p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
 
 
 
