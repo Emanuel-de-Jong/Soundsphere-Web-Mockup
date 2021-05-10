@@ -1,7 +1,9 @@
-<div id="communities">
+<div id="communities-leaderboards">
+    <?php require('pages/communities/community1/subnavbar.php'); ?>
+
     <main class="container">
         <div class="main-box">
-            <h1>Communities</h1>
+            <h1>Community1 - Leaderboards</h1>
             <table class="data-table table">
                 <thead>
                     <tr>
@@ -10,7 +12,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=communities_community1_summary">Community1</a></td>
+                        <td><a href="?a=communities_community1_leaderboards_leaderboard1">Leaderboard1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>

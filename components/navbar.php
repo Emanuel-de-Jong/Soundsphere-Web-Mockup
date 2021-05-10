@@ -12,10 +12,16 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="?a=faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.google.com/document/d/1Y_uMngLnXbrLfG0on59HrkS_DhXTKKQDAn7r_QLlG9g" target="_blank">Guide</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="?a=communities">Communities</a>
                 </li>
             </ul>
-            <form class="me-auto">
+            <form class="me-auto" action="?a=search" method="post">
                 <div class="input-group">
                     <input class="form-control" type="search" placeholder="User or chart" aria-label="Search" />
                     <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>

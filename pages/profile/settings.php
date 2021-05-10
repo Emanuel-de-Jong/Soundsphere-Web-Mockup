@@ -1,4 +1,4 @@
-<div id="profile-recent">
+<div id="profile-settings">
     <?php require('pages/profile/subnavbar.php'); ?>
 
     <main class="container">

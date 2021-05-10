@@ -1,4 +1,4 @@
-<div id="profile">
+<div id="profile-top">
     <?php require('pages/profile/subnavbar.php'); ?>
 
     <main class="container">

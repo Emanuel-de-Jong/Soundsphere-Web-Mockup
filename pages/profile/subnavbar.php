@@ -9,6 +9,9 @@
         <li class="nav-item">
             <a class="nav-link" href="?a=profile_recent">Recent</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="?a=profile_settings">Settings</a>
+        </li>
     </ul>
 </nav>
 <div id="secondary-navbar-box"></div>

@@ -160,6 +160,10 @@ main {
     width: 100%;
 }
 
+.data-table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 
 
