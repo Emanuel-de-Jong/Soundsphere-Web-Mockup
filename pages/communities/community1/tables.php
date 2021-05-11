@@ -13,7 +13,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=communities_community1_tables_table1">Table1</a></td>
+                        <td><a href="?a=tables_table1">Table1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>
