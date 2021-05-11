@@ -12,13 +12,13 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=communities">Communities</a>
+                    <a class="nav-link" href="?a=communities_index">Communities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=users">Users</a>
+                    <a class="nav-link" href="?a=users_index">Users</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=charts">Charts</a>
+                    <a class="nav-link" href="?a=charts_index">Charts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?a=help">Help</a>
