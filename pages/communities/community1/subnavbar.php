@@ -7,6 +7,9 @@
             <a class="nav-link" href="?a=communities_community1_leaderboards">Leaderboards</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="?a=communities_community1_tables">Tables</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="?a=communities_community1_users">Users</a>
         </li>
         <li class="nav-item">

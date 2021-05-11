@@ -1,9 +1,9 @@
-<div id="communities-users">
+<div id="communities-bms-tables">
     <?php require('pages/communities/community1/subnavbar.php'); ?>
 
     <main class="container">
         <div class="main-box">
-            <h1>Community1 - Users</h1>
+            <h1>Community1 - Tables</h1>
             
             <table class="data-table table">
                 <thead>
@@ -13,7 +13,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=users_user1_summary">User1</a></td>
+                        <td><a href="?a=communities_community1_tables_table1">Table1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>
