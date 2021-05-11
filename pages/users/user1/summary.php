@@ -1,9 +1,9 @@
-<div id="profile-recent">
-    <?php require('pages/profile/subnavbar.php'); ?>
+<div id="user-summary">
+    <?php require('pages/users/user1/subnavbar.php'); ?>
 
     <main class="container">
         <div class="main-box">
-            <h1>Profile - Recent</h1>
+            <h1>User1 - Summary</h1>
             
             <p>
                 Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus

@@ -15,6 +15,12 @@
                     <a class="nav-link" href="?a=communities">Communities</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="?a=users">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?a=charts">Charts</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="?a=help">Help</a>
                 </li>
                 <li class="nav-item">
@@ -23,7 +29,7 @@
             </ul>
             <form class="me-auto" action="?a=search" method="post">
                 <div class="input-group">
-                    <input class="form-control" type="search" placeholder="User or chart" aria-label="Search" />
+                    <input class="form-control" type="search" placeholder="Search..." aria-label="Search" />
                     <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
                 </div>
             </form>
@@ -32,7 +38,7 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=profile_summary">Profile</a>
+                                <a class="nav-link" href="?a=users_user1_summary">Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="logout.php">Logout</a>

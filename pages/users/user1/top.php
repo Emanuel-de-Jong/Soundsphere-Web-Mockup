@@ -1,9 +1,9 @@
-<div id="profile-summary">
-    <?php require('pages/profile/subnavbar.php'); ?>
+<div id="user-top">
+    <?php require('pages/users/user1/subnavbar.php'); ?>
 
     <main class="container">
         <div class="main-box">
-            <h1>Profile - Summary</h1>
+            <h1>User1 - Top</h1>
             
             <p>
                 Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
