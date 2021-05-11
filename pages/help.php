@@ -1,15 +1,25 @@
 <div id="faq">
     <main class="container">
         <div class="main-box">
-            <h1>FAQ</h1>
-            
-            <div class="accordion">
+            <h1>Help</h1>
+
+
+            <section>
+                <h2>Guide</h2>
+
+                <a href="https://docs.google.com/document/d/1Y_uMngLnXbrLfG0on59HrkS_DhXTKKQDAn7r_QLlG9g" target="_blank">Unofficial guide made by qqp.</a>
+            </section>
+
+
+            <section class="accordion">
+                <h2>FAQ</h2>
+
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <div class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-1">
                             Question 1
                         </button>
-                    </h2>
+                    </div>
                     <div id="answer-1" class="accordion-collapse collapse">
                         <div class="accordion-body">
                             <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse
@@ -20,13 +30,13 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <div class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-2">
                             Question 2
                         </button>
-                    </h2>
+                    </div>
                     <div id="answer-2" class="accordion-collapse collapse">
                         <div class="accordion-body">
                             <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
@@ -37,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
 </div>

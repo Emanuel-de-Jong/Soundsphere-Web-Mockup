@@ -116,8 +116,16 @@ main {
     }
 }
 
+.main-box section {
+    margin-bottom: 30px;
+}
+
 .main-box h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.main-box h2 {
+    margin-bottom: 12px;
+    font-size: 30px;
 }
 
 .main-box p {

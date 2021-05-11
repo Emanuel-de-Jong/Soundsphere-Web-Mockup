@@ -12,13 +12,10 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=faq">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://docs.google.com/document/d/1Y_uMngLnXbrLfG0on59HrkS_DhXTKKQDAn7r_QLlG9g" target="_blank">Guide</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="?a=communities">Communities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?a=help">Help</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download</a>
