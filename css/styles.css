@@ -45,25 +45,6 @@ button:focus {
     
 }
 
-#primary-navbar input {
-    height: 35px;
-    border-color: white;
-}
-#primary-navbar input:focus {
-    box-shadow: none;
-}
-
-#primary-navbar button {
-    height: 35px;
-}
-#primary-navbar button:hover {
-    color: rgb(170, 170, 170);
-    background-color: white;
-}
-#primary-navbar button:focus {
-    box-shadow: none;
-}
-
 #primary-navbar-box {
     min-height: 66px;
 }
