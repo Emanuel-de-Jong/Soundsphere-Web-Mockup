@@ -1,7 +1,7 @@
-<div id="bms-table">
+<div id="tables">
     <main class="container">
         <div class="main-box">
-            <h1>Table1</h1>
+            <h1>Tables</h1>
             
             <table class="data-table table">
                 <thead>
@@ -11,7 +11,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=charts_chart1">Chart1</a></td>
+                        <td><a href="?a=tables_table1">Table1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>

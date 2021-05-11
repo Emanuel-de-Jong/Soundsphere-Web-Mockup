@@ -15,6 +15,12 @@
                     <a class="nav-link" href="?a=communities_index">Communities</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="?a=leaderboards_index">Leaderboards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?a=tables_index">Tables</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="?a=users_index">Users</a>
                 </li>
                 <li class="nav-item">

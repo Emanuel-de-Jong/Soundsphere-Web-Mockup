@@ -47,7 +47,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=communities_community1_leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
                         </tr>
                         <tr>
                             <td>Test</td>

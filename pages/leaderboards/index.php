@@ -1,7 +1,7 @@
-<div id="bms-table">
+<div id="leaderboards">
     <main class="container">
         <div class="main-box">
-            <h1>Table1</h1>
+            <h1>Leaderboards</h1>
             
             <table class="data-table table">
                 <thead>
@@ -11,7 +11,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=charts_chart1">Chart1</a></td>
+                        <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>
