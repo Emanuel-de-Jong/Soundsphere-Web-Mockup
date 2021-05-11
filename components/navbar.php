@@ -20,6 +20,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="?a=communities">Communities</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download</a>
+                </li>
             </ul>
             <form class="me-auto" action="?a=search" method="post">
                 <div class="input-group">

@@ -4,6 +4,7 @@
     <main class="container">
         <div class="main-box">
             <h1>Community1 - Leaderboards</h1>
+            
             <table class="data-table table">
                 <thead>
                     <tr>

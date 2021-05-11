@@ -2,6 +2,7 @@
     <main class="container">
         <div class="main-box">
             <h1>Communities</h1>
+            
             <table class="data-table table">
                 <thead>
                     <tr>

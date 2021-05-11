@@ -2,19 +2,42 @@
     <main class="container">
         <div class="main-box">
             <h1>FAQ</h1>
-            <p>
-                Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
-                velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet
-                lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis
-                mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate
-                venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl
-                faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus
-                dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc
-                lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et
-                malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur,
-                sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis.
-                enim.
-            </p>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-1">
+                            Question 1
+                        </button>
+                    </h2>
+                    <div id="answer-1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control the
+                            overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                            with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                            can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-2">
+                            Question 2
+                        </button>
+                    </h2>
+                    <div id="answer-2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control the
+                            overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                            with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                            can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </div>

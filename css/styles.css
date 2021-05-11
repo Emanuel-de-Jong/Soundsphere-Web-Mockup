@@ -23,6 +23,9 @@ select:focus {
 a:focus {
     box-shadow: none !important;
 }
+button:focus {
+    box-shadow: none !important;
+}
 
 
 
@@ -113,6 +116,10 @@ main {
     }
 }
 
+.main-box h1 {
+    margin-bottom: 20px;
+}
+
 .main-box p {
     font-size: 1.25rem;
     font-weight: 300;
@@ -162,6 +169,18 @@ main {
 
 .data-table tbody tr:nth-child(odd) {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+/* ACCORDION */
+.accordion-header {
+    background-color: rgb(240, 240, 240);
+}
+
+.accordion-button:focus {
+    border-color: rgba(0,0,0,.125);
 }
 
 

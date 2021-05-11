@@ -1,13 +1,13 @@
 <nav id="secondary-navbar">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link" href="">Subpage 1</a>
+            <a class="nav-link" href="?a=">Subpage 1</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Subpage 2</a>
+            <a class="nav-link" href="?a=">Subpage 2</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Subpage 3</a>
+            <a class="nav-link" href="?a=">Subpage 3</a>
         </li>
     </ul>
 </nav>
