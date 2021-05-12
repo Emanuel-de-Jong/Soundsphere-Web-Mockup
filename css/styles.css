@@ -79,14 +79,12 @@ button:focus {
 
 /* MAIN */
 main {
-    height: 100% !important;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .main-box {
-    height: 100% !important;
-    padding: 1.5rem 3rem;
+    padding: 35px 50px 1px 50px;
     border-radius: 0.25rem;
     background-color: white;
 }
@@ -98,11 +96,11 @@ main {
 }
 
 .main-box section {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .main-box h1 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .main-box h2 {
     margin-bottom: 12px;
@@ -207,6 +205,8 @@ main {
 #login .main-box {
     max-width: 516px;
     margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .form-login {
@@ -228,4 +228,18 @@ main {
 .form-login button {
     min-width: 110px;
     width: 40%;
+}
+
+
+
+
+/* ICON */
+.page-icon {
+    float: right;
+    font-size: 25px;
+    color: rgb(33, 37, 41);
+}
+
+.page-icon:hover {
+    color: rgb(78, 82, 85);
 }

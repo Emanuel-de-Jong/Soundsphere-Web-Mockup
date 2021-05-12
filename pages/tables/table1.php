@@ -17,7 +17,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=communities_community1_summary">Community1</a></td>
+                            <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>25</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
@@ -43,7 +43,7 @@
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
                             <td>7key</td>
-                            <td><a href="?a=players_player1_summary">Player1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>15</td>
                         </tr>

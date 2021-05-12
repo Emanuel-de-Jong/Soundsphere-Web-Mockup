@@ -41,7 +41,7 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=players_player1_summary">Profile</a>
+                                <a class="nav-link" href="?a=players_player1_index">Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="logout.php">Logout</a>
