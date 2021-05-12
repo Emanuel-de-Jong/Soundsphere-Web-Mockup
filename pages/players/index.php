@@ -1,7 +1,7 @@
-<div id="users">
+<div id="players">
     <main class="container">
         <div class="main-box">
-            <h1>Users</h1>
+            <h1>Players</h1>
             
             <table class="data-table data-table-all table">
                 <thead>
@@ -11,7 +11,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="?a=users_user1_summary">User1</a></td>
+                        <td><a href="?a=players_player1_summary">Player1</a></td>
                     </tr>
                     <tr>
                         <td>Test</td>

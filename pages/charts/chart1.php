@@ -27,7 +27,7 @@
             <section>
                 <h2>Scores</h2>
 
-                <table class="data-table data-table-order table">
+                <table class="data-table data-table-all table">
                     <thead>
                         <tr>
                             <th>Rank</th>
@@ -45,7 +45,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="?a=users_user1">User1</a></td>
+                            <td><a href="?a=players_player1">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td><a href="?a=users_user1">User1</a></td>
+                            <td><a href="?a=players_player1">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -69,7 +69,7 @@
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td><a href="?a=users_user1">User1</a></td>
+                            <td><a href="?a=players_player1">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -81,7 +81,7 @@
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td><a href="?a=users_user1">User1</a></td>
+                            <td><a href="?a=players_player1">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>

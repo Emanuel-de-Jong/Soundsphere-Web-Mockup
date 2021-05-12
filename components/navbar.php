@@ -23,7 +23,7 @@
                     <a class="nav-link" href="?a=tables_index">Tables</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=users_index">Users</a>
+                    <a class="nav-link" href="?a=players_index">Players</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?a=charts_index">Charts</a>
@@ -41,7 +41,7 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=users_user1_summary">Profile</a>
+                                <a class="nav-link" href="?a=players_player1_summary">Profile</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="logout.php">Logout</a>
