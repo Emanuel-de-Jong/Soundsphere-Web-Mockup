@@ -1,4 +1,4 @@
-<div id="login">
+<div id="register">
     <main class="container">
         <div class="main-box">
             <form class="form-login text-center" action="login.php" method="post">

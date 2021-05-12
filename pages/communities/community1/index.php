@@ -1,4 +1,4 @@
-<div id="communities-summary">
+<div id="community">
     <main class="container">
         <div class="main-box">
             <a href="?a=communities_community1_settings" class="page-icon">

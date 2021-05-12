@@ -202,7 +202,8 @@ main {
 }
 
 /* Login and register */
-#login .main-box {
+#login .main-box,
+#register .main-box {
     max-width: 516px;
     margin: auto;
     padding-top: 25px;

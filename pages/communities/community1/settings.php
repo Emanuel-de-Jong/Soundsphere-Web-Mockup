@@ -1,4 +1,4 @@
-<div id="communities-settings">
+<div id="community-settings">
     <main class="container">
         <div class="main-box">
             <h1>Community1 - Settings</h1>

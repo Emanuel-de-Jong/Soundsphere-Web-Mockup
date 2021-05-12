@@ -1,4 +1,4 @@
-<div id="player-summary">
+<div id="player">
     <main class="container">
         <div class="main-box">
             <a href="?a=players_player1_settings" class="page-icon">

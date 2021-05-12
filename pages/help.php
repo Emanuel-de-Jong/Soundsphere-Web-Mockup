@@ -1,4 +1,4 @@
-<div id="faq">
+<div id="help">
     <main class="container">
         <div class="main-box">
             <h1>Help</h1>

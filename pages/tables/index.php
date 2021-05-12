@@ -1,4 +1,4 @@
-<div id="tables">
+<div id="bms-tables">
     <main class="container">
         <div class="main-box">
             <h1>Tables</h1>
