@@ -108,7 +108,6 @@
                     </tfoot>
                 </table>
             </section>
-
         </div>
     </main>
 </div>
