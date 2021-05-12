@@ -5,7 +5,7 @@
         <div class="main-box">
             <h1>Community1 - Users</h1>
             
-            <table class="data-table table">
+            <table class="data-table data-table-all table">
                 <thead>
                     <tr>
                         <th>Name</th>
