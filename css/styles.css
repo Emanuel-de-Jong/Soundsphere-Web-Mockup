@@ -84,7 +84,8 @@ main {
 }
 
 .main-box {
-    padding: 35px 50px 1px 50px;
+    position: relative;
+    padding: 40px 50px 1px 50px;
     border-radius: 0.25rem;
     background-color: white;
 }
@@ -100,11 +101,13 @@ main {
 }
 
 .main-box h1 {
-    margin-bottom: 50px;
+    font-size: 44px;
+    margin-bottom: 70px;
+    text-align: center;
 }
 .main-box h2 {
-    margin-bottom: 12px;
     font-size: 30px;
+    margin-bottom: 12px;
 }
 
 .main-box p {
@@ -236,11 +239,16 @@ main {
 
 /* ICON */
 .page-icon {
-    float: right;
+    position: absolute;
+    margin-top: 5px;
     font-size: 25px;
     color: rgb(33, 37, 41);
 }
 
 .page-icon:hover {
     color: rgb(78, 82, 85);
+}
+
+.page-icon-right {
+    right: 50px;
 }

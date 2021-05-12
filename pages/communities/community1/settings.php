@@ -1,6 +1,10 @@
 <div id="community-settings">
     <main class="container">
         <div class="main-box">
+            <a href="?a=communities_community1_index" class="page-icon page-icon-left">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+
             <h1>Community1 - Settings</h1>
 
             

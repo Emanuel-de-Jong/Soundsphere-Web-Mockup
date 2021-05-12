@@ -1,7 +1,7 @@
 <div id="community">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_community1_settings" class="page-icon">
+            <a href="?a=communities_community1_settings" class="page-icon page-icon-right">
                 <i class="fas fa-cog"></i>
             </a>
 

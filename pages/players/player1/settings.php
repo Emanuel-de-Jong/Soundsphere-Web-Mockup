@@ -1,6 +1,10 @@
 <div id="player-settings">
     <main class="container">
         <div class="main-box">
+            <a href="?a=players_player1_index" class="page-icon page-icon-left">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+
             <h1>Player1 - Settings</h1>
 
             
