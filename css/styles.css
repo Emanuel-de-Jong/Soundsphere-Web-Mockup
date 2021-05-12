@@ -198,7 +198,11 @@ main {
 
 
 
-/* PAGES */
+/* FORM */
+.form-settings input {
+    max-width: 300px;
+}
+
 /* Login and register */
 #login .main-box {
     max-width: 516px;

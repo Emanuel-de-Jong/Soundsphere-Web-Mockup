@@ -9,25 +9,43 @@
                 <thead>
                     <tr>
                         <th>Name</th>
+                        <th>Plays</th>
+                        <th>Favourite mode</th>
+                        <th>Last played</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><a href="?a=players_player1_summary">Player1</a></td>
+                        <td>200</td>
+                        <td>7key</td>
+                        <td>18-04-21</td>
                     </tr>
                     <tr>
-                        <td>Test</td>
+                        <td><a href="?a=players_player1_summary">Player1</a></td>
+                        <td>200</td>
+                        <td>7key</td>
+                        <td>18-04-21</td>
                     </tr>
                     <tr>
-                        <td>Test</td>
+                        <td><a href="?a=players_player1_summary">Player1</a></td>
+                        <td>200</td>
+                        <td>7key</td>
+                        <td>18-04-21</td>
                     </tr>
                     <tr>
-                        <td>Test</td>
+                        <td><a href="?a=players_player1_summary">Player1</a></td>
+                        <td>200</td>
+                        <td>7key</td>
+                        <td>18-04-21</td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                         <th>Name</th>
+                        <th>Plays</th>
+                        <th>Favourite mode</th>
+                        <th>Last played</th>
                     </tr>
                 </tfoot>
             </table>
