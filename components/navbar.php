@@ -1,15 +1,15 @@
-<nav id="primary-navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand ms-4 me-4" href="/">
-            <img src="resources/logo-trans.png" width="40" />
+<nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-icon" href="/">
+            <img src="resources/logo-trans.png" />
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mb-2 mb-md-0 me-auto">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
@@ -36,7 +36,7 @@
                 </li>
             </ul>
 
-            <ul class="navbar-nav mb-2 mb-md-0 me-4">
+            <ul class="navbar-nav">
                 <?php
                     if(isset($_COOKIE["logged-in"])) {
                         echo '

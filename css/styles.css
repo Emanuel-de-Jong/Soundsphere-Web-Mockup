@@ -36,6 +36,12 @@ button:focus {
     background-color: rgb(23, 105, 228);
 }
 
+@media (min-width: 992px) {
+    #primary-navbar .container {
+        padding: 0 72px;
+    }
+}
+
 #primary-navbar .nav-link {
     color: rgb(234, 234, 234);
     font-weight: 500;
@@ -45,8 +51,15 @@ button:focus {
     
 }
 
+.navbar-icon {
+    padding: 3px 8px 3px 0;
+}
+.navbar-icon img {
+    width: 40px;
+}
+
 #primary-navbar-box {
-    min-height: 66px;
+    min-height: 62px;
 }
 
 /* secondary */
