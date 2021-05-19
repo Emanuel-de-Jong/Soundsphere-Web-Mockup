@@ -9,6 +9,7 @@
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th>Input modes</th>
                             <th>Players</th>
                             <th>Description</th>
                         </tr>
@@ -16,28 +17,33 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
+                            <td>7key</td>
+                            <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
+                            <td>7key</td>
+                            <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
+                            <td>7key</td>
+                            <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
+                            <td>7key</td>
+                            <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
                             <th>Name</th>
+                            <th>Input modes</th>
                             <th>Players</th>
                             <th>Description</th>
                         </tr>

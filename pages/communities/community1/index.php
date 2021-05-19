@@ -9,6 +9,20 @@
 
 
             <section>
+                <h2>Info</h2>
+
+                <table class="meta-table">
+                    <tr>
+                        <th>Input modes:</th>
+                        <td>7 key</td>
+                        <th>Players:</th>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </section>
+
+
+            <section>
                 <h2>Description</h2>
 
                 <p>
@@ -36,6 +50,7 @@
                             <th>Name</th>
                             <th>Input mode</th>
                             <th>Top player</th>
+                            <th>Performance</th>
                             <th>Tables</th>
                         </tr>
                     </thead>
@@ -44,6 +59,7 @@
                             <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td>1250</td>
                             <td>1</td>
                         </tr>
                     </tbody>
@@ -59,9 +75,10 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Input Modes</th>
+                            <th>Input modes</th>
                             <th>Charts</th>
                             <th>Plays</th>
+                            <th>Leaderboards</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -70,6 +87,7 @@
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>
+                            <td>1</td>
                         </tr>
                     </tbody>
                 </table>
@@ -83,42 +101,42 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Plays</th>
                             <th>Favourite mode</th>
+                            <th>Plays</th>
                             <th>Last played</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
                             <th>Name</th>
-                            <th>Plays</th>
                             <th>Favourite mode</th>
+                            <th>Plays</th>
                             <th>Last played</th>
                         </tr>
                     </tfoot>
