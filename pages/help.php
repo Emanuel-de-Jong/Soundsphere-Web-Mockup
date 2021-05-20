@@ -16,7 +16,7 @@
 
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-1">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#answer-1">
                             Question 1
                         </button>
                     </div>
@@ -33,7 +33,7 @@
 
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-2">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#answer-2">
                             Question 2
                         </button>
                     </div>

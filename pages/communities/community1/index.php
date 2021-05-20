@@ -41,6 +41,7 @@
             </section>
 
 
+            <?php require('components/delete-modal.php'); ?>
             <section>
                 <h2>
                     Leaderboards
@@ -68,10 +69,10 @@
                             <td>1250</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon orange">
+                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange">
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <a href="#" class="table-icon red">
+                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
