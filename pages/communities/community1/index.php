@@ -83,7 +83,12 @@
 
 
             <section>
-                <h2>Tables</h2>
+                <h2>
+                    Tables
+                    <a href="?a=tables_table1_add" class="h2-icon green">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </h2>
 
 
                 <table class="data-table table">
@@ -94,6 +99,7 @@
                             <th>Charts</th>
                             <th>Plays</th>
                             <th>Leaderboards</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -103,6 +109,14 @@
                             <td>20</td>
                             <td>115</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="?a=tables_table1_edit" class="table-icon orange">
+                                    <i class="fas fa-pen"></i>
+                                </a>
+                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
