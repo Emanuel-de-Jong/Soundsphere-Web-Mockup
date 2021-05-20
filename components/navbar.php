@@ -11,28 +11,28 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/">Home<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=communities_index">Communities</a>
+                    <a class="nav-link" href="?a=communities_index">Communities<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=leaderboards_index">Leaderboards</a>
+                    <a class="nav-link" href="?a=leaderboards_index">Leaderboards<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=tables_index">Tables</a>
+                    <a class="nav-link" href="?a=tables_index">Tables<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=players_index">Players</a>
+                    <a class="nav-link" href="?a=players_index">Players<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=charts_index">Charts</a>
+                    <a class="nav-link" href="?a=charts_index">Charts<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=help">Help</a>
+                    <a class="nav-link" href="?a=help">Help<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download</a>
+                    <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download<div class="underline"></div></a>
                 </li>
             </ul>
 
@@ -41,18 +41,18 @@
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=players_player1_index">Profile</a>
+                                <a class="nav-link" href="?a=players_player1_index">Profile<div class="underline"></div></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="logout.php">Logout</a>
+                                <a class="nav-link" href="logout.php">Logout<div class="underline"></div></a>
                             </li>';
                     } else {
                         echo '
                             <li class="nav-item">
-                            <a class="nav-link" href="?a=login">Login</a>
+                            <a class="nav-link" href="?a=login">Login<div class="underline"></div></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=register">Register</a>
+                                <a class="nav-link" href="?a=register">Register<div class="underline"></div></a>
                             </li>';
                     }
                 ?>

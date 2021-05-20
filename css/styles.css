@@ -44,11 +44,18 @@ button:focus {
 
 #primary-navbar .nav-link {
     color: rgb(234, 234, 234);
+    font-size: 1.03rem;
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
     color: white;
-    
+}
+
+#primary-navbar .underline {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+#primary-navbar .nav-link:hover .underline {
+    border-color: white;
 }
 
 .navbar-icon {
