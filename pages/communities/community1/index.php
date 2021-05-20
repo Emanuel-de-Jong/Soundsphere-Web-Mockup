@@ -45,7 +45,7 @@
             <section>
                 <h2>
                     Leaderboards
-                    <a href="?a=leaderboards_leaderboard1_add" class="h2-icon green">
+                    <a href="?a=leaderboards_add" class="h2-icon green">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -85,7 +85,7 @@
             <section>
                 <h2>
                     Tables
-                    <a href="?a=tables_table1_add" class="h2-icon green">
+                    <a href="?a=tables_add" class="h2-icon green">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>

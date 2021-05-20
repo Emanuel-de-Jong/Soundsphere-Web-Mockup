@@ -1,9 +1,13 @@
 <div id="communities">
     <main class="container">
         <div class="main-box">
+            <a href="?a=communities_add" class="page-icon page-icon-right">
+                <i class="fas fa-plus"></i>
+            </a>
+
             <h1>Communities</h1>
 
-            
+
             <section>
                 <table class="data-table data-table-all table">
                     <thead>
