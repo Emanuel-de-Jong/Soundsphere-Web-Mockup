@@ -5,12 +5,25 @@ body {
 }
 
 /* Colors */
-.blue {
-    color: rgb(64, 142, 255);
+.green {
+    color: rgb(34, 173, 21);
+}
+.green:hover {
+    color: rgb(28, 149, 17);
 }
 
-.bg-blue {
-    background-color: rgb(64, 142, 255);
+.orange {
+    color: rgb(255, 193, 7);
+}
+.orange:hover {
+    color: rgb(228, 173, 9);
+}
+
+.red {
+    color: rgb(220, 53, 69);
+}
+.red:hover {
+    color: rgb(192, 46, 61);
 }
 
 /* Remove bootstrap box shadows */
@@ -258,6 +271,7 @@ main {
 
 
 /* ICON */
+/* Page icon */
 .page-icon {
     position: absolute;
     margin-top: 5px;
@@ -271,4 +285,30 @@ main {
 
 .page-icon-right {
     right: 50px;
+}
+
+/* h2 icon */
+.h2-icon {
+    padding-top: 3px;
+    float: right;
+    font-size: 24px;
+    margin-right: 18px;
+}
+
+/* table icon */
+.table-icon {
+    visibility: hidden;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.table-icon-row {
+    text-align: right;
+    padding-right: 20px!important;
+    width: 90px;
+}
+
+tr:hover .table-icon {
+    visibility: visible;
 }

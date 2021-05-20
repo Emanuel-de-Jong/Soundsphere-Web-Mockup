@@ -42,7 +42,12 @@
 
 
             <section>
-                <h2>Leaderboards</h2>
+                <h2>
+                    Leaderboards
+                    <a href="#" class="h2-icon green">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </h2>
 
                 <table class="data-table table">
                     <thead>
@@ -52,6 +57,7 @@
                             <th>Top player</th>
                             <th>Performance</th>
                             <th>Tables</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -61,6 +67,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1250</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon orange">
+                                    <i class="fas fa-pen"></i>
+                                </a>
+                                <a href="#" class="table-icon red">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
