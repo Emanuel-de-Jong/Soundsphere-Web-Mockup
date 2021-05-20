@@ -48,7 +48,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="?a=charts_chart1">Chart1</a></td>
+                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -60,7 +60,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td><a href="?a=charts_chart1">Chart1</a></td>
+                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -72,7 +72,7 @@
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td><a href="?a=charts_chart1">Chart1</a></td>
+                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -84,7 +84,7 @@
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td><a href="?a=charts_chart1">Chart1</a></td>
+                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>

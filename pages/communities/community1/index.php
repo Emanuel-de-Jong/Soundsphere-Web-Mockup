@@ -44,7 +44,7 @@
             <section>
                 <h2>
                     Leaderboards
-                    <a href="#" class="h2-icon green">
+                    <a href="?a=leaderboards_leaderboard1_add" class="h2-icon green">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -62,7 +62,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1250</td>
@@ -97,7 +97,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=tables_table1">Table1</a></td>
+                            <td><a href="?a=tables_table1_index">Table1</a></td>
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>

@@ -17,28 +17,28 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>

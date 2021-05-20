@@ -41,7 +41,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
@@ -69,7 +69,7 @@
                     <tbody>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1">Diff1</a></td>
+                            <td><a href="?a=charts_chart1_index">Diff1</a></td>
                             <td>An artist</td>
                             <td>A creator</td>
                             <td>7key</td>
@@ -77,7 +77,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1">Diff1</a></td>
+                            <td><a href="?a=charts_chart1_index">Diff1</a></td>
                             <td>An artist</td>
                             <td>A creator</td>
                             <td>7key</td>
@@ -85,7 +85,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1">Diff1</a></td>
+                            <td><a href="?a=charts_chart1_index">Diff1</a></td>
                             <td>An artist</td>
                             <td>A creator</td>
                             <td>7key</td>
@@ -93,7 +93,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1">Diff1</a></td>
+                            <td><a href="?a=charts_chart1_index">Diff1</a></td>
                             <td>An artist</td>
                             <td>A creator</td>
                             <td>7key</td>
