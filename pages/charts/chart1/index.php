@@ -27,6 +27,15 @@
             <section>
                 <h2>Scores</h2>
 
+                <form class="text-center" action="" method="post">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()">
+                        <option selected>Select a leaderboard</option>
+                        <option value="Leaderboard1">Leaderboard1</option>
+                        <option value="Leaderboard2">Leaderboard2</option>
+                        <option value="Leaderboard3">Leaderboard3</option>
+                    </select>
+                </form>
+
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

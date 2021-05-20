@@ -198,6 +198,12 @@ main {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.data-table-select {
+    display: inline;
+    width: 260px;
+    margin-bottom: 12px;
+}
+
 /* meta-table */
 .meta-table {
     max-width: 600px;
