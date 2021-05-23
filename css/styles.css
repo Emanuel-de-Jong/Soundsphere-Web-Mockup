@@ -39,6 +39,9 @@ a:focus {
 button:focus {
     box-shadow: none !important;
 }
+textarea:focus {
+    box-shadow: none !important;
+}
 
 
 
@@ -239,8 +242,16 @@ main {
 
 
 /* FORM */
+.form-settings {
+    max-width: 600px;
+}
+
 .form-settings input {
     max-width: 300px;
+}
+
+.form-settings textarea {
+    height: 110px;
 }
 
 /* Login and register */

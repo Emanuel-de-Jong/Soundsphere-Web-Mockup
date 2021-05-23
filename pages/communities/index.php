@@ -1,7 +1,7 @@
 <div id="communities">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_add" class="page-icon page-icon-right">
+            <a href="?a=communities_add" class="page-icon page-icon-right green">
                 <i class="fas fa-plus"></i>
             </a>
 
@@ -14,7 +14,7 @@
                         <tr>
                             <th>Name</th>
                             <th>Input modes</th>
-                            <th>Players</th>
+                            <th>Members</th>
                             <th>Description</th>
                         </tr>
                     </thead>

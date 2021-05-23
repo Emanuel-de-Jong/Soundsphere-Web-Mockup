@@ -15,7 +15,7 @@
                     <tr>
                         <th>Input modes:</th>
                         <td>7 key</td>
-                        <th>Players:</th>
+                        <th>Members:</th>
                         <td>10</td>
                     </tr>
                 </table>
@@ -124,7 +124,7 @@
 
 
             <section>
-                <h2>Players</h2>
+                <h2>Members</h2>
 
                 <table class="data-table data-table-all table">
                     <thead>
