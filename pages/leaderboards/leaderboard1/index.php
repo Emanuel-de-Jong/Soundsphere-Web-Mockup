@@ -19,48 +19,52 @@
 
 
             <section>
-                <h2>Communities</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Communities</h2>
 
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Players</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
-                            <td>The first community. Which automatically makes it the best one.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Players</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>25</td>
+                                    <td>The first community</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
 
-            <section>
-                <h2>Tables</h2>
+                    <div class="col-6">
+                        <h2>Tables</h2>
 
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Input Modes</th>
-                            <th>Charts</th>
-                            <th>Plays</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
-                            <td>7key</td>
-                            <td>20</td>
-                            <td>115</td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Input Modes</th>
+                                    <th>Charts</th>
+                                    <th>Plays</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="?a=tables_table1_index">Table1</a></td>
+                                    <td>7key</td>
+                                    <td>20</td>
+                                    <td>115</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </section>
 
 
