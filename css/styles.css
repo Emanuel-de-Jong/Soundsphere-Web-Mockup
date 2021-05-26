@@ -242,6 +242,11 @@ main {
 
 
 /* FORM */
+.form-item {
+    margin-bottom: 30px;
+}
+
+/* Settings */
 .form-settings {
     max-width: 600px;
 }
@@ -304,12 +309,20 @@ main {
     right: 50px;
 }
 
-/* h2 icon */
-.h2-icon {
-    padding-top: 3px;
+/* title icon */
+.title-icon {
     float: right;
-    font-size: 24px;
     margin-right: 18px;
+}
+
+.h2-icon {
+    font-size: 24px;
+    padding-top: 3px;
+}
+
+.label-icon {
+    font-size: 20px;
+    margin-top: -3px;
 }
 
 /* table icon */
