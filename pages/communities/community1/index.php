@@ -85,9 +85,16 @@
             <section>
                 <h2>Members</h2>
 
+                <form class="text-center" action="" method="post">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()">
+                        <option value="Leaderboard1" selected>Leaderboard1</option>
+                    </select>
+                </form>
+
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
+                            <th>Rank</th>
                             <th>Name</th>
                             <th>Favourite mode</th>
                             <th>Plays</th>
@@ -96,24 +103,28 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td>1</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>7key</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
+                            <td>2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>7key</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
+                            <td>3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>7key</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
+                            <td>4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>7key</td>
                             <td>200</td>
@@ -122,6 +133,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
+                            <th>Rank</th>
                             <th>Name</th>
                             <th>Favourite mode</th>
                             <th>Plays</th>

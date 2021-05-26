@@ -14,9 +14,9 @@
                         <div class="modal-body">
                             <select class="form-select">
                                 <option selected>Select a community</option>
-                                <option value="Leaderboard1">Community1</option>
-                                <option value="Leaderboard2">Community2</option>
-                                <option value="Leaderboard3">Community3</option>
+                                <option value="Community1">Community1</option>
+                                <option value="Community2">Community2</option>
+                                <option value="Community3">Community3</option>
                             </select>
                         </div>
                         <div class="modal-footer">
