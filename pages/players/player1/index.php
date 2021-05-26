@@ -27,6 +27,30 @@
             </section>
 
 
+            <section>
+                <h2>Communities</h2>
+
+                <table class="data-table table">
+                <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Input modes</th>
+                            <th>Members</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td>7key</td>
+                            <td>10</td>
+                            <td>The first community. Which automatically makes it the best one.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
             <?php require('components/delete-modal.php'); ?>
             <section>
                 <h2>Scores</h2>
