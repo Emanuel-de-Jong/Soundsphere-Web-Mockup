@@ -233,6 +233,12 @@ main {
     height: 110px;
 }
 
+/* Community */
+#community-settings #short-description,
+#communities-add #short-description {
+    max-width: 100%;
+}
+
 /* Login and register */
 #login .main-box,
 #register .main-box {

@@ -83,47 +83,6 @@
 
 
             <section>
-                <h2>
-                    Tables
-                    <a href="?a=tables_add" class="title-icon h2-icon green green-h">
-                        <i class="fas fa-plus"></i>
-                    </a>
-                </h2>
-
-
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Input modes</th>
-                            <th>Charts</th>
-                            <th>Plays</th>
-                            <th>Leaderboards</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
-                            <td>7key</td>
-                            <td>20</td>
-                            <td>115</td>
-                            <td>1</td>
-                            <td class="table-icon-row">
-                                <a href="?a=tables_table1_edit" class="table-icon orange orange-h">
-                                    <i class="fas fa-pen"></i>
-                                </a>
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-
-            <section>
                 <h2>Members</h2>
 
                 <table class="data-table data-table-all table">
