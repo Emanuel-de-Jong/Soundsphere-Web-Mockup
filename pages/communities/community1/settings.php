@@ -65,22 +65,14 @@
                             </a>
                         </label>
                         <table class="data-table table">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href="?a=players_player1_index">Player1</a></td>
-                                    <td class="table-icon-row">
-                                        <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
+                            <tr>
+                                <td><a href="?a=players_player1_index">Player1</a></td>
+                                <td class="table-icon-row">
+                                    <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
                         </table>
                     </div>
 

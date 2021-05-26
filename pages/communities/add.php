@@ -55,16 +55,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
+                        <table class="data-table table"></table>
                     </div>
 
                     <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
