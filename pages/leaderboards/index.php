@@ -13,7 +13,6 @@
                             <th>Input mode</th>
                             <th>Top player</th>
                             <th>Players</th>
-                            <th>Tables</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -23,7 +22,6 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
-                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
@@ -38,7 +36,6 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
-                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
@@ -53,7 +50,6 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
-                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
@@ -68,7 +64,6 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
-                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
@@ -85,7 +80,6 @@
                             <th>Input mode</th>
                             <th>Top player</th>
                             <th>Players</th>
-                            <th>Charts</th>
                             <th></th>
                         </tr>
                     </tfoot>
