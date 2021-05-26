@@ -9,8 +9,8 @@
                 Are you sure?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn bg-dark-green" data-bs-dismiss="modal">Yes</button>
-                <button type="button" class="btn bg-dark-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Yes</button>
+                <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>

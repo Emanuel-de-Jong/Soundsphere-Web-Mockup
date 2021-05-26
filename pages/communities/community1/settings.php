@@ -37,8 +37,8 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                                     </select>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn bg-dark-green" data-bs-dismiss="modal">Add</button>
-                                    <button type="button" class="btn bg-dark-gray" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Add</button>
+                                    <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                     <div class="form-item">
                         <label for="admins" class="form-label w-100">
                             Admins
-                            <a href="#" class="title-icon label-icon green" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#" class="title-icon label-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -62,7 +62,7 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                                 <tr>
                                     <td><a href="?a=players_player1_index">Player1</a></td>
                                     <td class="table-icon-row">
-                                        <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-trash"></i>
                                         </a>
                                     </td>
@@ -71,7 +71,7 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                         </table>
                     </div>
 
-                    <button type="submit" class="btn bg-blue">Save</button>
+                    <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                 </form>
             </section>
         </div>

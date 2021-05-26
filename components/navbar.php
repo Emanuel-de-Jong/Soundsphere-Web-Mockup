@@ -1,4 +1,4 @@
-<nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue">
     <div class="container">
         <a class="navbar-icon" href="/">
             <img src="resources/logo-trans.png" />

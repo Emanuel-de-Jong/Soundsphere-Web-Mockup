@@ -26,7 +26,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn bg-blue">Save</button>
+                    <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                 </form>
             </section>
         </div>

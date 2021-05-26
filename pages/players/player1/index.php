@@ -84,7 +84,7 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -101,7 +101,7 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -118,7 +118,7 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -135,7 +135,7 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>

@@ -26,10 +26,6 @@ textarea:focus {
 
 /* NAVBAR */
 /* primary */
-#primary-navbar {
-    background-color: rgb(23, 105, 228);
-}
-
 @media (min-width: 992px) {
     #primary-navbar .container {
         padding: 0 72px;

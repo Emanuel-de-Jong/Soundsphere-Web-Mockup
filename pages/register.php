@@ -19,7 +19,7 @@
                         <input type="checkbox" name="remember-me" /> Remember me
                     </label>
                 </div>
-                <button type="submit" class="btn btn-lg bg-blue">Register</button>
+                <button type="submit" class="btn btn-lg bg-blue bg-blue-h">Register</button>
             </form>
         </div>
     </main>

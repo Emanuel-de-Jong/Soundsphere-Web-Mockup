@@ -45,7 +45,7 @@
             <section>
                 <h2>
                     Leaderboards
-                    <a href="?a=leaderboards_add" class="title-icon h2-icon green">
+                    <a href="?a=leaderboards_add" class="title-icon h2-icon green green-h">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -69,10 +69,10 @@
                             <td>1250</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange">
+                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange orange-h">
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -85,7 +85,7 @@
             <section>
                 <h2>
                     Tables
-                    <a href="?a=tables_add" class="title-icon h2-icon green">
+                    <a href="?a=tables_add" class="title-icon h2-icon green green-h">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -110,10 +110,10 @@
                             <td>115</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="?a=tables_table1_edit" class="table-icon orange">
+                                <a href="?a=tables_table1_edit" class="table-icon orange orange-h">
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <a href="#" class="table-icon red" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>

@@ -9,8 +9,8 @@
                 Are you sure you want to delete this item?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn bg-red" data-bs-dismiss="modal">Delete</button>
-                <button type="button" class="btn bg-dark-gray" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn bg-red bg-red-h" data-bs-dismiss="modal">Delete</button>
+                <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>

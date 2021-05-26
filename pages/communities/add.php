@@ -36,7 +36,7 @@
                                     </select>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn bg-dark-green" data-bs-dismiss="modal">Add</button>
+                                    <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Add</button>
                                     <button type="button" class="btn bg-dark-dray" data-bs-dismiss="modal">Cancel</button>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                     <div class="form-item">
                         <label for="admins" class="form-label w-100">
                             Admins
-                            <a href="#" class="title-icon label-icon green" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#" class="title-icon label-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -62,7 +62,7 @@
                         </table>
                     </div>
                     
-                    <button type="submit" class="btn bg-blue">Save</button>
+                    <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                 </form>
             </section>
         </div>

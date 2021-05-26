@@ -25,10 +25,10 @@
                             <td>10</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-copy"></i>
                                 </a>
                             </td>
@@ -40,10 +40,10 @@
                             <td>10</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-copy"></i>
                                 </a>
                             </td>
@@ -55,10 +55,10 @@
                             <td>10</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-copy"></i>
                                 </a>
                             </td>
@@ -70,10 +70,10 @@
                             <td>10</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
-                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#confirm-modal">
                                     <i class="fas fa-copy"></i>
                                 </a>
                             </td>
