@@ -4,6 +4,7 @@
             <h1>Leaderboards</h1>
 
             
+            <?php require('components/confirm-modal.php'); ?>
             <section>
                 <table class="data-table data-table-all table">
                     <thead>
@@ -13,6 +14,7 @@
                             <th>Top player</th>
                             <th>Players</th>
                             <th>Tables</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -22,6 +24,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </a>
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-copy"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
@@ -29,6 +39,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </a>
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-copy"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
@@ -36,6 +54,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </a>
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-copy"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
@@ -43,6 +69,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </a>
+                                <a href="#" class="table-icon blue" data-bs-toggle="modal" data-bs-target="#confirm-modal">
+                                    <i class="fas fa-copy"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -52,6 +86,7 @@
                             <th>Top player</th>
                             <th>Players</th>
                             <th>Charts</th>
+                            <th></th>
                         </tr>
                     </tfoot>
                 </table>

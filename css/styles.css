@@ -4,28 +4,6 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
-/* Colors */
-.green {
-    color: rgb(34, 173, 21)!important;
-}
-.green:hover {
-    color: rgb(28, 149, 17)!important;
-}
-
-.orange {
-    color: rgb(255, 193, 7)!important;
-}
-.orange:hover {
-    color: rgb(228, 173, 9)!important;
-}
-
-.red {
-    color: rgb(220, 53, 69)!important;
-}
-.red:hover {
-    color: rgb(187, 45, 59)!important;
-}
-
 /* Remove bootstrap box shadows */
 input:focus {
     box-shadow: none !important;
@@ -275,15 +253,23 @@ main {
     margin-bottom: 50px;
     max-width: 330px;
 }
+
+.form-login h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
 .form-login #email {
     margin-bottom: -1px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 .form-login #password {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
 .form-login button {
     min-width: 110px;
     width: 40%;

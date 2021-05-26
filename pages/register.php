@@ -3,7 +3,7 @@
         <div class="main-box">
             <form class="form-login text-center" action="login.php" method="post">
                 <img class="mb-4" src="resources/logo.png" width="130" />
-                <h1 class="h2 mb-3 fw-normal">Make an account</h1>
+                <h1 class="mb-3">Make an account</h1>
 
                 <div class="form-floating">
                     <input type="email" class="form-control" name="email" placeholder="Email address" />
@@ -19,7 +19,7 @@
                         <input type="checkbox" name="remember-me" /> Remember me
                     </label>
                 </div>
-                <button type="submit" class="btn btn-lg btn-primary">Register</button>
+                <button type="submit" class="btn btn-lg bg-blue">Register</button>
             </form>
         </div>
     </main>

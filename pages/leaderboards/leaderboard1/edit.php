@@ -15,7 +15,18 @@
                         <input type="text" class="form-control" name="name" value="Leaderboard1">
                     </div>
                     
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <div class="form-item">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="canCopy" name="canCopy" checked>
+                            <label for="canCopy">Communities can copy this leaderboard</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="canJoin" name="canJoin" checked>
+                            <label for="canJoin">Communities can join this leaderboard</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn bg-blue">Save</button>
                 </form>
             </section>
         </div>

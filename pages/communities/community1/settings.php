@@ -37,8 +37,8 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                                     </select>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Add</button>
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn bg-dark-green" data-bs-dismiss="modal">Add</button>
+                                    <button type="button" class="btn bg-dark-gray" data-bs-dismiss="modal">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum element
                         </table>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="submit" class="btn bg-blue">Save</button>
                 </form>
             </section>
         </div>

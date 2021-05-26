@@ -15,7 +15,7 @@
                         <input type="text" class="form-control" name="name" value="Table1">
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="submit" class="btn bg-blue">Save</button>
                 </form>
             </section>
         </div>
