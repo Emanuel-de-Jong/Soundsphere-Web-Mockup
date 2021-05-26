@@ -9,7 +9,7 @@
 
 
             <section>
-                <table class="data-table data-table-all table">
+                <table class="data-table data-table-communities table">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -28,19 +28,19 @@
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>7key</td>
-                            <td>10</td>
+                            <td>8</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>7key</td>
-                            <td>10</td>
+                            <td>12</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>7key</td>
-                            <td>10</td>
+                            <td>4</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                         </tr>
                     </tbody>

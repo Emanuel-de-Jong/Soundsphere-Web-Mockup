@@ -1,6 +1,10 @@
 $(function () {
     $(".data-table-all").DataTable({
-        ordering: true,
-        info: true,
+        scrollX: true
+    });
+
+    $(".data-table-communities").DataTable({
+        scrollX: true,
+        order: [[ 2, "desc" ]]
     });
 });
