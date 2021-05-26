@@ -105,8 +105,6 @@
 
 
             <section>
-                <h2>Players</h2>
-
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

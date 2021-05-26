@@ -53,7 +53,7 @@
                         <table class="data-table table"></table>
                     </div>
 
-                    <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
+                    <button type="submit" class="btn bg-blue bg-blue-h">Create</button>
                 </form>
             </section>
         </div>
