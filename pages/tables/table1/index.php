@@ -4,28 +4,7 @@
             <h1>Table1</h1>
 
 
-            <section>
-                <h2>Communities</h2>
-
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Players</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>25</td>
-                            <td>The first community. Which automatically makes it the best one.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-
+            <?php require('components/add-leaderboard-modal.php'); ?>
             <section>
                 <h2>Leaderboards</h2>
 
@@ -37,6 +16,7 @@
                             <th>Top player</th>
                             <th>Players</th>
                             <th>Charts</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,6 +26,14 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
                             <td>15</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                    <i class="fas fa-sign-in-alt"></i>
+                                </a>
+                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                    <i class="fas fa-copy"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

@@ -29,6 +29,7 @@
                                     <th>Name</th>
                                     <th>Players</th>
                                     <th>Description</th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -36,6 +37,11 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>25</td>
                                     <td>The first community</td>
+                                    <td class="table-icon-row">
+                                        <a href="#" class="table-icon green green-h">
+                                            <i class="fas fa-sign-in-alt"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
