@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <a href="#" class="page-icon page-icon-right" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
+            <a href="#" class="page-icon page-icon-right" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
                 <i class="fas fa-info-circle"></i>
             </a>
 
