@@ -87,7 +87,7 @@
                                     <th title="Table name">Name</th>
                                     <th title="Input modes in the table charts">Input Modes</th>
                                     <th title="Chart count">Charts</th>
-                                    <th title="Play count">Plays</th>
+                                    <th title="Plays over all charts">Plays</th>
                                 </tr>
                             </thead>
                             <tbody>

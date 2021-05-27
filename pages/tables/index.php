@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <a href="#" class="page-icon page-icon-right green green-h" data-bs-toggle="modal" data-bs-target="#add-table-modal">
+            <a href="#" class="page-icon page-icon-right green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-table-modal">
                 <i class="fas fa-plus"></i>
             </a>
 
@@ -31,10 +31,10 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Input Modes</th>
-                            <th>Charts</th>
-                            <th>Plays</th>
+                            <th title="Table name">Name</th>
+                            <th title="Input modes in the table charts">Input Modes</th>
+                            <th title="Chart count">Charts</th>
+                            <th title="Plays over all charts">Plays</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -65,10 +65,10 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Name</th>
-                            <th>Input Modes</th>
-                            <th>Charts</th>
-                            <th>Plays</th>
+                            <th title="Table name">Name</th>
+                            <th title="Input modes in the table charts">Input Modes</th>
+                            <th title="Chart count">Charts</th>
+                            <th title="Plays over all charts">Plays</th>
                         </tr>
                     </tfoot>
                 </table>

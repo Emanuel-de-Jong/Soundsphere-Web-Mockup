@@ -9,15 +9,15 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th>Artist:</th>
+                        <th title="Artist name">Artist:</th>
                         <td>An artist</td>
-                        <th>Creator:</th>
-                        <td>A creator</td>
+                        <th title="Creator name">Mapper:</th>
+                        <td>A mapper</td>
                     </tr>
                     <tr>
-                        <th>Input mode:</th>
+                        <th title="Chart input mode">Input mode:</th>
                         <td>7key</td>
-                        <th>Plays:</th>
+                        <th title="Play count">Plays:</th>
                         <td>15</td>
                     </tr>
                 </table>
@@ -28,7 +28,7 @@
                 <h2>Scores</h2>
 
                 <form class="text-center" action="" method="post">
-                    <select class="form-select data-table-select" onchange="//this.form.submit()">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()" title="Only show scores from this leaderboard">
                         <option selected>Select a leaderboard</option>
                         <option value="Leaderboard1">Leaderboard1</option>
                         <option value="Leaderboard2">Leaderboard2</option>
@@ -39,16 +39,15 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Rank</th>
-                            <th>Player</th>
-                            <th>Performance</th>
-                            <th>Score</th>
-                            <th>Accuracy</th>
-                            <th>Max combo</th>
-                            <th>Input mode</th>
-                            <th>Time rate</th>
-                            <th>Modifiers</th>
-                            <th>Date</th>
+                            <th title="Players chart rank">Rank</th>
+                            <th title="Player name">Player</th>
+                            <th title="Players chart performance">Performance</th>
+                            <th title="Player score">Score</th>
+                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player max combo">Max combo</th>
+                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="Score date and time">Date</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -60,7 +59,6 @@
                             <td>20</td>
                             <td>350</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                         </tr>
@@ -72,7 +70,6 @@
                             <td>20</td>
                             <td>350</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                         </tr>
@@ -84,7 +81,6 @@
                             <td>20</td>
                             <td>350</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                         </tr>
@@ -96,23 +92,21 @@
                             <td>20</td>
                             <td>350</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Rank</th>
-                            <th>Player</th>
-                            <th>Performance</th>
-                            <th>Score</th>
-                            <th>Accuracy</th>
-                            <th>Max combo</th>
-                            <th>Input mode</th>
-                            <th>Time rate</th>
-                            <th>Modifiers</th>
-                            <th>Date</th>
+                            <th title="Players chart rank">Rank</th>
+                            <th title="Player name">Player</th>
+                            <th title="Players chart performance">Performance</th>
+                            <th title="Player score">Score</th>
+                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player max combo">Max combo</th>
+                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="Score date and time">Date</th>
                         </tr>
                     </tfoot>
                 </table>
