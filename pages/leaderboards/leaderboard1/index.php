@@ -39,9 +39,9 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th>Input mode:</th>
+                        <th title="Leaderboard input mode">Input mode:</th>
                         <td>7 key</td>
-                        <th>Players:</th>
+                        <th title="Player count">Players:</th>
                         <td>10</td>
                     </tr>
                 </table>
@@ -56,9 +56,9 @@
                         <table class="data-table table">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Players</th>
-                                    <th>Description</th>
+                                    <th title="Community name">Name</th>
+                                    <th title="Player count">Players</th>
+                                    <th title="Community description">Description</th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -68,7 +68,7 @@
                                     <td>25</td>
                                     <td>The first community</td>
                                     <td class="table-icon-row">
-                                        <a href="#" class="table-icon green green-h">
+                                        <a href="#" class="table-icon green green-h" title="Join community">
                                             <i class="fas fa-sign-in-alt"></i>
                                         </a>
                                     </td>
@@ -84,10 +84,10 @@
                         <table class="data-table table">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Input Modes</th>
-                                    <th>Charts</th>
-                                    <th>Plays</th>
+                                    <th title="Table name">Name</th>
+                                    <th title="Input modes in the table charts">Input Modes</th>
+                                    <th title="Chart count">Charts</th>
+                                    <th title="Play count">Plays</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -108,10 +108,10 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Rank</th>
-                            <th>Player</th>
-                            <th>Performance</th>
-                            <th>Plays</th>
+                            <th title="Player rank in leaderboard">Rank</th>
+                            <th title="Player name">Player</th>
+                            <th title="Players leaderboard performance">Performance</th>
+                            <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
                     </thead>
                     <tbody>

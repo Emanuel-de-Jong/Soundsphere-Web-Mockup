@@ -11,12 +11,12 @@
             <section>
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="form-item">
-                        <label for="name" class="form-label">Name</label>
+                        <label for="name" class="form-label" title="Leaderboard name">Name</label>
                         <input type="text" class="form-control" name="name" value="">
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label">Description</label>
+                        <label for="description" class="form-label" title="Description shown in popup">Description</label>
                         <textarea class="form-control" name="description"></textarea>
                     </div>
 
@@ -44,9 +44,9 @@
                     </div>
                     <?php require('components/delete-modal.php'); ?>
                     <div class="form-item">
-                        <label for="admins" class="form-label w-100">
+                        <label for="admins" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
-                            <a href="#" class="title-icon label-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-table-modal">
+                            <a href="#" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-table-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
