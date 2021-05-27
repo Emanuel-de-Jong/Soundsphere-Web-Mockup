@@ -66,18 +66,18 @@ textarea:focus {
     width: 100%;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
     z-index: 100;
-    margin-top: 66px;
+    margin-top: 62px;
     background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (min-width: 992px) {
+    #secondary-navbar .container {
+        padding: 0 80px;
+    }
 }
 
 #secondary-navbar .nav-link {
     padding: 8px 20px;
-}
-
-@media (min-width: 768px) {
-    #secondary-navbar {
-        padding-left: 70px;
-    }
 }
 
 #secondary-navbar-box {
@@ -98,7 +98,7 @@ main {
     padding: 40px 50px 1px 50px;
     border-radius: 0.25rem;
     background-color: white;
-    box-shadow: 3px 3px 5px rgb(200, 206, 211);
+    box-shadow: 3px 3px .25rem rgba(0, 0, 0, .075);
 }
 
 @media (min-width: 992px) {

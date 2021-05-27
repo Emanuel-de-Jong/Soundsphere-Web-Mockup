@@ -1,3 +1,30 @@
+<nav id="secondary-navbar">
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#player">Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#info-section">Description</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#description-section">Leaderboards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#description-section">Communities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#leaderboards-communities-section">Recent scores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#recent-scores-section">Top scores</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="secondary-navbar-box"></div>
+
+
 <div id="player">
     <main class="container">
         <div class="main-box">

@@ -1,3 +1,24 @@
+<nav id="secondary-navbar">
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#community">Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#info-section">Description</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#description-section">Leaderboards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#leaderboards-section">Members</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="secondary-navbar-box"></div>
+
+
 <div id="community">
     <main class="container">
         <div class="main-box">
@@ -22,7 +43,7 @@
             </section>
 
 
-            <section id="description-section">>
+            <section id="description-section">
                 <h2>Description</h2>
 
                 <p>
