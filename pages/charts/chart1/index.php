@@ -44,7 +44,7 @@
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Accuracy</th>
-                            <th title="Player max combo">Max combo</th>
+                            <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
@@ -57,7 +57,7 @@
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
@@ -68,7 +68,7 @@
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
@@ -79,7 +79,7 @@
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
@@ -90,7 +90,7 @@
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
@@ -103,7 +103,7 @@
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Accuracy</th>
-                            <th title="Player max combo">Max combo</th>
+                            <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>

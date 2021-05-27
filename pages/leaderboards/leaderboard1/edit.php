@@ -54,7 +54,7 @@
                             <tr>
                                 <td><a href="?a=tables_table1_index">Table1</a></td>
                                 <td class="table-icon-row">
-                                    <a href="#" class="table-icon red  red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#" class="table-icon red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-trash"></i>
                                     </a>
                                 </td>

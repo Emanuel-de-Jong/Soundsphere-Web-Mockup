@@ -58,84 +58,84 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Rank</th>
-                            <th>Chart</th>
-                            <th>Performance</th>
-                            <th>Score</th>
-                            <th>Accuracy</th>
-                            <th>Max combo</th>
-                            <th>Input mode</th>
-                            <th>Time rate</th>
-                            <th>Modifiers</th>
-                            <th>Date</th>
+                            <th title="Rank compared to other player scores">Rank</th>
+                            <th title="Chart title">Title</th>
+                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Players chart performance">Performance</th>
+                            <th title="Player score">Score</th>
+                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player miss count">Misses</th>
+                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="Score date and time">Date</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td><a href="?a=charts_chart1_index">Chart1</a></td>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
-                            <td>350</td>
+                            <td>8</td>
                             <td>10key</td>
-                            <td>1.10</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -143,16 +143,16 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Rank</th>
-                            <th>Player</th>
-                            <th>Performance</th>
-                            <th>Score</th>
-                            <th>Accuracy</th>
-                            <th>Max combo</th>
-                            <th>Input mode</th>
-                            <th>Time rate</th>
-                            <th>Modifiers</th>
-                            <th>Date</th>
+                            <th title="Rank compared to other player scores">Rank</th>
+                            <th title="Chart title">Title</th>
+                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Players chart performance">Performance</th>
+                            <th title="Player score">Score</th>
+                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player miss count">Misses</th>
+                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="Score date and time">Date</th>
                             <th></th>
                         </tr>
                     </tfoot>
