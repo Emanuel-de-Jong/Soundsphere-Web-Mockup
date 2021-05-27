@@ -1,7 +1,7 @@
 <div id="chart">
     <main class="container">
         <div class="main-box">
-            <h1>Chart1 - Diff1</h1>
+            <h1>Chart1 - Difficulty1</h1>
 
 
             <section>
@@ -9,14 +9,14 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th title="Artist name">Artist:</th>
-                        <td>An artist</td>
-                        <th title="Creator name">Mapper:</th>
-                        <td>A mapper</td>
-                    </tr>
-                    <tr>
+                        <th title="Creator name">Charter:</th>
+                        <td>A charter</td>
                         <th title="Chart input mode">Input mode:</th>
                         <td>7key</td>
+                    </tr>
+                    <tr>
+                        <th title="Artist name">Artist:</th>
+                        <td>An artist</td>
                         <th title="Play count">Plays:</th>
                         <td>15</td>
                     </tr>
