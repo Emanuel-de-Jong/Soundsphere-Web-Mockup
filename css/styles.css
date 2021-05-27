@@ -98,6 +98,7 @@ main {
     padding: 40px 50px 1px 50px;
     border-radius: 0.25rem;
     background-color: white;
+    box-shadow: 3px 3px 5px rgb(200, 206, 211);
 }
 
 @media (min-width: 992px) {
