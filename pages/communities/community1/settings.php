@@ -10,22 +10,22 @@
             <section>
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="form-item">
-                        <label for="name" class="form-label">Name</label>
+                        <label for="name" class="form-label" title="Community name">Name</label>
                         <input type="text" class="form-control" name="name" value="Community1">
                     </div>
 
                     <div class="form-item">
-                        <label for="short-description" class="form-label">Short description</label>
+                        <label for="short-description" class="form-label" title="Description shown in tables">Short description</label>
                         <input type="text" id="short-description" class="form-control" name="short-description" value="The first community. Which automatically makes it the best one.">
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label">Description</label>
+                        <label for="description" class="form-label" title="Page description">Description</label>
                         <textarea class="form-control" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label">Default member ranking leaderboard</label>
+                        <label class="form-label" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
                         <select class="form-select">
                             <option>Select a leaderboard</option>
                             <option value="Leaderboard1" selected>Leaderboard1</option>
@@ -58,9 +58,9 @@
                     </div>
                     <?php require('components/delete-modal.php'); ?>
                     <div class="form-item">
-                        <label for="admins" class="form-label w-100">
+                        <label for="admins" class="form-label w-100" title="Players that can alter the community">
                             Admins
-                            <a href="#" class="title-icon label-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -68,7 +68,7 @@
                             <tr>
                                 <td><a href="?a=players_player1_index">Player1</a></td>
                                 <td class="table-icon-row">
-                                    <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#" class="table-icon red  red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-trash"></i>
                                     </a>
                                 </td>

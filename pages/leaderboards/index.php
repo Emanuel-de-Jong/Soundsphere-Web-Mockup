@@ -9,10 +9,11 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Input mode</th>
-                            <th>Top player</th>
-                            <th>Players</th>
+                            <th title="Leaderboard name">Name</th>
+                            <th title="Leaderboard input mode">Input mode</th>
+                            <th title="Player on rank 1">Top player</th>
+                            <th title="Player count">Players</th>
+                            <th title="Table count">Tables</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -22,6 +23,7 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
+                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
@@ -36,6 +38,7 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
+                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
@@ -50,6 +53,7 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
+                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
@@ -64,6 +68,7 @@
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>10</td>
+                            <td>1</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
@@ -76,10 +81,11 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Name</th>
-                            <th>Input mode</th>
-                            <th>Top player</th>
-                            <th>Players</th>
+                            <th title="Leaderboard name">Name</th>
+                            <th title="Leaderboard input mode">Input mode</th>
+                            <th title="Player on rank 1">Top player</th>
+                            <th title="Player count">Players</th>
+                            <th title="Table count">Tables</th>
                             <th></th>
                         </tr>
                     </tfoot>

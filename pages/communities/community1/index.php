@@ -1,7 +1,7 @@
 <div id="community">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_community1_settings" class="page-icon page-icon-right">
+            <a href="?a=communities_community1_settings" class="page-icon page-icon-right" title="Community settings">
                 <i class="fas fa-cog"></i>
             </a>
 
@@ -13,9 +13,9 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th>Input modes:</th>
+                        <th title="Input modes in community leaderboards">Input modes:</th>
                         <td>7 key</td>
-                        <th>Members:</th>
+                        <th title="Member count">Members:</th>
                         <td>10</td>
                     </tr>
                 </table>
@@ -45,7 +45,7 @@
             <section>
                 <h2>
                     Leaderboards
-                    <a href="?a=leaderboards_add" class="title-icon h2-icon green green-h">
+                    <a href="?a=leaderboards_add" class="title-icon h2-icon green green-h" title="Create leaderboard">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -53,11 +53,11 @@
                 <table class="data-table table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Input mode</th>
-                            <th>Top player</th>
-                            <th>Performance</th>
-                            <th>Tables</th>
+                            <th title="Leaderboard name">Name</th>
+                            <th title="Leaderboard input mode">Input mode</th>
+                            <th title="Player on rank 1">Top player</th>
+                            <th title="Player count">Players</th>
+                            <th title="Table count">Tables</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -66,13 +66,13 @@
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7key</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>1250</td>
+                            <td>12</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange orange-h">
+                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <a href="#" class="table-icon red  red-h" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </td>
@@ -86,7 +86,7 @@
                 <h2>Members</h2>
 
                 <form class="text-center" action="" method="post">
-                    <select class="form-select data-table-select" onchange="//this.form.submit()">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()" title="Leaderboard used for member ranks and plays">
                         <option value="Leaderboard1" selected>Leaderboard1</option>
                     </select>
                 </form>
@@ -94,50 +94,50 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Rank</th>
-                            <th>Name</th>
-                            <th>Favourite mode</th>
-                            <th>Plays</th>
-                            <th>Last played</th>
+                            <th title="Rank of the selected leaderboard">Rank</th>
+                            <th title="Player name">Name</th>
+                            <th title="Plays on the selected leaderboard">Plays</th>
+                            <th title="Most played input mode">Favourite mode</th>
+                            <th title="Last submitted score">Last played</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>7key</td>
                             <td>200</td>
+                            <td>7key</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>7key</td>
                             <td>200</td>
+                            <td>7key</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>7key</td>
                             <td>200</td>
+                            <td>7key</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>7key</td>
                             <td>200</td>
+                            <td>7key</td>
                             <td>18-04-21</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Rank</th>
-                            <th>Name</th>
-                            <th>Favourite mode</th>
-                            <th>Plays</th>
-                            <th>Last played</th>
+                            <th title="Rank of the selected leaderboard">Rank</th>
+                            <th title="Player name">Name</th>
+                            <th title="Plays on the selected leaderboard">Plays</th>
+                            <th title="Most played input mode">Favourite mode</th>
+                            <th title="Last submitted score">Last played</th>
                         </tr>
                     </tfoot>
                 </table>

@@ -11,17 +11,17 @@
             <section>
                 <form class="form-settings" action="?a=communities_index" method="post">
                     <div class="form-item">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" name="name" value="">
+                        <label for="name" class="form-label" title="Community name">Name</label>
+                        <input type="text" class="form-control" name="name">
                     </div>
 
                     <div class="form-item">
-                        <label for="short-description" class="form-label">Short description</label>
+                        <label for="short-description" class="form-label" title="Description shown in tables">Short description</label>
                         <input type="text" id="short-description" class="form-control" name="short-description">
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label">Description</label>
+                        <label for="description" class="form-label" title="Page description">Description</label>
                         <textarea class="form-control" name="description"></textarea>
                     </div>
 
@@ -49,9 +49,9 @@
                     </div>
                     <?php require('components/delete-modal.php'); ?>
                     <div class="form-item">
-                        <label for="admins" class="form-label w-100">
+                        <label for="admins" class="form-label w-100" title="Players that can alter the community">
                             Admins
-                            <a href="#" class="title-icon label-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
