@@ -97,7 +97,7 @@
                             <th title="Rank of the selected leaderboard">Rank</th>
                             <th title="Player name">Name</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
-                            <th title="Most played input mode">Favourite mode</th>
+                            <th title="Favourite mode">Fav mode</th>
                             <th title="Last submitted score">Last played</th>
                         </tr>
                     </thead>

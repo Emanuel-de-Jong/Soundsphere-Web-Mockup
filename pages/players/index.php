@@ -8,44 +8,44 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Plays</th>
-                            <th>Favourite mode</th>
-                            <th>Last played</th>
+                            <th title="Player name">Name</th>
+                            <th title="Favourite mode">Fav modes</th>
+                            <th title="Total play count">Plays</th>
+                            <th title="Last submitted score">Last played</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
                             <td>7key</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Name</th>
-                            <th>Plays</th>
-                            <th>Favourite mode</th>
-                            <th>Last played</th>
+                            <th title="Player name">Name</th>
+                            <th title="Favourite mode">Fav modes</th>
+                            <th title="Total play count">Plays</th>
+                            <th title="Last submitted score">Last played</th>
                         </tr>
                     </tfoot>
                 </table>
