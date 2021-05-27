@@ -8,7 +8,7 @@
             <h1>Communities</h1>
 
 
-            <section>
+            <section id="communities-section">
                 <table class="data-table data-table-communities table">
                     <thead>
                         <tr>

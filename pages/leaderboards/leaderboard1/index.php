@@ -34,7 +34,7 @@
             <h1>Leaderboard1</h1>
 
 
-            <section>
+            <section id="info-section">
                 <h2>Info</h2>
 
                 <table class="meta-table">
@@ -48,7 +48,7 @@
             </section>
 
 
-            <section>
+            <section id="communities-bms-tables-section">
                 <div class="row">
                     <div class="col-6">
                         <h2>Communities</h2>
@@ -104,7 +104,7 @@
             </section>
 
 
-            <section>
+            <section id="leaderboard-section">
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

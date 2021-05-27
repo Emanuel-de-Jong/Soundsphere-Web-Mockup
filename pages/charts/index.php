@@ -4,7 +4,7 @@
             <h1>Charts</h1>
 
 
-            <section>
+            <section id="charts-section">
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

@@ -6,7 +6,7 @@
             <h1>Home</h1>
 
             
-            <section>
+            <section id="description-section">
                 <p>
                     Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                     velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet

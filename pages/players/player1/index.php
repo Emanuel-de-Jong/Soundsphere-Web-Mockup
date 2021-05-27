@@ -8,7 +8,7 @@
             <h1>Player1</h1>
 
 
-            <section>
+            <section id="info-section">
                 <h2>Info</h2>
 
                 <table class="meta-table">
@@ -22,7 +22,7 @@
             </section>
 
 
-            <section>
+            <section id="description-section">
                 <h2>Description</h2>
 
                 <p>
@@ -42,7 +42,7 @@
 
 
             <?php require('components/delete-modal.php'); ?>
-            <section>
+            <section id="leaderboards-communities-section">
                 <div class="row">
                     <div class="col-6">
                         <h2>Leaderboards</h2>
@@ -100,7 +100,7 @@
             </section>
 
 
-            <section>
+            <section id="recent-scores-section">
                 <h2>Recent scores</h2>
 
                 <table class="data-table table">
@@ -188,8 +188,15 @@
             </section>
 
 
-            <section>
+            <section id="top-scores-section">
                 <h2>Top scores</h2>
+
+                <form class="text-center" action="" method="post">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()" title="Leaderboard metric used to rate the scores">
+                        <option selected>Select a leaderboard</option>
+                        <option value="Leaderboard1">Leaderboard1</option>
+                    </select>
+                </form>
 
                 <table class="data-table data-table-all table">
                     <thead>

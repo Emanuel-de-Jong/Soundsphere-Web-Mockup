@@ -8,7 +8,7 @@
             <h1>Communities - Add</h1>
 
 
-            <section>
+            <section id="form-section">
                 <form class="form-settings" action="?a=communities_index" method="post">
                     <div class="form-item">
                         <label for="name" class="form-label" title="Community name">Name</label>

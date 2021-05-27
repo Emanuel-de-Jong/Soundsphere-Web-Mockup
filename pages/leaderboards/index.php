@@ -5,7 +5,7 @@
 
 
             <?php require('components/add-leaderboard-modal.php'); ?>
-            <section>
+            <section id="leaderboards-section">
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

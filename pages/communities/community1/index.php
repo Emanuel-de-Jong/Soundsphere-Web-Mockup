@@ -8,7 +8,7 @@
             <h1>Community1</h1>
 
 
-            <section>
+            <section id="info-section">
                 <h2>Info</h2>
 
                 <table class="meta-table">
@@ -22,7 +22,7 @@
             </section>
 
 
-            <section>
+            <section id="description-section">>
                 <h2>Description</h2>
 
                 <p>
@@ -42,7 +42,7 @@
 
 
             <?php require('components/delete-modal.php'); ?>
-            <section>
+            <section id="leaderboards-section">
                 <h2>
                     Leaderboards
                     <a href="?a=leaderboards_add" class="title-icon h2-icon green green-h" title="Create leaderboard">
@@ -82,7 +82,7 @@
             </section>
 
 
-            <section>
+            <section id="members-section">
                 <h2>Members</h2>
 
                 <form class="text-center" action="" method="post">

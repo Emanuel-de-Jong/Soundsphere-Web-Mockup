@@ -4,7 +4,7 @@
             <h1>Chart1 - Difficulty1</h1>
 
 
-            <section>
+            <section id="info-section">
                 <h2>Info</h2>
 
                 <table class="meta-table">
@@ -24,7 +24,7 @@
             </section>
 
 
-            <section>
+            <section id="scores-section">
                 <h2>Scores</h2>
 
                 <form class="text-center" action="" method="post">

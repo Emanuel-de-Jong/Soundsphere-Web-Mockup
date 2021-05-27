@@ -4,7 +4,7 @@
             <h1>Players</h1>
 
             
-            <section>
+            <section id="players-section">
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

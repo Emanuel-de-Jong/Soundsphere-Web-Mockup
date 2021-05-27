@@ -27,7 +27,7 @@
             <h1>Tables</h1>
 
 
-            <section>
+            <section id="bms-tables-section">
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

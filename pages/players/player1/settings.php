@@ -8,7 +8,7 @@
             <h1>Player1 - Settings</h1>
 
 
-            <section>
+            <section id="form-section">
                 <form class="form-settings" action="?a=players_player1_index" method="post">
                     <div class="form-item">
                         <label for="name" class="form-label" title="Your username">Name</label>

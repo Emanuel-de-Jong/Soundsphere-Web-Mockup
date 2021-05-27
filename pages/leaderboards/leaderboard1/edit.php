@@ -8,7 +8,7 @@
             <h1>Leaderboard1 - Edit</h1>
 
 
-            <section>
+            <section id="form-section">
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="form-item">
                         <label for="name" class="form-label" title="Leaderboard name">Name</label>

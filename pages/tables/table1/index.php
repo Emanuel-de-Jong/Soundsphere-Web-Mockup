@@ -5,7 +5,7 @@
 
 
             <?php require('components/add-leaderboard-modal.php'); ?>
-            <section>
+            <section id="leaderboards-section">
                 <h2>Leaderboards</h2>
 
                 <table class="data-table table">
@@ -40,7 +40,7 @@
             </section>
 
 
-            <section>
+            <section id="charts-section">
                 <h2>Charts</h2>
 
                 <table class="data-table data-table-all table">

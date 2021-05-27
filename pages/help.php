@@ -4,14 +4,14 @@
             <h1>Help</h1>
 
 
-            <section>
+            <section id="guide-section">
                 <h2>Guide</h2>
 
                 <a href="https://docs.google.com/document/d/1Y_uMngLnXbrLfG0on59HrkS_DhXTKKQDAn7r_QLlG9g" target="_blank">Unofficial guide made by qqp.</a>
             </section>
 
 
-            <section class="accordion">
+            <section id="faq-section" class="accordion">
                 <h2>FAQ</h2>
 
                 <div class="accordion-item">
