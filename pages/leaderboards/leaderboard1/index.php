@@ -57,6 +57,7 @@
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
+                                    <th title="Total performance in leaderboard">Performance</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
                                     <th title="Player count">Members</th>
                                     <th></th>
@@ -65,6 +66,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>4000</td>
                                     <td>7key</td>
                                     <td>25</td>
                                     <td class="table-icon-row">
@@ -105,11 +107,21 @@
 
 
             <section id="leaderboard-section">
+                <form class="text-center" action="" method="post">
+                    <select class="form-select data-table-select" onchange="//this.form.submit()" title="Filter the players shown by community">
+                        <option selected>Select a community</option>
+                        <option value="Community1">Community1</option>
+                        <option value="Community2">Community2</option>
+                        <option value="Community3">Community3</option>
+                    </select>
+                </form>
+
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
                             <th title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
+                            <th title="Community abbreviation">Community</th>
                             <th title="Players leaderboard performance">Performance</th>
                             <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
@@ -118,34 +130,39 @@
                         <tr>
                             <td>1</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>Rank</th>
-                            <th>Player</th>
-                            <th>Performance</th>
-                            <th>Plays</th>
+                            <th title="Player rank in leaderboard">Rank</th>
+                            <th title="Player name">Player</th>
+                            <th title="Community abbreviation">Community</th>
+                            <th title="Players leaderboard performance">Performance</th>
+                            <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
                     </tfoot>
                 </table>

@@ -26,7 +26,7 @@
                 <i class="fas fa-cog"></i>
             </a>
 
-            <h1>Community1</h1>
+            <h1>AAA - Community1</h1>
 
 
             <section id="info-section">

@@ -19,7 +19,7 @@
 
                         <div class="col-3">
                             <div class="form-item">
-                                <label for="abbreviation" class="form-label" title="Community name">Abbreviation</label>
+                                <label for="abbreviation" class="form-label" title="3 letters that represent the community">Abbreviation</label>
                                 <input type="text" class="form-control" id="abbreviation" name="abbreviation" value="AAA">
                             </div>
                         </div>

@@ -13,6 +13,7 @@
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>
+                            <th title="3 letters that represent the community">Abbreviation</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
@@ -22,6 +23,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td>AAA</td>
                             <td>7key</td>
                             <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
@@ -33,6 +35,7 @@
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td>AAA</td>
                             <td>7key</td>
                             <td>8</td>
                             <td>The first community. Which automatically makes it the best one.</td>
@@ -44,6 +47,7 @@
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td>AAA</td>
                             <td>7key</td>
                             <td>12</td>
                             <td>The first community. Which automatically makes it the best one.</td>
@@ -55,6 +59,7 @@
                         </tr>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td>AAA</td>
                             <td>7key</td>
                             <td>4</td>
                             <td>The first community. Which automatically makes it the best one.</td>
@@ -68,6 +73,7 @@
                     <tfoot>
                         <tr>
                             <th title="Community name">Name</th>
+                            <th title="Community abbreviation">Abbreviation</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
