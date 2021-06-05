@@ -57,16 +57,16 @@
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
-                                    <th title="Player count">Players</th>
-                                    <th title="Community description">Description</th>
+                                    <th title="Input modes in community leaderboards">Input modes</th>
+                                    <th title="Player count">Members</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>7key</td>
                                     <td>25</td>
-                                    <td>The first community</td>
                                     <td class="table-icon-row">
                                         <a href="#" class="table-icon green green-h" title="Join community">
                                             <i class="fas fa-sign-in-alt"></i>
@@ -117,25 +117,25 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="?a=players_player1">Player1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td><a href="?a=players_player1">Player1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td><a href="?a=players_player1">Player1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td><a href="?a=players_player1">Player1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>55</td>
                         </tr>

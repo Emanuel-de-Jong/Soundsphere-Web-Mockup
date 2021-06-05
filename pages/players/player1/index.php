@@ -58,11 +58,7 @@
                     lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis
                     mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate
                     venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl
-                    faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus
-                    dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc
-                    lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et
-                    malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur,
-                    sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis.
+                    faucibus rutrum. Aenean vulputate interdum vulputate.
                     enim.
                 </p>
             </section>
@@ -79,7 +75,7 @@
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
                                     <th title="Leaderboard input mode">Input mode</th>
-                                    <th title="Rank of this player in the leaderboard">Player rank</th>
+                                    <th title="Rank of this player in the leaderboard">Rank</th>
                                     <th title="Player count">Players</th>
                                 </tr>
                             </thead>
@@ -104,7 +100,6 @@
                                     <th title="Community name">Name</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
                                     <th title="Member count">Members</th>
-                                    <th title="Short description">Description</th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -113,7 +108,6 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>7key</td>
                                     <td>10</td>
-                                    <td>The first community</td>
                                     <td class="table-icon-row">
                                         <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
