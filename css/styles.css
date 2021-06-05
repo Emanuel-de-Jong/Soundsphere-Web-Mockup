@@ -224,11 +224,8 @@ main {
 
 /* Settings */
 .form-settings {
+    margin: auto;
     max-width: 600px;
-}
-
-.form-settings input {
-    max-width: 300px;
 }
 
 .form-settings textarea {

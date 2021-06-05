@@ -9,9 +9,20 @@
 
             <section id="form-section">
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
-                    <div class="form-item">
-                        <label for="name" class="form-label" title="Community name">Name</label>
-                        <input type="text" class="form-control" name="name" value="Community1">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="form-item">
+                                <label for="name" class="form-label" title="Community name">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" value="Community1">
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="form-item">
+                                <label for="abbreviation" class="form-label" title="Community name">Abbreviation</label>
+                                <input type="text" class="form-control" id="abbreviation" name="abbreviation" value="AAA">
+                            </div>
+                        </div>
                     </div>
 
                     <div class="form-item">
@@ -21,12 +32,12 @@
 
                     <div class="form-item">
                         <label for="description" class="form-label" title="Page description">Description</label>
-                        <textarea class="form-control" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
+                        <textarea class="form-control" id="description" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
-                        <select class="form-select">
+                        <label class="form-label" for="default-ranking-leaderboard" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
+                        <select class="form-select" id="default-ranking-leaderboard" name="default-ranking-leaderboard">
                             <option>Select a leaderboard</option>
                             <option value="Leaderboard1" selected>Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard2</option>

@@ -10,9 +10,20 @@
 
             <section id="form-section">
                 <form class="form-settings" action="?a=communities_index" method="post">
-                    <div class="form-item">
-                        <label for="name" class="form-label" title="Community name">Name</label>
-                        <input type="text" class="form-control" name="name">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="form-item">
+                                <label for="name" class="form-label" title="Community name">Name</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="form-item">
+                                <label for="abbreviation" class="form-label" title="Community name">Abbreviation</label>
+                                <input type="text" class="form-control" id="abbreviation" name="abbreviation">
+                            </div>
+                        </div>
                     </div>
 
                     <div class="form-item">
@@ -22,7 +33,7 @@
 
                     <div class="form-item">
                         <label for="description" class="form-label" title="Page description">Description</label>
-                        <textarea class="form-control" name="description"></textarea>
+                        <textarea class="form-control" id="description" name="description"></textarea>
                     </div>
 
                     <div class="modal" id="add-admin-modal">
@@ -42,7 +53,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Add</button>
-                                    <button type="button" class="btn bg-dark-dray" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
                                 </div>
                             </div>
                         </div>
