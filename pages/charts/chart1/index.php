@@ -52,7 +52,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
+                            <td>#1</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
@@ -63,7 +63,7 @@
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
-                            <td>2</td>
+                            <td>#2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
@@ -74,7 +74,7 @@
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td>#3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
@@ -85,7 +85,7 @@
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
-                            <td>4</td>
+                            <td>#4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>

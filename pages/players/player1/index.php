@@ -83,7 +83,7 @@
                                 <tr>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                                     <td>7key</td>
-                                    <td>3</td>
+                                    <td>#3</td>
                                     <td>12</td>
                                 </tr>
                             </tbody>
@@ -134,7 +134,7 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th title="Rank compared to other player scores">Rank</th>
+                            <th title="Rank compared to other scores of the player">Top</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Players chart performance">Performance</th>
@@ -219,7 +219,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th title="Rank compared to other player scores">Rank</th>
+                            <th title="Rank compared to other scores of the player">Top</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Players chart performance">Performance</th>
