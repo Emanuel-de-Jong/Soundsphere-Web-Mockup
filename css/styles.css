@@ -167,7 +167,7 @@ main {
 /* TABLE */
 /* data-table */
 .data-table {
-    min-width: 100%;
+    min-width: 99.5%;
 }
 
 .data-table tbody tr:nth-child(odd) {

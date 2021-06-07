@@ -19,8 +19,8 @@
 
                         <div class="col-3">
                             <div class="form-item">
-                                <label for="abbreviation" class="form-label" title="3 letters that represent the community">Abbreviation</label>
-                                <input type="text" class="form-control" id="abbreviation" name="abbreviation" value="AAA">
+                                <label for="alias" class="form-label" title="3 to 5 characters that represent the community">Alias</label>
+                                <input type="text" class="form-control" id="alias" name="alias" value="AAA">
                             </div>
                         </div>
                     </div>

@@ -121,7 +121,7 @@
                         <tr>
                             <th title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
-                            <th title="Community abbreviation">Community</th>
+                            <th title="Community abbreviation">Communities</th>
                             <th title="Players leaderboard performance">Performance</th>
                             <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
@@ -160,7 +160,7 @@
                         <tr>
                             <th title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
-                            <th title="Community abbreviation">Community</th>
+                            <th title="Community abbreviation">Communities</th>
                             <th title="Players leaderboard performance">Performance</th>
                             <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>

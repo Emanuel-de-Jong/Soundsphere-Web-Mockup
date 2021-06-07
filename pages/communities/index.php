@@ -13,7 +13,7 @@
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>
-                            <th title="3 letters that represent the community">Abbreviation</th>
+                            <th title="3 to 5 characters that represent the community">Alias</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
@@ -73,7 +73,7 @@
                     <tfoot>
                         <tr>
                             <th title="Community name">Name</th>
-                            <th title="Community abbreviation">Abbreviation</th>
+                            <th title="3 to 5 characters that represent the community">Alias</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>

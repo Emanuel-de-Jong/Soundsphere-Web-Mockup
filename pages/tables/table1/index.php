@@ -5,35 +5,67 @@
 
 
             <?php require('components/add-leaderboard-modal.php'); ?>
-            <section id="leaderboards-section">
-                <h2>Leaderboards</h2>
+            <section id="communities-bms-tables-section">
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Communities</h2>
 
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th title="Leaderboard name">Name</th>
-                            <th title="Leaderboard input mode">Input mode</th>
-                            <th title="Player on rank 1">Top player</th>
-                            <th title="Player count">Players</th>
-                            <th title="Table count">Tables</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                            <td>7key</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                    <i class="fas fa-sign-in-alt" title="Add to community"></i>
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th title="Community name">Name</th>
+                                    <th title="Total performance in leaderboard">Performance</th>
+                                    <th title="Input modes in community leaderboards">Input modes</th>
+                                    <th title="Player count">Members</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>4000</td>
+                                    <td>7key</td>
+                                    <td>25</td>
+                                    <td class="table-icon-row">
+                                        <a href="#" class="table-icon green green-h" title="Join community">
+                                            <i class="fas fa-sign-in-alt"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="col-6">
+                        <h2>Leaderboards</h2>
+
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th title="Leaderboard name">Name</th>
+                                    <th title="Leaderboard input mode">Input mode</th>
+                                    <th title="Player count">Players</th>
+                                    <th title="Table count">Tables</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                                    <td>7key</td>
+                                    <td>10</td>
+                                    <td>1</td>
+                                    <td class="table-icon-row">
+                                        <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                            <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </section>
 
 
