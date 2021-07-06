@@ -33,6 +33,12 @@ COMMUNITY
 	CREATE
 		is public checkbox
 
+LEADERBOARD
+	CREATE
+		chart difficulty calculator select
+		score performance calculator select
+		performance combiner calculator select
+
 CHARTS
 	INDEX
 		tables table with table chart level
@@ -43,8 +49,10 @@ CHARTS
 
 === DESIGN ===
 GENERAL
+	inbox icon new requests count
 	different font(s)
 	show icon in navbar differently
 	patterned background
 	remove table sort icons of icon columns
 	blurhash banner/bg for community, leaderboard, player and chart
+	subnavbar links should go to the title itself

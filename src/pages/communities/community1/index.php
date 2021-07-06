@@ -62,7 +62,7 @@
             </section>
 
 
-            <?php require('components/delete-modal.php'); ?>
+            <?php require('components/modals/delete.php'); ?>
             <section id="leaderboards-section">
                 <h2>
                     Leaderboards

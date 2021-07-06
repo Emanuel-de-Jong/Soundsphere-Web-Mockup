@@ -64,7 +64,7 @@
             </section>
 
 
-            <?php require('components/delete-modal.php'); ?>
+            <?php require('components/modals/delete.php'); ?>
             <section id="leaderboards-communities-section">
                 <div class="row">
                     <div class="col-6">

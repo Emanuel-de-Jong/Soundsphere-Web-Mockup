@@ -4,7 +4,7 @@
             <h1>Table1</h1>
 
 
-            <?php require('components/add-leaderboard-modal.php'); ?>
+            <?php require('components/modals/add-leaderboard.php'); ?>
             <section id="communities-bms-tables-section">
                 <div class="row">
                     <div class="col-6">
