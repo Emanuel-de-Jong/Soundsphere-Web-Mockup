@@ -1,0 +1,39 @@
+clean components and resources folders
+
+
+
+
+=== LOGIC ===
+GENERAL
+	change select "Select a ..." values
+	http status error pages
+	check tooltips (especially for modals)
+	check form ids, fors and placeholders
+	form validation
+	blurhash upload for community, leaderboard, player and chart
+	code cleanup
+
+PLAYER
+	playtime
+	unique plays
+
+COMMUNITY
+	INDEX
+		Inbox for join requests
+		members leaderboard select "none" value
+	CREATE
+		is public checkbox
+
+DISCUSS
+	leaderboards with multiple tables chart level probelm
+
+
+
+
+=== DESIGN ===
+GENERAL
+	different font(s)
+	show icon in navbar differently
+	patterned background
+	remove table sort icons of icon columns
+	blurhash banner/bg for community, leaderboard, player and chart
