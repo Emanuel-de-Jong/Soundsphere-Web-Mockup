@@ -11,21 +11,32 @@ GENERAL
 	check form ids, fors and placeholders
 	form validation
 	blurhash upload for community, leaderboard, player and chart
+	better example rows
 	code cleanup
 
 PLAYER
-	playtime
-	unique plays
+	INDEX
+		playtime
+		unique plays
+		inbox icon
+	INBOX
+		incoming requests table
+		outgoing requests table
 
 COMMUNITY
 	INDEX
-		Inbox for join requests
+		inbox icon
 		members leaderboard select "none" value
+	INBOX
+		incoming requests table
+		outgoing requests table
 	CREATE
 		is public checkbox
 
-DISCUSS
-	leaderboards with multiple tables chart level probelm
+CHARTS
+	INDEX
+		tables table with table chart level
+		chart level from metadata
 
 
 
