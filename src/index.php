@@ -33,7 +33,12 @@
         $page = "home";
     }
 
-    require('pages/' . $page . '.php');
+    $filePath = 'pages/' . $page . '.php';
+    if (file_exists($filePath)){
+        require($filePath);
+    } else {
+        require('pages/errors/404.php');
+    }
     ?>
 
     <?php require('components/footer.php'); ?>

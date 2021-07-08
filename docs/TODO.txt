@@ -1,7 +1,5 @@
 === LOGIC ===
 GENERAL
-	change select "Select a ..." values
-	http status error pages
 	check tooltips (especially for modals)
 	check form ids, fors and placeholders
 	form validation
@@ -21,7 +19,6 @@ PLAYER
 COMMUNITY
 	INDEX
 		inbox icon
-		members leaderboard select "none" value
 	INBOX
 		incoming requests table
 		outgoing requests table

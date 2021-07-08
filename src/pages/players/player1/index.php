@@ -126,7 +126,7 @@
 
                 <form class="text-center" action="" method="post">
                     <select class="form-select data-table-select" onchange="//this.form.submit()" title="Leaderboard metric used to rate the scores">
-                        <option selected>Select a leaderboard</option>
+                        <option selected>No leaderboard</option>
                         <option value="Leaderboard1">Leaderboard1</option>
                     </select>
                 </form>
