@@ -1,16 +1,14 @@
 === LOGIC ===
 GENERAL
-	check tooltips (especially for modals)
+	blurhash upload for community, leaderboard, player and chart
 	check form ids, fors and placeholders
 	form validation
-	blurhash upload for community, leaderboard, player and chart
-	better example rows
+	check tooltips (especially for modals)
 	code cleanup
+	better example rows
 
 PLAYER
 	INDEX
-		playtime
-		unique plays
 		inbox icon
 	INBOX
 		incoming requests table
@@ -22,14 +20,10 @@ COMMUNITY
 	INBOX
 		incoming requests table
 		outgoing requests table
-	CREATE
-		is public checkbox
 
 LEADERBOARD
-	CREATE
-		chart difficulty calculator select
-		score performance calculator select
-		performance combiner calculator select
+	INDEX
+		show selected calculators
 
 CHARTS
 	INDEX

@@ -38,11 +38,15 @@
                     <div class="form-item">
                         <label class="form-label" for="default-ranking-leaderboard" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
                         <select class="form-select" id="default-ranking-leaderboard" name="default-ranking-leaderboard">
-                            <option>Select a leaderboard</option>
                             <option value="Leaderboard1" selected>Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard2</option>
                             <option value="Leaderboard3">Leaderboard3</option>
                         </select>
+                    </div>
+
+                    <div class="form-item form-check">
+                        <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public to anyone.</label>
+                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
                     </div>
 
                     <?php require('components/modals/add-admin.php'); ?>

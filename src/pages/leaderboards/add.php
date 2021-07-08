@@ -20,6 +20,34 @@
                         <textarea class="form-control" name="description"></textarea>
                     </div>
 
+                    <div class="form-item">
+                        <label class="form-label" for="chart-diff-calc" title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Chart difficulty calculator</label>
+                        <select class="form-select" id="chart-diff-calc" name="chart-diff-calc">
+                            <option value="table-level" selected>Table level</option>
+                            <option value="soundsphere">soundsphere</option>
+                            <option value="osu">osu!</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="form-label" for="score-performance-calc" title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Score performance calculator</label>
+                        <select class="form-select" id="score-performance-calc" name="score-performance-calc">
+                            <option value="soundsphere" selected>soundsphere</option>
+                            <option value="osu">osu!</option>
+                            <option value="sdvx">SOUND VOLTEX</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="form-label" for="score-combiner" title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner</label>
+                        <select class="form-select" id="score-combiner" name="score-combiner">
+                            <option value="logarithmic" selected>Logarithmic</option>
+                            <option value="additive">Additive</option>
+                            <option value="osu">osu!</option>
+                            <option value="sdvx">SOUND VOLTEX</option>
+                        </select>
+                    </div>
+
                     <?php require('components/modals/add-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
                     <div class="form-item">

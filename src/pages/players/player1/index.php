@@ -42,8 +42,14 @@
                     <tr>
                         <th title="Favourite mode">Fav modes:</th>
                         <td>7key</td>
+                        <th title="Total time of gameplay">Playtime:</th>
+                        <td>3d 18h</td>
+                    </tr>
+                    <tr>
                         <th title="Total play count">Plays:</th>
                         <td>200</td>
+                        <th title="Total unique maps played">Maps played:</th>
+                        <td>120</td>
                     </tr>
                 </table>
             </section>

@@ -36,6 +36,11 @@
                         <textarea class="form-control" id="description" name="description"></textarea>
                     </div>
 
+                    <div class="form-item form-check">
+                        <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public to anyone.</label>
+                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
+                    </div>
+
                     <?php require('components/modals/add-admin.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
                     <div class="form-item">
