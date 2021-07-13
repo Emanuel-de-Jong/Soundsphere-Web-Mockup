@@ -232,6 +232,10 @@ main {
     height: 110px;
 }
 
+.form-settings .input-file-dragenter {
+    border-color: #86b7fe;
+}
+
 /* Community */
 #community-settings #short-description,
 #communities-add #short-description {
