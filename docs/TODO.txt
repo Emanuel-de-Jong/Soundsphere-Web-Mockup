@@ -1,6 +1,5 @@
 === LOGIC ===
 GENERAL
-	blurhash upload for community, leaderboard, player and chart
 	check form ids, fors and placeholders
 	form validation
 	check tooltips (especially for modals)

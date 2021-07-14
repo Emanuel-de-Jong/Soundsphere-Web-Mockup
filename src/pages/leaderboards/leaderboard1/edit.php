@@ -47,6 +47,11 @@
                             <option value="sdvx">SOUND VOLTEX</option>
                         </select>
                     </div>
+                    
+                    <div class="form-item">
+                        <label for="banner" class="form-label" title="A blurred version of an image. Shown behind the leaderboard page.">Leaderboard banner</label>
+                        <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
+                    </div>
 
                     <?php require('components/modals/add-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>

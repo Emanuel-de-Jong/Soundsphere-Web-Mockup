@@ -8,6 +8,8 @@ $(function () {
         order: [[ 2, "desc" ]]
     });
 
+
+
     $(".form-settings input[type=file]").on("dragenter", function() {
         var input = $(this);
         input.addClass("input-file-dragenter");
@@ -19,22 +21,14 @@ $(function () {
         input.focus();
     });
 
-    $("input.input-image").on("drop", function () {
+    var acceptedExtensions = ['png', 'jpg', 'jpeg'];
+    $("input.input-image").on("change", function (e) {
         var input = $(this);
-        var filename = input.val();
-    
-        var acceptedExtensions = ['png', 'jpg', 'jpeg'];
-        if ($.inArray(filename.split('.').pop().toLowerCase(), acceptedExtensions) == -1)
+        var filepath = input.val();
+        if ($.inArray(filepath.split('.').pop().toLowerCase(), acceptedExtensions) == -1)
         {
-            console.log("wrong");
+            e.preventDefault();
             $(this).val("");
-            console.log("val: " + $(this).val());
-        } else {
-            console.log("right");
         }
-    });
-
-    $("input.input-image").hover(function () {
-        console.log("val: " + $(this).val() + "\ntype: " + typeof $(this).val());
     });
 });

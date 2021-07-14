@@ -44,6 +44,11 @@
                         </select>
                     </div>
 
+                    <div class="form-item">
+                        <label for="banner" class="form-label" title="A blurred version of an image. Shown behind the community page.">Community banner</label>
+                        <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
+                    </div>
+
                     <div class="form-item form-check">
                         <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public to anyone.</label>
                         <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
