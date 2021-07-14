@@ -19,6 +19,16 @@
                         <th title="Player count">Players:</th>
                         <td>10</td>
                     </tr>
+                    <tr>
+                        <th title="Leaderboard">Difficulty calc:</th>
+                        <td>Table level</td>
+                        <th title="Leaderboard">Performance calc:</th>
+                        <td>soundsphere</td>
+                    </tr>
+                    <tr>
+                        <th title="Leaderboard">Score combiner:</th>
+                        <td>Logarithmic</td>
+                    </tr>
                 </table>
             </section>
 

@@ -188,18 +188,17 @@ main {
     max-width: 600px;
 }
 
-.meta-table tr {
-    border: 1px solid rgb(222, 226, 230);
-}
-
 .meta-table th,td {
     padding: 8px 20px 8px 10px;
 }
 .meta-table th {
     background-color: rgba(0, 0, 0, 0.025);
+    border: 1px solid rgb(222, 226, 230);
+    border-right: none;
 }
 .meta-table td {
-    border-right: 1px solid rgb(222, 226, 230);
+    border: 1px solid rgb(222, 226, 230);
+    border-left: none;
 }
 
 

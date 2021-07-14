@@ -2,7 +2,7 @@
 GENERAL
 	check form ids, fors and placeholders
 	form validation
-	check tooltips (especially for modals)
+	check tooltips
 	code cleanup
 	better example rows
 
@@ -22,7 +22,7 @@ COMMUNITY
 
 LEADERBOARD
 	INDEX
-		show selected calculators
+		edit icon
 
 CHARTS
 	INDEX
