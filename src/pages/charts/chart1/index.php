@@ -17,6 +17,10 @@
                     <tr>
                         <th title="Artist name">Artist:</th>
                         <td>An artist</td>
+                        <th title="The level stated in the chart's file. Only applies to some file formats.">Level:</th>
+                        <td>12</td>
+                    </tr>
+                    <tr>
                         <th title="Play count">Plays:</th>
                         <td>15</td>
                     </tr>

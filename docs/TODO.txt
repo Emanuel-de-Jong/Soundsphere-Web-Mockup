@@ -36,7 +36,7 @@ CHARTS
 GENERAL
 	inbox icon new requests count
 	different font(s)
-	show icon in navbar differently
+	show logo in navbar differently
 	patterned background
 	remove table sort icons of icon columns
 	blurhash banner/bg for community, leaderboard, player and chart
