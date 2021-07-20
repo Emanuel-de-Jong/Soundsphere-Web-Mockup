@@ -6,23 +6,10 @@ GENERAL
 	code cleanup
 	better example rows
 
-PLAYER
-	INDEX
-		inbox icon
-	INBOX
-		incoming requests table
-		outgoing requests table
-
-COMMUNITY
-	INDEX
-		inbox icon
-	INBOX
-		incoming requests table
-		outgoing requests table
-
 LEADERBOARD
 	INDEX
 		edit icon
+			check other pages too
 
 CHARTS
 	INDEX
@@ -34,10 +21,31 @@ CHARTS
 
 === DESIGN ===
 GENERAL
-	inbox icon new requests count
 	different font(s)
 	show logo in navbar differently
 	patterned background
 	remove table sort icons of icon columns
 	blurhash banner/bg for community, leaderboard, player and chart
 	subnavbar links should go to the title itself
+
+
+
+
+=== OTHER ===
+LOGIN/REGISTER
+	vertical center
+	*captcha
+
+DOWNLOAD
+	*wait x seconds page
+
+HOME
+	everything
+
+HELP
+	everything
+
+
+
+
+* = ask semyon

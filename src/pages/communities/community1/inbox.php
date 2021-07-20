@@ -15,18 +15,18 @@
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
-                            <th title="The date that the player send the request">Request send</th>
                             <th title="Total play count">Plays</th>
                             <th title="Last submitted score">Last played</th>
+                            <th title="The date that the player send the request">Request send</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>20-07-21</td>
                             <td>200</td>
                             <td>18-04-21</td>
+                            <td>20-07-21</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon table-icon-show green green-h" title="Accept the request. The player will join the community.">
                                     <i class="fas fa-check"></i>
@@ -53,18 +53,18 @@
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
-                            <th title="The date that an admin in the community send the invite">Invite send</th>
                             <th title="Total play count">Plays</th>
                             <th title="Last submitted score">Last played</th>
+                            <th title="The date that an admin in the community send the invite">Invite send</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>20-07-21</td>
                             <td>200</td>
                             <td>18-04-21</td>
+                            <td>20-07-21</td>
                             <td class="table-icon-row">
                                 <a href="#" class="table-icon table-icon-show red red-h" title="Cancel the invite">
                                     <i class="fas fa-times"></i>

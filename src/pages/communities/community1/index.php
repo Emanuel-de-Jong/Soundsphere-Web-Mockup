@@ -25,7 +25,7 @@
             <a href="?a=communities_community1_settings" class="page-icon page-icon-right" title="Community settings">
                 <i class="fas fa-cog"></i>
             </a>
-            <a href="?a=communities_community1_inbox" class="page-icon page-icon-right2" title="Accept and send invite requests">
+            <a href="?a=communities_community1_inbox" class="page-icon page-icon-right2" title="Accept requests and send invites">
                 <i class="fas fa-inbox"></i>
                 <div class="new-message-circle">3</div>
             </a>

@@ -31,6 +31,10 @@
             <a href="?a=players_player1_settings" class="page-icon page-icon-right" title="Your settings">
                 <i class="fas fa-cog"></i>
             </a>
+            <a href="?a=players_player1_inbox" class="page-icon page-icon-right2" title="Accept requests and send invites">
+                <i class="fas fa-inbox"></i>
+                <div class="new-message-circle">3</div>
+            </a>
 
             <h1>Player1</h1>
 
