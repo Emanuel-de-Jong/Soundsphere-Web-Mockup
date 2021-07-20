@@ -1,0 +1,36 @@
+GOOGLE FONTS RECOMMENDED
+Comfortaa
+Inconsolata
+Jost
+Raleway
+Poppins
+Nunito
+
+GOOGLE FONTS MOST USED
+Roboto
+Open Sans
+Lato
+Montserrat
+Oswald
+
+BOOTSTRAP DEFAULT
+system-ui
+-apple-system
+"Segoe UI"
+Roboto
+"Helvetica Neue"
+"Noto Sans"
+"Liberation Sans"
+sans-serif
+
+
+WEB DEFAULT
+Arial				........
+Times New Roman		.......
+Georgia				......
+Courier New			.....
+Helvetica			.....
+Trebuchet MS		.....
+Verdana				.....
+Garamond			...
+Tahoma				...

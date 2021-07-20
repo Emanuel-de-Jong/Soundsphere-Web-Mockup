@@ -2,6 +2,7 @@
 GENERAL
 	check form ids, fors and placeholders
 	form validation
+	accurate redirect and button click behaviour
 	check tooltips
 	code cleanup
 	better example rows
