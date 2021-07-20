@@ -11,18 +11,20 @@ Nunito
 GOOGLE FONTS
 Roboto
 Open Sans
+Noto Sans JP
 Lato
 Montserrat
+Roboto Condensed
 Source Sans Pro
 Oswald
 
 WEB DEFAULT
-Arial				........
-Times New Roman		.......
-Georgia				......
-Courier New			.....
-Helvetica			.....
-Trebuchet MS		.....
-Verdana				.....
-Garamond			...
-Tahoma				...
+Arial
+Times New Roman
+Georgia
+Courier New
+Helvetica
+Trebuchet MS
+Verdana
+Garamond
+Tahoma
