@@ -299,7 +299,26 @@ main {
     right: 50px;
 }
 
-/* title icon */
+.page-icon-right2 {
+    right: 90px;
+}
+
+/* New message circle */
+.new-message-circle {
+    position: absolute;
+    right: -5px;
+    bottom: -3px;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+}
+
+/* Title icon */
 .title-icon {
     float: right;
     margin-right: 18px;
@@ -329,4 +348,33 @@ main {
 }
 tr:hover .table-icon {
     visibility: visible;
+}
+
+.table-icon-show {
+    visibility: visible;
+}
+
+.table-icon-blank {
+    visibility: hidden !important;
+}
+
+
+
+
+/* PAGE */
+/* Inbox */
+#community-inbox .table-icon-row,
+#player-inbox .table-icon-row {
+    padding-top: 3px !important;
+    padding-bottom: 0 !important;
+}
+
+#community-inbox .table-icon,
+#player-inbox .table-icon {
+    font-size: 20px;
+}
+
+#community-inbox .table-icon.red,
+#player-inbox .table-icon.red {
+    font-size: 22px;
 }
