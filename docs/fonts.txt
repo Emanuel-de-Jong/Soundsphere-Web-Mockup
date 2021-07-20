@@ -1,4 +1,6 @@
-GOOGLE FONTS RECOMMENDED
+Default
+
+RECOMMENDED
 Comfortaa
 Inconsolata
 Jost
@@ -6,23 +8,13 @@ Raleway
 Poppins
 Nunito
 
-GOOGLE FONTS MOST USED
+GOOGLE FONTS
 Roboto
 Open Sans
 Lato
 Montserrat
+Source Sans Pro
 Oswald
-
-BOOTSTRAP DEFAULT
-system-ui
--apple-system
-"Segoe UI"
-Roboto
-"Helvetica Neue"
-"Noto Sans"
-"Liberation Sans"
-sans-serif
-
 
 WEB DEFAULT
 Arial				........
