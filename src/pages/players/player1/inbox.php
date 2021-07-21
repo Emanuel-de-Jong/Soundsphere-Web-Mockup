@@ -28,11 +28,11 @@
                             <td>10</td>
                             <td>20-07-21</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-show green green-h" title="Accept the invite. You will join the community.">
-                                    <i class="fas fa-check"></i>
-                                </a>
-                                <a href="#" class="table-icon table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
+                                </a>
+                                <a href="#" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
+                                    <i class="fas fa-check"></i>
                                 </a>
                             </td>
                         </tr>
@@ -66,7 +66,7 @@
                             <td>10</td>
                             <td>20-07-21</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Cancel the request">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Cancel the request">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>

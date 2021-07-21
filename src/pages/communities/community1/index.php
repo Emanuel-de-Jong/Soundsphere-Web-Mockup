@@ -90,11 +90,11 @@
                             <td>12</td>
                             <td>1</td>
                             <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                                 <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
-                                </a>
-                                <a href="#" class="table-icon red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
                                 </a>
                             </td>
                         </tr>

@@ -67,8 +67,8 @@
                             <tr>
                                 <td><a href="?a=players_player1_index">Player1</a></td>
                                 <td class="table-icon-row">
-                                    <a href="#" class="table-icon red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-trash"></i>
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
                                     </a>
                                 </td>
                             </tr>

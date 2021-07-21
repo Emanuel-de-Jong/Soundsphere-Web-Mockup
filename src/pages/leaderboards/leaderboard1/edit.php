@@ -66,8 +66,8 @@
                             <tr>
                                 <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                                 <td class="table-icon-row">
-                                    <a href="#" class="table-icon red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-trash"></i>
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
                                     </a>
                                 </td>
                             </tr>

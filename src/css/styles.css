@@ -321,8 +321,12 @@ main {
 
 /* table icon */
 .table-icon-row {
-    text-align: right;
-    padding: 6px 20px 6px 0!important;
+    padding: 0 20px 0 0 !important;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .table-icon {
@@ -333,6 +337,10 @@ main {
 }
 tr:hover .table-icon {
     visibility: visible;
+}
+
+.table-icon-l {
+    font-size: 22px;
 }
 
 .table-icon-show {
@@ -347,23 +355,6 @@ tr:hover .table-icon {
 
 
 /* PAGE */
-/* Inbox */
-#community-inbox .table-icon-row,
-#player-inbox .table-icon-row {
-    padding-top: 3px !important;
-    padding-bottom: 0 !important;
-}
-
-#community-inbox .table-icon,
-#player-inbox .table-icon {
-    font-size: 20px;
-}
-
-#community-inbox .table-icon.red,
-#player-inbox .table-icon.red {
-    font-size: 22px;
-}
-
 /* Login and register */
 #login .main-box,
 #register .main-box {

@@ -170,8 +170,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -187,8 +187,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -204,8 +204,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -221,8 +221,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -276,8 +276,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -292,8 +292,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:27</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -308,8 +308,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:25</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
@@ -324,8 +324,8 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 14:12</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-trash"></i>
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
                                 </a>
                             </td>
                         </tr>
