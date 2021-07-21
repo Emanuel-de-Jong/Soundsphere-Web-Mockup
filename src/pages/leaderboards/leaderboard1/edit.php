@@ -5,7 +5,7 @@
                 <i class="fas fa-arrow-left"></i>
             </a>
 
-            <h1>Leaderboard1 - Edit</h1>
+            <h1>Leaderboard1 - Settings</h1>
 
 
             <section id="form-section">

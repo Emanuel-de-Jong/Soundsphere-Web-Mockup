@@ -1,4 +1,4 @@
-<div id="community-settings">
+<div id="community-edit">
     <main class="container">
         <div class="main-box">
             <a href="?a=communities_community1_index" class="page-icon page-icon-left">

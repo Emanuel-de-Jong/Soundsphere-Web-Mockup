@@ -6,6 +6,8 @@ GENERAL
 	check tooltips
 	code cleanup
 	better example rows
+	moderator view
+		delete tables/charts/scores
 
 LEADERBOARD
 	INDEX
@@ -16,6 +18,18 @@ CHARTS
 	INDEX
 		tables table with table chart level
 		chart level from metadata
+
+TABLES
+	INDEX
+		fix create
+
+PLAYER
+	INDEX
+		delete
+
+COMMUNITY
+	INDEX
+		delete
 
 
 

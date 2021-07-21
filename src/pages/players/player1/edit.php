@@ -1,4 +1,4 @@
-<div id="player-settings">
+<div id="player-edit">
     <main class="container">
         <div class="main-box">
             <a href="?a=players_player1_index" class="page-icon page-icon-left">

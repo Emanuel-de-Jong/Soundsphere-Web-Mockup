@@ -1,11 +1,11 @@
-<div id="communities-add">
+<div id="communities-create">
     <main class="container">
         <div class="main-box">
             <a href="?a=communities_index" class="page-icon page-icon-left">
                 <i class="fas fa-arrow-left"></i>
             </a>
 
-            <h1>Communities - Add</h1>
+            <h1>Communities - Create</h1>
 
 
             <section id="form-section">

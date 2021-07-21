@@ -22,7 +22,7 @@
 <div id="community">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_community1_settings" class="page-icon page-icon-right" title="Community settings">
+            <a href="?a=communities_community1_edit" class="page-icon page-icon-right" title="Community settings">
                 <i class="fas fa-cog"></i>
             </a>
             <a href="?a=communities_community1_inbox" class="page-icon page-icon-right2" title="Accept requests and send invites">
@@ -66,7 +66,7 @@
             <section id="leaderboards-section">
                 <h2>
                     Leaderboards
-                    <a href="?a=leaderboards_add" class="title-icon h2-icon green green-h" title="Create leaderboard">
+                    <a href="?a=leaderboards_create" class="title-icon h2-icon green green-h" title="Create leaderboard">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>

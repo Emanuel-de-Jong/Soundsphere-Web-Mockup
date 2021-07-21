@@ -1,11 +1,11 @@
-<div id="leaderboards-add">
+<div id="leaderboards-create">
     <main class="container">
         <div class="main-box">
             <a href="?a=communities_community1_index" class="page-icon page-icon-left">
                 <i class="fas fa-arrow-left"></i>
             </a>
 
-            <h1>Leaderboards - Add</h1>
+            <h1>Leaderboards - Create</h1>
 
 
             <section id="form-section">
