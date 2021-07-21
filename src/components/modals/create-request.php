@@ -6,8 +6,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <input class="form-control" list="communityOptions" placeholder="Search for a community...">
-                <datalist id="communityOptions">
+                <input class="form-control" list="community-options" id="community" name="community" title="The community to send the request to" placeholder="Search for a community...">
+                <datalist id="community-options">
                     <option value="Community1">
                     <option value="Community2">
                     <option value="Community3">

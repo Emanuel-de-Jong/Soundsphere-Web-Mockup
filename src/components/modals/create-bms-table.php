@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <label for="url" class="form-label" title="The website link of the table">Table URL</label>
-                <input type="text" class="form-control" name="url">
+                <input type="text" class="form-control" id="url" name="url">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Create</button>

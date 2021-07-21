@@ -6,8 +6,6 @@ GENERAL
 	check tooltips
 	code cleanup
 	better example rows
-	moderator view
-		delete tables/charts/scores
 
 LEADERBOARD
 	INDEX
@@ -33,6 +31,7 @@ COMMUNITY
 === DESIGN ===
 GENERAL
 	show logo in navbar differently
+	page icons relative around absolute div
 	patterned background
 	remove table sort icons of icon columns
 	blurhash banner/bg for community, leaderboard, player and chart

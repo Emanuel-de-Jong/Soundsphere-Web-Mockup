@@ -6,8 +6,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <input class="form-control" list="playerOptions" placeholder="Search for a player...">
-                <datalist id="playerOptions">
+                <input class="form-control" list="player-options" id="player" name="player" title="The player to send an invite to" placeholder="Search for a player...">
+                <datalist id="player-options">
                     <option value="Player1">
                     <option value="Player2">
                     <option value="Player3">

@@ -56,13 +56,13 @@
                     <?php require('components/modals/add-bms-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
                     <div class="form-item">
-                        <label for="admins" class="form-label w-100" title="Tables of which the charts will be used for ranking">
+                        <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
                             <a href="#" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table"></table>
+                        <table class="data-table table" id="bms-tables"></table>
                     </div>
 
                     <button type="submit" class="btn bg-blue bg-blue-h">Create</button>
