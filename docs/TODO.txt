@@ -9,7 +9,7 @@ GENERAL
 
 LEADERBOARD
 	INDEX
-		edit icon
+		edit/settings icon
 			check other pages too
 
 CHARTS
@@ -22,7 +22,6 @@ CHARTS
 
 === DESIGN ===
 GENERAL
-	different font(s)
 	show logo in navbar differently
 	patterned background
 	remove table sort icons of icon columns
