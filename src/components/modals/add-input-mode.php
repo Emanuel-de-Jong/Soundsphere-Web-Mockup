@@ -34,7 +34,7 @@
                 </datalist> -->
                 
                 <select class="form-select" id="input-mode" name="input-mode" title="The input mode to add">
-                    <option selected>Select an input mode</option>
+                    <option selected disabled hidden>Select an input mode</option>
                     <!-- base -->
                     <option value="1key">1K</option>
                     <option value="2key">2K</option>

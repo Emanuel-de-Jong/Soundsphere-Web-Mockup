@@ -66,7 +66,7 @@
                             <td>18-04-21</td>
                             <td>20-07-21</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-show red red-h" title="Cancel the invite">
+                                <a href="#" class="table-icon red red-h" title="Cancel the invite">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>

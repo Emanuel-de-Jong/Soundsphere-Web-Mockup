@@ -78,30 +78,6 @@
             <section id="leaderboards-communities-section">
                 <div class="row">
                     <div class="col-6">
-                        <h2>Leaderboards</h2>
-
-                        <table class="data-table table">
-                            <thead>
-                                <tr>
-                                    <th title="Leaderboard name">Name</th>
-                                    <th title="Leaderboard input mode">Input mode</th>
-                                    <th title="Rank of this player in the leaderboard">Rank</th>
-                                    <th title="Player count">Players</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                                    <td>7key</td>
-                                    <td>#3</td>
-                                    <td>12</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-
-                    <div class="col-6">
                         <h2>Communities</h2>
 
                         <table class="data-table table">
@@ -123,6 +99,30 @@
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    
+                    <div class="col-6">
+                        <h2>Leaderboards</h2>
+
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th title="Leaderboard name">Name</th>
+                                    <th title="Leaderboard input mode">Input mode</th>
+                                    <th title="Rank of this player in the leaderboard">Rank</th>
+                                    <th title="Player count">Players</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                                    <td>7key</td>
+                                    <td>#3</td>
+                                    <td>12</td>
                                 </tr>
                             </tbody>
                         </table>

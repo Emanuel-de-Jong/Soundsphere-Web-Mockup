@@ -9,6 +9,7 @@ GENERAL
 
 LEADERBOARD
 	INDEX
+		show base community
 		edit/settings icon
 			check other pages too
 
@@ -22,6 +23,7 @@ PLAYER
 
 COMMUNITY
 	INDEX
+		tables table
 		*delete
 
 
@@ -29,6 +31,7 @@ COMMUNITY
 
 === DESIGN ===
 GENERAL
+	consistency with plus-check pencil-gear cross-trashcan
 	page icons relative around absolute div
 	show logo in navbar differently
 	subnavbar links should go to the title itself
