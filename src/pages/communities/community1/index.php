@@ -93,7 +93,7 @@
                                 <a href="#" class="table-icon table-icon-l red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon orange orange-h" title="Edit leaderboard">
+                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
                                 </a>
                             </td>
@@ -120,6 +120,7 @@
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Favourite mode">Fav mode</th>
                             <th title="Last submitted score">Last played</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -129,6 +130,11 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#2</td>
@@ -136,6 +142,11 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#3</td>
@@ -143,6 +154,11 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#4</td>
@@ -150,6 +166,11 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -159,6 +180,7 @@
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Most played input mode">Favourite mode</th>
                             <th title="Last submitted score">Last played</th>
+                            <th></th>
                         </tr>
                     </tfoot>
                 </table>

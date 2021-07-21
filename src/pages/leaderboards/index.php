@@ -1,6 +1,11 @@
 <div id="leaderboards">
     <main class="container">
         <div class="main-box">
+            <?php require('components/modals/create-leaderboard.php'); ?>
+            <a href="#" class="page-icon page-icon-right" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                <i class="fas fa-plus"></i>
+            </a>
+
             <h1>Leaderboards</h1>
 
 
@@ -27,7 +32,23 @@
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                    <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                </a>
+                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                    <i class="fas fa-pen"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td>7key</td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
                                 </a>
                             </td>
@@ -40,7 +61,7 @@
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
                                 </a>
                             </td>
@@ -53,20 +74,7 @@
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                    <i class="fas fa-sign-in-alt" title="Add to community"></i>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                            <td>7key</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt" title="Add to community"></i>
                                 </a>
                             </td>

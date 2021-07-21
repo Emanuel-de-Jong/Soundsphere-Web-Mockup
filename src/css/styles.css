@@ -339,6 +339,10 @@ tr:hover .table-icon {
     visibility: visible;
 }
 
+.table-icon-s {
+    font-size: 17px;
+}
+
 .table-icon-l {
     font-size: 22px;
 }

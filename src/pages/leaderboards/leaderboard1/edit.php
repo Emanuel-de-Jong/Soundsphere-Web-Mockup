@@ -1,7 +1,7 @@
 <div id="leaderboard-edit">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_community1_index" class="page-icon page-icon-left">
+            <a href="?a=leaderboards_leaderboard1_index" class="page-icon page-icon-left">
                 <i class="fas fa-arrow-left"></i>
             </a>
 
@@ -9,7 +9,7 @@
 
 
             <section id="form-section">
-                <form class="form-settings" action="?a=communities_community1_index" method="post">
+                <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
                         <label for="name" class="form-label" title="Leaderboard name">Name</label>
                         <input type="text" class="form-control" name="name" value="Leaderboard1">

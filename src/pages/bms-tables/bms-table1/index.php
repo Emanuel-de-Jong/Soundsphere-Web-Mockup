@@ -55,7 +55,7 @@
                                     <td>10</td>
                                     <td>1</td>
                                     <td class="table-icon-row">
-                                        <a href="#" class="table-icon blue blue-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                             <i class="fas fa-sign-in-alt" title="Add to community"></i>
                                         </a>
                                     </td>

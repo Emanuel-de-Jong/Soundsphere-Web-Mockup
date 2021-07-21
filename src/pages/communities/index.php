@@ -1,13 +1,14 @@
 <div id="communities">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_create" class="page-icon page-icon-right green green-h" title="Create community">
+            <a href="?a=communities_create" class="page-icon page-icon-right" title="Create community">
                 <i class="fas fa-plus"></i>
             </a>
 
             <h1>Communities</h1>
 
 
+            <?php require('components/modals/delete.php'); ?>
             <section id="communities-section">
                 <table class="data-table data-table-communities table">
                     <thead>
@@ -28,8 +29,11 @@
                             <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-row">
-                                <a href="#" class="table-icon green green-h" title="Join community">
-                                    <i class="fas fa-sign-in-alt"></i>
+                                <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                </a>
+                                <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
+                                    <i class="fas fa-pen"></i>
                                 </a>
                             </td>
                         </tr>

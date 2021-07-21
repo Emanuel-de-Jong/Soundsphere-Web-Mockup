@@ -9,7 +9,7 @@
 
 
             <section id="form-section">
-                <form class="form-settings" action="?a=communities_index" method="post">
+                <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="row">
                         <div class="col-9">
                             <div class="form-item">
