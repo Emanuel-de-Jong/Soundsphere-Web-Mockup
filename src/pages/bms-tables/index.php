@@ -1,8 +1,8 @@
 <div id="bms-tables">
     <main class="container">
         <div class="main-box">
-            <?php require('components/modals/add-table.php'); ?>
-            <a href="#" class="page-icon page-icon-right green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-table-modal">
+            <?php require('components/modals/create-bms-table.php'); ?>
+            <a href="#" class="page-icon page-icon-right green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#create-bms-table-modal">
                 <i class="fas fa-plus"></i>
             </a>
 
@@ -21,25 +21,25 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
+                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
+                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
+                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=tables_table1_index">Table1</a></td>
+                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                             <td>7key</td>
                             <td>20</td>
                             <td>115</td>

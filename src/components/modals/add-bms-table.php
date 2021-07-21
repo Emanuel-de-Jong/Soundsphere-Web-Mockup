@@ -1,4 +1,4 @@
-<div class="modal" id="add-table-modal">
+<div class="modal" id="add-bms-table-modal">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -6,8 +6,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <input class="form-control" list="tableOptions" placeholder="Search for a table...">
-                <datalist id="tableOptions">
+                <input class="form-control" list="bms-table-options" placeholder="Search for a table...">
+                <datalist id="bms-table-options">
                     <option value="Table1">
                     <option value="Table2">
                     <option value="Table3">

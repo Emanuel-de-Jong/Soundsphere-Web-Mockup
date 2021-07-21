@@ -20,7 +20,7 @@
                     <a class="nav-link" href="?a=leaderboards_index">Leaderboards<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?a=tables_index">Tables<div class="underline"></div></a>
+                    <a class="nav-link" href="?a=bms-tables_index">Tables<div class="underline"></div></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?a=players_index">Players<div class="underline"></div></a>

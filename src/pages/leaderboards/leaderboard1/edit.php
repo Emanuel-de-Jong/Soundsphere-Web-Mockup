@@ -53,18 +53,18 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/add-table.php'); ?>
+                    <?php require('components/modals/add-bms-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
                     <div class="form-item">
                         <label for="admins" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
-                            <a href="#" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-table-modal">
+                            <a href="#" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
                         <table class="data-table table">
                             <tr>
-                                <td><a href="?a=tables_table1_index">Table1</a></td>
+                                <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                                 <td class="table-icon-row">
                                     <a href="#" class="table-icon red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-trash"></i>
