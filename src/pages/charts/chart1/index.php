@@ -40,6 +40,7 @@
                     </select>
                 </form>
 
+                <?php require('components/modals/delete.php'); ?>
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
@@ -47,11 +48,12 @@
                             <th title="Player name">Player</th>
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
-                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -65,6 +67,11 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#2</td>
@@ -76,6 +83,11 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#3</td>
@@ -87,6 +99,11 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>#4</td>
@@ -98,6 +115,11 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
+                            <td class="table-icon-row">
+                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -106,11 +128,12 @@
                             <th title="Player name">Player</th>
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
-                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
+                            <th></th>
                         </tr>
                     </tfoot>
                 </table>

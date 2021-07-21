@@ -75,10 +75,16 @@
 
 
             <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/create-leaderboard.php'); ?>
             <section id="leaderboards-communities-section">
                 <div class="row">
                     <div class="col-6">
-                        <h2>Communities</h2>
+                        <h2>
+                            Communities
+                            <a href="?a=communities_create" class="title-icon h2-icon green green-h" title="Create community">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </h2>
 
                         <table class="data-table table">
                             <thead>
@@ -98,6 +104,9 @@
                                         <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
+                                        <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -106,7 +115,12 @@
 
                     
                     <div class="col-6">
-                        <h2>Leaderboards</h2>
+                        <h2>
+                            Leaderboards
+                            <a href="#" class="page-icon page-icon-right green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </h2>
 
                         <table class="data-table table">
                             <thead>
@@ -115,6 +129,7 @@
                                     <th title="Leaderboard input mode">Input mode</th>
                                     <th title="Rank of this player in the leaderboard">Rank</th>
                                     <th title="Player count">Players</th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -123,6 +138,11 @@
                                     <td>7key</td>
                                     <td>#3</td>
                                     <td>12</td>
+                                    <td class="table-icon-row">
+                                        <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -149,7 +169,7 @@
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
-                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
@@ -234,7 +254,7 @@
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
-                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
@@ -256,7 +276,7 @@
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Players chart performance">Performance</th>
                             <th title="Player score">Score</th>
-                            <th title="Player accuracy">Accuracy</th>
+                            <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
