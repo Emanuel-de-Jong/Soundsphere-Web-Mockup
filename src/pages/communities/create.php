@@ -46,18 +46,6 @@
                         <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
                     </div>
 
-                    <?php require('components/modals/add-admin.php'); ?>
-                    <?php require('components/modals/delete.php'); ?>
-                    <div class="form-item">
-                        <label for="admins" class="form-label w-100" title="Players that can alter the community">
-                            Admins
-                            <a href="#" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
-                                <i class="fas fa-plus"></i>
-                            </a>
-                        </label>
-                        <table class="data-table table"></table>
-                    </div>
-
                     <button type="submit" class="btn bg-blue bg-blue-h">Create</button>
                 </form>
             </section>

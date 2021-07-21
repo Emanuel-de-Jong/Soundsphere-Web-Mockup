@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <input class="form-control" list="player-options" id="player" name="player" title="The player to make an admin" placeholder="Search for a player...">
+                <input class="form-control" list="player-options" id="player" name="player" title="The member to make an admin" placeholder="Search for a member...">
                 <datalist id="player-options">
                     <option value="Player1">
                     <option value="Player2">

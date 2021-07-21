@@ -15,27 +15,26 @@ LEADERBOARD
 CHARTS
 	INDEX
 		tables table with table chart level
-		chart level from metadata
 
 PLAYER
 	INDEX
-		delete
+		*delete
 
 COMMUNITY
 	INDEX
-		delete
+		*delete
 
 
 
 
 === DESIGN ===
 GENERAL
-	show logo in navbar differently
 	page icons relative around absolute div
-	patterned background
+	show logo in navbar differently
+	subnavbar links should go to the title itself
 	remove table sort icons of icon columns
 	blurhash banner/bg for community, leaderboard, player and chart
-	subnavbar links should go to the title itself
+	patterned background
 
 
 
