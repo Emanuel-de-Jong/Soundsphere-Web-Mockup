@@ -40,11 +40,11 @@
                 </table>
             </section>
 
-            <?php require('components/modals/send-request.php'); ?>
+            <?php require('components/modals/create-request.php'); ?>
             <section id="outgoing-requests-section">
                 <h2>
                     Outgoing requests
-                    <a href="#" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#send-request-modal">
+                    <a href="#" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>

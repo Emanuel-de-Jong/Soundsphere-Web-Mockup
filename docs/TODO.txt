@@ -19,10 +19,6 @@ CHARTS
 		tables table with table chart level
 		chart level from metadata
 
-TABLES
-	INDEX
-		fix create
-
 PLAYER
 	INDEX
 		delete

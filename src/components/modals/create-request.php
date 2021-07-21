@@ -1,4 +1,4 @@
-<div class="modal" id="send-request-modal">
+<div class="modal" id="create-request-modal">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">

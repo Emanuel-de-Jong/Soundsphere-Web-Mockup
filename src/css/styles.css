@@ -234,21 +234,7 @@ main {
     border-color: #86b7fe;
 }
 
-/* Community */
-#community-settings #short-description,
-#communities-add #short-description {
-    max-width: 100%;
-}
-
-/* Login and register */
-#login .main-box,
-#register .main-box {
-    max-width: 516px;
-    margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
+/* Login */
 .form-login {
     width: 100%;
     margin: auto;
@@ -376,4 +362,13 @@ tr:hover .table-icon {
 #community-inbox .table-icon.red,
 #player-inbox .table-icon.red {
     font-size: 22px;
+}
+
+/* Login and register */
+#login .main-box,
+#register .main-box {
+    max-width: 516px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }

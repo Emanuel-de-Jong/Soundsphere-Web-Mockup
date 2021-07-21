@@ -40,11 +40,11 @@
                 </table>
             </section>
 
-            <?php require('components/modals/send-invite.php'); ?>
+            <?php require('components/modals/create-invite.php'); ?>
             <section id="outgoing-invites-section">
                 <h2>
                     Outgoing invites
-                    <a href="#" class="title-icon h2-icon green green-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#send-invite-modal">
+                    <a href="#" class="title-icon h2-icon green green-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-invite-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
