@@ -173,8 +173,8 @@
                             <th title="Rank compared to other scores of the player">Top</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart level">Level</th>
                             <th title="Players chart performance">Performance</th>
-                            <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -188,7 +188,7 @@
                             <td>1</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -207,7 +207,7 @@
                             <td>2</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -226,7 +226,7 @@
                             <td>3</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -245,7 +245,7 @@
                             <td>4</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -266,8 +266,8 @@
                             <th title="Rank compared to other scores of the player">Top</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart level">Level</th>
                             <th title="Players chart performance">Performance</th>
-                            <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -288,8 +288,8 @@
                         <tr>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart level">Level</th>
                             <th title="Players chart performance">Performance</th>
-                            <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -302,7 +302,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -320,7 +320,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -338,7 +338,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
@@ -356,7 +356,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>1000</td>
+                            <td>12</td>
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>

@@ -28,6 +28,32 @@
             </section>
 
 
+            <section id="tables-section">
+                <h2>Tables</h2>
+
+                <table class="data-table table">
+                    <thead>
+                        <tr>
+                            <th title="Table name">Name</th>
+                            <th title="The level of the chart in the table">Chart level</th>
+                            <th title="Input modes in the table charts">Input modes</th>
+                            <th title="Chart count">Charts</th>
+                            <th title="Plays over all charts">Plays</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
+                            <td>15</td>
+                            <td>7key</td>
+                            <td>20</td>
+                            <td>115</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
             <section id="scores-section">
                 <h2>Scores</h2>
 

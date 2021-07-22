@@ -8,10 +8,6 @@ GENERAL
 	code cleanup
 	better example rows
 
-CHARTS
-	INDEX
-		tables table with table chart level
-
 PLAYER
 	INDEX
 		*delete

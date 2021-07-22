@@ -14,7 +14,7 @@
                     <thead>
                         <tr>
                             <th title="Table name">Name</th>
-                            <th title="Input modes in the table charts">Input Modes</th>
+                            <th title="Input modes in the table charts">Input modes</th>
                             <th title="Chart count">Charts</th>
                             <th title="Plays over all charts">Plays</th>
                         </tr>
@@ -48,7 +48,7 @@
                     <tfoot>
                         <tr>
                             <th title="Table name">Name</th>
-                            <th title="Input modes in the table charts">Input Modes</th>
+                            <th title="Input modes in the table charts">Input modes</th>
                             <th title="Chart count">Charts</th>
                             <th title="Plays over all charts">Plays</th>
                         </tr>

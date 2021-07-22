@@ -92,7 +92,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
+                            <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7key</td>
@@ -101,7 +101,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
+                            <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7key</td>
@@ -110,7 +110,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
+                            <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7key</td>
@@ -119,7 +119,7 @@
                         <tr>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
+                            <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7key</td>
