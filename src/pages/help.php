@@ -11,7 +11,7 @@
             </section>
 
 
-            <section id="faq-section" class="accordion">
+            <section id="faq-section">
                 <h2>FAQ</h2>
 
                 <div class="accordion-item">

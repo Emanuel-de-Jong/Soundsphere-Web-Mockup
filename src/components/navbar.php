@@ -9,54 +9,32 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=communities_index">Communities<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=leaderboards_index">Leaderboards<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=bms-tables_index">Tables<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=players_index">Players<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=charts_index">Charts<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?a=help">Help<div class="underline"></div></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download<div class="underline"></div></a>
-                </li>
-            </ul>
+            <div class="navbar-nav me-auto">
+                <a class="nav-link" href="/">Home<div class="underline"></div></a>
+                <a class="nav-link" href="?a=communities_index">Communities<div class="underline"></div></a>
+                <a class="nav-link" href="?a=leaderboards_index">Leaderboards<div class="underline"></div></a>
+                <a class="nav-link" href="?a=bms-tables_index">Tables<div class="underline"></div></a>
+                <a class="nav-link" href="?a=players_index">Players<div class="underline"></div></a>
+                <a class="nav-link" href="?a=charts_index">Charts<div class="underline"></div></a>
+                <a class="nav-link" href="?a=help">Help<div class="underline"></div></a>
+                <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download<div class="underline"></div></a>
+            </div>
 
-            <ul class="navbar-nav">
+            <div class="navbar-nav">
                 <?php
                     if(isset($_COOKIE["logged-in"])) {
                         echo '
-                            <li class="nav-item">
-                                <a class="nav-link" href="?a=players_player1_index">Profile<div class="underline"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="logout.php">Logout<div class="underline"></div></a>
-                            </li>';
+                            <a class="nav-link" href="?a=players_player1_index">Profile<div class="underline"></div></a>
+                            <a class="nav-link" href="logout.php">Logout<div class="underline"></div></a>
+                            ';
                     } else {
                         echo '
-                            <li class="nav-item">
                             <a class="nav-link" href="?a=login">Login<div class="underline"></div></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="?a=register">Register<div class="underline"></div></a>
-                            </li>';
+                            <a class="nav-link" href="?a=register">Register<div class="underline"></div></a>
+                            ';
                     }
                 ?>
-            </ul>
+            </div>
         </div>
     </div>
 </nav>

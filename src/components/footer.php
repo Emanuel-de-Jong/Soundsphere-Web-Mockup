@@ -12,7 +12,7 @@
             </a>
         </div>
         
-        <p class="text-muted">Copyright © 
+        <p class="footer-copyright">Copyright © 
             <script>
                 var currentDate =new Date()
                 document.write(currentDate.getFullYear())

@@ -1,19 +1,11 @@
 <nav id="secondary-navbar">
     <div class="container">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#info-section">Info</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#description-section">Description</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#leaderboards-section">Leaderboards</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#members-section">Members</a>
-            </li>
-        </ul>
+        <div class="nav">
+            <a class="nav-link" href="#info-section">Info</a>
+            <a class="nav-link" href="#description-section">Description</a>
+            <a class="nav-link" href="#leaderboards-section">Leaderboards</a>
+            <a class="nav-link" href="#members-section">Members</a>
+        </div>
     </div>
 </nav>
 <div id="secondary-navbar-box"></div>

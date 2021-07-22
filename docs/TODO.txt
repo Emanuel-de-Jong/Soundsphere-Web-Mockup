@@ -32,6 +32,7 @@ GENERAL
 	metatable only 1 tr
 	blurhash banner/bg for community, leaderboard, player and chart
 	patterned background
+	check mobile
 
 
 
