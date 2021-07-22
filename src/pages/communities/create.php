@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="form-item form-check">
-                        <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public to anyone.</label>
+                        <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
                         <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
                     </div>
 

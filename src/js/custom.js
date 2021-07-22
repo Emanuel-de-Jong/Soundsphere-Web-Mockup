@@ -3,11 +3,6 @@ $(function () {
         scrollX: true
     });
 
-    $(".data-table-communities").DataTable({
-        scrollX: true,
-        order: [[ 2, "desc" ]]
-    });
-
 
 
     $(".form-settings input[type=file]").on("dragenter", function() {

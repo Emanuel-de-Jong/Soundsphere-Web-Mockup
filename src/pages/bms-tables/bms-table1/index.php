@@ -14,6 +14,7 @@
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
+                                    <th title="To join private communities, you have to send a request">Public</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
                                     <th title="Player count">Members</th>
                                     <th></th>
@@ -22,6 +23,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>No</td>
                                     <td>7key</td>
                                     <td>25</td>
                                     <td class="table-icon-row">

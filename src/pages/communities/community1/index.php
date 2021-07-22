@@ -38,10 +38,14 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th title="Input modes in community leaderboards">Input modes:</th>
-                        <td>7 key</td>
                         <th title="Member count">Members:</th>
                         <td>10</td>
+                        <th title="Input modes in community leaderboards">Input modes:</th>
+                        <td>7key</td>
+                    </tr>
+                    <tr>
+                        <th title="To join private communities, you have to send a request">Public:</th>
+                        <td>No</td>
                     </tr>
                 </table>
             </section>

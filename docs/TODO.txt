@@ -1,5 +1,6 @@
 === LOGIC ===
 GENERAL
+	default table column order
 	check form ids, fors and placeholders
 	form validation
 	accurate redirect and button click behaviour
@@ -10,8 +11,6 @@ GENERAL
 LEADERBOARD
 	INDEX
 		show base community
-		edit/settings icon
-			check other pages too
 
 CHARTS
 	INDEX
@@ -23,7 +22,7 @@ PLAYER
 
 COMMUNITY
 	INDEX
-		tables table
+		*tables table
 		*delete
 
 
@@ -31,7 +30,6 @@ COMMUNITY
 
 === DESIGN ===
 GENERAL
-	consistency with plus-check pencil-gear cross-trashcan
 	page icons relative around absolute div
 	show logo in navbar differently
 	subnavbar links should go to the title itself
