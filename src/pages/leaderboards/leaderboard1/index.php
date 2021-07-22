@@ -57,10 +57,38 @@
                                     <td>4000</td>
                                     <td>No</td>
                                     <td>7key</td>
-                                    <td class="table-icon-row">
-                                        <a href="#" class="table-icon green green-h" title="Join community">
-                                            <i class="fas fa-sign-in-alt"></i>
-                                        </a>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" title="Join community">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr id="leaderboard-owner">
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>4000</td>
+                                    <td>No</td>
+                                    <td>7key</td>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" title="Join community">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>4000</td>
+                                    <td>No</td>
+                                    <td>7key</td>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" title="Join community">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </a>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>

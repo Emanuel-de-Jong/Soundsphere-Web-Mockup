@@ -320,8 +320,11 @@ main {
 }
 
 /* table icon */
-.table-icon-row {
+.table-icon-cell {
     padding: 0 20px 0 0 !important;
+}
+
+.table-icon-box {
     height: 40px;
     display: flex;
     flex-direction: row-reverse;
@@ -359,6 +362,11 @@ tr:hover .table-icon {
 
 
 /* PAGE */
+/* Leaderboard */
+#leaderboard #leaderboard-owner {
+    background-color: rgb(255, 240, 230);
+}
+
 /* Login and register */
 #login .main-box,
 #register .main-box {

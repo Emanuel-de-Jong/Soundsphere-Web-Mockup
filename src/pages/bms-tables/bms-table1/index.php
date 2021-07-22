@@ -26,10 +26,12 @@
                                     <td>No</td>
                                     <td>7key</td>
                                     <td>25</td>
-                                    <td class="table-icon-row">
-                                        <a href="#" class="table-icon green green-h" title="Join community">
-                                            <i class="fas fa-sign-in-alt"></i>
-                                        </a>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" title="Join community">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </a>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -56,10 +58,12 @@
                                     <td>7key</td>
                                     <td>10</td>
                                     <td>1</td>
-                                    <td class="table-icon-row">
-                                        <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                            <i class="fas fa-sign-in-alt" title="Add to community"></i>
-                                        </a>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                                <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                            </a>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>

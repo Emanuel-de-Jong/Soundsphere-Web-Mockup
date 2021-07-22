@@ -67,10 +67,12 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -83,10 +85,12 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -99,10 +103,12 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -115,10 +121,12 @@
                             <td>10key</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>

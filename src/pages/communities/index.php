@@ -30,13 +30,15 @@
                             <td>7key</td>
                             <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-sign-out-alt"></i>
-                                </a>
-                                <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
-                                    <i class="fas fa-pen"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                    </a>
+                                    <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
+                                        <i class="fas fa-pen"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -46,10 +48,12 @@
                             <td>7key</td>
                             <td>8</td>
                             <td>The first community. Which automatically makes it the best one.</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon green green-h" title="Join community">
-                                    <i class="fas fa-sign-in-alt"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon green green-h" title="Join community">
+                                        <i class="fas fa-sign-in-alt"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -59,10 +63,12 @@
                             <td>7key</td>
                             <td>12</td>
                             <td>The first community. Which automatically makes it the best one.</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon green green-h" title="Join community">
-                                    <i class="fas fa-sign-in-alt"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon green green-h" title="Join community">
+                                        <i class="fas fa-sign-in-alt"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -72,10 +78,12 @@
                             <td>7key</td>
                             <td>4</td>
                             <td>The first community. Which automatically makes it the best one.</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon green green-h" title="Join community">
-                                    <i class="fas fa-sign-in-alt"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon green green-h" title="Join community">
+                                        <i class="fas fa-sign-in-alt"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>

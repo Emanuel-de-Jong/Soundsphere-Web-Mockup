@@ -27,13 +27,15 @@
                             <td>200</td>
                             <td>18-04-21</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
-                                <a href="#" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the request. The player will join the community.">
-                                    <i class="fas fa-check"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                    <a href="#" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the request. The player will join the community.">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
@@ -65,10 +67,12 @@
                             <td>200</td>
                             <td>18-04-21</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Cancel the invite">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Cancel the invite">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>

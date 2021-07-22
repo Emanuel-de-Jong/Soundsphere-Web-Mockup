@@ -93,13 +93,15 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
-                                    <i class="fas fa-pen"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                    <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                        <i class="fas fa-pen"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
@@ -134,10 +136,12 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -146,10 +150,12 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -158,10 +164,12 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -170,10 +178,12 @@
                             <td>200</td>
                             <td>7key</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-row">
-                                <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
