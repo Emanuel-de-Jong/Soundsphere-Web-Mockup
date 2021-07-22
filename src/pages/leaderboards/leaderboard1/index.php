@@ -65,8 +65,11 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr id="leaderboard-owner">
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-crown orange" id="leaderboard-owner" title="The leaderboard owner. Can edit and delete the leaderboard."></i> 
+                                        <a href="?a=communities_community1_index">Community1</a>
+                                    </td>
                                     <td>4000</td>
                                     <td>No</td>
                                     <td>7key</td>

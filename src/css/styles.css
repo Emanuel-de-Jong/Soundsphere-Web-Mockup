@@ -364,7 +364,8 @@ tr:hover .table-icon {
 /* PAGE */
 /* Leaderboard */
 #leaderboard #leaderboard-owner {
-    background-color: rgb(255, 240, 230);
+    /* background-color: rgb(255, 240, 230); */
+    font-size: 13px;
 }
 
 /* Login and register */

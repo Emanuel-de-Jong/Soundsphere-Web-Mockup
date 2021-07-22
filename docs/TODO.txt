@@ -8,10 +8,6 @@ GENERAL
 	code cleanup
 	better example rows
 
-LEADERBOARD
-	INDEX
-		show base community
-
 CHARTS
 	INDEX
 		tables table with table chart level
