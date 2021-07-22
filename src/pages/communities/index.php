@@ -35,7 +35,7 @@
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-sign-out-alt"></i>
                                     </a>
                                     <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
@@ -53,7 +53,7 @@
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
+                                    <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
                                         <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
+                                    <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
                                         <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>
@@ -83,7 +83,7 @@
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
+                                    <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-request-2-modal">
                                         <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>

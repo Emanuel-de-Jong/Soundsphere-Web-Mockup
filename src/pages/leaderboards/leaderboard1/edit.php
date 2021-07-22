@@ -60,7 +60,7 @@
                     <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
-                            <a href="#" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -69,7 +69,7 @@
                                 <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                                 <td class="table-icon-cell">
                                     <div class="table-icon-box">
-                                        <a href="#" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>
                                         </a>
                                     </div>

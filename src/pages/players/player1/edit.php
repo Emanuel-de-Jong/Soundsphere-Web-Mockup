@@ -32,7 +32,7 @@
                     <div class="form-item">
                         <label class="form-label w-100" title="The input modes on your profile and next to you in tables">
                             Favourite input modes
-                            <a href="#" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -41,7 +41,7 @@
                                 <td>7key</td>
                                 <td class="table-icon-cell">
                                     <div class="table-icon-box">
-                                        <a href="#" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>
                                         </a>
                                     </div>

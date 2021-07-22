@@ -95,7 +95,7 @@
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -113,7 +113,7 @@
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -131,7 +131,7 @@
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -149,7 +149,7 @@
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>

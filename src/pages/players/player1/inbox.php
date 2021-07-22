@@ -31,10 +31,10 @@
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
-                                    <a href="#" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
+                                    <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
                                         <i class="fas fa-check"></i>
                                     </a>
                                 </div>
@@ -48,7 +48,7 @@
             <section id="outgoing-requests-section">
                 <h2>
                     Outgoing requests
-                    <a href="#" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
+                    <a href="#!" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -71,7 +71,7 @@
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Cancel the request">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the request">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>

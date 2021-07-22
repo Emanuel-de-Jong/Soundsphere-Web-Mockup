@@ -2,16 +2,16 @@
     <div class="container">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="#community">Info</a>
+                <a class="nav-link" href="#info-section">Info</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#info-section">Description</a>
+                <a class="nav-link" href="#description-section">Description</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#description-section">Leaderboards</a>
+                <a class="nav-link" href="#leaderboards-section">Leaderboards</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#leaderboards-section">Members</a>
+                <a class="nav-link" href="#members-section">Members</a>
             </li>
         </ul>
     </div>
@@ -19,13 +19,13 @@
 <div id="secondary-navbar-box"></div>
 
 
-<?php require('components/modals/delete.php'); ?>
-<?php require('components/modals/add-leaderboard.php'); ?>
 <div id="community">
     <main class="container">
         <div class="main-box">
+            <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/add-leaderboard.php'); ?>
             <div class="page-icons page-icons-right">
-                <a href="#" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                <a href="#!" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                     <i class="fas fa-sign-out-alt"></i>
                 </a>
 
@@ -103,7 +103,7 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                    <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                     <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
@@ -146,7 +146,7 @@
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -160,7 +160,7 @@
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -174,7 +174,7 @@
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>
@@ -188,7 +188,7 @@
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
                                     </a>
                                 </div>

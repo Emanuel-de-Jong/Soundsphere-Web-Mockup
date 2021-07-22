@@ -10,6 +10,14 @@ p {
     margin-bottom: 0.25rem;
 }
 
+/* Add offset to anchor scroll */
+:target:before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-top: -120px;
+}
+
 /* Remove bootstrap box shadows */
 input:focus {
     box-shadow: none !important;

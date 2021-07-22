@@ -61,7 +61,7 @@
                     <div class="form-item">
                         <label for="admins" class="form-label w-100" title="Players that can alter the community">
                             Admins
-                            <a href="#" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -70,7 +70,7 @@
                                 <td><a href="?a=players_player1_index">Player1</a></td>
                                 <td class="table-icon-cell">
                                     <div class="table-icon-box">
-                                        <a href="#" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>
                                         </a>
                                     </div>

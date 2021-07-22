@@ -3,7 +3,7 @@
         <div class="main-box">
             <?php require('components/modals/create-bms-table.php'); ?>
             <div class="page-icons page-icons-right">
-                <a href="#" class="page-icon" title="Add table" data-bs-toggle="modal" data-bs-target="#create-bms-table-modal">
+                <a href="#!" class="page-icon" title="Add table" data-bs-toggle="modal" data-bs-target="#create-bms-table-modal">
                     <i class="fas fa-plus"></i>
                 </a>
             </div>

@@ -4,11 +4,11 @@
             <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/leaderboard-description.php'); ?>
             <div class="page-icons page-icons-right">
-                <a href="#" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
+                <a href="#!" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
                     <i class="fas fa-info-circle"></i>
                 </a>
 
-                <a href="#" class="page-icon" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                <a href="#!" class="page-icon" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                     <i class="fas fa-sign-in-alt"></i>
                 </a>
 
@@ -68,7 +68,7 @@
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>
@@ -84,7 +84,7 @@
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>
@@ -97,7 +97,7 @@
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>

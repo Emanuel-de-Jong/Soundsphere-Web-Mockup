@@ -28,7 +28,6 @@ LEADERBOARD
 === DESIGN ===
 GENERAL
 	show logo in navbar differently
-	subnavbar links should go to the title itself
 	remove table sort icons of icon columns
 	metatable only 1 tr
 	blurhash banner/bg for community, leaderboard, player and chart
