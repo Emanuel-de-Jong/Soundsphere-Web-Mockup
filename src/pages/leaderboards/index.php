@@ -35,8 +35,8 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                        <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                    <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                     <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                         <i class="fas fa-pen"></i>
@@ -53,8 +53,8 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                        <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                    <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>
                             </td>
@@ -68,8 +68,8 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                        <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                    <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>
                             </td>
@@ -83,8 +83,8 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                        <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                    <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <i class="fas fa-sign-in-alt"></i>
                                     </a>
                                 </div>
                             </td>

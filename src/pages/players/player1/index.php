@@ -78,6 +78,7 @@
 
 
             <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/create-leaderboard.php'); ?>
             <section id="leaderboards-communities-section">
                 <div class="row">
@@ -147,6 +148,9 @@
                                     <td>12</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
+                                            <a href="#" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                                <i class="fas fa-sign-in-alt"></i>
+                                            </a>
                                             <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                                 <i class="fas fa-pen"></i>
                                             </a>

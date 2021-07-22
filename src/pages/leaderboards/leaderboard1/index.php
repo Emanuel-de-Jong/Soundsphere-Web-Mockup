@@ -1,10 +1,15 @@
 <div id="leaderboard">
     <main class="container">
         <div class="main-box">
+            <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/leaderboard-description.php'); ?>
             <div class="page-icons page-icons-right">
                 <a href="#" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
                     <i class="fas fa-info-circle"></i>
+                </a>
+
+                <a href="#" class="page-icon" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                    <i class="fas fa-sign-in-alt"></i>
                 </a>
 
                 <a href="?a=leaderboards_leaderboard1_edit" class="page-icon" title="leaderboard settings">
