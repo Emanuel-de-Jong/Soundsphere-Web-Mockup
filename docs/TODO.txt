@@ -9,12 +9,17 @@ GENERAL
 	better example rows
 
 PLAYER
-	INDEX
+	SETTINGS
 		*delete
 
 COMMUNITY
 	INDEX
 		*tables table
+	SETTINGS
+		*delete
+
+LEADERBOARD
+	SETTINGS
 		*delete
 
 
@@ -22,10 +27,10 @@ COMMUNITY
 
 === DESIGN ===
 GENERAL
-	page icons relative around absolute div
 	show logo in navbar differently
 	subnavbar links should go to the title itself
 	remove table sort icons of icon columns
+	metatable only 1 tr
 	blurhash banner/bg for community, leaderboard, player and chart
 	patterned background
 

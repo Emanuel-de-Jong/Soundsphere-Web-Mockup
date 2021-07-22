@@ -2,12 +2,15 @@
     <main class="container">
         <div class="main-box">
             <?php require('components/modals/leaderboard-description.php'); ?>
-            <a href="?a=leaderboards_leaderboard1_edit" class="page-icon page-icon-right" title="leaderboard settings">
-                <i class="fas fa-cog"></i>
-            </a>
-            <a href="#" class="page-icon page-icon-right2" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
-                <i class="fas fa-info-circle"></i>
-            </a>
+            <div class="page-icons page-icons-right">
+                <a href="#" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+
+                <a href="?a=leaderboards_leaderboard1_edit" class="page-icon" title="leaderboard settings">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
 
             <h1>Leaderboard1</h1>
 

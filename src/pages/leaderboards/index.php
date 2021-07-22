@@ -2,9 +2,11 @@
     <main class="container">
         <div class="main-box">
             <?php require('components/modals/create-leaderboard.php'); ?>
-            <a href="#" class="page-icon page-icon-right green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
-                <i class="fas fa-plus"></i>
-            </a>
+            <div class="page-icons page-icons-right">
+                <a href="#" class="page-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
 
             <h1>Leaderboards</h1>
 

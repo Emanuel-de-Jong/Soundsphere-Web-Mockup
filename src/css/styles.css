@@ -4,6 +4,12 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+}
+
 /* Remove bootstrap box shadows */
 input:focus {
     box-shadow: none !important;
@@ -120,12 +126,6 @@ main {
     font-size: 30px;
     margin-bottom: 12px;
 }
-
-.main-box p {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
 
 
 
@@ -269,30 +269,34 @@ main {
 
 /* ICON */
 /* Page icon */
-.page-icon {
+.page-icons {
     position: absolute;
     margin-top: 5px;
+}
+
+.page-icons-left {
+    left: 46px;
+}
+
+.page-icons-right {
+    right: 46px;
+}
+
+.page-icon {
     font-size: 25px;
     color: rgb(33, 37, 41);
+    text-decoration: none;
+    margin: 0 4px;
 }
 
 .page-icon:hover {
     color: rgb(78, 82, 85);
 }
 
-.page-icon-right {
-    right: 50px;
-}
-
-.page-icon-right2 {
-    right: 90px;
-}
-
 /* New message circle */
 .new-message-circle {
-    position: absolute;
-    right: -5px;
-    bottom: -3px;
+    display: inline-block;
+    margin-left: -18px;
     font-size: 14px;
     color: white;
     background-color: red;
@@ -309,11 +313,13 @@ main {
     margin-right: 18px;
 }
 
+/* H2 icon */
 .h2-icon {
     font-size: 24px;
     padding-top: 3px;
 }
 
+/* Label icon */
 .label-icon {
     font-size: 20px;
     margin-top: -3px;

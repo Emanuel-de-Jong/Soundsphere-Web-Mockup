@@ -1,9 +1,11 @@
 <div id="leaderboards-create">
     <main class="container">
         <div class="main-box">
-            <a href="?a=leaderboards_index" class="page-icon page-icon-left">
-                <i class="fas fa-arrow-left"></i>
-            </a>
+            <div class="page-icons page-icons-left">
+                <a href="?a=leaderboards_index" class="page-icon">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
 
             <h1>Leaderboards - Create</h1>
 

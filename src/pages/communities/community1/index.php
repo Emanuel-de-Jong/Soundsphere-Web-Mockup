@@ -22,13 +22,16 @@
 <div id="community">
     <main class="container">
         <div class="main-box">
-            <a href="?a=communities_community1_edit" class="page-icon page-icon-right" title="Community settings">
-                <i class="fas fa-cog"></i>
-            </a>
-            <a href="?a=communities_community1_inbox" class="page-icon page-icon-right2" title="Accept requests and send invites">
-                <i class="fas fa-inbox"></i>
-                <div class="new-message-circle">3</div>
-            </a>
+            <div class="page-icons page-icons-right">
+                <a href="?a=communities_community1_inbox" class="page-icon" title="Accept requests and send invites">
+                    <i class="fas fa-inbox"></i>
+                    <div class="new-message-circle">3</div>
+                </a>
+                
+                <a href="?a=communities_community1_edit" class="page-icon" title="Community settings">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
 
             <h1>AAA - Community1</h1>
 
@@ -66,7 +69,6 @@
             </section>
 
 
-            <?php require('components/modals/delete.php'); ?>
             <section id="leaderboards-section">
                 <h2>
                     Leaderboards
@@ -95,9 +97,6 @@
                             <td>1</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
-                                    <a href="#" class="table-icon table-icon-l red red-h" title="Delete leaderboard" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
                                     <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                         <i class="fas fa-pen"></i>
                                     </a>
@@ -109,6 +108,7 @@
             </section>
 
 
+            <?php require('components/modals/delete.php'); ?>
             <section id="members-section">
                 <h2>Members</h2>
 

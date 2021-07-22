@@ -28,13 +28,16 @@
 <div id="player">
     <main class="container">
         <div class="main-box">
-            <a href="?a=players_player1_edit" class="page-icon page-icon-right" title="Your settings">
-                <i class="fas fa-cog"></i>
-            </a>
-            <a href="?a=players_player1_inbox" class="page-icon page-icon-right2" title="Accept requests and send invites">
-                <i class="fas fa-inbox"></i>
-                <div class="new-message-circle">3</div>
-            </a>
+            <div class="page-icons page-icons-right">
+                <a href="?a=players_player1_inbox" class="page-icon" title="Accept requests and send invites">
+                    <i class="fas fa-inbox"></i>
+                    <div class="new-message-circle">3</div>
+                </a>
+
+                <a href="?a=players_player1_edit" class="page-icon" title="Your settings">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
 
             <h1>Player1</h1>
 
@@ -121,7 +124,7 @@
                     <div class="col-6">
                         <h2>
                             Leaderboards
-                            <a href="#" class="page-icon page-icon-right green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                            <a href="#" class="title-icon h2-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </h2>
