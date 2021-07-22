@@ -2,7 +2,7 @@
     <main class="container">
         <div class="main-box">
             <div class="page-icons page-icons-right">
-                <a href="?a=communities_create" class="page-icon green green-h" title="Create community">
+                <a href="?a=communities_create" class="page-icon" title="Create community">
                     <i class="fas fa-plus"></i>
                 </a>
             </div>

@@ -3,7 +3,7 @@
         <div class="main-box">
             <?php require('components/modals/create-leaderboard.php'); ?>
             <div class="page-icons page-icons-right">
-                <a href="#" class="page-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                <a href="#" class="page-icon" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
                     <i class="fas fa-plus"></i>
                 </a>
             </div>

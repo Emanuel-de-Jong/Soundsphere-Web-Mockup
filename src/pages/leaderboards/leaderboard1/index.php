@@ -39,6 +39,7 @@
             </section>
 
 
+            <?php require('components/modals/delete.php'); ?>
             <section id="communities-bms-tables-section">
                 <div class="row">
                     <div class="col-6">
@@ -57,13 +58,13 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
-                                    <td>4000</td>
+                                    <td>5000</td>
                                     <td>No</td>
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon green green-h" title="Join community">
-                                                <i class="fas fa-sign-in-alt"></i>
+                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                                <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>
                                     </td>
@@ -78,21 +79,21 @@
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon green green-h" title="Join community">
-                                                <i class="fas fa-sign-in-alt"></i>
+                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                                <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
-                                    <td>4000</td>
+                                    <td>3000</td>
                                     <td>No</td>
                                     <td>7key</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
-                                            <a href="#" class="table-icon green green-h" title="Join community">
-                                                <i class="fas fa-sign-in-alt"></i>
+                                            <a href="#" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                                <i class="fas fa-sign-out-alt"></i>
                                             </a>
                                         </div>
                                     </td>

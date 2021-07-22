@@ -22,7 +22,12 @@
 <div id="community">
     <main class="container">
         <div class="main-box">
+            <?php require('components/modals/delete.php'); ?>
             <div class="page-icons page-icons-right">
+                <a href="#" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+
                 <a href="?a=communities_community1_inbox" class="page-icon" title="Accept requests and send invites">
                     <i class="fas fa-inbox"></i>
                     <div class="new-message-circle">3</div>
@@ -108,7 +113,6 @@
             </section>
 
 
-            <?php require('components/modals/delete.php'); ?>
             <section id="members-section">
                 <h2>Members</h2>
 
