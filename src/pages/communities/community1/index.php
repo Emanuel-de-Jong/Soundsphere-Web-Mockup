@@ -42,7 +42,7 @@
                         <th title="Member count">Members:</th>
                         <td>10</td>
                         <th title="Input modes in community leaderboards">Input modes:</th>
-                        <td>7K</td>
+                        <td>7K, 10K</td>
                     </tr>
                     <tr>
                         <th title="To join private communities, you have to send a request">Public:</th>
@@ -79,7 +79,7 @@
                     <thead>
                         <tr>
                             <th title="Leaderboard name">Name</th>
-                            <th title="Leaderboard input mode">Input mode</th>
+                            <th title="Leaderboard input modes">Input modes</th>
                             <th title="Player on rank 1">Top player</th>
                             <th title="Player count">Players</th>
                             <th title="Table count">Tables</th>
@@ -89,7 +89,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                            <td>7K</td>
+                            <td>7K, 10K</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>

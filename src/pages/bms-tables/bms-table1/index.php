@@ -25,7 +25,7 @@
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>No</td>
-                                    <td>7K</td>
+                                    <td>7K, 10K</td>
                                     <td>25</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
@@ -47,7 +47,7 @@
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
-                                    <th title="Leaderboard input mode">Input mode</th>
+                                    <th title="Leaderboard input modes">Input modes</th>
                                     <th title="Player count">Players</th>
                                     <th title="Table count">Tables</th>
                                     <th></th>
@@ -56,7 +56,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                                    <td>7K</td>
+                                    <td>7K, 10K</td>
                                     <td>10</td>
                                     <td>1</td>
                                     <td class="table-icon-cell">

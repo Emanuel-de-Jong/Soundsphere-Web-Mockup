@@ -1,6 +1,19 @@
 <div id="leaderboard">
     <main class="container">
         <div class="main-box">
+            <div class="page-icons page-icons-left">
+                <form class="form-page">
+                    <div class="input-group" title="The input mode that the values and order of the page is based on">
+                        <span class="input-group-text">Mode:</span>
+                        <select class="form-select" id="input-mode" name="input-mode">
+                            <option selected>All</option>
+                            <option value="7key">7K</option>
+                            <option value="10key">10K</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
             <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/leaderboard-description.php'); ?>
             <div class="page-icons page-icons-right">
@@ -25,8 +38,8 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th title="Leaderboard input mode">Input mode:</th>
-                        <td>7K</td>
+                        <th title="Leaderboard input modes">Input modes:</th>
+                        <td>7K, 10K</td>
                         <th title="Player count">Players:</th>
                         <td>10</td>
                     </tr>
@@ -65,7 +78,7 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>5000</td>
                                     <td>No</td>
-                                    <td>7K</td>
+                                    <td>7K, 10K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -81,7 +94,7 @@
                                     </td>
                                     <td>4000</td>
                                     <td>No</td>
-                                    <td>7K</td>
+                                    <td>7K, 10K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -94,7 +107,7 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>3000</td>
                                     <td>No</td>
-                                    <td>7K</td>
+                                    <td>7K, 10K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">

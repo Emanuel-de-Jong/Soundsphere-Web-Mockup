@@ -14,8 +14,6 @@ GENERAL
 	better example rows
 
 LEADERBOARD
-	INDEX
-		input mode select
 	SETTINGS
 		input mode table
 		modifiers

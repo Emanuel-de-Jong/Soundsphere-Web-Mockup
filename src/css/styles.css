@@ -238,6 +238,11 @@ main {
     margin-bottom: 30px;
 }
 
+/* Page */
+.form-page {
+    padding-top: 5px;
+}
+
 /* Settings */
 .form-settings {
     margin: auto;
@@ -289,7 +294,7 @@ main {
 /* Page icon */
 .page-icons {
     position: absolute;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .page-icons-left {
