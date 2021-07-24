@@ -55,8 +55,69 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/add-bms-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
+                    <?php require('components/modals/add-input-mode.php'); ?>
+                    <div class="form-item">
+                        <label class="form-label w-100" title="Only scores with this input mode will be used">
+                            Input modes
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </label>
+                        <table class="data-table table">
+                            <tr>
+                                <td>7K</td>
+                                <td class="table-icon-cell">
+                                    <div class="table-icon-box">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-times"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <?php require('components/modals/add-modifier.php'); ?>
+                    <div class="form-item">
+                        <label class="form-label w-100" title="ASDASDASD">
+                            Modifiers
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </label>
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th title="Modifier name">Name</th>
+                                    <th title="Modifier minumal value">Min value</th>
+                                    <th title="Modifier maximal value">Max value</th>
+                                    <th title="Whether it's required, allowed or prohibited">Rule</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SpeedMode</td>
+                                    <td>Avg</td>
+                                    <td></td>
+                                    <td>Required</td>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                            <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                                                <i class="fas fa-pen"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <?php require('components/modals/add-bms-table.php'); ?>
                     <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables

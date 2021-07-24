@@ -27,8 +27,8 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/add-input-mode.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
+                    <?php require('components/modals/add-input-mode.php'); ?>
                     <div class="form-item">
                         <label class="form-label w-100" title="The input modes on your profile and next to you in tables">
                             Favourite input modes

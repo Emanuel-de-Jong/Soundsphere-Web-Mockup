@@ -14,7 +14,7 @@
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
                         <label for="name" class="form-label" title="Leaderboard name">Name</label>
-                        <input type="text" class="form-control" name="name" value="">
+                        <input type="text" class="form-control" name="name">
                     </div>
 
                     <div class="form-item">
@@ -55,8 +55,19 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/add-bms-table.php'); ?>
                     <?php require('components/modals/delete.php'); ?>
+                    <?php require('components/modals/add-input-mode.php'); ?>
+                    <div class="form-item">
+                        <label class="form-label w-100" title="Only scores with this input mode will be used">
+                            Input modes
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </label>
+                        <table class="data-table table"></table>
+                    </div>
+
+                    <?php require('components/modals/add-bms-table.php'); ?>
                     <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables

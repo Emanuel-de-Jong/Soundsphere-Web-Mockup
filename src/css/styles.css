@@ -238,9 +238,13 @@ main {
     margin-bottom: 30px;
 }
 
+.form-item-s {
+    margin-bottom: 16px;
+}
+
 /* Page */
 .form-page {
-    padding-top: 5px;
+    padding-top: 3px;
 }
 
 /* Settings */
