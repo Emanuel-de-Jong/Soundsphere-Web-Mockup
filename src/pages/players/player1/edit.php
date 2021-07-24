@@ -50,7 +50,9 @@
                         </table>
                     </div>
 
+                    <?php require('components/modals/confirm-delete.php'); ?>
                     <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
+                    <a href="#!" class="btn bg-red bg-red-h float-end" data-bs-toggle="modal" data-bs-target="#confirm-delete-modal">Delete</a>
                 </form>
             </section>
         </div>

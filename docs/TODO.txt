@@ -13,21 +13,12 @@ GENERAL
 	code cleanup
 	better example rows
 
-PLAYER
-	SETTINGS
-		delete
-
-COMMUNITY
-	SETTINGS
-		delete
-
 LEADERBOARD
 	INDEX
 		input mode select
 	SETTINGS
 		input mode table
 		modifiers
-		delete
 
 
 
