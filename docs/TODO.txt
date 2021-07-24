@@ -1,5 +1,10 @@
 === LOGIC ===
 GENERAL
+	delete name field
+	input mode as text field or select chart with that keymode
+	rename "7key" to 7k, SDVX
+	invite/request reason
+	terms of service (check osu, quaver)
 	default table column order
 	check form ids, fors and placeholders
 	form validation
@@ -10,17 +15,19 @@ GENERAL
 
 PLAYER
 	SETTINGS
-		*delete
+		delete
 
 COMMUNITY
-	INDEX
-		*tables table
 	SETTINGS
-		*delete
+		delete
 
 LEADERBOARD
+	INDEX
+		input mode select
 	SETTINGS
-		*delete
+		input mode table
+		modifiers
+		delete
 
 
 
@@ -30,7 +37,7 @@ GENERAL
 	show logo in navbar differently
 	remove table sort icons of icon columns
 	metatable only 1 tr
-	blurhash banner/bg for community, leaderboard, player and chart
+	blurhash banner for community, leaderboard, player and chart
 	patterned background
 	check mobile
 
@@ -40,18 +47,9 @@ GENERAL
 === OTHER ===
 LOGIN/REGISTER
 	vertical center
-	*captcha
-
-DOWNLOAD
-	*wait x seconds page
 
 HOME
 	everything
 
 HELP
 	everything
-
-
-
-
-* = ask semyon

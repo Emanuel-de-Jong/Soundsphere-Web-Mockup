@@ -24,7 +24,7 @@
                             <td>12</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -33,7 +33,7 @@
                             <td>12</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -42,7 +42,7 @@
                             <td>12</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -51,7 +51,7 @@
                             <td>12</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                     </tbody>

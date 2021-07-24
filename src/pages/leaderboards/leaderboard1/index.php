@@ -26,18 +26,18 @@
                 <table class="meta-table">
                     <tr>
                         <th title="Leaderboard input mode">Input mode:</th>
-                        <td>7 key</td>
+                        <td>7K</td>
                         <th title="Player count">Players:</th>
                         <td>10</td>
                     </tr>
                     <tr>
-                        <th title="Leaderboard">Difficulty calc:</th>
+                        <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc:</th>
                         <td>Table level</td>
-                        <th title="Leaderboard">Performance calc:</th>
+                        <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc:</th>
                         <td>soundsphere</td>
                     </tr>
                     <tr>
-                        <th title="Leaderboard">Score combiner:</th>
+                        <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner:</th>
                         <td>Logarithmic</td>
                     </tr>
                 </table>
@@ -65,7 +65,7 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>5000</td>
                                     <td>No</td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -81,7 +81,7 @@
                                     </td>
                                     <td>4000</td>
                                     <td>No</td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -94,7 +94,7 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>3000</td>
                                     <td>No</td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -123,7 +123,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td>20</td>
                                     <td>115</td>
                                 </tr>

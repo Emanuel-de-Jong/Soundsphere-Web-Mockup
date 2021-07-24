@@ -12,7 +12,7 @@
                         <th title="Creator name">Charter:</th>
                         <td>A charter</td>
                         <th title="Chart input mode">Input mode:</th>
-                        <td>7key</td>
+                        <td>7K</td>
                     </tr>
                     <tr>
                         <th title="Artist name">Artist:</th>
@@ -45,7 +45,7 @@
                         <tr>
                             <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                             <td>15</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
@@ -90,7 +90,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -108,7 +108,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -126,7 +126,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -144,7 +144,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">

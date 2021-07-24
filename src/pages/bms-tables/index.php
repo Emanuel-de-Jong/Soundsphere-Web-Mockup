@@ -24,25 +24,25 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
                             <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
                             <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>
                         <tr>
                             <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>20</td>
                             <td>115</td>
                         </tr>

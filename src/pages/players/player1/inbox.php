@@ -26,7 +26,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>10</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
@@ -66,7 +66,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>10</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">

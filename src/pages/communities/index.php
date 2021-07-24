@@ -30,7 +30,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
@@ -48,7 +48,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>8</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
@@ -63,7 +63,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>12</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
@@ -78,7 +78,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>4</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">

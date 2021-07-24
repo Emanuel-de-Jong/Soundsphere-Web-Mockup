@@ -36,7 +36,7 @@
                 <table class="meta-table">
                     <tr>
                         <th title="Favourite mode">Fav modes:</th>
-                        <td>7key</td>
+                        <td>7K</td>
                         <th title="Total time of gameplay">Playtime:</th>
                         <td>3d 18h</td>
                     </tr>
@@ -92,7 +92,7 @@
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>No</td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td>10</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
@@ -131,7 +131,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td>#3</td>
                                     <td>12</td>
                                     <td class="table-icon-cell">
@@ -187,7 +187,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -206,7 +206,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -225,7 +225,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -244,7 +244,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -301,7 +301,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
@@ -319,7 +319,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:27</td>
                             <td class="table-icon-cell">
@@ -337,7 +337,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:25</td>
                             <td class="table-icon-cell">
@@ -355,7 +355,7 @@
                             <td>1000</td>
                             <td>20</td>
                             <td>8</td>
-                            <td>10key</td>
+                            <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 14:12</td>
                             <td class="table-icon-cell">

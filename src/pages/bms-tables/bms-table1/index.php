@@ -25,7 +25,7 @@
                                 <tr>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>No</td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td>25</td>
                                     <td class="table-icon-cell">
                                         <div class="table-icon-box">
@@ -56,7 +56,7 @@
                             <tbody>
                                 <tr>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                                    <td>7key</td>
+                                    <td>7K</td>
                                     <td>10</td>
                                     <td>1</td>
                                     <td class="table-icon-cell">
@@ -96,7 +96,7 @@
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -105,7 +105,7 @@
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -114,7 +114,7 @@
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                         <tr>
@@ -123,7 +123,7 @@
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>15</td>
                         </tr>
                     </tbody>

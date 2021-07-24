@@ -42,7 +42,7 @@
                         <th title="Member count">Members:</th>
                         <td>10</td>
                         <th title="Input modes in community leaderboards">Input modes:</th>
-                        <td>7key</td>
+                        <td>7K</td>
                     </tr>
                     <tr>
                         <th title="To join private communities, you have to send a request">Public:</th>
@@ -89,7 +89,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
@@ -134,7 +134,7 @@
                             <td>#1</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
@@ -148,7 +148,7 @@
                             <td>#2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
@@ -162,7 +162,7 @@
                             <td>#3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
@@ -176,7 +176,7 @@
                             <td>#4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
-                            <td>7key</td>
+                            <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
