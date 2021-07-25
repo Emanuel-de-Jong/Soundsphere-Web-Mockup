@@ -1,7 +1,6 @@
 === LOGIC ===
 GENERAL
 	input mode as text field or select chart with that keymode
-	invite/request reason
 	terms of service (check osu, quaver)
 	default table column order
 	check form ids, fors and placeholders

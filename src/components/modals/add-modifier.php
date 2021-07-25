@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-spacing-s">
+                <form class="form-modal">
                     <div class="form-item">
                         <label for="modifier" class="form-label" title="Modifier name">Modifier</label>
                         <select class="form-select" id="modifier" name="modifier">

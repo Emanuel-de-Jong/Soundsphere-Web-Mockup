@@ -238,7 +238,8 @@ main {
     margin-bottom: 30px;
 }
 
-.form-spacing-s .form-item {
+/* Modal */
+.form-modal .form-item {
     margin-bottom: 16px;
 }
 

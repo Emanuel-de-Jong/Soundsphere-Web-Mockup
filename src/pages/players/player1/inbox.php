@@ -17,8 +17,7 @@
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>
-                            <th title="Input modes in community leaderboards">Input modes</th>
-                            <th title="Member count">Members</th>
+                            <th title="A message that the community attached to the invite">Message</th>
                             <th title="The date that the community send the invite">Invite send</th>
                             <th></th>
                         </tr>
@@ -26,8 +25,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>7K, 10K</td>
-                            <td>10</td>
+                            <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
@@ -57,8 +55,7 @@
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>
-                            <th title="Input modes in community leaderboards">Input modes</th>
-                            <th title="Member count">Members</th>
+                            <th title="The message that you attached to the request">Message</th>
                             <th title="The date that you send the request">Request send</th>
                             <th></th>
                         </tr>
@@ -66,8 +63,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td>7K, 10K</td>
-                            <td>10</td>
+                            <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">

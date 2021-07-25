@@ -17,8 +17,7 @@
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
-                            <th title="Total play count">Plays</th>
-                            <th title="Last submitted score">Last played</th>
+                            <th title="A message that the player attached to the request">Message</th>
                             <th title="The date that the player send the request">Request send</th>
                             <th></th>
                         </tr>
@@ -26,8 +25,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
-                            <td>18-04-21</td>
+                            <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
@@ -57,8 +55,7 @@
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
-                            <th title="Total play count">Plays</th>
-                            <th title="Last submitted score">Last played</th>
+                            <th title="A message that an admin attached to the invite">Message</th>
                             <th title="The date that an admin in the community send the invite">Invite send</th>
                             <th></th>
                         </tr>
@@ -66,8 +63,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
-                            <td>18-04-21</td>
+                            <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
                                 <div class="table-icon-box">
