@@ -1,7 +1,6 @@
 === LOGIC ===
 GENERAL
 	input mode as text field or select chart with that keymode
-	rename "7key" to 7k, SDVX
 	invite/request reason
 	terms of service (check osu, quaver)
 	default table column order
@@ -13,6 +12,8 @@ GENERAL
 	better example rows
 
 LEADERBOARD
+	INDEX
+		show modifiers
 	SETTINGS
 		modifiers
 

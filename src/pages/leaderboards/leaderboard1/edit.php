@@ -10,6 +10,11 @@
             <h1>Leaderboard1 - Settings</h1>
 
 
+            <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/add-modifier.php'); ?>
+            <?php require('components/modals/add-bms-table.php'); ?>
+            <?php require('components/modals/confirm-delete.php'); ?>
+            <?php require('components/modals/add-input-mode.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
@@ -55,8 +60,6 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/delete.php'); ?>
-                    <?php require('components/modals/add-input-mode.php'); ?>
                     <div class="form-item">
                         <label class="form-label w-100" title="Only scores with this input mode will be used">
                             Input modes
@@ -78,9 +81,8 @@
                         </table>
                     </div>
 
-                    <?php require('components/modals/add-modifier.php'); ?>
                     <div class="form-item">
-                        <label class="form-label w-100" title="ASDASDASD">
+                        <label class="form-label w-100" title="The modifiers a score needs to/can't have to be counted">
                             Modifiers
                             <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
                                 <i class="fas fa-plus"></i>
@@ -117,7 +119,6 @@
                         </table>
                     </div>
 
-                    <?php require('components/modals/add-bms-table.php'); ?>
                     <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
@@ -139,7 +140,6 @@
                         </table>
                     </div>
 
-                    <?php require('components/modals/confirm-delete.php'); ?>
                     <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                     <a href="#!" class="btn bg-red bg-red-h float-end" data-bs-toggle="modal" data-bs-target="#confirm-delete-modal">Delete</a>
                 </form>

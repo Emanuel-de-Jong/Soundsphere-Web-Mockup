@@ -9,6 +9,9 @@
 
             <h1>Community1 - Settings</h1>
 
+            <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/add-admin.php'); ?>
+            <?php require('components/modals/confirm-delete.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="row">
@@ -56,8 +59,6 @@
                         <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
                     </div>
 
-                    <?php require('components/modals/add-admin.php'); ?>
-                    <?php require('components/modals/delete.php'); ?>
                     <div class="form-item">
                         <label for="admins" class="form-label w-100" title="Players that can alter the community">
                             Admins
@@ -79,7 +80,6 @@
                         </table>
                     </div>
 
-                    <?php require('components/modals/confirm-delete.php'); ?>
                     <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                     <a href="#!" class="btn bg-red bg-red-h float-end" data-bs-toggle="modal" data-bs-target="#confirm-delete-modal">Delete</a>
                 </form>

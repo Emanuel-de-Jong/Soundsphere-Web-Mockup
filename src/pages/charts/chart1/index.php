@@ -54,6 +54,7 @@
             </section>
 
 
+            <?php require('components/modals/delete.php'); ?>
             <section id="scores-section">
                 <h2>Scores</h2>
 
@@ -66,7 +67,6 @@
                     </select>
                 </form>
 
-                <?php require('components/modals/delete.php'); ?>
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>

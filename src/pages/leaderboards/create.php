@@ -10,6 +10,11 @@
             <h1>Leaderboards - Create</h1>
 
 
+            <?php require('components/modals/delete.php'); ?>
+            <?php require('components/modals/add-modifier.php'); ?>
+            <?php require('components/modals/add-bms-table.php'); ?>
+            <?php require('components/modals/confirm-delete.php'); ?>
+            <?php require('components/modals/add-input-mode.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
@@ -55,8 +60,6 @@
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
-                    <?php require('components/modals/delete.php'); ?>
-                    <?php require('components/modals/add-input-mode.php'); ?>
                     <div class="form-item">
                         <label class="form-label w-100" title="Only scores with this input mode will be used">
                             Input modes
@@ -67,7 +70,6 @@
                         <table class="data-table table"></table>
                     </div>
 
-                    <?php require('components/modals/add-bms-table.php'); ?>
                     <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
