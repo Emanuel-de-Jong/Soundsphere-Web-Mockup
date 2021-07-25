@@ -11,12 +11,6 @@ GENERAL
 	code cleanup
 	better example rows
 
-LEADERBOARD
-	INDEX
-		show modifiers
-	SETTINGS
-		modifiers
-
 
 
 

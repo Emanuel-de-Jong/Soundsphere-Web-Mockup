@@ -71,6 +71,27 @@
                     </div>
 
                     <div class="form-item">
+                        <label class="form-label w-100" title="The modifiers a score needs to/can't have to be counted">
+                            Modifiers
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </label>
+                        <table class="data-table table">
+                            <thead>
+                                <tr>
+                                    <th title="Modifier name">Name</th>
+                                    <th title="Modifier minumal value">Min value</th>
+                                    <th title="Modifier maximal value">Max value</th>
+                                    <th title="Whether it's required, allowed or prohibited">Rule</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+
+                    <div class="form-item">
                         <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
                             Tables
                             <a href="#!" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">

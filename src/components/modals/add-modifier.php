@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <form class="form-spacing-s">
                     <div class="form-item">
-                        <label for="modifier" class="form-label" title="ASDASDASD">Modifier</label>
+                        <label for="modifier" class="form-label" title="Modifier name">Modifier</label>
                         <select class="form-select" id="modifier" name="modifier">
                             <option selected disabled hidden>Select a modifier</option>
                             <option value="SMod">SpeedMode</option>
@@ -18,17 +18,17 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="min-value" class="form-label" title="ASDASDASD">Min value</label>
+                        <label for="min-value" class="form-label" title="Modifier minumal value">Min value</label>
                         <input type="text" class="form-control" id="min-value" name="min-value">
                     </div>
 
                     <div class="form-item">
-                        <label for="max-value" class="form-label" title="ASDASDASD">Max value (if applicable)</label>
+                        <label for="max-value" class="form-label" title="Modifier maximal value">Max value (if applicable)</label>
                         <input type="text" class="form-control" id="max-value" name="max-value">
                     </div>
 
                     <div class="form-item">
-                        <label for="rule" class="form-label" title="ASDASDASD">Rule</label>
+                        <label for="rule" class="form-label" title="Whether it's required, allowed or prohibited">Rule</label>
                         <select class="form-select" id="rule" name="rule">
                             <option selected disabled hidden>Select a rule</option>
                             <option value="required">Required</option>

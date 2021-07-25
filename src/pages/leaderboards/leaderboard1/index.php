@@ -57,6 +57,30 @@
             </section>
 
 
+            <section id="modifiers-section">
+                <h2>Modifiers</h2>
+
+                <table class="data-table table">
+                    <thead>
+                        <tr>
+                            <th title="Modifier name">Name</th>
+                            <th title="Modifier minumal value">Min value</th>
+                            <th title="Modifier maximal value">Max value</th>
+                            <th title="Whether it's required, allowed or prohibited">Rule</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SpeedMode</td>
+                            <td>Avg</td>
+                            <td></td>
+                            <td>Required</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
             <?php require('components/modals/delete.php'); ?>
             <section id="communities-bms-tables-section">
                 <div class="row">
