@@ -145,7 +145,7 @@
                         <tr>
                             <td>#2</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show orange" title="An admin in the community">
+                                <span class="table-icon table-icon-s table-icon-show orange" title="Community owner">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -161,7 +161,11 @@
                         </tr>
                         <tr>
                             <td>#3</td>
-                            <td></td>
+                            <td class="table-icon-cell">
+                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community admin">
+                                    <i class="fas fa-crown"></i>
+                                </span>
+                            </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
                             <td>7K</td>
@@ -175,7 +179,7 @@
                         <tr>
                             <td>#4</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show orange" title="An admin in the community">
+                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community admin">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>

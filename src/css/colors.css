@@ -52,6 +52,25 @@
 
 
 
+/* YELLOW */
+.yellow {
+    color: rgb(255, 230, 7)!important;
+}
+.yellow-h:hover {
+    color: rgb(223, 201, 8)!important;
+}
+.bg-yellow {
+    background-color: rgb(255, 230, 7)!important;
+    color: white;
+}
+.bg-yellow-h:hover {
+    background-color: rgb(223, 201, 8)!important;
+    color: white;
+}
+
+
+
+
 /* ORANGE */
 .orange {
     color: rgb(255, 193, 7)!important;

@@ -15,9 +15,6 @@ PLAYER
 	INDEX
 		show roles
 
-COMMUNITY
-	difference between admin and owner
-
 
 
 
@@ -29,6 +26,7 @@ GENERAL
 	blurhash banner for community, leaderboard, player and chart
 	patterned background
 	check mobile
+	check different browsers
 
 
 
