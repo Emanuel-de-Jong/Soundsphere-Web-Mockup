@@ -49,6 +49,22 @@
     color: white;
 }
 
+/* Light red */
+.lred {
+    color: rgb(240, 72, 89)!important;
+}
+.lred-h:hover {
+    color: rgb(224, 54, 71)!important;
+}
+.bg-lred {
+    background-color: rgb(240, 72, 89)!important;
+    color: white;
+}
+.bg-lred-h:hover {
+    background-color: rgb(224, 54, 71)!important;
+    color: white;
+}
+
 
 
 
@@ -79,11 +95,11 @@
     color: rgb(228, 173, 9)!important;
 }
 .bg-orange {
-    background-color: rgb(255, 193, 7)!important;
+    background-color: rgb(241, 172, 23)!important;
     color: white;
 }
 .bg-orange-h:hover {
-    background-color: rgb(228, 173, 9)!important;
+    background-color: rgb(255, 187, 0)!important;
     color: white;
 }
 

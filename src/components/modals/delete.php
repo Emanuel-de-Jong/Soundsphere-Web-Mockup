@@ -6,7 +6,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                Are you sure you want to delete this item?
+                <p>
+                    Are you sure you want to delete this item?
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn bg-red bg-red-h" data-bs-dismiss="modal">Delete</button>

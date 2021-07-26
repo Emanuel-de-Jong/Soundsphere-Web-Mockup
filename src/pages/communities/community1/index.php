@@ -145,7 +145,7 @@
                         <tr>
                             <td>#2</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show orange" title="Community owner">
+                                <span class="table-icon table-icon-s table-icon-show lred" title="Community owner">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -162,7 +162,7 @@
                         <tr>
                             <td>#3</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community admin">
+                                <span class="table-icon table-icon-s table-icon-show orange" title="Community admin">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -179,7 +179,7 @@
                         <tr>
                             <td>#4</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community admin">
+                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community moderator">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>

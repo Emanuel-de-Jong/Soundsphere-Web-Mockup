@@ -1,5 +1,7 @@
 === LOGIC ===
 GENERAL
+	*score replay download
+	vertically center table icons
 	page icons flex box or title fixed width for title wrap
 	input mode as text field or select chart with that keymode
 	terms of service (check osu, quaver)
@@ -21,7 +23,6 @@ PLAYER
 === DESIGN ===
 GENERAL
 	show logo in navbar differently
-	remove table sort icons of icon columns
 	metatable only 1 tr
 	blurhash banner for community, leaderboard, player and chart
 	patterned background

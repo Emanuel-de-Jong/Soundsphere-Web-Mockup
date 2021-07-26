@@ -12,6 +12,7 @@
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-admin.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
+            <?php require('components/modals/transfer-ownership.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=communities_community1_index" method="post">
                     <div class="row">
@@ -60,7 +61,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="admins" class="form-label w-100" title="Players that can alter the community">
+                        <label for="admins" class="form-label w-100" title="Players that can manage leaderboards">
                             Admins
                             <a href="#!" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
@@ -78,8 +79,28 @@
                         </table>
                     </div>
 
+                    <div class="form-item">
+                        <label for="moderators" class="form-label w-100" title="Players that can kick members">
+                            Moderators
+                            <a href="#!" class="title-icon label-icon green green-h" title="Add moderator" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </label>
+                        <table class="data-table table table-icon-col-last">
+                            <tr>
+                                <td><a href="?a=players_player1_index">Player1</a></td>
+                                <td class="table-icon-cell">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Remove moderator" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
                     <button type="submit" class="btn bg-blue bg-blue-h">Save</button>
                     <a href="#!" class="btn bg-red bg-red-h float-end" data-bs-toggle="modal" data-bs-target="#confirm-delete-modal">Delete</a>
+                    <a href="#!" class="btn bg-orange bg-orange-h float-end me-2" data-bs-toggle="modal" data-bs-target="#transfer-ownership-modal">Change owner</a>
                 </form>
             </section>
         </div>
