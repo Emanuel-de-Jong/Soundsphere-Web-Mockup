@@ -103,11 +103,11 @@
                                     <td></td>
                                     <td>Required</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-times"></i>
-                                        </a>
                                         <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
                                             <i class="fas fa-pen"></i>
+                                        </a>
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-times"></i>
                                         </a>
                                     </td>
                                 </tr>

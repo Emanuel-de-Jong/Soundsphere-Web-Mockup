@@ -1,8 +1,6 @@
 === LOGIC ===
 GENERAL
 	score replay download
-	vertically center table icons
-	page icons flex box or title fixed width for title wrap
 	input mode as text field or select chart with that keymode
 	terms of service (check osu, quaver)
 	default table column order

@@ -40,10 +40,8 @@ textarea:focus {
 
 /* NAVBAR */
 /* primary */
-@media (min-width: 992px) {
-    #primary-navbar .container {
-        padding: 0 72px;
-    }
+#primary-navbar .container {
+    padding: 0 72px;
 }
 
 #primary-navbar .nav-link {
@@ -73,6 +71,12 @@ textarea:focus {
     min-height: 62px;
 }
 
+@media (max-width: 991px) {
+    #primary-navbar .container {
+        padding: 0 12px;
+    }
+}
+
 /* secondary */
 #secondary-navbar {
     position: fixed;
@@ -84,10 +88,8 @@ textarea:focus {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-@media (min-width: 992px) {
-    #secondary-navbar .container {
-        padding: 0 80px;
-    }
+#secondary-navbar .container {
+    padding: 0 80px;
 }
 
 #secondary-navbar .nav-link {
@@ -96,6 +98,12 @@ textarea:focus {
 
 #secondary-navbar-box {
     min-height: 40px;
+}
+
+@media (max-width: 991px) {
+    #secondary-navbar .container {
+        padding: 0 12px;
+    }
 }
 
 
@@ -109,16 +117,11 @@ main {
 
 .main-box {
     position: relative;
+    margin: 0 60px;
     padding: 40px 50px 1px 50px;
     border-radius: 0.25rem;
     background-color: white;
     box-shadow: 3px 3px .25rem rgba(0, 0, 0, .075);
-}
-
-@media (min-width: 992px) {
-    .main-box {
-        margin: 0 60px;
-    }
 }
 
 .main-box section {
@@ -129,11 +132,27 @@ main {
     font-size: 44px;
     margin-bottom: 70px;
     text-align: center;
+    margin: auto;
+    width: 75%;
 }
 .main-box h2 {
     font-size: 30px;
     margin-bottom: 12px;
 }
+
+@media (max-width: 1199px) {
+    .main-box h1 {
+        font-size: 40px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-box {
+        margin: 0;
+    }
+}
+
 
 
 
@@ -316,6 +335,7 @@ main {
 
 .page-icons-right {
     right: 46px;
+    text-align: right;
 }
 
 .page-icon {
@@ -327,6 +347,13 @@ main {
 
 .page-icon:hover {
     color: rgb(78, 82, 85);
+}
+
+@media (max-width: 1199px) {
+    .page-icons {
+        width: 40px;
+        text-align: center;
+    }
 }
 
 /* New message circle */
@@ -383,6 +410,7 @@ main {
     font-size: 19px;
     text-decoration: none;
     margin-left: 8px;
+    vertical-align: middle;
 }
 tr:hover .table-icon {
     visibility: visible;

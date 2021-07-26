@@ -95,11 +95,11 @@
                                     <td>7K, 10K</td>
                                     <td>10</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-sign-out-alt"></i>
-                                        </a>
                                         <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
                                             <i class="fas fa-pen"></i>
+                                        </a>
+                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>
                                 </tr>
@@ -133,11 +133,11 @@
                                     <td>#3</td>
                                     <td>12</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                            <i class="fas fa-sign-in-alt"></i>
-                                        </a>
                                         <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                             <i class="fas fa-pen"></i>
+                                        </a>
+                                        <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                            <i class="fas fa-sign-in-alt"></i>
                                         </a>
                                     </td>
                                 </tr>
