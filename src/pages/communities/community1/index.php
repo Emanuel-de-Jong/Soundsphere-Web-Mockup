@@ -93,7 +93,7 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
@@ -121,7 +121,8 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th title="Rank of the selected leaderboard">Rank</th>
+                            <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>
+                            <th></th>
                             <th title="Player name">Name</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Favourite mode">Fav mode</th>
@@ -132,11 +133,12 @@
                     <tbody>
                         <tr>
                             <td>#1</td>
+                            <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -146,11 +148,18 @@
                         </tr>
                         <tr>
                             <td>#2</td>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <span class="table-icon table-icon-s table-icon-show orange" title="An admin in the community">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                </div>
+                            </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -160,11 +169,12 @@
                         </tr>
                         <tr>
                             <td>#3</td>
+                            <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -174,11 +184,18 @@
                         </tr>
                         <tr>
                             <td>#4</td>
+                            <td class="table-icon-cell">
+                                <div class="table-icon-box">
+                                    <span class="table-icon table-icon-s table-icon-show orange" title="An admin in the community">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                </div>
+                            </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -190,6 +207,7 @@
                     <tfoot>
                         <tr>
                             <th title="Rank of the selected leaderboard">Rank</th>
+                            <th></th>
                             <th title="Player name">Name</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Most played input mode">Favourite mode</th>

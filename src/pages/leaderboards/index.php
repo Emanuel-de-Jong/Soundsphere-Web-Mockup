@@ -33,7 +33,7 @@
                             <td>10</td>
                             <td>1</td>
                             <td>1</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
@@ -51,7 +51,7 @@
                             <td>10</td>
                             <td>1</td>
                             <td>1</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
@@ -66,7 +66,7 @@
                             <td>10</td>
                             <td>1</td>
                             <td>1</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
@@ -81,7 +81,7 @@
                             <td>10</td>
                             <td>1</td>
                             <td>1</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>

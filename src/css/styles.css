@@ -182,6 +182,10 @@ main {
 
 
 /* TABLE */
+.table-col-minwidth {
+    width: 1px;
+}
+
 /* data-table */
 .data-table {
     min-width: 99.5%;
@@ -360,9 +364,14 @@ main {
 /* table icon */
 .table-icon-cell {
     padding: 0 8px 0 0 !important;
+    width: 1px;
 }
 
-.table-icon-cell-end {
+.table-icon-cell-first {
+    padding-left: 8px !important;
+}
+
+.table-icon-cell-last {
     padding-right: 20px !important;
 }
 
@@ -404,12 +413,6 @@ tr:hover .table-icon {
 
 
 /* PAGE */
-/* Leaderboard */
-#leaderboard #leaderboard-owner {
-    /* background-color: rgb(255, 240, 230); */
-    font-size: 13px;
-}
-
 /* Login and register */
 #login .main-box,
 #register .main-box {

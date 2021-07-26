@@ -27,7 +27,7 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td>25</td>
-                                    <td class="table-icon-cell table-icon-cell-end">
+                                    <td class="table-icon-cell table-icon-cell-last">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
@@ -59,7 +59,7 @@
                                     <td>7K, 10K</td>
                                     <td>10</td>
                                     <td>1</td>
-                                    <td class="table-icon-cell table-icon-cell-end">
+                                    <td class="table-icon-cell table-icon-cell-last">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                                 <i class="fas fa-sign-in-alt" title="Add to community"></i>

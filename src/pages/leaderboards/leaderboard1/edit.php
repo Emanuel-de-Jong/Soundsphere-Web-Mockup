@@ -70,7 +70,7 @@
                         <table class="data-table table">
                             <tr>
                                 <td>7K</td>
-                                <td class="table-icon-cell table-icon-cell-end">
+                                <td class="table-icon-cell table-icon-cell-last">
                                     <div class="table-icon-box">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>
@@ -104,7 +104,7 @@
                                     <td>Avg</td>
                                     <td></td>
                                     <td>Required</td>
-                                    <td class="table-icon-cell table-icon-cell-end">
+                                    <td class="table-icon-cell table-icon-cell-last">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-times"></i>
@@ -129,7 +129,7 @@
                         <table class="data-table table" id="bms-tables">
                             <tr>
                                 <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                                <td class="table-icon-cell table-icon-cell-end">
+                                <td class="table-icon-cell table-icon-cell-last">
                                     <div class="table-icon-box">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>

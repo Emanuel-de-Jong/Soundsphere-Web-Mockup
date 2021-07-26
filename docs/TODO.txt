@@ -16,8 +16,7 @@ PLAYER
 		show roles
 
 COMMUNITY
-	INDEX
-		show admins
+	difference between admin and owner
 
 
 

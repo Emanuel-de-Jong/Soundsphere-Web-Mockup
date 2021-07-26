@@ -94,7 +94,7 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td>10</td>
-                                    <td class="table-icon-cell table-icon-cell-end">
+                                    <td class="table-icon-cell table-icon-cell-last">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
@@ -134,7 +134,7 @@
                                     <td>7K, 10K</td>
                                     <td>#3</td>
                                     <td>12</td>
-                                    <td class="table-icon-cell table-icon-cell-end">
+                                    <td class="table-icon-cell table-icon-cell-last">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                                 <i class="fas fa-sign-in-alt"></i>
@@ -181,7 +181,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -199,7 +199,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:27</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -217,7 +217,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:25</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -235,7 +235,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 14:12</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -261,7 +261,7 @@
                 <table class="data-table data-table-all table">
                     <thead>
                         <tr>
-                            <th title="Rank compared to other scores of the player">Top</th>
+                            <th class="table-col-minwidth" title="Rank compared to other scores of the player">Top</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
@@ -286,7 +286,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -305,7 +305,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -324,7 +324,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -343,7 +343,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-end">
+                            <td class="table-icon-cell table-icon-cell-last">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
