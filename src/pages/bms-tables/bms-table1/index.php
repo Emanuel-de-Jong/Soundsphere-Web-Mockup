@@ -11,7 +11,7 @@
                     <div class="col-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
@@ -27,12 +27,10 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td>25</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                                <i class="fas fa-sign-out-alt"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -43,7 +41,7 @@
                     <div class="col-6">
                         <h2>Leaderboards</h2>
 
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
@@ -59,12 +57,10 @@
                                     <td>7K, 10K</td>
                                     <td>10</td>
                                     <td>1</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                                <i class="fas fa-sign-in-alt" title="Add to community"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                            <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>

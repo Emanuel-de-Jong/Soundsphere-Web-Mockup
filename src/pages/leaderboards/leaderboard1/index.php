@@ -87,7 +87,7 @@
                     <div class="col-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last table-icon-col-first">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -105,32 +105,26 @@
                                     <td>5000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                                <i class="fas fa-sign-out-alt"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="table-icon-cell table-icon-cell-first">
-                                        <div class="table-icon-box">
-                                            <span class="table-icon table-icon-s table-icon-show orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
-                                                <i class="fas fa-crown"></i>
-                                            </span>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <span class="table-icon table-icon-s table-icon-show orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
+                                            <i class="fas fa-crown"></i>
+                                        </span>
                                     </td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>4000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                                <i class="fas fa-sign-out-alt"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -139,12 +133,10 @@
                                     <td>3000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                                <i class="fas fa-sign-out-alt"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>

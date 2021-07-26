@@ -365,22 +365,17 @@ main {
 .table-icon-cell {
     padding: 0 8px 0 0 !important;
     width: 1px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: right;
 }
 
-.table-icon-cell-first {
+.table-icon-col-first tr td:first-child {
     padding-left: 8px !important;
 }
 
-.table-icon-cell-last {
+.table-icon-col-last tr td:last-child {
     padding-right: 20px !important;
-}
-
-.table-icon-box {
-    height: 40px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    flex-wrap: nowrap;
 }
 
 .table-icon {

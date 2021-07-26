@@ -13,7 +13,7 @@
             <section id="incoming-requests-section">
                 <h2>Incoming requests</h2>
 
-                <table class="data-table table">
+                <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
@@ -27,15 +27,13 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                    <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the request. The player will join the community.">
-                                        <i class="fas fa-check"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the request. The player will join the community.">
+                                    <i class="fas fa-check"></i>
+                                </a>
+                                <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                     </tbody>
@@ -51,7 +49,7 @@
                     </a>
                 </h2>
 
-                <table class="data-table table">
+                <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
@@ -65,12 +63,10 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the invite">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the invite">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                     </tbody>

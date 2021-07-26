@@ -66,15 +66,13 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last">
                             <tr>
                                 <td><a href="?a=players_player1_index">Player1</a></td>
-                                <td class="table-icon-cell table-icon-cell-last">
-                                    <div class="table-icon-box">
-                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                    </div>
+                                <td class="table-icon-cell">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </table>

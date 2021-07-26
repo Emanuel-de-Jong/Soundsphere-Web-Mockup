@@ -67,15 +67,13 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last">
                             <tr>
                                 <td>7K</td>
-                                <td class="table-icon-cell table-icon-cell-last">
-                                    <div class="table-icon-box">
-                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                    </div>
+                                <td class="table-icon-cell">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </table>
@@ -88,7 +86,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table">
+                        <table class="data-table table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>
@@ -104,15 +102,13 @@
                                     <td>Avg</td>
                                     <td></td>
                                     <td>Required</td>
-                                    <td class="table-icon-cell table-icon-cell-last">
-                                        <div class="table-icon-box">
-                                            <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                            <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
-                                                <i class="fas fa-pen"></i>
-                                            </a>
-                                        </div>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-times"></i>
+                                        </a>
+                                        <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                                            <i class="fas fa-pen"></i>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -126,15 +122,13 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table" id="bms-tables">
+                        <table class="data-table table table-icon-col-last" id="bms-tables">
                             <tr>
                                 <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
-                                <td class="table-icon-cell table-icon-cell-last">
-                                    <div class="table-icon-box">
-                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                    </div>
+                                <td class="table-icon-cell">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
                                 </td>
                             </tr>
                         </table>

@@ -67,7 +67,7 @@
                     </select>
                 </form>
 
-                <table class="data-table data-table-all table">
+                <table class="data-table data-table-all table table-icon-col-last">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>
@@ -93,12 +93,10 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -111,12 +109,10 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -129,12 +125,10 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -147,12 +141,10 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell table-icon-cell-last">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
                             </td>
                         </tr>
                     </tbody>
