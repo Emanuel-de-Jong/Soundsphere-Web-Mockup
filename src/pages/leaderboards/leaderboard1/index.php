@@ -90,6 +90,7 @@
                         <table class="data-table table">
                             <thead>
                                 <tr>
+                                    <th></th>
                                     <th title="Community name">Name</th>
                                     <th title="Total performance in leaderboard">Performance</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
@@ -99,11 +100,12 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td></td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>5000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell">
+                                    <td class="table-icon-cell table-icon-cell-end">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
@@ -112,14 +114,16 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <i class="fas fa-crown orange" id="leaderboard-owner" title="The leaderboard owner. Can edit and delete the leaderboard."></i> 
-                                        <a href="?a=communities_community1_index">Community1</a>
+                                    <td class="table-icon-cell">
+                                        <div class="table-icon-box">
+                                            <i class="fas fa-crown table-icon table-icon-show orange" id="leaderboard-owner" title="The leaderboard owner. Can edit and delete the leaderboard."></i> 
+                                        </div>
                                     </td>
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>4000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell">
+                                    <td class="table-icon-cell table-icon-cell-end">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
@@ -128,11 +132,12 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td></td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>3000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td class="table-icon-cell">
+                                    <td class="table-icon-cell table-icon-cell-end">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>

@@ -40,7 +40,7 @@
                         <table class="data-table table">
                             <tr>
                                 <td>7K</td>
-                                <td class="table-icon-cell">
+                                <td class="table-icon-cell table-icon-cell-end">
                                     <div class="table-icon-box">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>

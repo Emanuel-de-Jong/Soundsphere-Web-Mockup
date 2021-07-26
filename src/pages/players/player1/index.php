@@ -5,8 +5,8 @@
             <a class="nav-link" href="#description-section">Description</a>
             <a class="nav-link" href="#leaderboards-communities-section">Communities</a>
             <a class="nav-link" href="#leaderboards-communities-section">Leaderboards</a>
-            <a class="nav-link" href="#top-scores-section">Top scores</a>
             <a class="nav-link" href="#recent-scores-section">Recent scores</a>
+            <a class="nav-link" href="#top-scores-section">Top scores</a>
         </div>
     </div>
 </nav>
@@ -94,7 +94,7 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td>10</td>
-                                    <td class="table-icon-cell">
+                                    <td class="table-icon-cell table-icon-cell-end">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                                 <i class="fas fa-sign-out-alt"></i>
@@ -134,7 +134,7 @@
                                     <td>7K, 10K</td>
                                     <td>#3</td>
                                     <td>12</td>
-                                    <td class="table-icon-cell">
+                                    <td class="table-icon-cell table-icon-cell-end">
                                         <div class="table-icon-box">
                                             <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                                 <i class="fas fa-sign-in-alt"></i>
@@ -149,6 +149,102 @@
                         </table>
                     </div>
                 </div>
+            </section>
+
+
+            <section id="recent-scores-section">
+                <h2>Recent scores</h2>
+
+                <table class="data-table table">
+                    <thead>
+                        <tr>
+                            <th title="Chart title">Title</th>
+                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart level">Level</th>
+                            <th title="Players chart performance">Performance</th>
+                            <th title="Player accuracy">Acc</th>
+                            <th title="Player miss count">Misses</th>
+                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="Score date and time">Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td>12</td>
+                            <td>1000</td>
+                            <td>20</td>
+                            <td>8</td>
+                            <td>10K</td>
+                            <td>CMod, 1.4X</td>
+                            <td>10-10-21 15:28</td>
+                            <td class="table-icon-cell table-icon-cell-end">
+                                <div class="table-icon-box">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td>12</td>
+                            <td>1000</td>
+                            <td>20</td>
+                            <td>8</td>
+                            <td>10K</td>
+                            <td>CMod, 1.4X</td>
+                            <td>10-10-21 15:27</td>
+                            <td class="table-icon-cell table-icon-cell-end">
+                                <div class="table-icon-box">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td>12</td>
+                            <td>1000</td>
+                            <td>20</td>
+                            <td>8</td>
+                            <td>10K</td>
+                            <td>CMod, 1.4X</td>
+                            <td>10-10-21 15:25</td>
+                            <td class="table-icon-cell table-icon-cell-end">
+                                <div class="table-icon-box">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Chart1</td>
+                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td>12</td>
+                            <td>1000</td>
+                            <td>20</td>
+                            <td>8</td>
+                            <td>10K</td>
+                            <td>CMod, 1.4X</td>
+                            <td>10-10-21 14:12</td>
+                            <td class="table-icon-cell table-icon-cell-end">
+                                <div class="table-icon-box">
+                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
 
@@ -190,7 +286,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -209,7 +305,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -228,7 +324,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -247,7 +343,7 @@
                             <td>10K</td>
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -271,102 +367,6 @@
                             <th></th>
                         </tr>
                     </tfoot>
-                </table>
-            </section>
-
-
-            <section id="recent-scores-section">
-                <h2>Recent scores</h2>
-
-                <table class="data-table table">
-                    <thead>
-                        <tr>
-                            <th title="Chart title">Title</th>
-                            <th title="Chart difficulty">Difficulty</th>
-                            <th title="Chart level">Level</th>
-                            <th title="Players chart performance">Performance</th>
-                            <th title="Player accuracy">Acc</th>
-                            <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
-                            <th title="Score date and time">Date</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
-                            <td>1000</td>
-                            <td>20</td>
-                            <td>8</td>
-                            <td>10K</td>
-                            <td>CMod, 1.4X</td>
-                            <td>10-10-21 15:28</td>
-                            <td class="table-icon-cell">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
-                            <td>1000</td>
-                            <td>20</td>
-                            <td>8</td>
-                            <td>10K</td>
-                            <td>CMod, 1.4X</td>
-                            <td>10-10-21 15:27</td>
-                            <td class="table-icon-cell">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
-                            <td>1000</td>
-                            <td>20</td>
-                            <td>8</td>
-                            <td>10K</td>
-                            <td>CMod, 1.4X</td>
-                            <td>10-10-21 15:25</td>
-                            <td class="table-icon-cell">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
-                            <td>12</td>
-                            <td>1000</td>
-                            <td>20</td>
-                            <td>8</td>
-                            <td>10K</td>
-                            <td>CMod, 1.4X</td>
-                            <td>10-10-21 14:12</td>
-                            <td class="table-icon-cell">
-                                <div class="table-icon-box">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
                 </table>
             </section>
         </div>

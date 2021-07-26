@@ -248,6 +248,10 @@ main {
     padding-top: 3px;
 }
 
+.form-page .input-group-text {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
 /* Settings */
 .form-settings {
     margin: auto;
@@ -355,7 +359,11 @@ main {
 
 /* table icon */
 .table-icon-cell {
-    padding: 0 20px 0 0 !important;
+    padding: 0 8px 0 0 !important;
+}
+
+.table-icon-cell-end {
+    padding-right: 20px !important;
 }
 
 .table-icon-box {

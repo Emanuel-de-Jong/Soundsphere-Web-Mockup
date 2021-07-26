@@ -27,7 +27,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -65,7 +65,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the request">
                                         <i class="fas fa-times"></i>

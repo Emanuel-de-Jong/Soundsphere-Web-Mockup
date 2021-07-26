@@ -93,7 +93,7 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                         <i class="fas fa-sign-in-alt"></i>
@@ -136,7 +136,7 @@
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -150,7 +150,7 @@
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -164,7 +164,7 @@
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
@@ -178,7 +178,7 @@
                             <td>200</td>
                             <td>7K</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell">
+                            <td class="table-icon-cell table-icon-cell-end">
                                 <div class="table-icon-box">
                                     <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                         <i class="fas fa-times"></i>
