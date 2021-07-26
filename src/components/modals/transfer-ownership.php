@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn bg-orange bg-orange-h" data-bs-dismiss="modal">Transfer</button>
+                <a href="?a=communities_community1_index" class="btn bg-orange bg-orange-h">Transfer</a>
                 <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>

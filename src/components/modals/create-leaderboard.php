@@ -14,9 +14,7 @@
                 </select>
             </div>
             <div class="modal-footer">
-                <a href="?a=leaderboards_create">
-                    <button type="button" class="btn bg-dgreen bg-dgreen-h">Start creation</button>
-                </a>
+                <a href="?a=leaderboards_create" class="btn bg-dgreen bg-dgreen-h">Start creation</a>
                 <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>

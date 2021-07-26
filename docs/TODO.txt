@@ -1,6 +1,6 @@
 === LOGIC ===
 GENERAL
-	*score replay download
+	score replay download
 	vertically center table icons
 	page icons flex box or title fixed width for title wrap
 	input mode as text field or select chart with that keymode
@@ -15,15 +15,20 @@ GENERAL
 
 PLAYER
 	INDEX
-		show roles
+		role table
+		community table owner crown
+	SETTINGS
+		change name color
 
 
 
 
 === DESIGN ===
 GENERAL
+	title decide on "delete" or "remove"
 	show logo in navbar differently
 	metatable only 1 tr
+	hamburger menu for many page icons
 	blurhash banner for community, leaderboard, player and chart
 	patterned background
 	check mobile
