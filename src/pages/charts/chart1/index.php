@@ -97,6 +97,9 @@
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
+                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                    <i class="fas fa-download"></i>
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -112,6 +115,9 @@
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
+                                </a>
+                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                    <i class="fas fa-download"></i>
                                 </a>
                             </td>
                         </tr>
@@ -129,6 +135,9 @@
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
+                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                    <i class="fas fa-download"></i>
+                                </a>
                             </td>
                         </tr>
                         <tr>
@@ -144,6 +153,9 @@
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
+                                </a>
+                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                    <i class="fas fa-download"></i>
                                 </a>
                             </td>
                         </tr>
