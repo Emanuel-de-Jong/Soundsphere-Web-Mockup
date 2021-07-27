@@ -1,6 +1,5 @@
 === LOGIC ===
 GENERAL
-	score replay download
 	input mode as text field or select chart with that keymode
 	terms of service (check osu, quaver)
 	default table column order
@@ -14,12 +13,8 @@ GENERAL
 PLAYER
 	INDEX
 		role table
-		community table owner crown
 	SETTINGS
 		change name color
-
-COMMUNITY
-	changelog
 
 
 
@@ -34,6 +29,7 @@ GENERAL
 	patterned background
 	check mobile
 	check different browsers
+	consistent class names
 
 
 
