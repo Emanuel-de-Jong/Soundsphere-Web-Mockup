@@ -30,7 +30,6 @@ GENERAL
 	change font sizes to em
 	show logo in navbar differently
 	metatable only 1 tr
-	hamburger menu for many page icons
 	blurhash banner for community, leaderboard, player and chart
 	patterned background
 	check mobile

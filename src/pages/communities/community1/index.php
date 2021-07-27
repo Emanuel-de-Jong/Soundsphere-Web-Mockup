@@ -16,20 +16,37 @@
         <div class="main-box">
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
-            <div class="page-icons page-icons-right">
-                <a href="#!" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                    <i class="fas fa-sign-out-alt"></i>
-                </a>
-
-                <a href="?a=communities_community1_inbox" class="page-icon" title="Accept requests and send invites">
-                    <i class="fas fa-inbox"></i>
-                    <div class="new-message-circle">3</div>
-                </a>
+            <nav class="navbar-expand-xl page-icons page-icons-right">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
                 
-                <a href="?a=communities_community1_edit" class="page-icon" title="Community settings">
-                    <i class="fas fa-cog"></i>
-                </a>
-            </div>
+                <div class="collapse navbar-collapse" id="page-icons-right">
+                    <div class="navbar-nav">
+                        <a href="#!" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                            <span class="page-icon-text">Leave</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </div>
+                        </a>
+
+                        <a href="?a=communities_community1_inbox" class="page-icon" title="Accept requests and send invites">
+                            <span class="page-icon-text">Inbox</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-inbox"></i>
+                                <div class="new-message-circle">3</div>
+                            </div>
+                        </a>
+
+                        <a href="?a=communities_community1_edit" class="page-icon" title="Community settings">
+                            <span class="page-icon-text">Settings</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
 
             <h1>AAA - Community1</h1>
 
