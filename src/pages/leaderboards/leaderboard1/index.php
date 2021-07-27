@@ -1,34 +1,53 @@
 <div id="leaderboard">
     <main class="container">
         <div class="main-box">
-            <div class="page-icons page-icons-left">
-                <form class="form-page">
-                    <div class="input-group" title="The input mode that the values and order of the page is based on">
-                        <span class="input-group-text">Mode:</span>
-                        <select class="form-select" id="input-mode" name="input-mode">
-                            <option selected>All</option>
-                            <option value="7key">7K</option>
-                            <option value="10key">10K</option>
-                        </select>
-                    </div>
-                </form>
-            </div>
+            <nav class="page-icons page-icons-left page-icons-never-collapsed">
+                <div class="navbar-nav">
+                    <form class="form-page">
+                        <div class="input-group" title="The input mode that the values and order of the page is based on">
+                            <span class="input-group-text">Mode:</span>
+                            <select class="form-select" id="input-mode" name="input-mode">
+                                <option selected>All</option>
+                                <option value="7key">7K</option>
+                                <option value="10key">10K</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </nav>
 
             <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/leaderboard-description.php'); ?>
-            <div class="page-icons page-icons-right">
-                <a href="#!" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
-                    <i class="fas fa-info-circle"></i>
-                </a>
+            <nav class="navbar-expand-xl page-icons page-icons-right">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="page-icons-right">
+                    <div class="navbar-nav">
+                        <a href="#!" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
+                            <span class="page-icon-text">Description</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                        </a>
 
-                <a href="#!" class="page-icon" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                    <i class="fas fa-sign-in-alt"></i>
-                </a>
+                        <a href="#!" class="page-icon" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                            <span class="page-icon-text">Add leaderboard</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </div>
+                        </a>
 
-                <a href="?a=leaderboards_leaderboard1_edit" class="page-icon" title="leaderboard settings">
-                    <i class="fas fa-cog"></i>
-                </a>
-            </div>
+                        <a href="?a=leaderboards_leaderboard1_edit" class="page-icon" title="leaderboard settings">
+                            <span class="page-icon-text">Settings</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
 
             <h1>Leaderboard1</h1>
 

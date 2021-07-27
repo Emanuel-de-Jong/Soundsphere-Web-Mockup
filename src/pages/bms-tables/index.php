@@ -2,11 +2,15 @@
     <main class="container">
         <div class="main-box">
             <?php require('components/modals/create-bms-table.php'); ?>
-            <div class="page-icons page-icons-right">
-                <a href="#!" class="page-icon" title="Add table" data-bs-toggle="modal" data-bs-target="#create-bms-table-modal">
-                    <i class="fas fa-plus"></i>
-                </a>
-            </div>
+            <nav class="page-icons page-icons-right page-icons-never-collapsed">
+                <div class="navbar-nav">
+                    <a href="#!" class="page-icon" title="Add table" data-bs-toggle="modal" data-bs-target="#create-bms-table-modal">
+                        <div class="page-icon-box">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
 
             <h1>Tables</h1>
 

@@ -1,11 +1,15 @@
 <div id="community-edit">
     <main class="container">
         <div class="main-box">
-            <div class="page-icons page-icons-left">
-                <a href="?a=communities_community1_index" class="page-icon">
-                    <i class="fas fa-arrow-left"></i>
-                </a>
-            </div>
+            <nav class="page-icons page-icons-left page-icons-never-collapsed">
+                <div class="navbar-nav">
+                    <a href="?a=communities_community1_index" class="page-icon" title="Go back to the previous page">
+                        <div class="page-icon-box">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
 
             <h1>Community1 - Settings</h1>
 

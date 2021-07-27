@@ -16,7 +16,7 @@
         <div class="main-box">
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
-            <nav class="navbar-expand-xl page-icons page-icons-right">
+            <nav class="page-icons page-icons-right page-icons-always-collapsed">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
                     <i class="fas fa-ellipsis-v"></i>
                 </button>
@@ -35,6 +35,13 @@
                             <div class="page-icon-box">
                                 <i class="fas fa-inbox"></i>
                                 <div class="new-message-circle">3</div>
+                            </div>
+                        </a>
+
+                        <a href="#!" class="page-icon" title="All community changes and who made them">
+                            <span class="page-icon-text">Changes</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-list-alt"></i>
                             </div>
                         </a>
 

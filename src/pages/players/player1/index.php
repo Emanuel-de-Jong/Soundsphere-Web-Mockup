@@ -16,16 +16,30 @@
 <div id="player">
     <main class="container">
         <div class="main-box">
-            <div class="page-icons page-icons-right">
-                <a href="?a=players_player1_inbox" class="page-icon" title="Accept requests and send invites">
-                    <i class="fas fa-inbox"></i>
-                    <div class="new-message-circle">3</div>
-                </a>
+            <nav class="navbar-expand-xl page-icons page-icons-right">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="page-icons-right">
+                    <div class="navbar-nav">
+                        <a href="?a=players_player1_inbox" class="page-icon" title="Accept requests and send invites">
+                            <span class="page-icon-text">Inbox</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-inbox"></i>
+                                <div class="new-message-circle">3</div>
+                            </div>
+                        </a>
 
-                <a href="?a=players_player1_edit" class="page-icon" title="Your settings">
-                    <i class="fas fa-cog"></i>
-                </a>
-            </div>
+                        <a href="?a=players_player1_edit" class="page-icon" title="Your settings">
+                            <span class="page-icon-text">Settings</span>
+                            <div class="page-icon-box">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
 
             <h1>Player1</h1>
 

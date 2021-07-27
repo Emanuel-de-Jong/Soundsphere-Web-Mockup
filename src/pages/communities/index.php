@@ -1,11 +1,15 @@
 <div id="communities">
     <main class="container">
         <div class="main-box">
-            <div class="page-icons page-icons-right">
-                <a href="?a=communities_create" class="page-icon" title="Create community">
-                    <i class="fas fa-plus"></i>
-                </a>
-            </div>
+            <nav class="page-icons page-icons-right page-icons-never-collapsed">
+                <div class="navbar-nav">
+                    <a href="?a=communities_create" class="page-icon" title="Create community">
+                        <div class="page-icon-box">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </nav>
 
             <h1>Communities</h1>
 
