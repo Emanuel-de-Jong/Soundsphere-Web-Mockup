@@ -2,6 +2,7 @@ $(function () {
     $(".data-table-all").DataTable({
         scrollX: true
     });
+    
 
 
 
@@ -26,4 +27,24 @@ $(function () {
             $(this).val("");
         }
     });
+    
+
+
+    
+    $("#player-edit #username-color-l").on("change", showPlayerName);
+    $("#player-edit #username-color-r").on("change", showPlayerName);
+    $("#player-edit #username").on("change", showPlayerName);
+
+    function showPlayerName() {
+        var colorL = $("#player-edit #username-color-l").val();
+        var colorR = $("#player-edit #username-color-r").val();
+        var name = $("#player-edit #username").val();
+
+        var preview = $("#player-edit #username-preview");
+        preview.html(name);
+        preview.css({
+            "background": "linear-gradient(45deg, "+colorL+", "+colorR+")",
+            "-webkit-background-clip": "text"
+        });
+    }
 });

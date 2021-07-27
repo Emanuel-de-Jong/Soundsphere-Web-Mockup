@@ -8,11 +8,8 @@ GENERAL
 	accurate redirect and button click behaviour
 	check tooltips
 	code cleanup
+	lighthouse improvements
 	better example rows
-
-PLAYER
-	SETTINGS
-		change name color
 
 
 

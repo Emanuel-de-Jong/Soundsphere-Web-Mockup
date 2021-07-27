@@ -485,3 +485,11 @@ tr:hover .table-icon {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+/* Player edit */
+#player-edit #username-preview {
+    background: black;
+	-webkit-text-fill-color: transparent;
+    background-clip: text;
+	-webkit-background-clip: text;
+}

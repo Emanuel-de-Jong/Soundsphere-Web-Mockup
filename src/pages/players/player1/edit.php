@@ -19,9 +19,11 @@
             <?php require('components/modals/confirm-delete.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=players_player1_index" method="post">
-                    <div class="form-item">
-                        <label for="name" class="form-label" title="Your username">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" value="Player1">
+                    <h2 class="text-center" id="username-preview" title="A preview that shows how your username will look">Player1</h2>
+                    <div class="form-item input-group">
+                        <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" value="#fff" title="The lefter color of your username">
+                        <input type="text" class="form-control" id="username" name="username" value="Player1" title="Your username">
+                        <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" value="#fff" title="The righter color of your username">
                     </div>
 
                     <div class="form-item">
