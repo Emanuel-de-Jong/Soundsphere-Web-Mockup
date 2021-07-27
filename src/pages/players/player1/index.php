@@ -68,9 +68,9 @@
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/create-leaderboard.php'); ?>
-            <section id="leaderboards-communities-section">
+            <section id="leaderboards-communities-section" class="section-grid">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <h2>
                             Communities
                             <a href="?a=communities_create" class="title-icon h2-icon green green-h" title="Create community">
@@ -108,7 +108,7 @@
                     </div>
 
                     
-                    <div class="col-6">
+                    <div class="col">
                         <h2>
                             Leaderboards
                             <a href="#!" class="title-icon h2-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">

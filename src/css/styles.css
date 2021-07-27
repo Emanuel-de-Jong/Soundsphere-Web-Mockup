@@ -128,11 +128,19 @@ main {
     margin-bottom: 60px;
 }
 
+.main-box section.section-grid {
+    margin-bottom: 0;
+}
+
+.main-box section.section-grid .col {
+    margin-bottom: 60px;
+}
+
 .main-box h1 {
     font-size: 44px;
+    margin: auto;
     margin-bottom: 70px;
     text-align: center;
-    margin: auto;
     width: 75%;
 }
 .main-box h2 {

@@ -16,7 +16,8 @@
                 <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
-                            <th title="Community name">Name</th>
+                            <th title="Community name">Community</th>
+                            <th title="The community member that send the invite">Sender</th>
                             <th title="A message that the community attached to the invite">Message</th>
                             <th title="The date that the community send the invite">Invite send</th>
                             <th></th>
@@ -25,6 +26,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21</td>
                             <td class="table-icon-cell">
@@ -52,7 +54,7 @@
                 <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
-                            <th title="Community name">Name</th>
+                            <th title="Community name">Community</th>
                             <th title="The message that you attached to the request">Message</th>
                             <th title="The date that you send the request">Request send</th>
                             <th></th>

@@ -6,9 +6,9 @@
 
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
-            <section id="communities-bms-tables-section">
+            <section id="communities-bms-tables-section" class="section-grid">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <h2>Communities</h2>
 
                         <table class="data-table table table-icon-col-last">
@@ -38,7 +38,7 @@
                     </div>
 
 
-                    <div class="col-6">
+                    <div class="col">
                         <h2>Leaderboards</h2>
 
                         <table class="data-table table table-icon-col-last">
