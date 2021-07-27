@@ -465,6 +465,14 @@ tr:hover .table-icon {
     visibility: hidden !important;
 }
 
+/* Role badge */
+.role-badge {
+    font-size: 12px;
+    padding: 5px 5px;
+    text-align: center;
+    width: 36px;
+}
+
 
 
 

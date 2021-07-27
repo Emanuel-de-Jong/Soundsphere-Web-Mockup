@@ -19,7 +19,7 @@
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th title="Member that made the change">By</th>
+                            <th title="Member that made the change">Made by</th>
                             <th title="The change">Message</th>
                         </tr>
                     </thead>
@@ -48,7 +48,7 @@
                     <tfoot>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th title="Member that made the change">By</th>
+                            <th title="Member that made the change">Made by</th>
                             <th title="The change">Message</th>
                         </tr>
                     </tfoot>

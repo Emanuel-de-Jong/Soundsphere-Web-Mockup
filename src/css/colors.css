@@ -156,3 +156,22 @@
     background-color: rgb(14, 99, 226)!important;
     color: white;
 }
+
+
+
+
+/* PURPLE */
+.purple {
+    color: rgb(186, 21, 252)!important;
+}
+.purple-h:hover {
+    color: rgb(176, 16, 240)!important;
+}
+.bg-purple {
+    background-color: rgb(186, 21, 252)!important;
+    color: white;
+}
+.bg-purple-h:hover {
+    background-color: rgb(176, 16, 240)!important;
+    color: white;
+}

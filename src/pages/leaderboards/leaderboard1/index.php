@@ -1,3 +1,17 @@
+<nav id="secondary-navbar">
+    <div class="container">
+        <div class="nav">
+            <a class="nav-link" href="#info-section">Info</a>
+            <a class="nav-link" href="#modifiers-section">Modifiers</a>
+            <a class="nav-link" href="#communities-bms-tables-section">Communities</a>
+            <a class="nav-link" href="#communities-bms-tables-section">Tables</a>
+            <a class="nav-link" href="#ranking-section">Ranking</a>
+        </div>
+    </div>
+</nav>
+<div id="secondary-navbar-box"></div>
+
+
 <div id="leaderboard">
     <main class="container">
         <div class="main-box">
@@ -189,7 +203,7 @@
             </section>
 
 
-            <section id="leaderboard-section">
+            <section id="ranking-section">
                 <form class="text-center" action="" method="post">
                     <select class="form-select data-table-select" onchange="//this.form.submit()" title="Filter the players shown by community">
                         <option selected>All communities</option>

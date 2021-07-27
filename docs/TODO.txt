@@ -11,8 +11,6 @@ GENERAL
 	better example rows
 
 PLAYER
-	INDEX
-		role table
 	SETTINGS
 		change name color
 

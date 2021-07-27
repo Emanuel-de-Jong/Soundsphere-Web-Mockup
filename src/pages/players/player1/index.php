@@ -3,10 +3,10 @@
         <div class="nav">
             <a class="nav-link" href="#info-section">Info</a>
             <a class="nav-link" href="#description-section">Description</a>
-            <a class="nav-link" href="#leaderboards-communities-section">Communities</a>
-            <a class="nav-link" href="#leaderboards-communities-section">Leaderboards</a>
-            <a class="nav-link" href="#recent-scores-section">Recent scores</a>
+            <a class="nav-link" href="#communities-leaderboards-section">Communities</a>
+            <a class="nav-link" href="#communities-leaderboards-section">Leaderboards</a>
             <a class="nav-link" href="#top-scores-section">Top scores</a>
+            <a class="nav-link" href="#recent-scores-section">Recent scores</a>
         </div>
     </div>
 </nav>
@@ -60,6 +60,13 @@
                         <th title="Total unique maps played">Maps played:</th>
                         <td>120</td>
                     </tr>
+                    <tr>
+                        <th title="Player roles">Roles:</th>
+                        <td>
+                            <span class="badge role-badge bg-green" title="Donator">DNR</span>
+                            <span class="badge role-badge bg-purple" title="Contributor">CTR</span>
+                        </td>
+                    </tr>
                 </table>
             </section>
 
@@ -82,7 +89,7 @@
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
             <?php require('components/modals/create-leaderboard.php'); ?>
-            <section id="leaderboards-communities-section" class="section-grid">
+            <section id="communities-leaderboards-section" class="section-grid">
                 <div class="row">
                     <div class="col">
                         <h2>
