@@ -22,13 +22,13 @@
             <section id="form-section">
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
-                        <label for="name" class="form-label" title="Leaderboard name">Name</label>
-                        <input type="text" class="form-control" name="name">
+                        <label for="leaderboard-name" class="form-label" title="Leaderboard name">Name</label>
+                        <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name">
                     </div>
 
                     <div class="form-item">
                         <label for="description" class="form-label" title="Description shown in popup">Description</label>
-                        <textarea class="form-control" name="description"></textarea>
+                        <textarea class="form-control" id="description" name="description"></textarea>
                     </div>
 
                     <div class="form-item">

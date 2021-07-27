@@ -22,8 +22,8 @@
                     <div class="row">
                         <div class="col-9">
                             <div class="form-item">
-                                <label for="name" class="form-label" title="Community name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" value="Community1">
+                                <label for="community-name" class="form-label" title="Community name">Name</label>
+                                <input type="text" class="form-control" id="community-name" name="community-name" value="Community1">
                             </div>
                         </div>
 

@@ -60,7 +60,7 @@
 
                 <form class="text-center" action="" method="post">
                     <select class="form-select data-table-select" onchange="//this.form.submit()" title="Only show scores from this leaderboard">
-                        <option selected>No leaderboard</option>
+                        <option selected>All leaderboards</option>
                         <option value="Leaderboard1">Leaderboard1</option>
                         <option value="Leaderboard2">Leaderboard2</option>
                         <option value="Leaderboard3">Leaderboard3</option>

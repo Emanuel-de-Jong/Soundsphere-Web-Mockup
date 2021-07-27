@@ -15,7 +15,7 @@
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
-                                    <th title="To join private communities, you have to send a request">Public</th>
+                                    <th title="To join private communities, you have to sent a request">Public</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
                                     <th title="Player count">Members</th>
                                     <th></th>

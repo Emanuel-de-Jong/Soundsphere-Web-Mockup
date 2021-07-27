@@ -5,8 +5,8 @@
             <a class="nav-link" href="#description-section">Description</a>
             <a class="nav-link" href="#communities-leaderboards-section">Communities</a>
             <a class="nav-link" href="#communities-leaderboards-section">Leaderboards</a>
-            <a class="nav-link" href="#top-scores-section">Top scores</a>
-            <a class="nav-link" href="#recent-scores-section">Recent scores</a>
+            <a class="nav-link" href="#best-scores-section">Best scores</a>
+            <a class="nav-link" href="#all-scores-section">All scores</a>
         </div>
     </div>
 </nav>
@@ -57,7 +57,7 @@
                     <tr>
                         <th title="Total play count">Plays:</th>
                         <td>200</td>
-                        <th title="Total unique maps played">Maps played:</th>
+                        <th title="Total unique charts played">Charts played:</th>
                         <td>120</td>
                     </tr>
                     <tr>
@@ -177,16 +177,16 @@
             </section>
 
 
-            <section id="top-scores-section">
-                <h2>Top scores</h2>
+            <section id="best-scores-section">
+                <h2>Best scores</h2>
 
                 <form class="text-center" action="" method="post">
                     <select class="form-select data-table-select" onchange="//this.form.submit()" title="Filter by leaderboard and use leaderboard calculators">
-                        <option selected>No leaderboard</option>
+                        <option selected>All leaderboards</option>
                         <option value="Leaderboard1">Leaderboard1</option>
                     </select>
                     <select class="form-select data-table-select" onchange="//this.form.submit()" title="Filter by table">
-                        <option selected>No table</option>
+                        <option selected>All tables</option>
                         <option value="Table1">Table1</option>
                     </select>
                 </form>
@@ -194,7 +194,7 @@
                 <table class="data-table data-table-all table table-icon-col-last">
                     <thead>
                         <tr>
-                            <th class="table-col-minwidth" title="Rank compared to other scores of the player">Top</th>
+                            <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
@@ -209,7 +209,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
+                            <td>#1</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>12</td>
@@ -229,7 +229,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2</td>
+                            <td>#2</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>12</td>
@@ -249,7 +249,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td>#3</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>12</td>
@@ -269,7 +269,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>4</td>
+                            <td>#4</td>
                             <td>Chart1</td>
                             <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
                             <td>12</td>
@@ -291,7 +291,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th title="Rank compared to other scores of the player">Top</th>
+                            <th title="Rank compared to other scores of the player">Rank</th>
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
@@ -308,8 +308,8 @@
             </section>
 
 
-            <section id="recent-scores-section">
-                <h2>Recent scores</h2>
+            <section id="all-scores-section">
+                <h2>All scores</h2>
 
                 <table class="data-table data-table-all table table-icon-col-last">
                     <thead>

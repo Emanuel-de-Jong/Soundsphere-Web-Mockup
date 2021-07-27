@@ -21,9 +21,9 @@
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>
-                            <th title="The community member that send the invite">Sender</th>
+                            <th title="The community member that sent the invite">Sender</th>
                             <th title="A message that the community attached to the invite">Message</th>
-                            <th title="The date that the community send the invite">Invite send</th>
+                            <th title="The date that the community sent the invite">Invite sent</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -37,7 +37,7 @@
                                 <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
                                     <i class="fas fa-check"></i>
                                 </a>
-                                <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to sent new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -50,7 +50,7 @@
             <section id="outgoing-requests-section">
                 <h2>
                     Outgoing requests
-                    <a href="#!" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
+                    <a href="#!" class="title-icon h2-icon green green-h" title="Sent a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -60,7 +60,7 @@
                         <tr>
                             <th title="Community name">Community</th>
                             <th title="The message that you attached to the request">Message</th>
-                            <th title="The date that you send the request">Request send</th>
+                            <th title="The date that you sent the request">Request sent</th>
                             <th></th>
                         </tr>
                     </thead>

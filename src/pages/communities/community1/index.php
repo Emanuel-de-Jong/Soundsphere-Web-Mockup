@@ -147,7 +147,7 @@
                             <th></th>
                             <th title="Player name">Name</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
-                            <th title="Favourite mode">Fav mode</th>
+                            <th title="Favourite modes">Fav modes</th>
                             <th title="Last submitted score">Last played</th>
                             <th></th>
                         </tr>
@@ -224,7 +224,7 @@
                             <th></th>
                             <th title="Player name">Name</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
-                            <th title="Most played input mode">Favourite mode</th>
+                            <th title="Favourite modes">Fav modes</th>
                             <th title="Last submitted score">Last played</th>
                             <th></th>
                         </tr>

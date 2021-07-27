@@ -22,7 +22,7 @@
                         <tr>
                             <th title="Community name">Name</th>
                             <th title="3 to 5 characters that represent the community">Alias</th>
-                            <th title="To join private communities, you have to send a request">Public</th>
+                            <th title="To join private communities, you have to sent a request">Public</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
@@ -90,7 +90,7 @@
                         <tr>
                             <th title="Community name">Name</th>
                             <th title="3 to 5 characters that represent the community">Alias</th>
-                            <th title="To join private communities, you have to send a request">Public</th>
+                            <th title="To join private communities, you have to sent a request">Public</th>
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>

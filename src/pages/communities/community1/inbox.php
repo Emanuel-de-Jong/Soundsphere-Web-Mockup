@@ -22,7 +22,7 @@
                         <tr>
                             <th title="Player name">Player</th>
                             <th title="A message that the player attached to the request">Message</th>
-                            <th title="The date that the player send the request">Request send</th>
+                            <th title="The date that the player sent the request">Request sent</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -57,9 +57,9 @@
                     <thead>
                         <tr>
                             <th title="Community member that send the invite">Sender</th>
-                            <th title="Player the invite is for">Reciever</th>
+                            <th title="Player the invite is for">Receiver</th>
                             <th title="A message that an admin attached to the invite">Message</th>
-                            <th title="The date that an admin in the community send the invite">Invite send</th>
+                            <th title="The date that an admin in the community sent the invite">Invite sent</th>
                             <th></th>
                         </tr>
                     </thead>
