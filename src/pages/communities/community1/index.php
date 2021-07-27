@@ -38,7 +38,7 @@
                             </div>
                         </a>
 
-                        <a href="#!" class="page-icon" title="All community changes and who made them">
+                        <a href="?a=communities_community1_changes" class="page-icon" title="All community changes and who made them">
                             <span class="page-icon-text">Changes</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-list-alt"></i>

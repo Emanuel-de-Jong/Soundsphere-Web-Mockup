@@ -92,22 +92,26 @@
                             </a>
                         </h2>
 
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
+                                    <th></th>
                                     <th title="Community name">Name</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
-                                    <th title="Member count">Members</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td class="table-icon-cell">
+                                        <span class="table-icon table-icon-s table-icon-show lred" title="The owner of the community">
+                                            <i class="fas fa-crown"></i>
+                                        </span>
+                                    </td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
-                                    <td>10</td>
                                     <td class="table-icon-cell">
                                         <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
                                             <i class="fas fa-pen"></i>
@@ -130,22 +134,26 @@
                             </a>
                         </h2>
 
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
+                                    <th></th>
                                     <th title="Leaderboard name">Name</th>
                                     <th title="Leaderboard input modes">Input modes</th>
                                     <th title="Rank of this player in the leaderboard">Rank</th>
-                                    <th title="Player count">Players</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td class="table-icon-cell">
+                                        <span class="table-icon table-icon-s table-icon-show orange" title="The owner, an admin or a mod of the community that owns this leaderboard">
+                                            <i class="fas fa-crown"></i>
+                                        </span>
+                                    </td>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                                     <td>7K, 10K</td>
                                     <td>#3</td>
-                                    <td>12</td>
                                     <td class="table-icon-cell">
                                         <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                             <i class="fas fa-pen"></i>

@@ -32,7 +32,7 @@
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
-                            <td>20-07-21</td>
+                            <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
                                     <i class="fas fa-check"></i>
@@ -68,7 +68,7 @@
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>Hey it's Bob from Bob's Burgers.</td>
-                            <td>20-07-21</td>
+                            <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the request">
                                     <i class="fas fa-times"></i>
