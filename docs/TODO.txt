@@ -45,14 +45,7 @@ HELP
 
 
 === QQP ===
-predefined profile banner choices
-make it more clear that banner is blurred
-use "open" instead of "public"
-use "invite only" instead of "private"
-always show row icons
-automatically copy short description to description
-page icon menu opens on hover
-community 3rd party website/server field
+"*" for required instead of "(Optional)" for optional
 send -> sent
 user random 4 digid tag for dupe usernames
 player search accept user tag
@@ -70,6 +63,7 @@ leaderboard modifiers not allowed by default
 leaderboards list remove "top player", "tables", "communities" add calcs
 invite communities to leaderboards
 community different icons for lbs from community and joined by community
+color rows of you, communities you joined and leaderboards you use
 leaderboard communities vertical slider after 5 rows
 leaderboard calc parameters
 leaderboard community performance calc
@@ -81,3 +75,4 @@ table info section (url, input mode)
 change all plays to play time
 player first places
 chart scores highlight own position
+predefined profile banner choices

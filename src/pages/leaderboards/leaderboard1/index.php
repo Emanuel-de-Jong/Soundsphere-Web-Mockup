@@ -139,14 +139,14 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="table-icon-cell">
-                                        <span class="table-icon table-icon-s table-icon-show orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
+                                        <span class="table-icon table-icon-s orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
@@ -155,7 +155,7 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>
@@ -167,7 +167,7 @@
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>

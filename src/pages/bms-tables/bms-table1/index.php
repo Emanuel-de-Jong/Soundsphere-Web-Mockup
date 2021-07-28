@@ -28,7 +28,7 @@
                                     <td>7K, 10K</td>
                                     <td>25</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
                                         </a>
                                     </td>
@@ -109,7 +109,7 @@
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show gray" title="You have a score on this chart">
+                                <span class="table-icon table-icon-s gray" title="You have a score on this chart">
                                     <i class="fas fa-check"></i>
                                 </span>
                             </td>
@@ -123,7 +123,7 @@
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show gray" title="You have a score on this chart">
+                                <span class="table-icon table-icon-s gray" title="You have a score on this chart">
                                     <i class="fas fa-check"></i>
                                 </span>
                             </td>

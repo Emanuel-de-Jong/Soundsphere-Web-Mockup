@@ -71,6 +71,8 @@
                     <tr>
                         <th title="To join private communities, you have to send a request">Public:</th>
                         <td>No</td>
+                        <th title="To join private communities, you have to send a request">Community link:</th>
+                        <td><a href="https://discord.gg/hDjSpVyhuZ">https://discord.gg/hDjSpVyhuZ</a></td>
                     </tr>
                 </table>
             </section>
@@ -161,7 +163,7 @@
                             <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -169,7 +171,7 @@
                         <tr>
                             <td>#2</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show lred" title="Community owner">
+                                <span class="table-icon table-icon-s lred" title="Community owner">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -178,7 +180,7 @@
                             <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -186,7 +188,7 @@
                         <tr>
                             <td>#3</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show orange" title="Community admin">
+                                <span class="table-icon table-icon-s orange" title="Community admin">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -195,7 +197,7 @@
                             <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -203,7 +205,7 @@
                         <tr>
                             <td>#4</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show yellow" title="Community moderator">
+                                <span class="table-icon table-icon-s yellow" title="Community moderator">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -212,7 +214,7 @@
                             <td>7K</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>

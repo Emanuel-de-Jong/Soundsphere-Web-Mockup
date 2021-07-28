@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="banner" class="form-label" title="A blurred version of an image. Shown behind your profile page.">Profile banner</label>
+                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your profile page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 

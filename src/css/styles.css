@@ -439,14 +439,10 @@ main {
 }
 
 .table-icon {
-    visibility: hidden;
     font-size: 19px;
     text-decoration: none;
     margin-left: 8px;
     vertical-align: middle;
-}
-tr:hover .table-icon {
-    visibility: visible;
 }
 
 .table-icon-s {
@@ -457,7 +453,10 @@ tr:hover .table-icon {
     font-size: 22px;
 }
 
-.table-icon-show {
+.table-icon-hide {
+    visibility: hidden;
+}
+tr:hover .table-icon-hide {
     visibility: visible;
 }
 

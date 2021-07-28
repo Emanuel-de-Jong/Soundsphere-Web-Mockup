@@ -112,7 +112,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-icon-cell">
-                                        <span class="table-icon table-icon-s table-icon-show lred" title="The owner of the community">
+                                        <span class="table-icon table-icon-s lred" title="The owner of the community">
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
@@ -154,7 +154,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-icon-cell">
-                                        <span class="table-icon table-icon-s table-icon-show orange" title="The owner, an admin or a mod of the community that owns this leaderboard">
+                                        <span class="table-icon table-icon-s orange" title="The owner, an admin or a mod of the community that owns this leaderboard">
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
@@ -220,10 +220,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -240,10 +240,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -260,10 +260,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -280,10 +280,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -338,10 +338,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -357,10 +357,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:27</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -376,10 +376,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:25</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>
@@ -395,10 +395,10 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 14:12</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
-                                <a href="#!" class="table-icon blue blue-h" title="Download score">
+                                <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </td>

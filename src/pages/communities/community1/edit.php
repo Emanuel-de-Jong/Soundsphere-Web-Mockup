@@ -36,8 +36,13 @@
                     </div>
 
                     <div class="form-item">
+                        <label for="link" class="form-label" title="A link to the community outside of this site">Community link (Optional)</label>
+                        <input type="text" class="form-control" id="link" name="link" value="https://discord.gg/hDjSpVyhuZ">
+                    </div>
+
+                    <div class="form-item">
                         <label for="short-description" class="form-label" title="Description shown in tables">Short description</label>
-                        <input type="text" id="short-description" class="form-control" name="short-description" value="The first community. Which automatically makes it the best one.">
+                        <input type="text" class="form-control" id="short-description" name="short-description" value="The first community. Which automatically makes it the best one.">
                     </div>
 
                     <div class="form-item">
@@ -55,7 +60,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="banner" class="form-label" title="A blurred version of an image. Shown behind the community page.">Community banner</label>
+                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 

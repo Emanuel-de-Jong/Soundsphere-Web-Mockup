@@ -34,10 +34,10 @@
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l table-icon-show green green-h" title="Accept the invite. You will join the community.">
+                                <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the invite. You will join the community.">
                                     <i class="fas fa-check"></i>
                                 </a>
-                                <a href="#!" class="table-icon table-icon-l table-icon-show red red-h" title="Discard the invite. The community won't be able to sent new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Discard the invite. The community won't be able to sent new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>

@@ -41,7 +41,7 @@
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show gray" title="You have a score on this chart">
+                                <span class="table-icon table-icon-s gray" title="You have a score on this chart">
                                     <i class="fas fa-check"></i>
                                 </span>
                             </td>
@@ -55,7 +55,7 @@
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s table-icon-show gray" title="You have a score on this chart">
+                                <span class="table-icon table-icon-s gray" title="You have a score on this chart">
                                     <i class="fas fa-check"></i>
                                 </span>
                             </td>
