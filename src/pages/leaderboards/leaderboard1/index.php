@@ -1,7 +1,7 @@
 <nav id="secondary-navbar">
     <div class="container">
         <div class="nav">
-            <a class="nav-link" href="#info-section">Info</a>
+            <a class="nav-link" href="#info-community-ranking-section">Info</a>
             <a class="nav-link" href="#modifiers-section">Modifiers</a>
             <a class="nav-link" href="#communities-bms-tables-section">Communities</a>
             <a class="nav-link" href="#communities-bms-tables-section">Tables</a>
@@ -66,27 +66,46 @@
             <h1>Leaderboard1</h1>
 
 
-            <section id="info-section">
-                <h2>Info</h2>
+            <section id="info-community-ranking-section" class="section-grid">
+                <div class="row">
+                    <div class="col-7">
+                        <h2>Info</h2>
 
-                <table class="meta-table">
-                    <tr>
-                        <th title="Leaderboard input modes">Input modes:</th>
-                        <td>7K, 10K</td>
-                        <th title="Player count">Players:</th>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc:</th>
-                        <td>Table level</td>
-                        <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc:</th>
-                        <td>soundsphere</td>
-                    </tr>
-                    <tr>
-                        <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner:</th>
-                        <td>Logarithmic</td>
-                    </tr>
-                </table>
+                        <table class="meta-table">
+                            <tr>
+                                <th title="Leaderboard input modes">Input modes:</th>
+                                <td>7K, 10K</td>
+                                <th title="Player count">Players:</th>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc:</th>
+                                <td>Table level</td>
+                                <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc:</th>
+                                <td>soundsphere</td>
+                            </tr>
+                            <tr>
+                                <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner:</th>
+                                <td>Logarithmic</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    
+                    <div class="col" id="community-ranking">
+                        <div class="list-multi-col">
+                            <div class="list-item" title="Community1"><span class="circle circle-s bg-red"></span> AAA</div>
+                            <div class="list-item" title="Community2"><span class="circle circle-s bg-green"></span> BBB</div>
+                            <div class="list-item" title="Community3"><span class="circle circle-s bg-blue"></span> CCC</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="bg-red" style="width: 40%" title="Community1"></div>
+                            <div class="bg-green" style="width: 35%" title="Community2"></div>
+                            <div class="bg-blue" style="width: 25%" title="Community3"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
 

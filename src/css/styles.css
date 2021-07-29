@@ -132,7 +132,7 @@ main {
     margin-bottom: 0;
 }
 
-.main-box section.section-grid .col {
+.main-box section.section-grid > div {
     margin-bottom: 60px;
 }
 
@@ -487,6 +487,37 @@ tr:hover .table-icon-hide {
 
 
 
+/* SHAPE */
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.circle-s {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+/* LIST */
+.list-multi-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.list-multi-col .list-item {
+    padding-right: 30px;
+}
+
+
+
+
 /* PAGE */
 /* Login and register */
 #login .main-box,
@@ -510,4 +541,11 @@ tr:hover .table-icon-hide {
 	-webkit-text-fill-color: transparent;
     background-clip: text;
 	-webkit-background-clip: text;
+}
+
+/* Leaderboard */
+#leaderboard #community-ranking .list-multi-col {
+    margin-top: 45px;
+    max-height: 100px;
+    margin-bottom: 15px;
 }
