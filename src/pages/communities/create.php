@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="link" class="form-label" title="A link to the community outside of this site">Community link (Optional)</label>
+                        <label for="link" class="form-label form-optional" title="A link to the community outside of this site">Community link</label>
                         <input type="text" class="form-control" id="link" name="link">
                     </div>
 
@@ -43,12 +43,12 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label" title="Page description">Description</label>
+                        <label for="description" class="form-label form-optional" title="Page description">Description</label>
                         <textarea class="form-control" id="description" name="description"></textarea>
                     </div>
 
                     <div class="form-item">
-                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
+                        <label for="banner" class="form-label form-optional" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 

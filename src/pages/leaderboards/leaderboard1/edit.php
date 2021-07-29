@@ -60,7 +60,7 @@
                     </div>
                     
                     <div class="form-item">
-                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
+                        <label for="banner" class="form-label form-optional" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label w-100" title="The modifiers a score needs to/can't have to be counted">
+                        <label class="form-label form-optional w-100" title="The modifiers a score needs to/can't have to be counted">
                             Modifiers
                             <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
                                 <i class="fas fa-plus"></i>

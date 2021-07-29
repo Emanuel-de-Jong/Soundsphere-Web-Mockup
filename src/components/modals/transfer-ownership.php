@@ -6,21 +6,23 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <div class="form-item">
-                    <p>
-                        The selected member will become the new owner of Community1 and you will become an admin.
-                    </p>
-                </div>
+                <form class="form-modal">
+                    <div class="form-item">
+                        <p>
+                            The selected member will become the new owner of Community1 and you will become an admin.
+                        </p>
+                    </div>
 
-                <div class="form-item">
-                    <label for="message" class="form-label" title="The member to make the new owner">Member</label>
-                    <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a member...">
-                    <datalist id="player-options">
-                        <option value="Player1">
-                        <option value="Player2">
-                        <option value="Player3">
-                    </datalist>
-                </div>
+                    <div class="form-item">
+                        <label for="message" class="form-label" title="The member to make the new owner">Member</label>
+                        <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a member...">
+                        <datalist id="player-options">
+                            <option value="Player1">
+                            <option value="Player2">
+                            <option value="Player3">
+                        </datalist>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
                 <a href="?a=communities_community1_index" class="btn bg-orange bg-orange-h">Transfer</a>

@@ -45,7 +45,6 @@ HELP
 
 
 === QQP ===
-"*" for required instead of "(Optional)" for optional
 send -> sent
 user random 4 digid tag for dupe usernames
 player search accept user tag

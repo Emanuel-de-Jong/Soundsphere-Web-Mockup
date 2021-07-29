@@ -6,15 +6,18 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <div class="form-item">
-                    <p>
-                        To confirm that you want to delete, type the name here.
-                    </p>
-                </div>
+                <form class="form-modal">
+                    <div class="form-item">
+                        <p>
+                            To confirm that you want to delete, type the name here.
+                        </p>
+                    </div>
 
-                <div class="form-item">
-                    <input type="text" class="form-control" id="object-name" name="object-name">
-                </div>
+                    <div class="form-item">
+                        <label for="object-name" class="form-label" title="The name of the object you want to delete">Object name</label>
+                        <input type="text" class="form-control" id="object-name" name="object-name">
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn bg-red bg-red-h" data-bs-dismiss="modal">Delete</button>

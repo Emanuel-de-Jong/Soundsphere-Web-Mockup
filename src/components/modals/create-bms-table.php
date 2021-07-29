@@ -6,8 +6,12 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <label for="url" class="form-label" title="The website link of the table">Table URL</label>
-                <input type="text" class="form-control" id="url" name="url">
+                <form class="form-modal">
+                    <div class="form-item">
+                        <label for="url" class="form-label" title="The website link of the table">Table URL</label>
+                        <input type="text" class="form-control" id="url" name="url">
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Create</button>

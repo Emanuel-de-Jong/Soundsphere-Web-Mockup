@@ -269,6 +269,18 @@ main {
     margin-bottom: 30px;
 }
 
+.form-modal label::after,
+.form-settings label::after {
+    color: red;
+    font-weight: 600;
+    content: " * ";
+}
+
+.form-modal label.form-optional::after,
+.form-settings label.form-optional::after {
+    content: "";
+}
+
 /* Modal */
 .form-modal .form-item {
     margin-bottom: 16px;
@@ -486,6 +498,13 @@ tr:hover .table-icon-hide {
 }
 
 /* Player edit */
+#player-edit #username-preview {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 500;
+}
 #player-edit #username-preview {
     background: black;
 	-webkit-text-fill-color: transparent;
