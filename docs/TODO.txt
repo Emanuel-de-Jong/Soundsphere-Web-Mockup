@@ -45,14 +45,12 @@ HELP
 
 
 === QQP ===
-leaderboard modifiers not allowed by default
-leaderboards list remove "top player", "tables", "communities" add calcs
+fix table icons
 invite communities to leaderboards
 community different icons for lbs from community and joined by community
 color rows of you, communities you joined and leaderboards you use
 leaderboard communities vertical slider after 5 rows
 leaderboard calc parameters
-leaderboard community performance calc
 leaderboard ranking "last played" instead of "plays"
 leaderboard exclude ccertain charts from tables (select chart by file upload)
 tables list url column

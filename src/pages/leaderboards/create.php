@@ -58,6 +58,16 @@
                             <option value="sdvx">SOUND VOLTEX</option>
                         </select>
                     </div>
+
+                    <div class="form-item">
+                        <label class="form-label" for="community-combiner" title="Decides how the member performances are combined to get the total performance of a community">Community combiner</label>
+                        <select class="form-select" id="community-combiner" name="community-combiner">
+                            <option value="logarithmic" selected>Logarithmic</option>
+                            <option value="additive">Additive</option>
+                            <option value="osu">osu!</option>
+                            <option value="sdvx">SOUND VOLTEX</option>
+                        </select>
+                    </div>
                     
                     <div class="form-item">
                         <label for="banner" class="form-label form-optional" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
@@ -87,7 +97,7 @@
                                     <th title="Modifier name">Name</th>
                                     <th title="Modifier minumal value">Min value</th>
                                     <th title="Modifier maximal value">Max value</th>
-                                    <th title="Whether it's required, allowed or prohibited">Rule</th>
+                                    <th title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</th>
                                     <th></th>
                                 </tr>
                             </thead>

@@ -28,12 +28,11 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="rule" class="form-label" title="Whether it's required, allowed or prohibited">Rule</label>
+                        <label for="rule" class="form-label" title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</label>
                         <select class="form-select" id="rule" name="rule">
                             <option selected disabled hidden>Select a rule</option>
                             <option value="required">Required</option>
                             <option value="allowed">Allowed</option>
-                            <option value="prohibited">Prohibited</option>
                         </select>
                     </div>
                 </form>

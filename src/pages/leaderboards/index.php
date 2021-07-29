@@ -22,10 +22,10 @@
                         <tr>
                             <th title="Leaderboard name">Name</th>
                             <th title="Leaderboard input modes">Input modes</th>
-                            <th title="Player on rank 1">Top player</th>
-                            <th title="Player count">Players</th>
-                            <th title="Table count">Tables</th>
+                            <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc</th>
+                            <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc</th>
                             <th title="Community count">Communities</th>
+                            <th title="Table count">Tables</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -33,8 +33,8 @@
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
+                            <td>Table level</td>
+                            <td>soundsphere</td>
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-cell">
@@ -49,8 +49,8 @@
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
+                            <td>Table level</td>
+                            <td>soundsphere</td>
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-cell">
@@ -62,8 +62,8 @@
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
+                            <td>Table level</td>
+                            <td>soundsphere</td>
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-cell">
@@ -75,8 +75,8 @@
                         <tr>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>10</td>
+                            <td>Table level</td>
+                            <td>soundsphere</td>
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-cell">
@@ -90,10 +90,10 @@
                         <tr>
                             <th title="Leaderboard name">Name</th>
                             <th title="Leaderboard input modes">Input modes</th>
-                            <th title="Player on rank 1">Top player</th>
-                            <th title="Player count">Players</th>
-                            <th title="Table count">Tables</th>
+                            <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc</th>
+                            <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc</th>
                             <th title="Community count">Communities</th>
+                            <th title="Table count">Tables</th>
                             <th></th>
                         </tr>
                     </tfoot>

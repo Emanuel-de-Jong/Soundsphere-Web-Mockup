@@ -85,7 +85,9 @@
                                 <td>soundsphere</td>
                             </tr>
                             <tr>
-                                <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner:</th>
+                                <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score comb:</th>
+                                <td>Logarithmic</td>
+                                <th title="Decides how the member performances are combined to get the total performance of a community">Community comb:</th>
                                 <td>Logarithmic</td>
                             </tr>
                         </table>
@@ -118,7 +120,7 @@
                             <th title="Modifier name">Name</th>
                             <th title="Modifier minumal value">Min value</th>
                             <th title="Modifier maximal value">Max value</th>
-                            <th title="Whether it's required, allowed or prohibited">Rule</th>
+                            <th title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</th>
                         </tr>
                     </thead>
                     <tbody>
