@@ -19,36 +19,46 @@
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th title="Member that made the change">Made by</th>
+                            <th></th>
+                            <th title="The member">Member</th>
                             <th title="The change">Message</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>23-07-21 12:16</td>
+                            <td class="table-icon-cell">
+                                <span class="table-icon table-icon-s lred" title="Community owner">
+                                    <i class="fas fa-crown"></i>
+                                </span>
+                            </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>Transfered ownership to Player1</td>
+                            <td>Transfered ownership to <a href="?a=players_player1_index">Player1</a></td>
                         </tr>
                         <tr>
                             <td>22-07-21 12:16</td>
+                            <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>Kicked Player1</td>
+                            <td>Kicked <a href="?a=players_player1_index">Player1</a></td>
                         </tr>
                         <tr>
                             <td>21-07-21 12:16</td>
+                            <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>Changed leaderboard1 Score combiner to Additive</td>
+                            <td>Changed <a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a> Score combiner to Additive</td>
                         </tr>
                         <tr>
                             <td>20-07-21 12:16</td>
+                            <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>Created Leaderboard1</td>
+                            <td>Created <a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th title="Member that made the change">Made by</th>
+                            <th></th>
+                            <th title="The member">Member</th>
                             <th title="The change">Message</th>
                         </tr>
                     </tfoot>

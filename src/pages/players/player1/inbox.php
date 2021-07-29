@@ -37,7 +37,7 @@
                                 <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the invite. You will join the community.">
                                     <i class="fas fa-check"></i>
                                 </a>
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Discard the invite. The community won't be able to sent new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Discard the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -50,7 +50,7 @@
             <section id="outgoing-requests-section">
                 <h2>
                     Outgoing requests
-                    <a href="#!" class="title-icon h2-icon green green-h" title="Sent a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
+                    <a href="#!" class="title-icon h2-icon green green-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-request-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>

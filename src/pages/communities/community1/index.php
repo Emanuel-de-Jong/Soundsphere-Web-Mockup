@@ -148,8 +148,9 @@
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>
                             <th></th>
                             <th title="Player name">Name</th>
-                            <th title="Plays on the selected leaderboard">Plays</th>
+                            <th title="The player's leaderboard performance">Performance</th>
                             <th title="Favourite modes">Fav modes</th>
+                            <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>
                             <th></th>
                         </tr>
@@ -159,8 +160,9 @@
                             <td>#1</td>
                             <td></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
+                            <td>1000</td>
                             <td>7K</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -176,8 +178,9 @@
                                 </span>
                             </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
+                            <td>1000</td>
                             <td>7K</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -193,8 +196,9 @@
                                 </span>
                             </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
+                            <td>1000</td>
                             <td>7K</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -210,8 +214,9 @@
                                 </span>
                             </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td>200</td>
+                            <td>1000</td>
                             <td>7K</td>
+                            <td>200</td>
                             <td>18-04-21</td>
                             <td class="table-icon-cell">
                                 <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -225,8 +230,9 @@
                             <th title="Rank of the selected leaderboard">Rank</th>
                             <th></th>
                             <th title="Player name">Name</th>
-                            <th title="Plays on the selected leaderboard">Plays</th>
+                            <th title="The player's leaderboard performance">Performance</th>
                             <th title="Favourite modes">Fav modes</th>
+                            <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>
                             <th></th>
                         </tr>

@@ -22,6 +22,11 @@
                             <option value="Player3">
                         </datalist>
                     </div>
+
+                    <div class="form-item">
+                        <label for="community-name" class="form-label" title="Type in the name of the community to confirm the transfer">Community name</label>
+                        <input type="text" class="form-control" id="community-name" name="community-name">
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">

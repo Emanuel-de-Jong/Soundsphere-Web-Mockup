@@ -56,7 +56,7 @@
                 <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
-                            <th title="Community member that send the invite">Sender</th>
+                            <th title="Community member that sent the invite">Sender</th>
                             <th title="Player the invite is for">Receiver</th>
                             <th title="A message that an admin attached to the invite">Message</th>
                             <th title="The date that an admin in the community sent the invite">Invite sent</th>

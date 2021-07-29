@@ -219,7 +219,7 @@
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
-                            <th title="Players leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance">Performance</th>
                             <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
                     </thead>
@@ -258,7 +258,7 @@
                             <th title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
-                            <th title="Players leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance">Performance</th>
                             <th title="Player plays on the leaderboard charts">Plays</th>
                         </tr>
                     </tfoot>

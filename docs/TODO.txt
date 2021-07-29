@@ -45,19 +45,6 @@ HELP
 
 
 === QQP ===
-send -> sent
-user random 4 digid tag for dupe usernames
-player search accept user tag
-page title copy on click
-community changes rename "made by" to "member"
-community changes add links to messages
-community changes member crowns
-community transfer ownership type community name
-make yellow crown more different
-change crown icon
-community ranking performance column
-community members "time" instead of ""plays"
-table icon no order if it's always the same ones
 leaderboard modifiers not allowed by default
 leaderboards list remove "top player", "tables", "communities" add calcs
 invite communities to leaderboards
@@ -75,3 +62,6 @@ change all plays to play time
 player first places
 chart scores highlight own position
 predefined profile banner choices
+user random 4 digid tag for dupe usernames
+change crown icon
+table icon no order if it's always the same ones
