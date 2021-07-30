@@ -1,4 +1,4 @@
-<div class="modal" id="create-request-2-modal">
+<div class="modal" id="create-player-request-modal">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -8,10 +8,13 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <p>
-                            Community1 is private and can't be joined directly.<br>
-                            Would you like to send a join request?
-                        </p>
+                        <label for="community" class="form-label" title="The community to send the request to">Community</label>
+                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community...">
+                        <datalist id="community-options">
+                            <option value="Community1">
+                            <option value="Community2">
+                            <option value="Community3">
+                        </datalist>
                     </div>
 
                     <div class="form-item">

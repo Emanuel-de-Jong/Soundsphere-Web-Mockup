@@ -13,9 +13,12 @@
 
             <h1>Community1 - Inbox</h1>
 
+
+            <h2>Players</h2>
+
             <?php require('components/modals/delete.php'); ?>
-            <section id="incoming-requests-section">
-                <h2>Incoming requests</h2>
+            <section id="incoming-player-requests-section">
+                <h3>Incoming requests</h3>
 
                 <table class="data-table table table-icon-col-last">
                     <thead>
@@ -35,7 +38,7 @@
                                 <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the request. The player will join the community.">
                                     <i class="fas fa-check"></i>
                                 </a>
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Discard the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Deny the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>
@@ -44,22 +47,23 @@
                 </table>
             </section>
 
-            <?php require('components/modals/create-invite.php'); ?>
-            <section id="outgoing-invites-section">
-                <h2>
+
+            <?php require('components/modals/create-player-invite.php'); ?>
+            <section id="outgoing-player-invites-section">
+                <h3>
                     Outgoing invites
-                    <a href="#!" class="title-icon h2-icon green green-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-invite-modal">
+                    <a href="#!" class="title-icon h3-icon green green-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-player-invite-modal">
                         <i class="fas fa-plus"></i>
                     </a>
-                </h2>
+                </h3>
 
                 <table class="data-table table table-icon-col-last">
                     <thead>
                         <tr>
                             <th title="Community member that sent the invite">Sender</th>
                             <th title="Player the invite is for">Receiver</th>
-                            <th title="A message that an admin attached to the invite">Message</th>
-                            <th title="The date that an admin in the community sent the invite">Invite sent</th>
+                            <th title="A message that the sender attached to the invite">Message</th>
+                            <th title="The date that the sender sent the invite">Invite sent</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -70,7 +74,82 @@
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l red red-h" title="Cancel the invite">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Cancel the invite">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            
+            <h2>Leaderboards</h2>
+
+            <section id="incoming-leaderboard-invites-section">
+                <h3>Incoming invites</h3>
+
+                <table class="data-table table table-icon-col-last">
+                    <thead>
+                        <tr>
+                            <th title="Community name">Community</th>
+                            <th title="Community member that sent the INVITE">Sender</th>
+                            <th title="The leaderboard in question">Leaderboard</th>
+                            <th title="A message that the community attached to the invite">Message</th>
+                            <th title="The date that the community sent the invite">Invite sent</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td></td>
+                            <td>20-07-21 12:16</td>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the invite. Your community will join the leaderboard.">
+                                    <i class="fas fa-check"></i>
+                                </a>
+                                <a href="#!" class="table-icon table-icon-l red red-h" title="Deny the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+            <?php require('components/modals/create-leaderboard-invite.php'); ?>
+            <section id="outgoing-leaderboard-invites-section">
+                <h3>
+                    Outgoing invites
+                    <a href="#!" class="title-icon h3-icon green green-h" title="Send a leaderboard invite to a community" data-bs-toggle="modal" data-bs-target="#create-leaderboard-invite-modal">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </h3>
+
+                <table class="data-table table table-icon-col-last">
+                    <thead>
+                        <tr>
+                            <th title="Community member that sent the invite">Sender</th>
+                            <th title="community the invite is for">Receiver</th>
+                            <th title="The leaderboard to send the invite for">Leaderboard</th>
+                            <th title="A message that the sender attached to the invite">Message</th>
+                            <th title="The date that the sender sent the invite">Invite sent</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td></td>
+                            <td>20-07-21 12:16</td>
+                            <td class="table-icon-cell">
+                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Cancel the invite">
                                     <i class="fas fa-times"></i>
                                 </a>
                             </td>

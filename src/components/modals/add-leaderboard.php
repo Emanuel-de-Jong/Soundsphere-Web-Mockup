@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <select class="form-select" id="community" name="community" title="The community to add the leaderboard to">
-                    <option selected disabled hidden>Select a community</option>
+                    <option selected hidden>Select a community</option>
                     <option value="Community1">Community1</option>
                     <option value="Community2">Community2</option>
                     <option value="Community3">Community3</option>

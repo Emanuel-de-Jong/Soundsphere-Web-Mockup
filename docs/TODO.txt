@@ -45,8 +45,6 @@ HELP
 
 
 === QQP ===
-fix table icons
-invite communities to leaderboards
 community different icons for lbs from community and joined by community
 color rows of you, communities you joined and leaderboards you use
 leaderboard communities vertical slider after 5 rows
@@ -62,3 +60,4 @@ predefined profile banner choices
 user random 4 digid tag for dupe usernames
 change crown icon
 table icon no order if it's always the same ones
+fix table icons
