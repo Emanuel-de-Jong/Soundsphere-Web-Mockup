@@ -21,6 +21,7 @@ GENERAL
 	metatable only 1 tr
 	blurhash banner for community, leaderboard, player and chart
 	patterned background
+	consistent colors (with SASS?)
 	check mobile
 	check different browsers
 	consistent class names
@@ -45,7 +46,6 @@ HELP
 
 
 === QQP ===
-color rows of you, communities you joined and leaderboards you use
 leaderboard communities vertical slider after 5 rows
 leaderboard calc parameters
 leaderboard ranking "last played" instead of "plays"

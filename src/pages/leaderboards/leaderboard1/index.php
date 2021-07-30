@@ -165,7 +165,7 @@
                                         </a>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="highlight-row">
                                     <td class="table-icon-cell">
                                         <span class="table-icon table-icon-s orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
                                             <i class="fas fa-crown"></i>
@@ -252,7 +252,7 @@
                             <td>1000</td>
                             <td>55</td>
                         </tr>
-                        <tr>
+                        <tr class="highlight-row">
                             <td>#2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>

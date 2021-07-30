@@ -176,7 +176,7 @@
                                 </a>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="highlight-row">
                             <td>#2</td>
                             <td class="table-icon-cell">
                                 <span class="table-icon table-icon-s lred" title="Community owner">

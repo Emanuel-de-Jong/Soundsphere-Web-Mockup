@@ -30,7 +30,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="highlight-row">
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td>Table level</td>

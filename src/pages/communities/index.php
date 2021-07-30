@@ -30,7 +30,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="highlight-row">
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>

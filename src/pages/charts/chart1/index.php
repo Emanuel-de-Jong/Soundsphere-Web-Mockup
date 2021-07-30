@@ -102,7 +102,7 @@
                                 </a>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="highlight-row">
                             <td>#2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>1000</td>

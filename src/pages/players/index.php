@@ -21,7 +21,7 @@
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
-                        <tr>
+                        <tr class="highlight-row">
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>7K</td>
                             <td>200</td>

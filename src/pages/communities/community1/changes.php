@@ -25,7 +25,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="highlight-row">
                             <td>23-07-21 12:16</td>
                             <td class="table-icon-cell">
                                 <span class="table-icon table-icon-s lred" title="Community owner">

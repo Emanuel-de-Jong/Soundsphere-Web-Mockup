@@ -81,7 +81,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="highlight-row">
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
@@ -155,7 +155,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="highlight-row">
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>

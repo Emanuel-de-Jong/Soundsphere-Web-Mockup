@@ -22,7 +22,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="highlight-row">
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
@@ -52,7 +52,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="highlight-row">
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                                     <td>7K, 10K</td>
                                     <td>10</td>
