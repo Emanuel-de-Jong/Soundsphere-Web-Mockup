@@ -45,7 +45,6 @@ HELP
 
 
 === QQP ===
-community different icons for lbs from community and joined by community
 color rows of you, communities you joined and leaderboards you use
 leaderboard communities vertical slider after 5 rows
 leaderboard calc parameters

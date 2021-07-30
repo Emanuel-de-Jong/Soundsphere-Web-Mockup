@@ -1,3 +1,16 @@
+<nav id="secondary-navbar">
+    <div class="container">
+        <div class="nav">
+            <a class="nav-link" href="#incoming-player-requests-section">Player incoming</a>
+            <a class="nav-link" href="#outgoing-player-invites-section">Player outgoing</a>
+            <a class="nav-link" href="#incoming-leaderboard-invites-section">Leaderboard incoming</a>
+            <a class="nav-link" href="#outgoing-leaderboard-invites-section">Leaderboard outgoing</a>
+        </div>
+    </div>
+</nav>
+<div id="secondary-navbar-box"></div>
+
+
 <div id="community-inbox">
     <main class="container">
         <div class="main-box">

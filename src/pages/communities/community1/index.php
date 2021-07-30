@@ -101,9 +101,10 @@
                     </a>
                 </h2>
 
-                <table class="data-table table table-icon-col-last">
+                <table class="data-table table table-icon-col-first table-icon-col-last">
                     <thead>
                         <tr>
+                            <th></th>
                             <th title="Leaderboard name">Name</th>
                             <th title="Leaderboard input modes">Input modes</th>
                             <th title="Player on rank 1">Top player</th>
@@ -114,6 +115,11 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td class="table-icon-cell">
+                                <span class="table-icon table-icon-s orange" title="This community owns this leaderboard">
+                                    <i class="fas fa-crown"></i>
+                                </span>
+                            </td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>

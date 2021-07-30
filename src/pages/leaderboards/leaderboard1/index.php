@@ -141,7 +141,7 @@
                     <div class="col">
                         <h2>Communities</h2>
 
-                        <table class="data-table table table-icon-col-last table-icon-col-first">
+                        <table class="data-table table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th></th>
