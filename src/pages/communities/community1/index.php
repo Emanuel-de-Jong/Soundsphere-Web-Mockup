@@ -72,7 +72,7 @@
                         <th title="To join private communities, you have to send a request">Public:</th>
                         <td>No</td>
                         <th title="To join private communities, you have to send a request">Community link:</th>
-                        <td><a href="https://discord.gg/hDjSpVyhuZ">https://discord.gg/hDjSpVyhuZ</a></td>
+                        <td><a href="https://discord.gg/hDjSpVyhuZ">discord.gg/hDjSpVyhuZ</a></td>
                     </tr>
                 </table>
             </section>

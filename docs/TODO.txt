@@ -46,15 +46,9 @@ HELP
 
 
 === QQP ===
-leaderboard communities vertical slider after 5 rows
 leaderboard calc parameters
-leaderboard ranking "last played" instead of "plays"
-leaderboard exclude ccertain charts from tables (select chart by file upload)
-tables list url column
-table info section (url, input mode)
-change all plays to play time
+leaderboard exclude certain charts from tables (select chart by file upload)
 player first places
-chart scores highlight own position
 predefined profile banner choices
 user random 4 digid tag for dupe usernames
 change crown icon

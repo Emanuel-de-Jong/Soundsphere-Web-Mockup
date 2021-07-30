@@ -4,6 +4,26 @@
             <h1>Table1</h1>
 
 
+            <section id="info-section">
+                <h2>Info</h2>
+
+                <table class="meta-table">
+                    <tr>
+                        <th title="Input modes in the table charts">Input modes:</th>
+                        <td>7K</td>
+                        <th title="Chart count">Charts:</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th title="Plays over all charts">Plays:</th>
+                        <td>115</td>
+                        <th title="The link to the original table">URL:</th>
+                        <td><a href="https://stellabms.xyz/st/table.html">stellabms.xyz/st/table.html</a></td>
+                    </tr>
+                </table>
+            </section>
+
+
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
             <section id="communities-bms-tables-section" class="section-grid">

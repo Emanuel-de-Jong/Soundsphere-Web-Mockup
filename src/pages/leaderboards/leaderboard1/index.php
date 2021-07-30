@@ -207,7 +207,7 @@
                                     <th title="Table name">Name</th>
                                     <th title="Input modes in the table charts">Input modes</th>
                                     <th title="Chart count">Charts</th>
-                                    <th title="Plays over all charts">Plays</th>
+                                    <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -250,28 +250,28 @@
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
-                            <td>55</td>
+                            <td>10-10-21 15:28</td>
                         </tr>
                         <tr class="highlight-row">
                             <td>#2</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
-                            <td>55</td>
+                            <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#3</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
-                            <td>55</td>
+                            <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#4</td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
-                            <td>55</td>
+                            <td>10-10-21 15:28</td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -280,7 +280,7 @@
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
                             <th title="The player's leaderboard performance">Performance</th>
-                            <th title="Player plays on the leaderboard charts">Plays</th>
+                                    <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                         </tr>
                     </tfoot>
                 </table>
