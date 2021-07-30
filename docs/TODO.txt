@@ -15,7 +15,6 @@ GENERAL
 
 === DESIGN ===
 GENERAL
-	title decide on "delete" or "remove"
 	change font sizes to em
 	show logo in navbar differently
 	metatable only 1 tr

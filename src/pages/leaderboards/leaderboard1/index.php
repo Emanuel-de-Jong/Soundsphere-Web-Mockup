@@ -241,7 +241,7 @@
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
                             <th title="The player's leaderboard performance">Performance</th>
-                            <th title="Player plays on the leaderboard charts">Plays</th>
+                            <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -280,7 +280,7 @@
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
                             <th title="The player's leaderboard performance">Performance</th>
-                                    <th title="The last time the player submitted a score to the leaderboard">Last played</th>
+                            <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                         </tr>
                     </tfoot>
                 </table>
