@@ -267,6 +267,12 @@ main {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.data-table-nohead th {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
 .data-table-select {
     display: inline;
     width: 260px;

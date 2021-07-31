@@ -43,15 +43,18 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim table table-icon-col-last">
-                            <tr>
-                                <td>7K</td>
-                                <td class="table-icon-cell">
-                                    <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                        <i class="fas fa-times"></i>
-                                    </a>
-                                </td>
-                            </tr>
+                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last">
+                            <thead><tr> <th></th> <th></th> </tr></thead>
+                            <tbody>
+                                <tr>
+                                    <td>7K</td>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-times"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
 

@@ -35,8 +35,8 @@ $(function () {
     $(".data-table-slim").each(function() {
         initDataTable($(this), {
             ...dtDefaultOptions,
-            aoColumnDefs: [
-                { bSortable: false, aTargets: ["_all"] }
+            columnDefs: [
+                { orderable: false, targets: ["_all"] }
             ],
             searching: false,
             paging: false,
