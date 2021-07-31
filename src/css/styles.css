@@ -137,7 +137,7 @@ main {
     margin-bottom: 0;
 }
 
-.main-box section.section-grid > div {
+.main-box section.section-grid > .row > div {
     margin-bottom: 60px;
 }
 

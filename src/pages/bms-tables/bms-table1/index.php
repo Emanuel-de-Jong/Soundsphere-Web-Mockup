@@ -26,7 +26,7 @@
 
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
-            <section id="communities-bms-tables-section" class="section-grid">
+            <section id="communities-leaderboards-section" class="section-grid">
                 <div class="row">
                     <div class="col">
                         <h2>Communities</h2>
@@ -78,8 +78,8 @@
                                     <td>10</td>
                                     <td>1</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon green green-h" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
-                                            <i class="fas fa-sign-in-alt" title="Add to community"></i>
+                                        <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                            <i class="fas fa-sign-in-alt"></i>
                                         </a>
                                     </td>
                                 </tr>

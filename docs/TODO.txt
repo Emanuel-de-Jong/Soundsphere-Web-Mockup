@@ -6,6 +6,7 @@ GENERAL
 	form validation
 	check tooltips
 	code cleanup
+	console warnings
 	lighthouse improvements
 	better example rows
 
@@ -14,6 +15,7 @@ GENERAL
 
 === DESIGN ===
 GENERAL
+	table select next to title
 	change font sizes to em
 	show logo in navbar differently
 	patterned background
