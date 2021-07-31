@@ -17,7 +17,7 @@
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/create-player-request-2.php'); ?>
             <section id="communities-section">
-                <table class="data-table data-table-all table table-icon-col-last">
+                <table class="data-table data-table-all table table-icon-col-last" data-c0="4" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>

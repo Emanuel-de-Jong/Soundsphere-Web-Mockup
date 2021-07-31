@@ -16,7 +16,6 @@ GENERAL
 GENERAL
 	change font sizes to em
 	show logo in navbar differently
-	metatable only 1 tr
 	patterned background
 	consistent colors (with SASS?)
 	check mobile

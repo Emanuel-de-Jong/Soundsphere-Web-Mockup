@@ -1,6 +1,28 @@
 $(function () {
-    $(".data-table-all").DataTable({
-        scrollX: true
+    $(".data-table-all").each(function() {
+        var table = $(this);
+
+        var orderItems = [];
+        for (var i=0; i<10; i++) {
+            var col = table.attr("data-c" + i);
+            var dir = table.attr("data-d" + i);
+
+            if (col == null)
+                break;
+            
+            if (dir == null)
+                dir = "asc";
+
+            orderItems[i] = [parseInt(col), dir];
+        }
+        
+        if (orderItems.length == 0)
+            orderItems[0] = [0, "asc"];
+
+        table.DataTable({
+            scrollX: true,
+            order: orderItems
+        });
     });
     
 
