@@ -117,7 +117,7 @@
             <section id="modifiers-section">
                 <h2>Modifiers</h2>
 
-                <table class="data-table table">
+                <table class="data-table data-table-slim table">
                     <thead>
                         <tr>
                             <th title="Modifier name">Name</th>
@@ -144,7 +144,7 @@
                     <div class="col">
                         <h2>Communities</h2>
 
-                        <table class="data-table table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="2" data-d0="desc">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -175,7 +175,7 @@
                                         </span>
                                     </td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
-                                    <td>4000</td>
+                                    <td>3000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
@@ -187,7 +187,7 @@
                                 <tr>
                                     <td></td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
-                                    <td>3000</td>
+                                    <td>4000</td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
@@ -204,7 +204,7 @@
                     <div class="col">
                         <h2>Tables</h2>
 
-                        <table class="data-table table">
+                        <table class="data-table data-table-slim table">
                             <thead>
                                 <tr>
                                     <th title="Table name">Name</th>

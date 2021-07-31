@@ -43,7 +43,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-last">
                             <tr>
                                 <td>7K</td>
                                 <td class="table-icon-cell">

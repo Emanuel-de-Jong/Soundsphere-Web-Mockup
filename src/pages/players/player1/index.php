@@ -102,7 +102,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -144,7 +144,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th></th>

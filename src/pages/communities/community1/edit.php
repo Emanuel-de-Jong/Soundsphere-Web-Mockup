@@ -76,7 +76,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-last">
                             <tr>
                                 <td><a href="?a=players_player1_index">Player1</a></td>
                                 <td class="table-icon-cell">
@@ -95,7 +95,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-last">
                             <tr>
                                 <td><a href="?a=players_player1_index">Player1</a></td>
                                 <td class="table-icon-cell">

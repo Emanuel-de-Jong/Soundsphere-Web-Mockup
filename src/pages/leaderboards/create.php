@@ -81,7 +81,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table"></table>
+                        <table class="data-table data-table-slim table"></table>
                     </div>
 
                     <div class="form-item">
@@ -91,7 +91,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table">
+                        <table class="data-table data-table-slim table">
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>
@@ -112,7 +112,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table" id="bms-tables"></table>
+                        <table class="data-table data-table-slim table" id="bms-tables"></table>
                     </div>
 
                     <button type="submit" class="btn bg-blue bg-blue-h">Create</button>

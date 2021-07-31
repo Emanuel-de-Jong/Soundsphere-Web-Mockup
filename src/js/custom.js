@@ -1,7 +1,9 @@
 $(function () {
-    $(".data-table-all").each(function() {
-        var table = $(this);
+    var dtDefaultOptions = {
+        scrollX: true,
+    }
 
+    function initDataTable(table, options) {
         var orderItems = [];
         for (var i=0; i<10; i++) {
             var col = table.attr("data-c" + i);
@@ -19,10 +21,27 @@ $(function () {
         if (orderItems.length == 0)
             orderItems[0] = [0, "asc"];
 
-        table.DataTable({
-            scrollX: true,
-            order: orderItems
-        });
+        options["order"] = orderItems;
+
+        table.DataTable(options);
+    }
+
+    $(".data-table-all").each(function() {
+        initDataTable($(this), {
+            ...dtDefaultOptions,
+        })
+    });
+
+    $(".data-table-slim").each(function() {
+        initDataTable($(this), {
+            ...dtDefaultOptions,
+            aoColumnDefs: [
+                { bSortable: false, aTargets: ["_all"] }
+            ],
+            searching: false,
+            paging: false,
+            info: false,
+        })
     });
     
 

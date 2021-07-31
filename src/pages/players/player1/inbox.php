@@ -17,7 +17,7 @@
             <section id="incoming-invites-section">
                 <h2>Incoming invites</h2>
 
-                <table class="data-table table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last">
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>
@@ -55,7 +55,7 @@
                     </a>
                 </h2>
 
-                <table class="data-table table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last">
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>

@@ -81,7 +81,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-last">
                             <tr>
                                 <td>7K</td>
                                 <td class="table-icon-cell">
@@ -100,7 +100,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>
@@ -136,7 +136,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table table table-icon-col-last" id="bms-tables">
+                        <table class="data-table data-table-slim table table-icon-col-last" id="bms-tables">
                             <tr>
                                 <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
                                 <td class="table-icon-cell">

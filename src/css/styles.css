@@ -256,6 +256,10 @@ main {
     min-width: 99.5%;
 }
 
+.data-table thead th {
+    border-bottom-color: rgb(222, 226, 230) !important;
+}
+
 .data-table tbody tr:nth-child(odd) {
     background-color: rgba(0, 0, 0, 0.025);
 }
