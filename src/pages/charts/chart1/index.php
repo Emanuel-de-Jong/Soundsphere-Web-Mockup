@@ -1,3 +1,6 @@
+<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
 <div id="chart">
     <main class="container">
         <div class="main-box">

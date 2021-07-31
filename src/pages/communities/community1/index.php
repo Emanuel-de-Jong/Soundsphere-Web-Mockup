@@ -11,6 +11,9 @@
 <div id="secondary-navbar-box"></div>
 
 
+<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
 <div id="community">
     <main class="container">
         <div class="main-box">

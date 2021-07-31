@@ -2,7 +2,6 @@
 GENERAL
 	default table column order
 	input mode as text field or select chart with that keymode
-	accurate redirect and button click behaviour
 	check form ids, fors and placeholders
 	form validation
 	check tooltips
@@ -18,7 +17,6 @@ GENERAL
 	change font sizes to em
 	show logo in navbar differently
 	metatable only 1 tr
-	blurhash banner for community, leaderboard, player and chart
 	patterned background
 	consistent colors (with SASS?)
 	check mobile
