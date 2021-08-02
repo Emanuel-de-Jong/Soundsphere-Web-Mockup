@@ -210,7 +210,7 @@
                                     <th title="Table name">Name</th>
                                     <th title="Input modes in the table charts">Input modes</th>
                                     <th title="Chart count">Charts</th>
-                                    <th title="The last time the player submitted a score to the leaderboard">Last played</th>
+                                    <th title="Plays over all charts">Plays</th>
                                 </tr>
                             </thead>
                             <tbody>

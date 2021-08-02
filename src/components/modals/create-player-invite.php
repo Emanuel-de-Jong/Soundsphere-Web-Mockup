@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="player" class="form-label" title="The player to send an invite to">Player</label>
+                        <label for="player" class="form-label form-required" title="The player to send an invite to">Player</label>
                         <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a player...">
                         <datalist id="player-options">
                             <option value="Player1">
@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="message" class="form-label form-optional" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
+                        <label for="message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
                         <input type="text" class="form-control" id="message" name="message">
                     </div>
                 </form>

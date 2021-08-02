@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="community" class="form-label" title="The community to send the invite to">Community</label>
+                        <label for="community" class="form-label form-required" title="The community to send the invite to">Community</label>
                         <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community...">
                         <datalist id="community-options">
                             <option value="Community1">
@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="leaderboard" class="form-label" title="The leaderboard to send the invite for">Leaderboard</label>
+                        <label for="leaderboard" class="form-label form-required" title="The leaderboard to send the invite for">Leaderboard</label>
                         <select class="form-select" id="leaderboard" name="leaderboard">
                             <option selected hidden>Select a leaderboard</option>
                             <option value="Leaderboard1">Leaderboard1</option>
@@ -28,7 +28,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="message" class="form-label form-optional" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
+                        <label for="message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
                         <input type="text" class="form-control" id="message" name="message">
                     </div>
                 </form>

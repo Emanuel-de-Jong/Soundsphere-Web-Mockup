@@ -22,17 +22,17 @@
             <section id="form-section">
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
-                        <label for="leaderboard-name" class="form-label" title="Leaderboard name">Name</label>
+                        <label for="leaderboard-name" class="form-label form-required" title="Leaderboard name">Name</label>
                         <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name">
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label" title="Description shown in popup">Description</label>
+                        <label for="description" class="form-label form-required" title="Description shown in popup">Description</label>
                         <textarea class="form-control" id="description" name="description"></textarea>
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label" for="chart-diff-calc" title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Chart difficulty calculator</label>
+                        <label for="chart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Chart difficulty calculator</label>
                         <select class="form-select" id="chart-diff-calc" name="chart-diff-calc">
                             <option value="table-level" selected>Table level</option>
                             <option value="soundsphere">soundsphere</option>
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label" for="score-performance-calc" title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Score performance calculator</label>
+                        <label for="score-performance-calc" class="form-label form-required" title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Score performance calculator</label>
                         <select class="form-select" id="score-performance-calc" name="score-performance-calc">
                             <option value="soundsphere" selected>soundsphere</option>
                             <option value="osu">osu!</option>
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label" for="score-combiner" title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner</label>
+                        <label for="score-combiner" class="form-label form-required" title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner</label>
                         <select class="form-select" id="score-combiner" name="score-combiner">
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>
@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label" for="community-combiner" title="Decides how the member performances are combined to get the total performance of a community">Community combiner</label>
+                        <label for="community-combiner" class="form-label form-required" title="Decides how the member performances are combined to get the total performance of a community">Community combiner</label>
                         <select class="form-select" id="community-combiner" name="community-combiner">
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>
@@ -70,12 +70,12 @@
                     </div>
                     
                     <div class="form-item">
-                        <label for="banner" class="form-label form-optional" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
+                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label w-100" title="Only scores with this input mode will be used">
+                        <label class="form-label form-required w-100" title="Only scores with this input mode will be used">
                             Input modes
                             <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
                                 <i class="fas fa-plus"></i>
@@ -88,7 +88,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label class="form-label form-optional w-100" title="The modifiers a score needs to/can't have to be counted">
+                        <label class="form-label w-100" title="The modifiers a score needs to/can't have to be counted">
                             Modifiers
                             <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
                                 <i class="fas fa-plus"></i>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="bms-tables" class="form-label w-100" title="Tables of which the charts will be used for ranking">
+                        <label for="bms-tables" class="form-label form-required w-100" title="Tables of which the charts will be used for ranking">
                             Tables
                             <a href="#!" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
                                 <i class="fas fa-plus"></i>

@@ -22,36 +22,36 @@
                     <div class="row">
                         <div class="col-9">
                             <div class="form-item">
-                                <label for="community-name" class="form-label" title="Community name">Name</label>
+                                <label for="community-name" class="form-label form-required" title="Community name">Name</label>
                                 <input type="text" class="form-control" id="community-name" name="community-name" value="Community1">
                             </div>
                         </div>
 
                         <div class="col-3">
                             <div class="form-item">
-                                <label for="alias" class="form-label" title="3 to 5 characters that represent the community">Alias</label>
+                                <label for="alias" class="form-label form-required" title="3 to 5 characters that represent the community">Alias</label>
                                 <input type="text" class="form-control" id="alias" name="alias" value="AAA">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-item">
-                        <label for="link" class="form-label form-optional" title="A link to the community outside of this site">Community link</label>
+                        <label for="link" class="form-label" title="A link to the community outside of this site">Community link</label>
                         <input type="text" class="form-control" id="link" name="link" value="https://discord.gg/hDjSpVyhuZ">
                     </div>
 
                     <div class="form-item">
-                        <label for="short-description" class="form-label" title="Description shown in tables">Short description</label>
+                        <label for="short-description" class="form-label form-required" title="Description shown in tables">Short description</label>
                         <input type="text" class="form-control" id="short-description" name="short-description" value="The first community. Which automatically makes it the best one.">
                     </div>
 
                     <div class="form-item">
-                        <label for="description" class="form-label form-optional" title="Page description">Description</label>
+                        <label for="description" class="form-label" title="Page description">Description</label>
                         <textarea class="form-control" id="description" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
                     </div>
 
                     <div class="form-item">
-                        <label for="default-ranking-leaderboard" class="form-label form-optional" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
+                        <label for="default-ranking-leaderboard" class="form-label" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
                         <select class="form-select" id="default-ranking-leaderboard" name="default-ranking-leaderboard">
                             <option value="Leaderboard1" selected>Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard2</option>
@@ -60,17 +60,17 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="banner" class="form-label form-optional" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
+                        <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
                     <div class="form-item form-check">
-                        <label for="is-public" class="form-check-label" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
+                        <label for="is-public" class="form-check-label form-required" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
                         <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
                     </div>
 
                     <div class="form-item">
-                        <label for="admins" class="form-label form-optional w-100" title="Players that can manage leaderboards">
+                        <label for="admins" class="form-label w-100" title="Players that can manage leaderboards">
                             Admins
                             <a href="#!" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="moderators" class="form-label form-optional w-100" title="Players that can kick members">
+                        <label for="moderators" class="form-label w-100" title="Players that can kick members">
                             Moderators
                             <a href="#!" class="title-icon label-icon green green-h" title="Add moderator" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>

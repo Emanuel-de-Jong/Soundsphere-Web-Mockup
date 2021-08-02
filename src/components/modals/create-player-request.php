@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="community" class="form-label" title="The community to send the request to">Community</label>
+                        <label for="community" class="form-label form-required" title="The community to send the request to">Community</label>
                         <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community...">
                         <datalist id="community-options">
                             <option value="Community1">
@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="message" class="form-label form-optional" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
+                        <label for="message" class="form-label" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
                         <input type="text" class="form-control" id="message" name="message">
                     </div>
                 </form>

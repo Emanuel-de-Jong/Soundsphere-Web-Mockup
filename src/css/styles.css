@@ -314,16 +314,10 @@ main {
     margin-bottom: 30px;
 }
 
-.form-modal label::after,
-.form-settings label::after {
+.form-required::after {
     color: red;
     font-weight: 600;
     content: " * ";
-}
-
-.form-modal label.form-optional::after,
-.form-settings label.form-optional::after {
-    content: "";
 }
 
 /* Modal */

@@ -8,7 +8,7 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="url" class="form-label" title="The website link of the table">Table URL</label>
+                        <label for="url" class="form-label form-required" title="The website link of the table">Table URL</label>
                         <input type="text" class="form-control" id="url" name="url">
                     </div>
                 </form>

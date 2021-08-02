@@ -8,6 +8,9 @@ GENERAL
 	console warnings
 	lighthouse improvements
 	better example rows
+	
+CHART
+	format
 
 
 
