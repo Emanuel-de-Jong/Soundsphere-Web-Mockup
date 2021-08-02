@@ -1,8 +1,8 @@
 === LOGIC ===
 GENERAL
 	input mode as text field or select chart with that keymode
-	check form ids, fors and placeholders
-	form validation
+	give all form items a form parent
+	form table validation
 	check tooltips
 	code cleanup
 	console warnings

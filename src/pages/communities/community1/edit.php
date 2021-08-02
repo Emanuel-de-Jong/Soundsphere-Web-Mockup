@@ -61,12 +61,12 @@
 
                     <div class="form-item">
                         <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your community page">Blurred banner image</label>
-                        <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
+                        <input type="file" class="form-control input-image" id="banner" name="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
                     <div class="form-item form-check">
                         <label for="is-public" class="form-check-label form-required" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
-                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked required>
+                        <input type="checkbox" class="form-check-input" id="is-public" name="is-public" checked required>
                     </div>
 
                     <div class="form-item">

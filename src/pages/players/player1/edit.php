@@ -19,7 +19,7 @@
             <?php require('components/modals/confirm-delete.php'); ?>
             <section id="form-section">
                 <form class="form-settings" action="?a=players_player1_index" method="post">
-                    <label class="form-required" id="username-preview" title="A preview that shows how your username will look">Player1</label>
+                    <label for="username" class="form-required" id="username-preview" title="A preview that shows how your username will look">Player1</label>
                     <div class="form-item input-group">
                         <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#fff" title="The lefter color of your username">
                         <input type="text" class="form-control" id="username" name="username" title="Your username" minlength="5" maxlength="50" required value="Player1">
@@ -33,7 +33,7 @@
 
                     <div class="form-item">
                         <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your profile page">Blurred banner image</label>
-                        <input type="file" class="form-control input-image" name="banner" id="banner" accept=".png, .jpg, .jpeg">
+                        <input type="file" class="form-control input-image" id="banner" name="banner" accept=".png, .jpg, .jpeg">
                     </div>
 
                     <div class="form-item">
