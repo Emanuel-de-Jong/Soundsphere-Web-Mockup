@@ -6,33 +6,6 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <!-- <input class="form-control" list="input-mode-options" id="input-mode" name="input-mode" title="" placeholder="Search for an input mode...">
-                <datalist id="input-mode-options">
-                    <option value="1key">
-                    <option value="2key">
-                    <option value="3key">
-                    <option value="4key">
-                    <option value="5key">
-                    <option value="6key">
-                    <option value="7key">
-                    <option value="8key">
-                    <option value="9key">
-                    <option value="10key">
-                    <option value="12key">
-                    <option value="14key">
-                    <option value="16key">
-                    <option value="18key">
-                    <option value="20key">
-                    <option value="5key1scratch">
-                    <option value="7key1scratch">
-                    <option value="10key2scratch">
-                    <option value="14key2scratch">
-                    <option value="24key">
-                    <option value="48key">
-                    <option value="88key">
-                    <option value="4bt2fx2laserleft2laserright">
-                </datalist> -->
-                
                 <select class="form-select" id="input-mode" name="input-mode" title="The input mode to add">
                     <option selected hidden>Select an input mode</option>
                     <!-- base -->

@@ -47,16 +47,20 @@ textarea:focus {
 
 #primary-navbar .nav-link {
     color: rgb(234, 234, 234);
+    font-size: 17px;
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
     color: white;
 }
 
-#primary-navbar .underline {
+#primary-navbar .nav-link::after {
+    display: block;
+    content: "";
     border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
-#primary-navbar .nav-link:hover .underline {
+
+#primary-navbar .nav-link:hover::after {
     border-color: white;
 }
 

@@ -1,6 +1,5 @@
 === LOGIC ===
 GENERAL
-	input mode as text field or select chart with that keymode
 	give all form items a form parent
 	form table validation
 	check tooltips
@@ -18,8 +17,6 @@ CHART
 === DESIGN ===
 GENERAL
 	table select next to title
-	change widths to %
-	check if font sizes are necesarry
 	show logo in navbar differently
 	patterned background
 	consistent colors (with SASS?)
@@ -36,6 +33,7 @@ GENERAL
 
 LOGIN/REGISTER
 	vertical center
+	restyling
 
 HOME
 	everything

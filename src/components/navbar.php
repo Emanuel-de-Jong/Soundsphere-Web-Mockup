@@ -10,30 +10,29 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav me-auto">
-                <a class="nav-link" href="/">Home<div class="underline"></div></a>
-                <a class="nav-link" href="?a=communities_index">Communities<div class="underline"></div></a>
-                <a class="nav-link" href="?a=leaderboards_index">Leaderboards<div class="underline"></div></a>
-                <a class="nav-link" href="?a=bms-tables_index">Tables<div class="underline"></div></a>
-                <a class="nav-link" href="?a=players_index">Players<div class="underline"></div></a>
-                <a class="nav-link" href="?a=charts_index">Charts<div class="underline"></div></a>
-                <a class="nav-link" href="?a=help">Help<div class="underline"></div></a>
-                <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download<div class="underline"></div></a>
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="?a=communities_index">Communities</a>
+                <a class="nav-link" href="?a=leaderboards_index">Leaderboards</a>
+                <a class="nav-link" href="?a=bms-tables_index">Tables</a>
+                <a class="nav-link" href="?a=players_index">Players</a>
+                <a class="nav-link" href="?a=charts_index">Charts</a>
+                <a class="nav-link" href="?a=help">Help</a>
+                <a class="nav-link" href="https://github.com/semyon422/soundsphere-updater/archive/master.zip" target="_blank">Download</a>
             </div>
 
             <div class="navbar-nav">
-                <?php
-                    if(isset($_COOKIE["logged-in"])) {
-                        echo '
-                            <a class="nav-link" href="?a=players_player1_index">Profile<div class="underline"></div></a>
-                            <a class="nav-link" href="logout.php">Logout<div class="underline"></div></a>
-                            ';
-                    } else {
-                        echo '
-                            <a class="nav-link" href="?a=login">Login<div class="underline"></div></a>
-                            <a class="nav-link" href="?a=register">Register<div class="underline"></div></a>
-                            ';
-                    }
-                ?>
+                <a class="nav-link" href="?a=players_player1_index" <?php if(!isset($_COOKIE["logged-in"])) echo 'hidden'?>>
+                    Profile
+                </a>
+                <a class="nav-link" href="logout.php" <?php if(!isset($_COOKIE["logged-in"])) echo 'hidden'?>>
+                    Logout
+                </a>
+                <a class="nav-link" href="?a=login" <?php if(isset($_COOKIE["logged-in"])) echo 'hidden'?>>
+                    Login
+                </a>
+                <a class="nav-link" href="?a=register" <?php if(isset($_COOKIE["logged-in"])) echo 'hidden'?>>
+                    Register
+                </a>
             </div>
         </div>
     </div>
