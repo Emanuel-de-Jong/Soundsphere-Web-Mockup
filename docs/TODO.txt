@@ -18,7 +18,8 @@ CHART
 === DESIGN ===
 GENERAL
 	table select next to title
-	change font sizes to em
+	change widths to %
+	check if font sizes are necesarry
 	show logo in navbar differently
 	patterned background
 	consistent colors (with SASS?)

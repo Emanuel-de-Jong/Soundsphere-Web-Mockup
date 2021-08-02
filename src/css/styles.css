@@ -2,6 +2,7 @@
 body {
     min-height: 100%;
     background-color: rgb(240, 240, 240);
+    font-size: 16px;
 }
 
 p {
@@ -11,7 +12,7 @@ p {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 400;
 }
 
@@ -142,20 +143,19 @@ main {
 }
 
 .main-box h1 {
-    font-size: 44px;
+    font-size: 2.75rem;
     margin: auto;
     margin-bottom: 70px;
     text-align: center;
     width: 75%;
 }
 .main-box h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 12px;
 }
 
 @media (max-width: 1199px) {
     .main-box h1 {
-        font-size: 40px;
         width: 80%;
     }
 }
@@ -176,7 +176,7 @@ main {
 
 .social a {
     color: rgb(153, 153, 153);
-    font-size: 25px;
+    font-size: 1.65rem;
     text-decoration: none;
     border-style: solid;
     border-color: #999;
@@ -191,22 +191,12 @@ main {
 
 .social a:hover {
     color: rgb(108, 117, 125);
-    font-size: 25px;
-    text-decoration: none;
-    border-style: solid;
     border-color: rgb(108, 117, 125);
-    border-radius: 50%;
-    border-width: 2px;
-    margin: 0 10px;
-    width: 42px;
-    height: 42px;
-    line-height: 38px;
-    display: inline-block;
 }
 
 .footer-copyright {
     color: #6c757d;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -362,7 +352,7 @@ main {
 }
 
 .form-login h1 {
-    font-size: 35px;
+    font-size: 2.185rem;
     font-weight: 400;
 }
 
@@ -403,7 +393,7 @@ main {
 
 .page-icon-text {
     display: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .page-icons-always-collapsed .page-icon-text {
@@ -417,13 +407,13 @@ main {
 }
 
 .page-icon {
-    font-size: 25px;
+    font-size: 1.65rem;
     color: rgb(33, 37, 41);
     text-decoration: none;
 }
 
 .page-icons-always-collapsed .page-icon {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .page-icon:hover {
@@ -438,17 +428,13 @@ main {
     .page-icons-never-collapsed .page-icon-text {
         display: none;
     }
-
-    .page-icon {
-        font-size: 22px;
-    }
 }
 
 /* New message circle */
 .new-message-circle {
     display: inline-block;
     margin-left: -18px;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
     background-color: red;
     width: 18px;
@@ -466,13 +452,13 @@ main {
 
 /* H2 icon */
 .h2-icon {
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-top: 3px;
 }
 
 /* Label icon */
 .label-icon {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: -3px;
 }
 
@@ -494,18 +480,18 @@ main {
 }
 
 .table-icon {
-    font-size: 19px;
+    font-size: 1.185rem;
     text-decoration: none;
     margin-left: 8px;
     vertical-align: middle;
 }
 
 .table-icon-s {
-    font-size: 17px;
+    font-size: 1.065rem;
 }
 
 .table-icon-l {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .table-icon-hide {
@@ -521,7 +507,7 @@ tr:hover .table-icon-hide {
 
 /* Role badge */
 .role-badge {
-    font-size: 12px;
+    font-size: 0.75rem;
     padding: 5px 5px;
     text-align: center;
     width: 36px;
@@ -576,7 +562,7 @@ tr:hover .table-icon-hide {
     display: block;
     text-align: center;
     margin-bottom: 15px;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 500;
 }
 #player-edit #username-preview {
