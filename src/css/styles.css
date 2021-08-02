@@ -11,11 +11,6 @@ p {
     margin-bottom: 0.25rem;
 }
 
-h3 {
-    font-size: 1.625rem;
-    font-weight: 400;
-}
-
 /* Add offset to anchor scroll */
 :target:before {
     display: block;
@@ -52,7 +47,6 @@ textarea:focus {
 
 #primary-navbar .nav-link {
     color: rgb(234, 234, 234);
-    font-size: 1.03rem;
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
@@ -116,22 +110,17 @@ textarea:focus {
 
 
 /* MAIN */
-main {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .main-box {
     position: relative;
-    margin: 0 60px;
-    padding: 40px 50px 1px 50px;
+    margin: 1.875rem 3.75rem;
+    padding: 2.5rem 3.125rem 1px 3.125rem;
     border-radius: 0.25rem;
     background-color: white;
-    box-shadow: 3px 3px .25rem rgba(0, 0, 0, .075);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .075);
 }
 
 .main-box section {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .main-box section.section-grid {
@@ -139,19 +128,24 @@ main {
 }
 
 .main-box section.section-grid > .row > div {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .main-box h1 {
     font-size: 2.75rem;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
     text-align: center;
     width: 75%;
 }
 .main-box h2 {
     font-size: 1.875rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
+}
+
+.main-box h3 {
+    font-size: 1.625rem;
+    font-weight: 400;
 }
 
 @media (max-width: 1199px) {
@@ -171,7 +165,7 @@ main {
 
 /* FOOTER */
 .footer {
-    margin-bottom: 15px;
+    margin-bottom: 0.94rem;
 }
 
 .social a {
@@ -182,10 +176,10 @@ main {
     border-color: #999;
     border-radius: 50%;
     border-width: 2px;
-    margin: 0 10px 10px 10px;
-    width: 42px;
-    height: 42px;
-    line-height: 38px;
+    margin: 0 0.625rem 0.625rem 0.625rem;
+    width: 2.625rem;
+    height: 2.625rem;
+    line-height: 2.375rem;
     display: inline-block;
 }
 
@@ -209,7 +203,7 @@ main {
     top: 62px;
     left: 0;
     right: 0;
-    height: 420px;
+    height: 26.25rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -265,13 +259,13 @@ main {
 
 .data-table-select {
     display: inline;
-    width: 260px;
-    margin-bottom: 12px;
+    width: 15.625rem;
+    margin-bottom: 0.75rem;
 }
 
 /* meta-table */
 .meta-table th,td {
-    padding: 8px 10px 8px 10px;
+    padding: 0.5rem 0.625rem;
 }
 .meta-table th {
     background-color: rgba(0, 0, 0, 0.025);
@@ -281,7 +275,7 @@ main {
 .meta-table td {
     border: 1px solid rgb(222, 226, 230);
     border-left: none;
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 
@@ -305,7 +299,7 @@ main {
 } */
 
 .form-item {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .form-required::after {
@@ -316,14 +310,10 @@ main {
 
 /* Modal */
 .form-modal .form-item {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 /* Page */
-.form-page {
-    padding-top: 3px;
-}
-
 .form-page .input-group-text {
     background-color: rgba(0, 0, 0, 0.025);
 }
@@ -331,11 +321,11 @@ main {
 /* Settings */
 .form-settings {
     margin: auto;
-    max-width: 600px;
+    max-width: 37.5rem;
 }
 
 .form-settings textarea {
-    height: 110px;
+    height: 6.875rem;
 }
 
 .form-settings .input-file-dragenter {
@@ -379,15 +369,15 @@ main {
 /* Page icon */
 .page-icons {
     position: absolute;
-    margin-top: 10px;
+    margin-top: 0.375rem;
 }
 
 .page-icons-left {
-    left: 46px;
+    left: 2.875rem;
 }
 
 .page-icons-right {
-    right: 46px;
+    right: 2.875rem;
     text-align: right;
 }
 
@@ -403,7 +393,7 @@ main {
 .page-icon-box {
     display: inline-block;
     text-align: center;
-    width: 38px;
+    width: 2.375rem;
 }
 
 .page-icon {
@@ -433,33 +423,33 @@ main {
 /* New message circle */
 .new-message-circle {
     display: inline-block;
-    margin-left: -18px;
+    margin-left: -1.125rem;
     font-size: 0.875rem;
     color: white;
     background-color: red;
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 17px;
+    line-height: 1.065rem;
 }
 
 /* Title icon */
 .title-icon {
     float: right;
-    margin-right: 18px;
+    margin-right: 1.125rem;
 }
 
 /* H2 icon */
 .h2-icon {
     font-size: 1.5rem;
-    padding-top: 3px;
+    padding-top: 0.315rem;
 }
 
 /* Label icon */
 .label-icon {
     font-size: 1.25rem;
-    margin-top: -3px;
+    margin-top: -0.25rem;
 }
 
 /* table icon */
@@ -507,10 +497,9 @@ tr:hover .table-icon-hide {
 
 /* Role badge */
 .role-badge {
-    font-size: 0.75rem;
-    padding: 5px 5px;
+    padding: 0.315rem;
     text-align: center;
-    width: 36px;
+    width: 2.25rem;
 }
 
 
@@ -520,13 +509,13 @@ tr:hover .table-icon-hide {
 .circle {
     display: inline-block;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .circle-s {
-    width: 10px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
 }
 
 
@@ -541,7 +530,7 @@ tr:hover .table-icon-hide {
 }
 
 .list-multi-col .list-item {
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 
 
@@ -561,7 +550,7 @@ tr:hover .table-icon-hide {
 #player-edit #username-preview {
     display: block;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     font-size: 1.625rem;
     font-weight: 500;
 }
@@ -574,7 +563,7 @@ tr:hover .table-icon-hide {
 
 /* Leaderboard */
 #leaderboard #community-ranking .list-multi-col {
-    margin-top: 45px;
-    max-height: 100px;
-    margin-bottom: 15px;
+    margin-top: 2.815rem;
+    max-height: 6.25rem;
+    margin-bottom: 1rem;
 }
