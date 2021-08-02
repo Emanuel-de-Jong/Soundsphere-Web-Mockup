@@ -33,7 +33,7 @@
             <section id="incoming-player-requests-section">
                 <h3>Incoming requests</h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last" data-c0="2" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Player name">Player</th>
@@ -70,7 +70,7 @@
                     </a>
                 </h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Community member that sent the invite">Sender</th>
@@ -102,7 +102,7 @@
             <section id="incoming-leaderboard-invites-section">
                 <h3>Incoming invites</h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>
@@ -143,7 +143,7 @@
                     </a>
                 </h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Community member that sent the invite">Sender</th>

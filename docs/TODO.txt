@@ -1,6 +1,5 @@
 === LOGIC ===
 GENERAL
-	default table column order
 	input mode as text field or select chart with that keymode
 	check form ids, fors and placeholders
 	form validation

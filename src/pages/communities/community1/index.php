@@ -104,7 +104,7 @@
                     </a>
                 </h2>
 
-                <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
+                <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="0" data-c1="1">
                     <thead>
                         <tr>
                             <th></th>

@@ -93,7 +93,7 @@
             <section id="charts-section">
                 <h2>Charts</h2>
 
-                <table class="data-table data-table-all table table-icon-col-first">
+                <table class="data-table data-table-all table table-icon-col-first" data-c0="6" data-c1="3" data-c2="1">
                     <thead>
                         <tr>
                             <th></th>

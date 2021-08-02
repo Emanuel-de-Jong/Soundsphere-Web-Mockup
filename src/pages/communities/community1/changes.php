@@ -15,7 +15,7 @@
 
 
             <section id="changes-section">
-                <table class="data-table data-table-all table">
+                <table class="data-table data-table-all table" data-c0="0" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>

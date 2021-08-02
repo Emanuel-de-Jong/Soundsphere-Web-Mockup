@@ -5,7 +5,7 @@
 
 
             <section id="charts-section">
-                <table class="data-table data-table-all table table-icon-col-first">
+                <table class="data-table data-table-all table table-icon-col-first" data-c0="3" data-c1="1" data-c2="2">
                     <thead>
                         <tr>
                             <th></th>

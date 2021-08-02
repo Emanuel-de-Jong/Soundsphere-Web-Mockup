@@ -34,7 +34,7 @@
             <section id="tables-section">
                 <h2>Tables</h2>
 
-                <table class="data-table data-table-slim table">
+                <table class="data-table data-table-slim table" data-c0="1" data-c1="0">
                     <thead>
                         <tr>
                             <th title="Table name">Name</th>

@@ -102,7 +102,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="0" data-c1="1">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -144,7 +144,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="3">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -314,7 +314,7 @@
             <section id="all-scores-section">
                 <h2>All scores</h2>
 
-                <table class="data-table data-table-all table table-icon-col-last">
+                <table class="data-table data-table-all table table-icon-col-last" data-c0="8" data-d0="desc">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>
