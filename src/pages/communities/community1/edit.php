@@ -23,31 +23,31 @@
                         <div class="col-9">
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
-                                <input type="text" class="form-control" id="community-name" name="community-name" value="Community1" required>
+                                <input type="text" class="form-control" id="community-name" name="community-name" minlength="5" maxlength="50" required value="Community1">
                             </div>
                         </div>
 
                         <div class="col-3">
                             <div class="form-item">
                                 <label for="alias" class="form-label form-required" title="3 to 5 characters that represent the community">Alias</label>
-                                <input type="text" class="form-control" id="alias" name="alias" value="AAA" required>
+                                <input type="text" class="form-control" id="alias" name="alias" minlength="3" maxlength="5" required value="AAA">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-item">
                         <label for="link" class="form-label" title="A link to the community outside of this site">Community link</label>
-                        <input type="text" class="form-control" id="link" name="link" value="https://discord.gg/hDjSpVyhuZ">
+                        <input type="url" class="form-control" id="link" name="link" maxlength="100" value="https://discord.gg/hDjSpVyhuZ">
                     </div>
 
                     <div class="form-item">
                         <label for="short-description" class="form-label form-required" title="Description shown in tables">Short description</label>
-                        <input type="text" class="form-control" id="short-description" name="short-description" required value="The first community. Which automatically makes it the best one.">
+                        <input type="text" class="form-control" id="short-description" name="short-description" minlength="5" maxlength="75" required value="The first community. Which automatically makes it the best one.">
                     </div>
 
                     <div class="form-item">
                         <label for="description" class="form-label" title="Page description">Description</label>
-                        <textarea class="form-control" id="description" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
+                        <textarea class="form-control" id="description" name="description" minlength="5" maxlength="1000">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
                     </div>
 
                     <div class="form-item">

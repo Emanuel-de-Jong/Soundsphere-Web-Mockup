@@ -23,7 +23,7 @@
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
                         <label for="leaderboard-name" class="form-label form-required" title="Leaderboard name">Name</label>
-                        <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name" required>
+                        <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name" minlength="5" maxlength="50" required>
                     </div>
 
                     <div class="form-item">

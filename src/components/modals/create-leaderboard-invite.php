@@ -29,7 +29,7 @@
 
                     <div class="form-item">
                         <label for="message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="message" name="message">
+                        <input type="text" class="form-control" id="message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>

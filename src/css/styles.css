@@ -310,6 +310,10 @@ main {
 
 
 /* FORM */
+/* input:focus:invalid {
+    border-color: red;
+} */
+
 .form-item {
     margin-bottom: 30px;
 }

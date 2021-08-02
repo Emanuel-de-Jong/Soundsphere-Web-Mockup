@@ -14,7 +14,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="message" class="form-label form-required" title="The member to make the new owner">Member</label>
+                        <label for="player" class="form-label form-required" title="The member to make the new owner">Member</label>
                         <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a member..." required>
                         <datalist id="player-options">
                             <option value="Player1">
