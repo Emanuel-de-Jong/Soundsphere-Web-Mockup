@@ -9,7 +9,7 @@
                 <form class="form-modal">
                     <div class="form-item">
                         <label for="community" class="form-label form-required" title="The community to send the invite to">Community</label>
-                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community...">
+                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community..." required>
                         <datalist id="community-options">
                             <option value="Community1">
                             <option value="Community2">
@@ -19,7 +19,7 @@
 
                     <div class="form-item">
                         <label for="leaderboard" class="form-label form-required" title="The leaderboard to send the invite for">Leaderboard</label>
-                        <select class="form-select" id="leaderboard" name="leaderboard">
+                        <select class="form-select" id="leaderboard" name="leaderboard" required>
                             <option selected hidden>Select a leaderboard</option>
                             <option value="Leaderboard1">Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard3</option>

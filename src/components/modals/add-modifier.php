@@ -9,7 +9,7 @@
                 <form class="form-modal">
                     <div class="form-item">
                         <label for="modifier" class="form-label form-required" title="Modifier name">Modifier</label>
-                        <select class="form-select" id="modifier" name="modifier">
+                        <select class="form-select" id="modifier" name="modifier" required>
                             <option selected hidden>Select a modifier</option>
                             <option value="SMod">SpeedMode</option>
                             <option value="Q">TimeRateQ</option>
@@ -29,7 +29,7 @@
 
                     <div class="form-item">
                         <label for="rule" class="form-label form-required" title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</label>
-                        <select class="form-select" id="rule" name="rule">
+                        <select class="form-select" id="rule" name="rule" required>
                             <option selected hidden>Select a rule</option>
                             <option value="required">Required</option>
                             <option value="allowed">Allowed</option>

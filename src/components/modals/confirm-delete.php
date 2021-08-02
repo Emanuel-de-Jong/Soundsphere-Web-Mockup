@@ -15,7 +15,7 @@
 
                     <div class="form-item">
                         <label for="object-name" class="form-label form-required" title="The name of the object you want to delete">Object name</label>
-                        <input type="text" class="form-control" id="object-name" name="object-name">
+                        <input type="text" class="form-control" id="object-name" name="object-name" required>
                     </div>
                 </form>
             </div>

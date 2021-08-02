@@ -23,14 +23,14 @@
                         <div class="col-9">
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
-                                <input type="text" class="form-control" id="community-name" name="community-name" value="Community1">
+                                <input type="text" class="form-control" id="community-name" name="community-name" value="Community1" required>
                             </div>
                         </div>
 
                         <div class="col-3">
                             <div class="form-item">
                                 <label for="alias" class="form-label form-required" title="3 to 5 characters that represent the community">Alias</label>
-                                <input type="text" class="form-control" id="alias" name="alias" value="AAA">
+                                <input type="text" class="form-control" id="alias" name="alias" value="AAA" required>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
 
                     <div class="form-item">
                         <label for="short-description" class="form-label form-required" title="Description shown in tables">Short description</label>
-                        <input type="text" class="form-control" id="short-description" name="short-description" value="The first community. Which automatically makes it the best one.">
+                        <input type="text" class="form-control" id="short-description" name="short-description" required value="The first community. Which automatically makes it the best one.">
                     </div>
 
                     <div class="form-item">
@@ -66,7 +66,7 @@
 
                     <div class="form-item form-check">
                         <label for="is-public" class="form-check-label form-required" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
-                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
+                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked required>
                     </div>
 
                     <div class="form-item">

@@ -9,7 +9,7 @@
                 <form class="form-modal">
                     <div class="form-item">
                         <label for="player" class="form-label form-required" title="The player to send an invite to">Player</label>
-                        <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a player...">
+                        <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a player..." required>
                         <datalist id="player-options">
                             <option value="Player1">
                             <option value="Player2">

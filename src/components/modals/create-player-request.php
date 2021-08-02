@@ -9,7 +9,7 @@
                 <form class="form-modal">
                     <div class="form-item">
                         <label for="community" class="form-label form-required" title="The community to send the request to">Community</label>
-                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community...">
+                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community..." required>
                         <datalist id="community-options">
                             <option value="Community1">
                             <option value="Community2">

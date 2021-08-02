@@ -21,9 +21,9 @@
                 <form class="form-settings" action="?a=players_player1_index" method="post">
                     <label class="form-required" id="username-preview" title="A preview that shows how your username will look">Player1</label>
                     <div class="form-item input-group">
-                        <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" value="#fff" title="The lefter color of your username">
-                        <input type="text" class="form-control" id="username" name="username" value="Player1" title="Your username">
-                        <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" value="#fff" title="The righter color of your username">
+                        <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" value="#fff" title="The lefter color of your username" required>
+                        <input type="text" class="form-control" id="username" name="username" value="Player1" title="Your username" required>
+                        <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" value="#fff" title="The righter color of your username" required>
                     </div>
 
                     <div class="form-item">

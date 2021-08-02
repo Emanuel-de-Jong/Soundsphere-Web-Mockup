@@ -20,14 +20,14 @@
                         <div class="col-9">
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
-                                <input type="text" class="form-control" id="community-name" name="community-name">
+                                <input type="text" class="form-control" id="community-name" name="community-name" required>
                             </div>
                         </div>
 
                         <div class="col-3">
                             <div class="form-item">
                                 <label for="alias" class="form-label form-required" title="3 to 5 characters that represent the community">Alias</label>
-                                <input type="text" class="form-control" id="alias" name="alias">
+                                <input type="text" class="form-control" id="alias" name="alias" required>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
 
                     <div class="form-item">
                         <label for="short-description" class="form-label form-required" title="Description shown in tables">Short description</label>
-                        <input type="text" id="short-description" class="form-control" name="short-description">
+                        <input type="text" id="short-description" class="form-control" name="short-description" required>
                     </div>
 
                     <div class="form-item">
@@ -54,7 +54,7 @@
 
                     <div class="form-item form-check">
                         <label for="is-public" class="form-check-label form-required" title="Anyone can join public communities. Private communities have an invite system.">The community is public.</label>
-                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked>
+                        <input type="checkbox" id="is-public" class="form-check-input" name="is-public" checked required>
                     </div>
 
                     <button type="submit" class="btn bg-blue bg-blue-h">Create</button>

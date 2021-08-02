@@ -23,17 +23,17 @@
                 <form class="form-settings" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
                         <label for="leaderboard-name" class="form-label form-required" title="Leaderboard name">Name</label>
-                        <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name">
+                        <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name" required>
                     </div>
 
                     <div class="form-item">
                         <label for="description" class="form-label form-required" title="Description shown in popup">Description</label>
-                        <textarea class="form-control" id="description" name="description"></textarea>
+                        <textarea class="form-control" id="description" name="description" required></textarea>
                     </div>
 
                     <div class="form-item">
                         <label for="chart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Chart difficulty calculator</label>
-                        <select class="form-select" id="chart-diff-calc" name="chart-diff-calc">
+                        <select class="form-select" id="chart-diff-calc" name="chart-diff-calc" required>
                             <option value="table-level" selected>Table level</option>
                             <option value="soundsphere">soundsphere</option>
                             <option value="osu">osu!</option>
@@ -42,7 +42,7 @@
 
                     <div class="form-item">
                         <label for="score-performance-calc" class="form-label form-required" title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Score performance calculator</label>
-                        <select class="form-select" id="score-performance-calc" name="score-performance-calc">
+                        <select class="form-select" id="score-performance-calc" name="score-performance-calc" required>
                             <option value="soundsphere" selected>soundsphere</option>
                             <option value="osu">osu!</option>
                             <option value="sdvx">SOUND VOLTEX</option>
@@ -51,7 +51,7 @@
 
                     <div class="form-item">
                         <label for="score-combiner" class="form-label form-required" title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner</label>
-                        <select class="form-select" id="score-combiner" name="score-combiner">
+                        <select class="form-select" id="score-combiner" name="score-combiner" required>
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>
                             <option value="osu">osu!</option>
@@ -61,7 +61,7 @@
 
                     <div class="form-item">
                         <label for="community-combiner" class="form-label form-required" title="Decides how the member performances are combined to get the total performance of a community">Community combiner</label>
-                        <select class="form-select" id="community-combiner" name="community-combiner">
+                        <select class="form-select" id="community-combiner" name="community-combiner" required>
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>
                             <option value="osu">osu!</option>
