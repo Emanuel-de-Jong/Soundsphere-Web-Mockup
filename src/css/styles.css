@@ -190,12 +190,12 @@ textarea:focus {
 }
 
 .social a:hover {
-    color: rgb(108, 117, 125);
-    border-color: rgb(108, 117, 125);
+    color: rgb(140, 140, 140);
+    border-color: rgb(140, 140, 140);
 }
 
 .footer-copyright {
-    color: rgb(108, 117, 125);
+    color: rgb(120, 120, 120);
     font-size: 1rem;
     font-weight: 400;
 }
@@ -410,7 +410,7 @@ textarea:focus {
 }
 
 .page-icon:hover {
-    color: rgb(78, 82, 85);
+    color: rgb(80, 80, 80);
 }
 
 @media (max-width: 1199px) {
