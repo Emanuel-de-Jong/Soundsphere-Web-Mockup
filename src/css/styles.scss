@@ -1,10 +1,11 @@
 @import "bootstrap/functions";
 @import "bootstrap/variables";
+@import "colors";
 
 /* DEFAULT STYLE */
 body {
     min-height: 100%;
-    background-color: rgb(240, 240, 240);
+    background-color: $gray-100;
     font-size: 16px;
 }
 
@@ -49,18 +50,18 @@ textarea:focus {
 }
 
 #primary-navbar .nav-link {
-    color: rgb(234, 234, 234);
+    color: $gray-200;
     font-size: 17px;
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
-    color: rgb(255, 255, 255);
+    color: $white;
 }
 
 #primary-navbar .nav-link::after {
     display: block;
     content: "";
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid $white;
     opacity: 0;
 }
 
@@ -93,7 +94,7 @@ textarea:focus {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
     z-index: 100;
     margin-top: 62px;
-    background-color: rgb(255, 255, 255);
+    background-color: $white;
     opacity: 0.9;
 }
 
@@ -124,7 +125,7 @@ textarea:focus {
     margin: 1.875rem 3.75rem;
     padding: 2.5rem 3.125rem 1px 3.125rem;
     border-radius: 0.25rem;
-    background-color: rgb(255, 255, 255);
+    background-color: $white;
     box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.075);
 }
 
@@ -178,11 +179,11 @@ textarea:focus {
 }
 
 .social a {
-    color: rgb(153, 153, 153);
+    color: $gray-500;
     font-size: 1.65rem;
     text-decoration: none;
     border-style: solid;
-    border-color: rgb(153, 153, 153);
+    border-color: $gray-500;
     border-radius: 50%;
     border-width: 2px;
     margin: 0 0.625rem 0.625rem 0.625rem;
@@ -193,12 +194,12 @@ textarea:focus {
 }
 
 .social a:hover {
-    color: rgb(140, 140, 140);
-    border-color: rgb(140, 140, 140);
+    color: $gray-600;
+    border-color: $gray-600;
 }
 
 .footer-copyright {
-    color: rgb(120, 120, 120);
+    color: $gray-600;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -225,7 +226,7 @@ textarea:focus {
     left: 0;
     right: 0;
     height: 100%;
-    background: rgb(255, 255, 255);
+    background: $white;
     opacity: 0.2;
 }
 
@@ -238,11 +239,11 @@ textarea:focus {
 }
 
 .highlight-row {
-    background-color: rgb(255, 245, 235) !important;
+    background-color: $yellow-100 !important;
 }
 
 .highlight-row:hover {
-    background-color: rgb(248, 236, 225) !important;
+    background-color: $yellow-150 !important;
 }
 
 /* data-table */
@@ -251,14 +252,14 @@ textarea:focus {
 }
 
 .data-table thead th {
-    border-bottom-color: rgb(222, 226, 230) !important;
+    border-bottom-color: $gray-300 !important;
 }
 
 .data-table tbody tr:nth-child(odd) {
-    background-color: rgb(247, 247, 247);
+    background-color: $gray-100;
 }
 .data-table tbody tr:hover {
-    background-color: rgb(242, 242, 242);
+    background-color: $gray-200;
 }
 
 .data-table-nohead th {
@@ -278,12 +279,12 @@ textarea:focus {
     padding: 0.5rem 0.625rem;
 }
 .meta-table th {
-    background-color: rgb(247, 247, 247);
-    border: 1px solid rgb(222, 226, 230);
+    background-color: $gray-100;
+    border: 1px solid $gray-300;
     border-right: none;
 }
 .meta-table td {
-    border: 1px solid rgb(222, 226, 230);
+    border: 1px solid $gray-300;
     border-left: none;
     padding-right: 1.25rem;
 }
@@ -293,11 +294,11 @@ textarea:focus {
 
 /* ACCORDION */
 .accordion-header {
-    background-color: rgb(240, 240, 240);
+    background-color: $gray-100;
 }
 
 .accordion-button:focus {
-    border-color: rgb(210, 210, 210);
+    border-color: $gray-400;
 }
 
 
@@ -309,7 +310,7 @@ textarea:focus {
 }
 
 .form-required::after {
-    color: rgb(255, 0, 0);
+    color: $red;
     font-weight: 600;
     content: " * ";
 }
@@ -321,7 +322,7 @@ textarea:focus {
 
 /* Page */
 .form-page .input-group-text {
-    background-color: rgb(247, 247, 247);
+    background-color: $gray-100;
 }
 
 /* Settings */
@@ -335,7 +336,7 @@ textarea:focus {
 }
 
 .form-settings .input-file-dragenter {
-    border-color: rgb(134, 183, 254);
+    border-color: $blue-250;
 }
 
 /* Login */
@@ -404,7 +405,7 @@ textarea:focus {
 
 .page-icon {
     font-size: 1.65rem;
-    color: rgb(33, 37, 41);
+    color: $gray-900;
     text-decoration: none;
 }
 
@@ -413,7 +414,7 @@ textarea:focus {
 }
 
 .page-icon:hover {
-    color: rgb(80, 80, 80);
+    color: $gray-700;
 }
 
 @media (max-width: 1199px) {
@@ -431,8 +432,8 @@ textarea:focus {
     display: inline-block;
     margin-left: -1.125rem;
     font-size: 0.875rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
+    color: $white;
+    background-color: $red;
     width: 1.125rem;
     height: 1.125rem;
     border-radius: 50%;

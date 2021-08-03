@@ -1,7 +1,197 @@
+/* GRAY */
+.gray {
+  color: #9ca1a5 !important;
+}
+
+.gray-h:hover {
+  color: #909497 !important;
+}
+
+.bg-gray {
+  background-color: #9ca1a5 !important;
+  color: white;
+}
+
+.bg-gray-h:hover {
+  background-color: #909497 !important;
+  color: white;
+}
+
+/* Dark gray */
+.dgray {
+  color: #6c757d !important;
+}
+
+.dgray-h:hover {
+  color: #5c636a !important;
+}
+
+.bg-dgray {
+  background-color: #6c757d !important;
+  color: white;
+}
+
+.bg-dgray-h:hover {
+  background-color: #5c636a !important;
+  color: white;
+}
+
+/* RED */
+.red {
+  color: #dc3545 !important;
+}
+
+.red-h:hover {
+  color: #bb2d3b !important;
+}
+
+.bg-red {
+  background-color: #dc3545 !important;
+  color: white;
+}
+
+.bg-red-h:hover {
+  background-color: #bb2d3b !important;
+  color: white;
+}
+
+/* Light red */
+.lred {
+  color: #f04859 !important;
+}
+
+.lred-h:hover {
+  color: #e03647 !important;
+}
+
+.bg-lred {
+  background-color: #f04859 !important;
+  color: white;
+}
+
+.bg-lred-h:hover {
+  background-color: #e03647 !important;
+  color: white;
+}
+
+/* YELLOW */
+.yellow {
+  color: #ffe607 !important;
+}
+
+.yellow-h:hover {
+  color: #dfc908 !important;
+}
+
+.bg-yellow {
+  background-color: #ffe607 !important;
+  color: white;
+}
+
+.bg-yellow-h:hover {
+  background-color: #dfc908 !important;
+  color: white;
+}
+
+/* ORANGE */
+.orange {
+  color: #ffb007 !important;
+}
+
+.orange-h:hover {
+  color: #fcc245 !important;
+}
+
+.bg-orange {
+  background-color: #f1ac17 !important;
+  color: white;
+}
+
+.bg-orange-h:hover {
+  background-color: #ffbb00 !important;
+  color: white;
+}
+
+/* GREEN */
+.green {
+  color: #22ad15 !important;
+}
+
+.green-h:hover {
+  color: #1c9511 !important;
+}
+
+.bg-green {
+  background-color: #22ad15 !important;
+  color: white;
+}
+
+.bg-green-h:hover {
+  background-color: #1c9511 !important;
+  color: white;
+}
+
+/* Dark green */
+.dgreen {
+  color: #198754 !important;
+}
+
+.dgreen-h:hover {
+  color: #157347 !important;
+}
+
+.bg-dgreen {
+  background-color: #198754 !important;
+  color: white;
+}
+
+.bg-dgreen-h:hover {
+  background-color: #157347 !important;
+  color: white;
+}
+
+/* BLUE */
+.blue {
+  color: #158cfc !important;
+}
+
+.blue-h:hover {
+  color: #0078e9 !important;
+}
+
+.bg-blue {
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+.bg-blue-h:hover {
+  background-color: #0e63e2 !important;
+  color: white;
+}
+
+/* PURPLE */
+.purple {
+  color: #ba15fc !important;
+}
+
+.purple-h:hover {
+  color: #b010f0 !important;
+}
+
+.bg-purple {
+  background-color: #ba15fc !important;
+  color: white;
+}
+
+.bg-purple-h:hover {
+  background-color: #b010f0 !important;
+  color: white;
+}
+
 /* DEFAULT STYLE */
 body {
   min-height: 100%;
-  background-color: #f0f0f0;
+  background-color: #f8f9fa;
   font-size: 16px;
 }
 
@@ -52,19 +242,19 @@ textarea:focus {
 }
 
 #primary-navbar .nav-link {
-  color: #eaeaea;
+  color: #e9ecef;
   font-size: 17px;
   font-weight: 500;
 }
 
 #primary-navbar .nav-link:hover {
-  color: white;
+  color: #fff;
 }
 
 #primary-navbar .nav-link::after {
   display: block;
   content: "";
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
   opacity: 0;
 }
 
@@ -99,7 +289,7 @@ textarea:focus {
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   z-index: 100;
   margin-top: 62px;
-  background-color: white;
+  background-color: #fff;
   opacity: 0.9;
 }
 
@@ -127,7 +317,7 @@ textarea:focus {
   margin: 1.875rem 3.75rem;
   padding: 2.5rem 3.125rem 1px 3.125rem;
   border-radius: 0.25rem;
-  background-color: white;
+  background-color: #fff;
   -webkit-box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.075);
           box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.075);
 }
@@ -180,11 +370,11 @@ textarea:focus {
 }
 
 .social a {
-  color: #999999;
+  color: #adb5bd;
   font-size: 1.65rem;
   text-decoration: none;
   border-style: solid;
-  border-color: #999999;
+  border-color: #adb5bd;
   border-radius: 50%;
   border-width: 2px;
   margin: 0 0.625rem 0.625rem 0.625rem;
@@ -195,12 +385,12 @@ textarea:focus {
 }
 
 .social a:hover {
-  color: #8c8c8c;
-  border-color: #8c8c8c;
+  color: #6c757d;
+  border-color: #6c757d;
 }
 
 .footer-copyright {
-  color: #787878;
+  color: #6c757d;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -224,7 +414,7 @@ textarea:focus {
   left: 0;
   right: 0;
   height: 100%;
-  background: white;
+  background: #fff;
   opacity: 0.2;
 }
 
@@ -234,11 +424,11 @@ textarea:focus {
 }
 
 .highlight-row {
-  background-color: #fff5eb !important;
+  background-color: #fff3cd !important;
 }
 
 .highlight-row:hover {
-  background-color: #f8ece1 !important;
+  background-color: #ffecb5 !important;
 }
 
 /* data-table */
@@ -251,11 +441,11 @@ textarea:focus {
 }
 
 .data-table tbody tr:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: #f8f9fa;
 }
 
 .data-table tbody tr:hover {
-  background-color: #f2f2f2;
+  background-color: #e9ecef;
 }
 
 .data-table-nohead th {
@@ -276,7 +466,7 @@ textarea:focus {
 }
 
 .meta-table th {
-  background-color: #f7f7f7;
+  background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-right: none;
 }
@@ -289,11 +479,11 @@ textarea:focus {
 
 /* ACCORDION */
 .accordion-header {
-  background-color: #f0f0f0;
+  background-color: #f8f9fa;
 }
 
 .accordion-button:focus {
-  border-color: #d2d2d2;
+  border-color: #ced4da;
 }
 
 /* FORM */
@@ -302,7 +492,7 @@ textarea:focus {
 }
 
 .form-required::after {
-  color: red;
+  color: #dc3545;
   font-weight: 600;
   content: " * ";
 }
@@ -314,7 +504,7 @@ textarea:focus {
 
 /* Page */
 .form-page .input-group-text {
-  background-color: #f7f7f7;
+  background-color: #f8f9fa;
 }
 
 /* Settings */
@@ -403,7 +593,7 @@ textarea:focus {
 }
 
 .page-icon:hover {
-  color: #505050;
+  color: #495057;
 }
 
 @media (max-width: 1199px) {
@@ -420,8 +610,8 @@ textarea:focus {
   display: inline-block;
   margin-left: -1.125rem;
   font-size: 0.875rem;
-  color: white;
-  background-color: red;
+  color: #fff;
+  background-color: #dc3545;
   width: 1.125rem;
   height: 1.125rem;
   border-radius: 50%;
