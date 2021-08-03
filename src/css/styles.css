@@ -51,17 +51,18 @@ textarea:focus {
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #primary-navbar .nav-link::after {
     display: block;
     content: "";
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    opacity: 0;
 }
 
 #primary-navbar .nav-link:hover::after {
-    border-color: white;
+    opacity: 1;
 }
 
 .navbar-icon {
@@ -86,10 +87,11 @@ textarea:focus {
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
     z-index: 100;
     margin-top: 62px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
 }
 
 #secondary-navbar .container {
@@ -119,8 +121,8 @@ textarea:focus {
     margin: 1.875rem 3.75rem;
     padding: 2.5rem 3.125rem 1px 3.125rem;
     border-radius: 0.25rem;
-    background-color: white;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, .075);
+    background-color: rgb(255, 255, 255);
+    box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.075);
 }
 
 .main-box section {
@@ -177,7 +179,7 @@ textarea:focus {
     font-size: 1.65rem;
     text-decoration: none;
     border-style: solid;
-    border-color: #999;
+    border-color: rgb(153, 153, 153);
     border-radius: 50%;
     border-width: 2px;
     margin: 0 0.625rem 0.625rem 0.625rem;
@@ -193,7 +195,7 @@ textarea:focus {
 }
 
 .footer-copyright {
-    color: #6c757d;
+    color: rgb(108, 117, 125);
     font-size: 1rem;
     font-weight: 400;
 }
@@ -220,7 +222,8 @@ textarea:focus {
     left: 0;
     right: 0;
     height: 100%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255, 255, 255);
+    opacity: 0.2;
 }
 
 
@@ -249,10 +252,10 @@ textarea:focus {
 }
 
 .data-table tbody tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.025);
+    background-color: rgb(247, 247, 247);
 }
 .data-table tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgb(242, 242, 242);
 }
 
 .data-table-nohead th {
@@ -272,7 +275,7 @@ textarea:focus {
     padding: 0.5rem 0.625rem;
 }
 .meta-table th {
-    background-color: rgba(0, 0, 0, 0.025);
+    background-color: rgb(247, 247, 247);
     border: 1px solid rgb(222, 226, 230);
     border-right: none;
 }
@@ -291,23 +294,19 @@ textarea:focus {
 }
 
 .accordion-button:focus {
-    border-color: rgba(0,0,0,.125);
+    border-color: rgb(210, 210, 210);
 }
 
 
 
 
 /* FORM */
-/* input:focus:invalid {
-    border-color: red;
-} */
-
 .form-item {
     margin-bottom: 1.875rem;
 }
 
 .form-required::after {
-    color: red;
+    color: rgb(255, 0, 0);
     font-weight: 600;
     content: " * ";
 }
@@ -319,7 +318,7 @@ textarea:focus {
 
 /* Page */
 .form-page .input-group-text {
-    background-color: rgba(0, 0, 0, 0.025);
+    background-color: rgb(247, 247, 247);
 }
 
 /* Settings */
@@ -333,7 +332,7 @@ textarea:focus {
 }
 
 .form-settings .input-file-dragenter {
-    border-color: #86b7fe;
+    border-color: rgb(134, 183, 254);
 }
 
 /* Login */
@@ -429,8 +428,8 @@ textarea:focus {
     display: inline-block;
     margin-left: -1.125rem;
     font-size: 0.875rem;
-    color: white;
-    background-color: red;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     width: 1.125rem;
     height: 1.125rem;
     border-radius: 50%;
