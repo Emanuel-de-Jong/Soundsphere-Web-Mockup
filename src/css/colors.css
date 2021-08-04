@@ -1,19 +1,19 @@
 /* GRAY */
 .gray {
-  color: #9ca1a5 !important;
+  color: #adb5bd !important;
 }
 
 .gray-h:hover {
-  color: #909497 !important;
+  color: #8d959d !important;
 }
 
 .bg-gray {
-  background-color: #9ca1a5 !important;
+  background-color: #adb5bd !important;
   color: white;
 }
 
 .bg-gray-h:hover {
-  background-color: #909497 !important;
+  background-color: #8d959d !important;
   color: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .dgray-h:hover {
-  color: #5c636a !important;
+  color: #5b636a !important;
 }
 
 .bg-dgray {
@@ -32,7 +32,7 @@
 }
 
 .bg-dgray-h:hover {
-  background-color: #5c636a !important;
+  background-color: #5b636a !important;
   color: white;
 }
 

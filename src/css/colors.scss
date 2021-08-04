@@ -128,33 +128,33 @@ $cyan-950: shade-color($cyan, 90%) !default;
 
 /* GRAY */
 .gray {
-    color: rgb(156, 161, 165) !important;
+    color: $gray-500 !important;
 }
 .gray-h:hover {
-    color: rgb(144, 148, 151) !important;
+    color: $gray-550 !important;
 }
 .bg-gray {
-    background-color: rgb(156, 161, 165) !important;
+    background-color: $gray-500 !important;
     color: white;
 }
 .bg-gray-h:hover {
-    background-color: rgb(144, 148, 151) !important;
+    background-color: $gray-550 !important;
     color: white;
 }
 
 /* Dark gray */
 .dgray {
-    color: rgb(108, 117, 125) !important;
+    color: $gray-600 !important;
 }
 .dgray-h:hover {
-    color: rgb(92, 99, 106) !important;
+    color: $gray-650 !important;
 }
 .bg-dgray {
-    background-color: rgb(108, 117, 125) !important;
+    background-color: $gray-600 !important;
     color: white;
 }
 .bg-dgray-h:hover {
-    background-color: rgb(92, 99, 106) !important;
+    background-color: $gray-650 !important;
     color: white;
 }
 
