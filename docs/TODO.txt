@@ -16,7 +16,9 @@ CHART
 
 === DESIGN ===
 GENERAL
+	improve colors
 	check if color change didn't break anything
+	check if style colors could be color classes
 	check if bootstrap table class is necesarry
 	table select next to title
 	show logo in navbar differently

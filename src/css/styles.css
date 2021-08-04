@@ -312,24 +312,32 @@ textarea:focus {
   margin-bottom: 0.94rem;
 }
 
-.social a {
-  color: #adb5bd;
-  font-size: 1.65rem;
-  text-decoration: none;
-  border-style: solid;
-  border-color: #adb5bd;
-  border-radius: 50%;
-  border-width: 2px;
-  margin: 0 0.625rem 0.625rem 0.625rem;
-  width: 2.625rem;
-  height: 2.625rem;
-  line-height: 2.375rem;
-  display: inline-block;
+.social {
+  margin-bottom: 0.625rem;
 }
 
-.social a:hover {
+.social-icon {
+  display: inline-block;
+  color: #adb5bd;
+  font-size: 1.5rem;
+  border: 2px solid #adb5bd;
+  border-radius: 50%;
+  margin: 0 0.625rem;
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+.social-icon:hover {
   color: #6c757d;
   border-color: #6c757d;
+}
+
+.social-icon-s {
+  font-size: 1.4rem;
+}
+
+.social-icon-l {
+  font-size: 1.65rem;
 }
 
 .footer-copyright {
