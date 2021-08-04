@@ -97,9 +97,6 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
                                 <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
@@ -135,9 +132,6 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
                                 <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>
@@ -154,9 +148,6 @@
                             <td>CMod, 1.4X</td>
                             <td>10-10-21 15:28</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Delete score" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
                                 <a href="#!" class="table-icon table-icon-hide blue blue-h" title="Download replay">
                                     <i class="fas fa-download"></i>
                                 </a>

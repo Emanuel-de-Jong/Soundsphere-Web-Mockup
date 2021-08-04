@@ -21,7 +21,6 @@ GENERAL
 	table select next to title
 	show logo in navbar differently
 	patterned background
-	consistent colors (with SASS?)
 	check mobile
 	check different browsers
 	consistent class names
@@ -50,7 +49,6 @@ HELP
 leaderboard calc parameters
 leaderboard exclude certain charts from tables (select chart by file upload)
 player first places
-predefined profile banner choices
 user random 4 digid tag for dupe usernames
 change crown icon
 table icon no order if it's always the same ones

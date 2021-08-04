@@ -191,11 +191,7 @@
                             <td>7K</td>
                             <td>200</td>
                             <td>18-04-21</td>
-                            <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l table-icon-hide red red-h" title="Kick member" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                    <i class="fas fa-times"></i>
-                                </a>
-                            </td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>#3</td>
