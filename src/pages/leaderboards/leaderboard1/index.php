@@ -100,13 +100,13 @@
                     <div class="col" id="community-ranking">
                         <div class="list-multi-col">
                             <div class="list-item" title="Community1"><span class="circle circle-s bg-red"></span> AAA</div>
-                            <div class="list-item" title="Community2"><span class="circle circle-s bg-teal"></span> BBB</div>
+                            <div class="list-item" title="Community2"><span class="circle circle-s bg-green"></span> BBB</div>
                             <div class="list-item" title="Community3"><span class="circle circle-s bg-blue"></span> CCC</div>
                         </div>
 
                         <div class="progress">
                             <div class="bg-red" style="width: 40%" title="Community1"></div>
-                            <div class="bg-teal" style="width: 35%" title="Community2"></div>
+                            <div class="bg-green" style="width: 35%" title="Community2"></div>
                             <div class="bg-blue" style="width: 25%" title="Community3"></div>
                         </div>
                     </div>

@@ -54,7 +54,7 @@
                             <td>8</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon teal teal-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
+                                <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
                             </td>
@@ -67,7 +67,7 @@
                             <td>12</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon teal teal-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
+                                <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
                             </td>
@@ -80,7 +80,7 @@
                             <td>4</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon teal teal-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
+                                <a href="#!" class="table-icon green green-h" title="Join community" data-bs-toggle="modal" data-bs-target="#create-player-request-2-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
                             </td>

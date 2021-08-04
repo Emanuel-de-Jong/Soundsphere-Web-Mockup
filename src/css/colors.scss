@@ -201,36 +201,17 @@ $cyan-950: shade-color($cyan, 90%) !default;
 
 /* ORANGE */
 .orange {
-    color: rgb(255, 176, 7) !important;
+    color: $orange-500 !important;
 }
 .orange-h:hover {
-    color: rgb(252, 194, 69) !important;
+    color: $orange-550 !important;
 }
 .bg-orange {
-    background-color: rgb(241, 172, 23) !important;
+    background-color: $orange-500 !important;
     color: white;
 }
 .bg-orange-h:hover {
-    background-color: rgb(255, 187, 0) !important;
-    color: white;
-}
-
-
-
-
-/* TEAL */
-.teal {
-    color: $teal-600 !important;
-}
-.teal-h:hover {
-    color: $teal-650 !important;
-}
-.bg-teal {
-    background-color: $teal-600 !important;
-    color: white;
-}
-.bg-teal-h:hover {
-    background-color: $teal-650 !important;
+    background-color: $orange-550 !important;
     color: white;
 }
 
@@ -238,19 +219,18 @@ $cyan-950: shade-color($cyan, 90%) !default;
 
 
 /* GREEN */
-/* Dark green */
-.dgreen {
-    color: rgb(25, 135, 84) !important;
+.green {
+    color: $green-500 !important;
 }
-.dgreen-h:hover {
-    color: rgb(21, 115, 71) !important;
+.green-h:hover {
+    color: $green-550 !important;
 }
-.bg-dgreen {
-    background-color: rgb(25, 135, 84) !important;
+.bg-green {
+    background-color: $green-500 !important;
     color: white;
 }
-.bg-dgreen-h:hover {
-    background-color: rgb(21, 115, 71) !important;
+.bg-green-h:hover {
+    background-color: $green-550 !important;
     color: white;
 }
 
@@ -259,35 +239,16 @@ $cyan-950: shade-color($cyan, 90%) !default;
 
 /* BLUE */
 .blue {
-    color: rgb(21, 140, 252) !important;
+    color: $blue-400 !important;
 }
 .blue-h:hover {
-    color: rgb(0, 120, 233) !important;
+    color: $blue-500 !important;
 }
 .bg-blue {
-    background-color: rgb(13, 110, 253) !important;
+    background-color: $blue-400 !important;
     color: white;
 }
 .bg-blue-h:hover {
-    background-color: rgb(14, 99, 226) !important;
-    color: white;
-}
-
-
-
-
-/* PURPLE */
-.purple {
-    color: rgb(186, 21, 252) !important;
-}
-.purple-h:hover {
-    color: rgb(176, 16, 240) !important;
-}
-.bg-purple {
-    background-color: rgb(186, 21, 252) !important;
-    color: white;
-}
-.bg-purple-h:hover {
-    background-color: rgb(176, 16, 240) !important;
+    background-color: $blue-500 !important;
     color: white;
 }

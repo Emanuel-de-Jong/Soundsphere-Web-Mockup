@@ -99,7 +99,7 @@
             <section id="leaderboards-section">
                 <h2>
                     Leaderboards
-                    <a href="?a=leaderboards_create" class="title-icon h2-icon teal teal-h" title="Create leaderboard">
+                    <a href="?a=leaderboards_create" class="title-icon h2-icon green green-h" title="Create leaderboard">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>
@@ -132,7 +132,7 @@
                                 <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                     <i class="fas fa-sign-in-alt"></i>
                                 </a>
                             </td>

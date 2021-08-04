@@ -14,7 +14,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="?a=bms-tables_bms-table1_index" class="btn bg-dgreen bg-dgreen-h">Create</a>
+                <a href="?a=bms-tables_bms-table1_index" class="btn bg-green bg-green-h">Create</a>
                 <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>

@@ -48,7 +48,7 @@
                             <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l teal teal-h" title="Accept the request. The player will join the community.">
+                                <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the request. The player will join the community.">
                                     <i class="fas fa-check"></i>
                                 </a>
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Deny the request. The player won't be able to send new requests." data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -65,7 +65,7 @@
             <section id="outgoing-player-invites-section">
                 <h3>
                     Outgoing invites
-                    <a href="#!" class="title-icon h3-icon teal teal-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-player-invite-modal">
+                    <a href="#!" class="title-icon h3-icon green green-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-player-invite-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h3>
@@ -121,7 +121,7 @@
                             <td></td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
-                                <a href="#!" class="table-icon table-icon-l teal teal-h" title="Accept the invite. Your community will join the leaderboard.">
+                                <a href="#!" class="table-icon table-icon-l green green-h" title="Accept the invite. Your community will join the leaderboard.">
                                     <i class="fas fa-check"></i>
                                 </a>
                                 <a href="#!" class="table-icon table-icon-l red red-h" title="Deny the invite. The community won't be able to send new invites." data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -138,7 +138,7 @@
             <section id="outgoing-leaderboard-invites-section">
                 <h3>
                     Outgoing invites
-                    <a href="#!" class="title-icon h3-icon teal teal-h" title="Send a leaderboard invite to a community" data-bs-toggle="modal" data-bs-target="#create-leaderboard-invite-modal">
+                    <a href="#!" class="title-icon h3-icon green green-h" title="Send a leaderboard invite to a community" data-bs-toggle="modal" data-bs-target="#create-leaderboard-invite-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h3>

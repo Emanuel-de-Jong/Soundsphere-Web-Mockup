@@ -24,7 +24,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn bg-dgreen bg-dgreen-h" data-bs-dismiss="modal">Send</button>
+                <button type="button" class="btn bg-green bg-green-h" data-bs-dismiss="modal">Send</button>
                 <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>
