@@ -38,58 +38,39 @@
 
 /* RED */
 .red {
-  color: #dc3545 !important;
+  color: #e35d6a !important;
 }
 
 .red-h:hover {
-  color: #bb2d3b !important;
+  color: #e04958 !important;
 }
 
 .bg-red {
-  background-color: #dc3545 !important;
+  background-color: #e35d6a !important;
   color: white;
 }
 
 .bg-red-h:hover {
-  background-color: #bb2d3b !important;
-  color: white;
-}
-
-/* Light red */
-.lred {
-  color: #f04859 !important;
-}
-
-.lred-h:hover {
-  color: #e03647 !important;
-}
-
-.bg-lred {
-  background-color: #f04859 !important;
-  color: white;
-}
-
-.bg-lred-h:hover {
-  background-color: #e03647 !important;
+  background-color: #e04958 !important;
   color: white;
 }
 
 /* YELLOW */
 .yellow {
-  color: #ffe607 !important;
+  color: #ffcd39 !important;
 }
 
 .yellow-h:hover {
-  color: #dfc908 !important;
+  color: #ffc720 !important;
 }
 
 .bg-yellow {
-  background-color: #ffe607 !important;
+  background-color: #ffcd39 !important;
   color: white;
 }
 
 .bg-yellow-h:hover {
-  background-color: #dfc908 !important;
+  background-color: #ffc720 !important;
   color: white;
 }
 
@@ -112,25 +93,26 @@
   color: white;
 }
 
+/* TEAL */
+.teal {
+  color: #1aa179 !important;
+}
+
+.teal-h:hover {
+  color: #168d6a !important;
+}
+
+.bg-teal {
+  background-color: #1aa179 !important;
+  color: white;
+}
+
+.bg-teal-h:hover {
+  background-color: #168d6a !important;
+  color: white;
+}
+
 /* GREEN */
-.green {
-  color: #22ad15 !important;
-}
-
-.green-h:hover {
-  color: #1c9511 !important;
-}
-
-.bg-green {
-  background-color: #22ad15 !important;
-  color: white;
-}
-
-.bg-green-h:hover {
-  background-color: #1c9511 !important;
-  color: white;
-}
-
 /* Dark green */
 .dgreen {
   color: #198754 !important;

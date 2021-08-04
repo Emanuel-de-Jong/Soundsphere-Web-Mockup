@@ -39,7 +39,7 @@
                     <div class="form-item">
                         <label class="form-label w-100" title="The input modes on your profile and next to you in tables">
                             Favourite input modes
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>

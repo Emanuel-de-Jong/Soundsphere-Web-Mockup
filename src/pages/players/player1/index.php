@@ -66,7 +66,7 @@
                     <tr>
                         <th title="Player roles">Roles:</th>
                         <td>
-                            <span class="badge role-badge bg-green" title="Donator">DNR</span>
+                            <span class="badge role-badge bg-teal" title="Donator">DNR</span>
                             <span class="badge role-badge bg-purple" title="Contributor">CTR</span>
                         </td>
                     </tr>
@@ -97,7 +97,7 @@
                     <div class="col">
                         <h2>
                             Communities
-                            <a href="?a=communities_create" class="title-icon h2-icon green green-h" title="Create community">
+                            <a href="?a=communities_create" class="title-icon h2-icon teal teal-h" title="Create community">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </h2>
@@ -115,7 +115,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-icon-cell">
-                                        <span class="table-icon table-icon-s lred" title="The owner of the community">
+                                        <span class="table-icon table-icon-s red" title="The owner of the community">
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
@@ -139,7 +139,7 @@
                     <div class="col">
                         <h2>
                             Leaderboards
-                            <a href="#!" class="title-icon h2-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                            <a href="#!" class="title-icon h2-icon teal teal-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </h2>
@@ -168,7 +168,7 @@
                                         <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                             <i class="fas fa-pen"></i>
                                         </a>
-                                        <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                             <i class="fas fa-sign-in-alt"></i>
                                         </a>
                                     </td>
