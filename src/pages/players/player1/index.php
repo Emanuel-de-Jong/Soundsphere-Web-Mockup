@@ -181,18 +181,19 @@
 
 
             <section id="best-scores-section">
-                <h2>Best scores</h2>
-
-                <form class="text-center" action="" method="post">
-                    <select class="form-select data-table-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Filter by leaderboard and use leaderboard calculators">
-                        <option selected>All leaderboards</option>
-                        <option value="Leaderboard1">Leaderboard1</option>
-                    </select>
-                    <select class="form-select data-table-select" id="table" name="table" onchange="//this.form.submit()" title="Filter by table">
-                        <option selected>All tables</option>
-                        <option value="Table1">Table1</option>
-                    </select>
-                </form>
+                <h2>
+                    Best scores
+                    <form class="form-title" action="" method="post">
+                        <select class="form-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Filter by leaderboard and use leaderboard calculators">
+                            <option selected>All leaderboards</option>
+                            <option value="Leaderboard1">Leaderboard1</option>
+                        </select>
+                        <select class="form-select" id="table" name="table" onchange="//this.form.submit()" title="Filter by table">
+                            <option selected>All tables</option>
+                            <option value="Table1">Table1</option>
+                        </select>
+                    </form>
+                </h2>
 
                 <table class="data-table data-table-all table table-icon-col-last">
                     <thead>

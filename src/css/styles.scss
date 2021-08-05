@@ -258,8 +258,9 @@ textarea:focus {
     min-width: 99.5%;
 }
 
-.data-table thead th {
-    border-bottom-color: $gray-300 !important;
+.data-table th,
+.data-table td {
+    border-color: $gray-300 !important;
 }
 
 .data-table tbody tr:nth-child(odd) {
@@ -273,12 +274,6 @@ textarea:focus {
     margin: 0;
     padding: 0;
     height: 0;
-}
-
-.data-table-select {
-    display: inline;
-    width: 15.625rem;
-    margin-bottom: 0.75rem;
 }
 
 /* meta-table */
@@ -374,6 +369,16 @@ textarea:focus {
 .form-login button {
     min-width: 110px;
     width: 40%;
+}
+
+/* Title */
+.form-title {
+    text-align: center;
+}
+
+.form-title select {
+    display: inline-block;
+    width: 15.625rem;
 }
 
 

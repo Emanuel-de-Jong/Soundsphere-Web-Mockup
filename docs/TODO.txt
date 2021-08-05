@@ -22,6 +22,7 @@ GENERAL
 	table select next to title
 	show logo in navbar differently
 	patterned background
+	check if css importants are necesarry
 	check mobile
 	check different browsers
 	consistent class names
