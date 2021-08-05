@@ -144,14 +144,18 @@
 
             <section id="members-section">
                 <h2>Members</h2>
+                
+                <div id="members-insert" hidden>
+                    <div class="col">
+                        <form class="form-table">
+                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Leaderboard used for member ranks and plays">
+                                <option value="Leaderboard1" selected>Leaderboard1</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
 
-                <form class="form-table" action="" method="post">
-                    <select class="form-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Leaderboard used for member ranks and plays">
-                        <option value="Leaderboard1" selected>Leaderboard1</option>
-                    </select>
-                </form>
-
-                <table class="data-table data-table-all table table-icon-col-last">
+                <table class="data-table data-table-all table table-icon-col-last" data-insert="members-insert">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>

@@ -228,16 +228,20 @@
 
 
             <section id="ranking-section">
-                <form class="form-table" action="" method="post">
-                    <select class="form-select" id="community" name="community" onchange="//this.form.submit()" title="Filter the players shown by community">
-                        <option selected>All communities</option>
-                        <option value="Community1">Community1</option>
-                        <option value="Community2">Community2</option>
-                        <option value="Community3">Community3</option>
-                    </select>
-                </form>
+                <div id="ranking-insert" hidden>
+                    <div class="col">
+                        <form class="form-table">
+                            <select class="form-select form-select-sm" id="community" name="community" title="Filter the players shown by community">
+                                <option selected>All communities</option>
+                                <option value="Community1">Community1</option>
+                                <option value="Community2">Community2</option>
+                                <option value="Community3">Community3</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
 
-                <table class="data-table data-table-all table">
+                <table class="data-table data-table-all table" data-insert="ranking-insert">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>
