@@ -61,7 +61,7 @@
             <section id="scores-section">
                 <h2>Scores</h2>
 
-                <form class="form-title" action="" method="post">
+                <form class="form-table" action="" method="post">
                     <select class="form-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Only show scores from this leaderboard">
                         <option selected>All leaderboards</option>
                         <option value="Leaderboard1">Leaderboard1</option>

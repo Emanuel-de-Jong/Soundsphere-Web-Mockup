@@ -228,7 +228,7 @@
 
 
             <section id="ranking-section">
-                <form class="form-title" action="" method="post">
+                <form class="form-table" action="" method="post">
                     <select class="form-select" id="community" name="community" onchange="//this.form.submit()" title="Filter the players shown by community">
                         <option selected>All communities</option>
                         <option value="Community1">Community1</option>

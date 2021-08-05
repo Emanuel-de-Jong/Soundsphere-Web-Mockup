@@ -145,7 +145,7 @@
             <section id="members-section">
                 <h2>Members</h2>
 
-                <form class="form-title" action="" method="post">
+                <form class="form-table" action="" method="post">
                     <select class="form-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Leaderboard used for member ranks and plays">
                         <option value="Leaderboard1" selected>Leaderboard1</option>
                     </select>

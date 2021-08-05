@@ -181,21 +181,29 @@
 
 
             <section id="best-scores-section">
-                <h2>
-                    Best scores
-                    <form class="form-title" action="" method="post">
-                        <select class="form-select" id="leaderboard" name="leaderboard" onchange="//this.form.submit()" title="Filter by leaderboard and use leaderboard calculators">
-                            <option selected>All leaderboards</option>
-                            <option value="Leaderboard1">Leaderboard1</option>
-                        </select>
-                        <select class="form-select" id="table" name="table" onchange="//this.form.submit()" title="Filter by table">
-                            <option selected>All tables</option>
-                            <option value="Table1">Table1</option>
-                        </select>
-                    </form>
-                </h2>
+                <h2>Best scores</h2>
 
-                <table class="data-table data-table-all table table-icon-col-last">
+                <div id="best-scores-insert" hidden>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <form class="form-table">
+                            <select class="form-select" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
+                                <option selected>All leaderboards</option>
+                                <option value="Leaderboard1">Leaderboard1</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <form class="form-table">
+                            <select class="form-select" id="table" name="table" title="Filter by table">
+                                <option selected>All tables</option>
+                                <option value="Table1">Table1</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table table-icon-col-last" data-insert="best-scores-insert">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>

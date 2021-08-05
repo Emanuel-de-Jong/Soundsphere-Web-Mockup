@@ -372,13 +372,12 @@ textarea:focus {
 }
 
 /* Title */
-.form-title {
+.form-table {
     text-align: center;
 }
 
-.form-title select {
-    display: inline-block;
-    width: 15.625rem;
+.form-table select {
+    max-width: 15.625rem;
 }
 
 

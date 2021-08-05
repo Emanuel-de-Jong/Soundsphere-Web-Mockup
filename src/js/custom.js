@@ -3,7 +3,8 @@ $(function () {
         scrollX: true,
     }
 
-    function initDataTable(table, options) {
+
+    function dtOrder(table) {
         var orderItems = [];
         for (var i=0; i<10; i++) {
             var col = table.attr("data-c" + i);
@@ -20,20 +21,59 @@ $(function () {
         
         if (orderItems.length == 0)
             orderItems[0] = [0, "asc"];
-
-        options["order"] = orderItems;
-
-        table.DataTable(options);
+        
+        return orderItems;
     }
 
+
+    function dtInsert(table) {
+        var insertId = table.attr("data-insert");
+        
+        if (insertId == null)
+            return;
+        
+        var insert = $("#" + insertId);
+        var insertHTML = insert.html();
+        insert.remove();
+
+        return insertHTML;
+    }
+
+
+    function dtComplete(tableObj, insertHTML) {
+        if (insertHTML != null) {
+            $('div.insert').replaceWith(insertHTML);
+        }
+    }
+
+
+    function dtInit(table, options) {
+        options["order"] = dtOrder(table);
+
+        var insertHTML = dtInsert(table);
+        if (insertHTML != null)
+            options["dom"] =    "<'row'<'col-sm-12 col-md-6 col-lg-3'l><'insert'><'col-sm-12 col-md-6 col-lg-3'f>>" +
+                                "<'row'<'col-sm-12'tr>>" +
+                                "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>";
+
+        table.DataTable({
+            ...options,
+            initComplete: function(settings, json) {
+                var tableObj = settings.oInstance.api();
+                dtComplete(tableObj, insertHTML);
+            }
+        });
+    }
+
+
     $(".data-table-all").each(function() {
-        initDataTable($(this), {
+        dtInit($(this), {
             ...dtDefaultOptions,
         })
     });
 
     $(".data-table-slim").each(function() {
-        initDataTable($(this), {
+        dtInit($(this), {
             ...dtDefaultOptions,
             columnDefs: [
                 { orderable: false, targets: ["_all"] }
