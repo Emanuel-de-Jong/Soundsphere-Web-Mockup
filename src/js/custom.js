@@ -8,6 +8,50 @@ $(function () {
     }
 
 
+    $(".data-table-all").each(function() {
+        dtInit($(this), {
+            ...dtDefaultOptions,
+        })
+    });
+
+    $(".data-table-slim").each(function() {
+        dtInit($(this), {
+            ...dtDefaultOptions,
+            columnDefs: [
+                { orderable: false, targets: ["_all"] }
+            ],
+            searching: false,
+            paging: false,
+            info: false,
+        })
+    });
+
+
+    function dtInit(table, options) {
+        options["order"] = dtOrder(table);
+
+        var insertId = table.attr("data-insert");
+
+        var insertHTML;
+        if (insertId != null) {
+            insertHTML = dtInsertGet(insertId);
+
+            options["dom"] = 
+                "<'row'<'col'l><'" + insertId + "'><'col'f>>" +
+                "<'row'<'col'tr>>" +
+                "<'row'<'col'i><'col'p>>";
+        }
+
+        table.DataTable({
+            ...options,
+            initComplete: function(settings, json) {
+                if (insertId != null)
+                    dtInsertSet(insertId, insertHTML);
+            }
+        });
+    }
+
+
     function dtOrder(table) {
         var orderItems = [];
         for (var i=0; i<10; i++) {
@@ -39,54 +83,9 @@ $(function () {
         return insertHTML;
     }
 
-
     function dtInsertSet(insertId, insertHTML) {
         $("div." + insertId).replaceWith(insertHTML);
     }
-
-
-    function dtInit(table, options) {
-        options["order"] = dtOrder(table);
-
-        var insertId = table.attr("data-insert");
-
-        var insertHTML;
-        if (insertId != null) {
-            insertHTML = dtInsertGet(insertId);
-
-            options["dom"] = 
-                "<'row'<'col'l><'" + insertId + "'><'col'f>>" +
-                "<'row'<'col'tr>>" +
-                "<'row'<'col'i><'col'p>>";
-        }
-
-        table.DataTable({
-            ...options,
-            initComplete: function(settings, json) {
-                if (insertId != null)
-                    dtInsertSet(insertId, insertHTML);
-            }
-        });
-    }
-
-
-    $(".data-table-all").each(function() {
-        dtInit($(this), {
-            ...dtDefaultOptions,
-        })
-    });
-
-    $(".data-table-slim").each(function() {
-        dtInit($(this), {
-            ...dtDefaultOptions,
-            columnDefs: [
-                { orderable: false, targets: ["_all"] }
-            ],
-            searching: false,
-            paging: false,
-            info: false,
-        })
-    });
     
 
 
