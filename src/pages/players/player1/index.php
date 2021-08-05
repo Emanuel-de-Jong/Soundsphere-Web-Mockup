@@ -184,18 +184,18 @@
                 <h2>Best scores</h2>
 
                 <div id="best-scores-insert" hidden>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col">
                         <form class="form-table">
-                            <select class="form-select" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
+                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
                             </select>
                         </form>
                     </div>
                     
-                    <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="col">
                         <form class="form-table">
-                            <select class="form-select" id="table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>

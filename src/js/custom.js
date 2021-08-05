@@ -1,6 +1,10 @@
 $(function () {
     var dtDefaultOptions = {
         scrollX: true,
+        dom:
+            "<'row'<'col'l><'col'f>>" +
+            "<'row'<'col'tr>>" +
+            "<'row'<'col'i><'col'p>>",
     }
 
 
@@ -26,41 +30,41 @@ $(function () {
     }
 
 
-    function dtInsert(table) {
-        var insertId = table.attr("data-insert");
-        
-        if (insertId == null)
-            return;
-        
+    function dtInsertGet(insertId) {
         var insert = $("#" + insertId);
         var insertHTML = insert.html();
+
         insert.remove();
 
         return insertHTML;
     }
 
 
-    function dtComplete(tableObj, insertHTML) {
-        if (insertHTML != null) {
-            $('div.insert').replaceWith(insertHTML);
-        }
+    function dtInsertSet(insertId, insertHTML) {
+        $("div." + insertId).replaceWith(insertHTML);
     }
 
 
     function dtInit(table, options) {
         options["order"] = dtOrder(table);
 
-        var insertHTML = dtInsert(table);
-        if (insertHTML != null)
-            options["dom"] =    "<'row'<'col-sm-12 col-md-6 col-lg-3'l><'insert'><'col-sm-12 col-md-6 col-lg-3'f>>" +
-                                "<'row'<'col-sm-12'tr>>" +
-                                "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>";
+        var insertId = table.attr("data-insert");
+
+        var insertHTML;
+        if (insertId != null) {
+            insertHTML = dtInsertGet(insertId);
+
+            options["dom"] = 
+                "<'row'<'col'l><'" + insertId + "'><'col'f>>" +
+                "<'row'<'col'tr>>" +
+                "<'row'<'col'i><'col'p>>";
+        }
 
         table.DataTable({
             ...options,
             initComplete: function(settings, json) {
-                var tableObj = settings.oInstance.api();
-                dtComplete(tableObj, insertHTML);
+                if (insertId != null)
+                    dtInsertSet(insertId, insertHTML);
             }
         });
     }
