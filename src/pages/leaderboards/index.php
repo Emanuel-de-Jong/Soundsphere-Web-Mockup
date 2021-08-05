@@ -2,7 +2,7 @@
     <main class="container">
         <div class="main-box">
             <?php require('components/modals/create-leaderboard.php'); ?>
-            <nav class="page-icons page-icons-right page-icons-never-collapsed">
+            <nav class="navbar-expand page-icons page-icons-right page-icons-never-collapsed">
                 <div class="navbar-nav">
                     <a href="#!" class="page-icon" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
                         <div class="page-icon-box">

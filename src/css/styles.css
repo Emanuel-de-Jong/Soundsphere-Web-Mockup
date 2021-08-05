@@ -523,15 +523,6 @@ textarea:focus {
   text-align: right;
 }
 
-.page-icon-text {
-  display: none;
-  font-size: 1.25rem;
-}
-
-.page-icons-always-collapsed .page-icon-text {
-  display: inline;
-}
-
 .page-icon-box {
   display: inline-block;
   text-align: center;
@@ -544,17 +535,32 @@ textarea:focus {
   text-decoration: none;
 }
 
-.page-icons-always-collapsed .page-icon {
-  font-size: 1.375rem;
-}
-
 .page-icon:hover {
   color: #495057;
 }
 
+.page-icon-text {
+  display: none;
+  font-size: 1.25rem;
+}
+
+.page-icons-always-collapsed .page-icon {
+  font-size: 1.375rem;
+}
+
+.page-icons-always-collapsed .page-icon-text {
+  display: inline;
+}
+
 @media (max-width: 1199px) {
+  .page-icon {
+    font-size: 1.375rem;
+  }
   .page-icon-text {
     display: inline;
+  }
+  .page-icons-never-collapsed .page-icon {
+    font-size: 1.65rem;
   }
   .page-icons-never-collapsed .page-icon-text {
     display: none;

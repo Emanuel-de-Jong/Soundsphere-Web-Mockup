@@ -18,7 +18,7 @@
 <div id="leaderboard">
     <main class="container">
         <div class="main-box">
-            <nav class="page-icons page-icons-left page-icons-never-collapsed">
+            <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
                     <form class="form-page">
                         <div class="input-group" title="The input mode that the values and order of the page is based on">
