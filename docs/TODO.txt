@@ -1,10 +1,8 @@
 === LOGIC ===
 GENERAL
 	form table validation
-	check tooltips
 	console warnings
 	lighthouse improvements
-	better example rows
 	
 CHART
 	format
@@ -16,10 +14,7 @@ CHART
 GENERAL
 	improve colors
 	check if color change didn't break anything
-	check if style colors could be color classes
 	show logo in navbar differently
-	patterned background
-	check if css importants are necesarry
 	check mobile
 	check different browsers
 	consistent class names
@@ -28,25 +23,20 @@ GENERAL
 
 
 === OTHER ===
-GENERAL
-	terms of service (check osu, quaver)
-
 LOGIN/REGISTER
 	vertical center
-	restyling
+	restructure
 
 HOME
-	everything
+	restructure
 
 HELP
-	everything
+	restructure
 
 
 
 
 === QQP ===
-leaderboard calc parameters
-leaderboard exclude certain charts from tables (select chart by file upload)
 player first places
 user random 4 digid tag for dupe usernames
 change crown icon

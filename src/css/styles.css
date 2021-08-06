@@ -503,6 +503,7 @@ textarea:focus {
 }
 
 .form-table select {
+  display: inline-block;
   max-width: 13rem;
 }
 
