@@ -699,13 +699,15 @@ tr:hover .table-icon-hide {
   margin-bottom: 1rem;
   font-size: 1.625rem;
   font-weight: 500;
-}
-
-#player-edit #username-preview {
   background: black;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+#player-edit #username-color-l,
+#player-edit #username-color-r {
+  max-width: 40px;
 }
 
 /* Leaderboard */

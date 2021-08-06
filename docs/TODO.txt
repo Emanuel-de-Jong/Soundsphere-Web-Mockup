@@ -1,9 +1,7 @@
 === LOGIC ===
 GENERAL
-	give all form items a form parent
 	form table validation
 	check tooltips
-	code cleanup
 	console warnings
 	lighthouse improvements
 	better example rows
