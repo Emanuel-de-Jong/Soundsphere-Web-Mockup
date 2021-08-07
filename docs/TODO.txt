@@ -2,6 +2,7 @@ GENERAL
 	feature
 		form table validation
 	code
+		rename settings form
 		check different browsers
 		consistent class names
 		console warnings
@@ -18,10 +19,11 @@ GENERAL
 PLAYER
 	first place scores
 	random 4 digid tag for dupe usernames
-
-CHART
-	format
-
+	
+SCORE
+	chart format
+	max combo
+	
 LOGIN/REGISTER
 	vertical center
 	restructure

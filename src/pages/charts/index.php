@@ -15,7 +15,7 @@
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
                             <th title="Chart input mode">Input mode</th>
-                            <th title="Play count">Plays</th>
+                            <th title="File format">Format</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,7 +27,7 @@
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7K</td>
-                            <td>15</td>
+                            <td>BME</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -37,7 +37,7 @@
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7K</td>
-                            <td>15</td>
+                            <td>BME</td>
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
@@ -51,7 +51,7 @@
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7K</td>
-                            <td>15</td>
+                            <td>BME</td>
                         </tr>
                         <tr>
                             <td class="table-icon-cell">
@@ -65,7 +65,7 @@
                             <td>A charter</td>
                             <td>An artist</td>
                             <td>7K</td>
-                            <td>15</td>
+                            <td>BME</td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -77,7 +77,7 @@
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
                             <th title="Chart input mode">Input mode</th>
-                            <th title="Play count">Plays</th>
+                            <th title="File format">Format</th>
                         </tr>
                     </tfoot>
                 </table>

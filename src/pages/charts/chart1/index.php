@@ -24,6 +24,12 @@
                         <td>12</td>
                     </tr>
                     <tr>
+                        <th title="File format">Format:</th>
+                        <td>BME</td>
+                        <th title="The duration of the chart">Length:</th>
+                        <td>2:21</td>
+                    </tr>
+                    <tr>
                         <th title="Play count">Plays:</th>
                         <td>15</td>
                     </tr>
