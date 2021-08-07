@@ -1,7 +1,8 @@
 GENERAL
 	FEATURE
-		*decide html5 or red text validation
+		red text validation
 		form table validation
+		hide own rows checkbox
 	CODE
 		rename settings form
 		check different browsers
@@ -9,8 +10,9 @@ GENERAL
 		console warnings
 		lighthouse improvements
 	VISUAL
-		*decide colors brighter or darker
-		*decide row collapse or scroll
+		make colors bright
+		make max characters 30 instead of 50
+		change "performance" to "pr"
 		check if color change didn't break anything
 		fix table icons
 		table icon no order if it's always the same ones
@@ -21,9 +23,33 @@ GENERAL
 PLAYER
 	*first place scores
 	*random 4 digid tag for dupe usernames
+	play time no days just hours
+	EDIT
+		social media
+		twitter
+		discord
+		facebook
+		vk
+		other
 
 SCORE
 	*page
+	checkbox for more columns
+	best scores selects also on all scores
+
+LEADERBOARD
+	private
+	community table rank col
+
+COMMUNITY
+	"community link" to "external link"
+	INBOX
+		leaderboard outgoing invites
+			"community" instead of "reciever"
+			swap sender and reciever
+
+REGISTER
+	username
 
 LOGIN/REGISTER
 	vertical center
