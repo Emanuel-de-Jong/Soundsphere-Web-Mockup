@@ -1,5 +1,6 @@
 GENERAL
 	FEATURE
+		*decide html5 or red text validation
 		form table validation
 	CODE
 		rename settings form
@@ -8,20 +9,21 @@ GENERAL
 		console warnings
 		lighthouse improvements
 	VISUAL
+		*decide colors brighter or darker
+		*decide row collapse or scroll
+		check if color change didn't break anything
+		fix table icons
 		table icon no order if it's always the same ones
 		change crown icon
-		fix table icons
-		improve colors
-		check if color change didn't break anything
 		show logo in navbar differently
 		check mobile
 
 PLAYER
-	first place scores
-	random 4 digid tag for dupe usernames
+	*first place scores
+	*random 4 digid tag for dupe usernames
 
 SCORE
-	page
+	*page
 
 LOGIN/REGISTER
 	vertical center
