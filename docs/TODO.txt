@@ -48,6 +48,11 @@ PLAYER
 
 CHART
 	has all data
+	hash
+	source
+	tags
+	note count
+	bpm
 	
 SCORE
 	chart format
