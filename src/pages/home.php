@@ -3,7 +3,7 @@
 
     <main class="container">
         <div class="main-box">
-            <h1>Home</h1>
+            <h1>soundsphere</h1>
 
             
             <section id="description-section">

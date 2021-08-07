@@ -1,13 +1,13 @@
 GENERAL
-	feature
+	FEATURE
 		form table validation
-	code
+	CODE
 		rename settings form
 		check different browsers
 		consistent class names
 		console warnings
 		lighthouse improvements
-	visual
+	VISUAL
 		table icon no order if it's always the same ones
 		change crown icon
 		fix table icons
@@ -19,11 +19,10 @@ GENERAL
 PLAYER
 	first place scores
 	random 4 digid tag for dupe usernames
-	
+
 SCORE
-	chart format
-	max combo
-	
+	page
+
 LOGIN/REGISTER
 	vertical center
 	restructure
@@ -33,3 +32,35 @@ HOME
 
 HELP
 	restructure
+
+
+
+
+
+
+=== COLS ===
+GENERAL
+	created and last modified dates
+
+PLAYER
+	average acc
+	performance
+
+CHART
+	has all data
+	
+SCORE
+	chart format
+	max combo
+	score
+	time rate
+	times the player played the chart
+	calculated
+
+LEADERBOARD
+	other calcs
+	top player
+	average acc
+	performance
+	RANKING
+		play count
