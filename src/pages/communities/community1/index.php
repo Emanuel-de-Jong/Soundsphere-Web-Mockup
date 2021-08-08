@@ -153,6 +153,15 @@
                             </select>
                         </form>
                     </div>
+
+                    <div class="col">
+                        <div class="form-check form-switch">
+                            <label for="only-show-admins" class="form-check-label">
+                                <input type="checkbox" class="form-check-input" id="only-show-admins">
+                                Only show admins
+                            </label>
+                        </div>
+                    </div>
                 </div>
 
                 <table class="data-table data-table-all table table-icon-col-last" data-insert="members-insert">

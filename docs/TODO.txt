@@ -1,8 +1,7 @@
 GENERAL
 	FEATURE
 		red text validation
-		form table validation
-		table checkbox instead of icon order
+		table jump to your row
 	CODE
 		rename settings form
 		check different browsers
@@ -10,6 +9,7 @@ GENERAL
 		console warnings
 		lighthouse improvements
 	VISUAL
+		table checkbox vertical center
 		make colors bright
 		make max characters 30 instead of 50
 		change "performance" to "pr"
