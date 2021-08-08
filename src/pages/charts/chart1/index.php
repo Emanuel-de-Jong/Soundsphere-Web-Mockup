@@ -67,9 +67,9 @@
             <section id="scores-section">
                 <h2>Scores</h2>
 
-                <div id="scores-insert" hidden>
+                <div id="scores-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Only show scores from this leaderboard">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
@@ -80,7 +80,15 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert="scores-insert">
+                <div id="scores-insert-bottom" hidden>
+                    <div class="col">
+                        <form class="form-table form-table-bottom" action="javascript:void(0);">
+                            <button type="submit" class="btn bg-blue bg-blue-h">Your row</button>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>

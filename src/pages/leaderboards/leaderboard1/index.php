@@ -228,9 +228,9 @@
 
 
             <section id="ranking-section">
-                <div id="ranking-insert" hidden>
+                <div id="ranking-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <select class="form-select form-select-sm" id="community" name="community" title="Filter the players shown by community">
                                 <option selected>All communities</option>
                                 <option value="Community1">Community1</option>
@@ -241,7 +241,15 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table" data-insert="ranking-insert">
+                <div id="ranking-insert-bottom" hidden>
+                    <div class="col">
+                        <form class="form-table form-table-bottom" action="javascript:void(0);">
+                            <button type="submit" class="btn bg-blue bg-blue-h">Your row</button>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table" data-insert-top="ranking-insert-top" data-insert-bottom="ranking-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>

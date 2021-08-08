@@ -1,8 +1,8 @@
 GENERAL
 	FEATURE
 		red text validation
-		table jump to your row
 	CODE
+		improve table insert
 		rename settings form
 		check different browsers
 		consistent class names

@@ -145,9 +145,9 @@
             <section id="members-section">
                 <h2>Members</h2>
                 
-                <div id="members-insert" hidden>
+                <div id="members-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Leaderboard used for member ranks and plays">
                                 <option value="Leaderboard1" selected>Leaderboard1</option>
                             </select>
@@ -164,7 +164,15 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert="members-insert">
+                <div id="members-insert-bottom" hidden>
+                    <div class="col">
+                        <form class="form-table form-table-bottom" action="javascript:void(0);">
+                            <button type="submit" class="btn bg-blue bg-blue-h">Your row</button>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="members-insert-top" data-insert-bottom="members-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>

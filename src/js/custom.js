@@ -30,23 +30,38 @@ $(function () {
     function dtInit(table, options) {
         options["order"] = dtOrder(table);
 
-        var insertId = table.attr("data-insert");
+        var insertTopId = table.attr("data-insert-top");
+        var insertBottomId = table.attr("data-insert-bottom");
 
-        var insertHTML;
-        if (insertId != null) {
-            insertHTML = dtInsertGet(insertId);
+        var insertTopHTML;
+        var domTop = "<'row'<'col'l><'col'f>>";
+        if (insertTopId != null) {
+            insertTopHTML = dtInsertGet(insertTopId);
+            domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
+        }
 
+        var insertBottomHTML;
+        var domBottom = "<'row'<'col'i><'col'p>>";
+        if (insertBottomId != null) {
+            insertBottomHTML = dtInsertGet(insertBottomId);
+            domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
+        }
+
+        if (insertTopId != null || insertBottomId != null) {
             options["dom"] = 
-                "<'row'<'col'l><'" + insertId + "'><'col'f>>" +
+                domTop +
                 "<'row'<'col'tr>>" +
-                "<'row'<'col'i><'col'p>>";
+                domBottom;
         }
 
         table.DataTable({
             ...options,
             initComplete: function(settings, json) {
-                if (insertId != null)
-                    dtInsertSet(insertId, insertHTML);
+                if (insertTopId != null)
+                    dtInsertSet(insertTopId, insertTopHTML);
+                
+                if (insertBottomId != null)
+                    dtInsertSet(insertBottomId, insertBottomHTML);
             }
         });
     }

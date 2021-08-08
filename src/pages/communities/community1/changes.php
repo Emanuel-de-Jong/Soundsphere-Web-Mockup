@@ -15,9 +15,9 @@
 
 
             <section id="changes-section">
-                <div id="changes-insert" hidden>
+                <div id="changes-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <div class="form-check form-switch">
                                 <label for="hide-own-changes" class="form-check-label">
                                     <input type="checkbox" class="form-check-input" id="hide-own-changes">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table" data-c0="0" data-d0="desc" data-insert="changes-insert">
+                <table class="data-table data-table-all table" data-c0="0" data-d0="desc" data-insert-top="changes-insert-top">
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>

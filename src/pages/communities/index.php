@@ -17,9 +17,9 @@
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/create-player-request-2.php'); ?>
             <section id="communities-section">
-                <div id="communities-insert" hidden>
+                <div id="communities-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <div class="form-check form-switch">
                                 <label for="hide-joined-communities" class="form-check-label">
                                     <input type="checkbox" class="form-check-input" id="hide-joined-communities">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert="communities-insert">
+                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="communities-insert-top">
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>

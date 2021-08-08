@@ -183,9 +183,9 @@
             <section id="best-scores-section">
                 <h2>Best scores</h2>
 
-                <div id="best-scores-insert" hidden>
+                <div id="best-scores-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
@@ -194,7 +194,7 @@
                     </div>
                     
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert="best-scores-insert">
+                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="best-scores-insert-top">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>

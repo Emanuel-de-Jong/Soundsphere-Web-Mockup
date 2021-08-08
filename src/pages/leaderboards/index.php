@@ -17,9 +17,9 @@
 
             <?php require('components/modals/add-leaderboard.php'); ?>
             <section id="leaderboards-section">
-                <div id="leaderboards-insert" hidden>
+                <div id="leaderboards-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table">
+                        <form class="form-table form-table-top">
                             <div class="form-check form-switch">
                                 <label for="hide-joined-leaderboards" class="form-check-label">
                                     <input type="checkbox" class="form-check-input" id="hide-joined-leaderboards">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert="leaderboards-insert">
+                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="leaderboards-insert-top">
                     <thead>
                         <tr>
                             <th title="Leaderboard name">Name</th>
