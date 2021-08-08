@@ -17,7 +17,20 @@
 
             <?php require('components/modals/add-leaderboard.php'); ?>
             <section id="leaderboards-section">
-                <table class="data-table data-table-all table table-icon-col-last">
+                <div id="leaderboards-insert" hidden>
+                    <div class="col">
+                        <form class="form-table">
+                            <div class="form-check form-switch">
+                                <label for="hide-joined-leaderboards" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="hide-joined-leaderboards">
+                                    Hide joined leaderboards
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table table-icon-col-last" data-insert="leaderboards-insert">
                     <thead>
                         <tr>
                             <th title="Leaderboard name">Name</th>

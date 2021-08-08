@@ -2,7 +2,7 @@ GENERAL
 	FEATURE
 		red text validation
 		form table validation
-		hide own rows checkbox
+		table checkbox instead of icon order
 	CODE
 		rename settings form
 		check different browsers
@@ -15,7 +15,7 @@ GENERAL
 		change "performance" to "pr"
 		check if color change didn't break anything
 		fix table icons
-		table icon no order if it's always the same ones
+		remove table icon orders
 		change crown icon
 		show logo in navbar differently
 		check mobile

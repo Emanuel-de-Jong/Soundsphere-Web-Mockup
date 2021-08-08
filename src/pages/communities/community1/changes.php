@@ -15,7 +15,20 @@
 
 
             <section id="changes-section">
-                <table class="data-table data-table-all table" data-c0="0" data-d0="desc">
+                <div id="changes-insert" hidden>
+                    <div class="col">
+                        <form class="form-table">
+                            <div class="form-check form-switch">
+                                <label for="hide-own-changes" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="hide-own-changes">
+                                    Hide own changes
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table" data-c0="0" data-d0="desc" data-insert="changes-insert">
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>
