@@ -453,17 +453,17 @@ textarea:focus {
   background-color: #f8f9fa;
 }
 
-/* Settings */
-.form-settings {
+/* CRUD */
+.form-crud {
   margin: auto;
   max-width: 37.5rem;
 }
 
-.form-settings textarea {
+.form-crud textarea {
   height: 6.875rem;
 }
 
-.form-settings .input-file-dragenter {
+.form-crud .input-file-dragenter {
   border-color: #86b7fe;
 }
 

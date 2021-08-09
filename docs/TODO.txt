@@ -3,17 +3,14 @@ GENERAL
 		red text validation
 	CODE
 		improve table insert
-		rename settings form
-		check different browsers
 		consistent class names
+		check different browsers
 		console warnings
 		lighthouse improvements
 	VISUAL
 		table checkbox vertical center
 		make colors bright
-		make max characters 30 instead of 50
-		change "performance" to "pr"
-		check if color change didn't break anything
+		*change "performance" to "pr" (player/personal record)
 		fix table icons
 		remove table icon orders
 		change crown icon
@@ -23,7 +20,6 @@ GENERAL
 PLAYER
 	*first place scores
 	*random 4 digid tag for dupe usernames
-	play time no days just hours
 	EDIT
 		social media
 		twitter
@@ -33,7 +29,6 @@ PLAYER
 		other
 
 SCORE
-	*page
 	checkbox for more columns
 	best scores selects also on all scores
 

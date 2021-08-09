@@ -55,7 +55,7 @@
                         <th title="Favourite mode">Fav modes:</th>
                         <td>7K</td>
                         <th title="Total time of gameplay">Playtime:</th>
-                        <td>3d 18h</td>
+                        <td>42h</td>
                     </tr>
                     <tr>
                         <th title="Total play count">Plays:</th>
