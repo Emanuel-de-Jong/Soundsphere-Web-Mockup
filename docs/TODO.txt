@@ -8,7 +8,6 @@ GENERAL
 		console warnings
 		lighthouse improvements
 	VISUAL
-		table checkbox vertical center
 		make colors bright
 		*change "performance" to "pr" (player/personal record)
 		fix table icons
@@ -20,24 +19,14 @@ GENERAL
 PLAYER
 	*first place scores
 	*random 4 digid tag for dupe usernames
-	EDIT
-		social media
-		twitter
-		discord
-		facebook
-		vk
-		other
 
 SCORE
 	checkbox for more columns
-	best scores selects also on all scores
 
 LEADERBOARD
 	private
-	community table rank col
 
 COMMUNITY
-	"community link" to "external link"
 	INBOX
 		leaderboard outgoing invites
 			"community" instead of "reciever"

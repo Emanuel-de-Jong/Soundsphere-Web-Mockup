@@ -31,6 +31,36 @@
                         <textarea class="form-control" id="description" name="description">Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet lorem. Nullam sagittis felis enim, et congue mi facilisis a. Ut maximus hendrerit lectus. Aliquam sit amet lacus quis mi semper rhoncus. Quisque a orci tincidunt, posuere risus eget, vehicula purus. Mauris id leo a massa vulputate venenatis at ac nisl. Nullam non aliquet augue. Donec eu urna at magna feugiat tristique. Nunc non dui ut nisl faucibus rutrum. Aenean vulputate interdum vulputate. Curabitur auctor, dolor sit amet viverra laoreet, elit metus dictum massa, ut dapibus purus nibh ac eros. Duis eget finibus purus, vel efficitur mauris. Etiam id risus vitae nunc lobortis luctus non at mauris. Phasellus ut lorem massa. In non eleifend erat. Nam dapibus mauris et eros pretium, et malesuada ante varius. Quisque ac odio vel mauris pretium suscipit sit amet in quam. Phasellus id erat consectetur, sollicitudin velit quis, suscipit dui. Morbi sit amet faucibus felis. enim.</textarea>
                     </div>
 
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-item">
+                                <label for="twitter" class="form-label" title="Link to your Twitter">Twitter</label>
+                                <input type="text" class="form-control" id="twitter" name="twitter" minlength="5" maxlength="100" value="https://www.twitter.com/1234">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-item">
+                                <label for="facebook" class="form-label" title="Link to your Facebook">Facebook</label>
+                                <input type="text" class="form-control" id="facebook" name="facebook" minlength="3" maxlength="100" value="">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-item">
+                                <label for="discord" class="form-label" title="Your Discord tag">Discord</label>
+                                <input type="text" class="form-control" id="discord" name="discord" minlength="3" maxlength="100" value="Player#1234">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-item">
+                                <label for="other-social" class="form-label" title="A different social media">Other social</label>
+                                <input type="text" class="form-control" id="other-social" name="other-social" minlength="3" maxlength="100" value="https://www.vk.ru/1234">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="form-item">
                         <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your profile page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" id="banner" name="banner" accept=".png, .jpg, .jpeg">

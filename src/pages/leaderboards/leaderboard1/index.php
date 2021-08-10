@@ -144,24 +144,36 @@
                     <div class="col">
                         <h2>Communities</h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="2" data-d0="desc">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
+                                    <th title="Rank on leaderboard by performance">Rank</th>
                                     <th></th>
                                     <th title="Community name">Name</th>
                                     <th title="Total performance in leaderboard">Performance</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
-                                    <th title="Input modes in community leaderboards">Input modes</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>#1</td>
                                     <td></td>
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>5000</td>
                                     <td>No</td>
-                                    <td>7K, 10K</td>
+                                    <td class="table-icon-cell">
+                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#2</td>
+                                    <td></td>
+                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td>4000</td>
+                                    <td>No</td>
                                     <td class="table-icon-cell">
                                         <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>
@@ -169,6 +181,7 @@
                                     </td>
                                 </tr>
                                 <tr class="highlight-row">
+                                    <td>#3</td>
                                     <td class="table-icon-cell">
                                         <span class="table-icon table-icon-s orange" title="The leaderboard owner. Can edit and delete the leaderboard.">
                                             <i class="fas fa-crown"></i>
@@ -177,19 +190,6 @@
                                     <td><a href="?a=communities_community1_index">Community1</a></td>
                                     <td>3000</td>
                                     <td>No</td>
-                                    <td>7K, 10K</td>
-                                    <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-sign-out-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
-                                    <td>4000</td>
-                                    <td>No</td>
-                                    <td>7K, 10K</td>
                                     <td class="table-icon-cell">
                                         <a href="#!" class="table-icon table-icon-hide red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-sign-out-alt"></i>

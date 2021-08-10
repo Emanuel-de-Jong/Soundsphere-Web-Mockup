@@ -78,6 +78,17 @@
                             </select>
                         </form>
                     </div>
+                    
+                    <div class="col">
+                        <form class="form-table form-table-top">
+                            <div class="form-check form-switch">
+                                <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
+                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
+                                    Show all columns
+                                </label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
                 <div id="scores-insert-bottom" hidden>

@@ -64,6 +64,14 @@
                         <td>120</td>
                     </tr>
                     <tr>
+                        <th title="A link to the player's Twitter">Twitter:</th>
+                        <td><a href="https://www.twitter.com/1234">twitter.com/1234</a></td>
+                        <th title="The player's Discord tag">Discord:</th>
+                        <td>Player#1234</td>
+                    </tr>
+                    <tr>
+                        <th title="A different social media">Other social:</th>
+                        <td><a href="https://www.vk.ru/1234">vk.ru/1234</a></td>
                         <th title="Player roles">Roles:</th>
                         <td>
                             <span class="badge role-badge bg-green" title="Donator">DNR</span>
@@ -201,6 +209,17 @@
                             </select>
                         </form>
                     </div>
+                    
+                    <div class="col">
+                        <form class="form-table form-table-top">
+                            <div class="form-check form-switch">
+                                <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
+                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
+                                    Show all columns
+                                </label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
                 <table class="data-table data-table-all table table-icon-col-last" data-insert-top="best-scores-insert-top">
@@ -323,7 +342,38 @@
             <section id="all-scores-section">
                 <h2>All scores</h2>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-c0="8" data-d0="desc">
+                <div id="all-scores-insert-top" hidden>
+                    <div class="col">
+                        <form class="form-table form-table-top">
+                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
+                                <option selected>All leaderboards</option>
+                                <option value="Leaderboard1">Leaderboard1</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    <div class="col">
+                        <form class="form-table form-table-top">
+                            <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
+                                <option selected>All tables</option>
+                                <option value="Table1">Table1</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    <div class="col">
+                        <form class="form-table form-table-top">
+                            <div class="form-check form-switch">
+                                <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
+                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
+                                    Show all columns
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <table class="data-table data-table-all table table-icon-col-last" data-c0="8" data-d0="desc" data-insert-top="all-scores-insert-top">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>

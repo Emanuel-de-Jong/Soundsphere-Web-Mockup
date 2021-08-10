@@ -74,7 +74,7 @@
                     <tr>
                         <th title="To join private communities, you have to send a request">Public:</th>
                         <td>No</td>
-                        <th title="To join private communities, you have to send a request">Community link:</th>
+                        <th title="A link to the community outside of this site">External link:</th>
                         <td><a href="https://discord.gg/hDjSpVyhuZ">discord.gg/hDjSpVyhuZ</a></td>
                     </tr>
                 </table>
@@ -155,12 +155,14 @@
                     </div>
 
                     <div class="col">
-                        <div class="form-check form-switch">
-                            <label for="only-show-admins" class="form-check-label">
-                                <input type="checkbox" class="form-check-input" id="only-show-admins">
-                                Only show admins
-                            </label>
-                        </div>
+                        <form class="form-table form-table-top">
+                            <div class="form-check form-switch">
+                                <label for="only-show-admins" class="form-check-label" title="Only show rows of moderators, admins and the owner">
+                                    <input type="checkbox" class="form-check-input" id="only-show-admins" name="only-show-admins">
+                                    Only show admins
+                                </label>
+                            </div>
+                        </form>
                     </div>
                 </div>
 

@@ -21,8 +21,8 @@
                     <div class="col">
                         <form class="form-table form-table-top">
                             <div class="form-check form-switch">
-                                <label for="hide-joined-leaderboards" class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" id="hide-joined-leaderboards">
+                                <label for="hide-joined-leaderboards" class="form-check-label" title="Hide the rows of leaderboards that you're in">
+                                    <input type="checkbox" class="form-check-input" id="hide-joined-leaderboards" name="hide-joined-leaderboards">
                                     Hide joined leaderboards
                                 </label>
                             </div>

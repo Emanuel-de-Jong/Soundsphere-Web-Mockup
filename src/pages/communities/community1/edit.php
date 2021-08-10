@@ -36,7 +36,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="link" class="form-label" title="A link to the community outside of this site">Community link</label>
+                        <label for="link" class="form-label" title="A link to the community outside of this site">External link</label>
                         <input type="url" class="form-control" id="link" name="link" maxlength="100" value="https://discord.gg/hDjSpVyhuZ">
                     </div>
 

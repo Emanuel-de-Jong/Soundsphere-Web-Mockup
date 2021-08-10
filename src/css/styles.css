@@ -507,8 +507,9 @@ textarea:focus {
   max-width: 13rem;
 }
 
-.form-table .form-check label {
-  vertical-align: middle;
+.form-table .form-check {
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 
 .form-table-bottom .btn {
