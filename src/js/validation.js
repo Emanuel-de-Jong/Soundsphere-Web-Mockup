@@ -1,7 +1,6 @@
 $(function() {
     $("form").each(function() {
         let form = $(this);
-        form.attr("novalidate", true);
     });
 
     $("form").on("submit", function(event) {
@@ -10,17 +9,13 @@ $(function() {
 
 
         let input = document.getElementById("community-name")
-        console.log(input);
-        console.log(input.value);
         console.log(input.validity);
 
         if (!formElem.checkValidity()) {
             event.preventDefault();
             event.stopPropagation();
         } else {
-            
+            form.addClass("was-validated");
         }
-
-        form.addClass("was-validated");
     })
 });
