@@ -125,30 +125,13 @@ $(function() {
     });
 
 
-    function showInvalidMessage(jInput) {
-        jInput.addClass("form-invalid");
-
-        let jMessageDiv = jInput.siblings(".form-invalid-message");
-        jMessageDiv.html(jInput.get(0).validationMessage);
-    }
-
-    function hideInvalidMessage(jInput) {
-        jInput.removeClass("form-invalid");
-
-        let jMessageDiv = jInput.siblings(".form-invalid-message");
-        jMessageDiv.html("");
-    }
-
-
     $("input, select, textarea").on("input", function() {
-        let input = this;
-        let jInput = $(this);
-        
-        if (input.validity.valid) {
-            hideInvalidMessage(jInput);
-        } else {
-            showInvalidMessage(jInput);
-        }
+        validateInput(this);
+    })
+
+
+    $("input, select, textarea").on("invalid", function() {
+        showInvalidMessage($(this));
     })
 
 
@@ -170,6 +153,32 @@ $(function() {
             event.stopPropagation();
         }
     })
+
+
+    function validateInput(input) {
+        let jInput = $(input);
+        
+        if (input.validity.valid) {
+            hideInvalidMessage(jInput);
+        } else {
+            showInvalidMessage(jInput);
+        }
+    }
+
+    
+    function showInvalidMessage(jInput) {
+        jInput.addClass("form-invalid");
+
+        let jMessageDiv = jInput.siblings(".form-invalid-message");
+        jMessageDiv.html(jInput.get(0).validationMessage);
+    }
+
+    function hideInvalidMessage(jInput) {
+        jInput.removeClass("form-invalid");
+
+        let jMessageDiv = jInput.siblings(".form-invalid-message");
+        jMessageDiv.html("");
+    }
     
 
 

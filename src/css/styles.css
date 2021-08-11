@@ -452,6 +452,7 @@ textarea:invalid {
 .form-invalid-message {
   width: 100%;
   color: #dc3545;
+  font-size: 0.8rem;
 }
 
 /* Modal */
