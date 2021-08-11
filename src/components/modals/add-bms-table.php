@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <form class="form-modal">
-                    <input class="form-control" list="bms-table-options" id="bms-table" name="bms-table" title="The table to add" placeholder="Search for a table...">
+                    <input class="form-control" list="bms-table-options" id="form-modal-bms-table" name="bms-table" title="The table to add" placeholder="Search for a table...">
                     <datalist id="bms-table-options">
                         <option value="Table1">
                         <option value="Table2">

@@ -8,8 +8,8 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="community" class="form-label form-required" title="The community to send the invite to">Community</label>
-                        <input class="form-control" list="community-options" id="community" name="community" placeholder="Search for a community..." required>
+                        <label for="form-modal-community" class="form-label form-required" title="The community to send the invite to">Community</label>
+                        <input class="form-control" list="community-options" id="form-modal-community" name="community" placeholder="Search for a community..." required>
                         <datalist id="community-options">
                             <option value="Community1">
                             <option value="Community2">
@@ -18,8 +18,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="leaderboard" class="form-label form-required" title="The leaderboard to send the invite for">Leaderboard</label>
-                        <select class="form-select" id="leaderboard" name="leaderboard" required>
+                        <label for="form-modal-leaderboard" class="form-label form-required" title="The leaderboard to send the invite for">Leaderboard</label>
+                        <select class="form-select" id="form-modal-leaderboard" name="leaderboard" required>
                             <option selected hidden>Select a leaderboard</option>
                             <option value="Leaderboard1">Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard3</option>
@@ -28,8 +28,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="message" name="message" maxlength="100">
+                        <label for="form-modal-message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
+                        <input type="text" class="form-control" id="form-modal-message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>

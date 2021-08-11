@@ -14,8 +14,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="player" class="form-label form-required" title="The member to make the new owner">Member</label>
-                        <input class="form-control" list="player-options" id="player" name="player" placeholder="Search for a member..." required>
+                        <label for="form-modal-player" class="form-label form-required" title="The member to make the new owner">Member</label>
+                        <input class="form-control" list="player-options" id="form-modal-player" name="player" placeholder="Search for a member..." required>
                         <datalist id="player-options">
                             <option value="Player1">
                             <option value="Player2">
@@ -24,8 +24,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="community-name" class="form-label form-required" title="Type in the name of the community to confirm the transfer">Community name</label>
-                        <input type="text" class="form-control" id="community-name" name="community-name" required>
+                        <label for="form-modal-community-name" class="form-label form-required" title="Type in the name of the community to confirm the transfer">Community name</label>
+                        <input type="text" class="form-control" id="form-modal-community-name" name="community-name" required>
                     </div>
                 </form>
             </div>

@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <form class="form-modal">
-                    <input class="form-control" list="player-options" id="player" name="player" title="The member to make an admin" placeholder="Search for a member...">
+                    <input class="form-control" list="player-options" id="form-modal-player" name="player" title="The member to make an admin" placeholder="Search for a member...">
                     <datalist id="player-options">
                         <option value="Player1">
                         <option value="Player2">

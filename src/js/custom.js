@@ -117,12 +117,12 @@ $(function() {
     });
 
     const acceptedExtensions = ["png", "jpg", "jpeg"];
-    $("input.input-image").on("change", function (e) {
+    $("input.input-image").on("change", function(event) {
         let input = $(this);
         const filepath = input.val();
         if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
         {
-            e.preventDefault();
+            event.preventDefault();
             $(this).val("");
         }
     });

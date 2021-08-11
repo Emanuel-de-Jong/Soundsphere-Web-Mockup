@@ -8,8 +8,8 @@
             <div class="modal-body">
                 <form class="form-modal">
                     <div class="form-item">
-                        <label for="modifier" class="form-label form-required" title="Modifier name">Modifier</label>
-                        <select class="form-select" id="modifier" name="modifier" required>
+                        <label for="form-modal-modifier" class="form-label form-required" title="Modifier name">Modifier</label>
+                        <select class="form-select" id="form-modal-modifier" name="modifier" required>
                             <option selected hidden>Select a modifier</option>
                             <option value="SMod">SpeedMode</option>
                             <option value="Q">TimeRateQ</option>
@@ -18,18 +18,18 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="min-value" class="form-label" title="Modifier minumal value">Min value</label>
-                        <input type="text" class="form-control" id="min-value" name="min-value">
+                        <label for="form-modal-min-value" class="form-label" title="Modifier minumal value">Min value</label>
+                        <input type="text" class="form-control" id="form-modal-min-value" name="min-value">
                     </div>
 
                     <div class="form-item">
-                        <label for="max-value" class="form-label" title="Modifier maximal value">Max value</label>
-                        <input type="text" class="form-control" id="max-value" name="max-value">
+                        <label for="form-modal-max-value" class="form-label" title="Modifier maximal value">Max value</label>
+                        <input type="text" class="form-control" id="form-modal-max-value" name="max-value">
                     </div>
 
                     <div class="form-item">
-                        <label for="rule" class="form-label form-required" title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</label>
-                        <select class="form-select" id="rule" name="rule" required>
+                        <label for="form-modal-rule" class="form-label form-required" title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</label>
+                        <select class="form-select" id="form-modal-rule" name="rule" required>
                             <option selected hidden>Select a rule</option>
                             <option value="required">Required</option>
                             <option value="allowed">Allowed</option>

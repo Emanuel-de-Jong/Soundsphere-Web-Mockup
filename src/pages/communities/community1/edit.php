@@ -18,15 +18,14 @@
             <?php require('components/modals/confirm-delete.php'); ?>
             <?php require('components/modals/transfer-ownership.php'); ?>
             <section id="form-section">
-                <form class="form-crud" action="?a=communities_community1_index" method="post">
+                <!-- <form class="form-crud" action="?a=communities_community1_index" method="post"> -->
+                <form class="form-crud" action="javascript:void(0);" method="post">
                     <div class="row">
                         <div class="col-9">
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
                                 <input type="text" class="form-control" id="community-name" name="community-name" minlength="5" maxlength="30" required value="Community1">
-                                <div class="invalid-feedback">
-                                    Please choose a username.
-                                </div>
+                                <div class="invalid-feedback"></div>
                             </div>
                         </div>
 
