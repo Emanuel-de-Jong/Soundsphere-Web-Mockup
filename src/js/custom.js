@@ -11,7 +11,7 @@ $(function() {
     $(".data-table-all").each(function() {
         dtInit($(this), {
             ...dtDefaultOptions,
-        })
+        });
     });
 
     $(".data-table-slim").each(function() {
@@ -23,7 +23,7 @@ $(function() {
             searching: false,
             paging: false,
             info: false,
-        })
+        });
     });
 
 
@@ -125,16 +125,23 @@ $(function() {
     });
 
 
+    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "input", (e) => {
+    //     validateInput(e.target);
     $("input, select, textarea").on("input", function() {
         validateInput(this);
-    })
+    });
 
 
+    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "invalid", (e) => {
+    //     showInvalidMessage($(e.target));
     $("input, select, textarea").on("invalid", function() {
         showInvalidMessage($(this));
-    })
+    });
 
 
+    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "change", (e) => {
+    //     let input = e.target;
+    //     let jInput = $(input);
     $("input, select, textarea").on("change", function() {
         let input = this;
         let jInput = $(this);
@@ -143,16 +150,18 @@ $(function() {
             input.setCustomValidity("");
             hideInvalidMessage(jInput);
         }
-    })
+    });
 
-    $("form").on("submit", function(event) {
+    // addEventListeners(document.querySelectorAll("form"), "submit", (e) => {
+    //     let form = e.target;
+    $("form").on("submit", function(e) {
         let form = this;
 
         if (!form.checkValidity()) {
-            event.preventDefault();
-            event.stopPropagation();
+            e.preventDefault();
+            e.stopPropagation();
         }
-    })
+    });
 
 
     function validateInput(input) {
@@ -183,11 +192,15 @@ $(function() {
 
 
 
+    // addEventListeners(document.querySelectorAll("input[type=file]"), "dragenter", (e) => {
+    //     let jInput = $(e.target);
     $(".form-settings input[type=file]").on("dragenter", function() {
         let jInput = $(this);
         jInput.addClass("input-file-dragenter");
     });
 
+    // addEventsListeners(document.querySelectorAll("input[type=file]"), ["dragleave", "drop"], (e) => {
+    //     let jInput = $(e.target);
     $(".form-settings input[type=file]").on("dragleave drop", function() {
         let jInput = $(this);
         jInput.removeClass("input-file-dragenter");
@@ -195,12 +208,14 @@ $(function() {
     });
 
     const acceptedExtensions = ["png", "jpg", "jpeg"];
-    $("input.input-image").on("change", function(event) {
+    // addEventListeners(document.querySelectorAll("input.input-image"), "change", (e) => {
+    //     let jInput = $(e.target);
+    $("input.input-image").on("change", function(e) {
         let jInput = $(this);
         const filepath = jInput.val();
         if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
         {
-            event.preventDefault();
+            e.preventDefault();
             $(this).val("");
         }
     });

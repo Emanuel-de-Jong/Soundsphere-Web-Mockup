@@ -54,6 +54,7 @@
                                     <input type="text" class="form-control" id="discord-name" name="discord-name" minlength="3" maxlength="100" value="Player">
                                     <span class="input-group-text" id="inputGroupPrepend2">#</span>
                                     <input type="text" class="form-control" id="discord-tag" name="discord-tag" minlength="4" maxlength="4" value="1234">
+                                    <div class="form-invalid-message"></div>
                                 </div>
                             </div>
                         </div>
