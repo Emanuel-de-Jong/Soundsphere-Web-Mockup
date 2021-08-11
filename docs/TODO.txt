@@ -26,12 +26,6 @@ SCORE
 LEADERBOARD
 	private
 
-COMMUNITY
-	INBOX
-		leaderboard outgoing invites
-			"community" instead of "reciever"
-			swap sender and reciever
-
 REGISTER
 	username
 

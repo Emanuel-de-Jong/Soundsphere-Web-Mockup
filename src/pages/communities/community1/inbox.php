@@ -73,8 +73,8 @@
                 <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-d0="desc">
                     <thead>
                         <tr>
+                            <th title="Player the invite is for">Player</th>
                             <th title="Community member that sent the invite">Sender</th>
-                            <th title="Player the invite is for">Receiver</th>
                             <th title="A message that the sender attached to the invite">Message</th>
                             <th title="The date that the sender sent the invite">Invite sent</th>
                             <th></th>
@@ -146,8 +146,8 @@
                 <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-d0="desc">
                     <thead>
                         <tr>
+                            <th title="community the invite is for">Community</th>
                             <th title="Community member that sent the invite">Sender</th>
-                            <th title="community the invite is for">Receiver</th>
                             <th title="The leaderboard to send the invite for">Leaderboard</th>
                             <th title="A message that the sender attached to the invite">Message</th>
                             <th title="The date that the sender sent the invite">Invite sent</th>
@@ -156,8 +156,8 @@
                     </thead>
                     <tbody>
                         <tr class="highlight-row">
-                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=players_player1_index">Player1</a></td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td></td>
                             <td>20-07-21 12:16</td>
