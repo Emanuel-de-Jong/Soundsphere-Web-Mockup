@@ -101,6 +101,73 @@ $(function() {
     function dtInsertSet(insertId, insertHTML) {
         $("div." + insertId).replaceWith(insertHTML);
     }
+
+
+
+
+    $("form").each(function() { $(this).attr("novalidate", true); });
+
+    $("input, select, textarea").each(function() {
+        let input = this;
+        let jInput = $(this);
+        
+        let invalidMessage = jInput.attr("data-invalid");
+
+        if (invalidMessage != null) {
+            input.setCustomValidity(invalidMessage);
+        } else {
+            invalidMessage = "";
+        }
+
+        jInput.after("<div class=\"form-invalid-message\">" + invalidMessage + "</div>");
+    });
+
+
+    function showInvalidMessage(jInput) {
+        jInput.addClass("form-invalid");
+
+        let jMessageDiv = jInput.siblings(".form-invalid-message");
+        jMessageDiv.html(jInput.get(0).validationMessage);
+    }
+
+    function hideInvalidMessage(jInput) {
+        jInput.removeClass("form-invalid");
+
+        let jMessageDiv = jInput.siblings(".form-invalid-message");
+        jMessageDiv.html("");
+    }
+
+
+    $("input, select, textarea").on("input", function() {
+        let input = this;
+        let jInput = $(this);
+        
+        if (input.validity.valid) {
+            hideInvalidMessage(jInput);
+        } else {
+            showInvalidMessage(jInput);
+        }
+    })
+
+
+    $("input, select, textarea").on("change", function() {
+        let input = this;
+        let jInput = $(this);
+
+        if (input.validity.customError) {
+            input.setCustomValidity("");
+            hideInvalidMessage(jInput);
+        }
+    })
+
+    $("form").on("submit", function(event) {
+        let form = this;
+
+        if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+    })
     
 
 

@@ -1,6 +1,4 @@
 GENERAL
-	FEATURE
-		red text validation
 	CODE
 		improve table insert
 		consistent class names

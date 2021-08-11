@@ -317,6 +317,16 @@ textarea:focus {
     content: " * ";
 }
 
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: $red !important;
+}
+
+.form-invalid-message {
+    color: $red;
+}
+
 /* Modal */
 .form-modal .form-item {
     margin-bottom: 1rem;
