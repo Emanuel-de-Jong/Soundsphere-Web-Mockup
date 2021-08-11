@@ -4,9 +4,11 @@ GENERAL
 	CODE
 		improve table insert
 		consistent class names
+		less jqeury in custom.js
 		check different browsers
 		console warnings
 		lighthouse improvements
+		js "use strict"
 	VISUAL
 		make colors bright
 		*change "performance" to "pr" (player/personal record)

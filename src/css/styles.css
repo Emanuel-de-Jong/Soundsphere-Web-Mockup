@@ -720,6 +720,10 @@ tr:hover .table-icon-hide {
   max-width: 40px;
 }
 
+#discord-tag {
+  max-width: 65px;
+}
+
 /* Leaderboard */
 #leaderboard #community-ranking .list-multi-col {
   margin-top: 2.815rem;

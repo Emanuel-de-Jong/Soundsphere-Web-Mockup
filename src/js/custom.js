@@ -1,4 +1,4 @@
-$(function () {
+$(function() {
     var dtDefaultOptions = {
         scrollX: true,
         dom:
@@ -116,11 +116,11 @@ $(function () {
         input.focus();
     });
 
-    var acceptedExtensions = ['png', 'jpg', 'jpeg'];
+    var acceptedExtensions = ["png", "jpg", "jpeg"];
     $("input.input-image").on("change", function (e) {
         var input = $(this);
         var filepath = input.val();
-        if ($.inArray(filepath.split('.').pop().toLowerCase(), acceptedExtensions) == -1)
+        if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
         {
             e.preventDefault();
             $(this).val("");

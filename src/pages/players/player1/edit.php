@@ -21,9 +21,9 @@
                 <form class="form-crud" action="?a=players_player1_index" method="post">
                     <label for="username" class="form-required" id="username-preview" title="A preview that shows how your username will look">Player1</label>
                     <div class="form-item input-group">
-                        <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#fff" title="The lefter color of your username">
+                        <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#000000" title="The lefter color of your username">
                         <input type="text" class="form-control" id="username" name="username" title="Your username" minlength="5" maxlength="30" required value="Player1">
-                        <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" required value="#fff" title="The righter color of your username">
+                        <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" required value="#000000" title="The righter color of your username">
                     </div>
 
                     <div class="form-item">
@@ -48,8 +48,12 @@
 
                         <div class="col-6">
                             <div class="form-item">
-                                <label for="discord" class="form-label" title="Your Discord tag">Discord</label>
-                                <input type="text" class="form-control" id="discord" name="discord" minlength="3" maxlength="100" value="Player#1234">
+                                <label for="discord-name" class="form-label" title="Your Discord tag">Discord</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="discord-name" name="discord-name" minlength="3" maxlength="100" value="Player">
+                                    <span class="input-group-text" id="inputGroupPrepend2">#</span>
+                                    <input type="text" class="form-control" id="discord-tag" name="discord-tag" minlength="4" maxlength="4" value="1234">
+                                </div>
                             </div>
                         </div>
 

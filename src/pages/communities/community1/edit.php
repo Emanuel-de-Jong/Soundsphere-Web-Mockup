@@ -24,6 +24,9 @@
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
                                 <input type="text" class="form-control" id="community-name" name="community-name" minlength="5" maxlength="30" required value="Community1">
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
                             </div>
                         </div>
 
