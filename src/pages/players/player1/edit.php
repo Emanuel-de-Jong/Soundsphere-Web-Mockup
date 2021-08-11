@@ -18,8 +18,8 @@
             <?php require('components/modals/add-input-mode.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
             <section id="form-section">
-                <form class="form-crud" action="?a=players_player1_index" method="post">
-                    <label for="username" class="form-required" id="username-preview" title="A preview that shows how your username will look">Player1</label>
+                <form class="crud-form" action="?a=players_player1_index" method="post">
+                    <label for="username" id="username-preview" title="A preview that shows how your username will look">Player1</label>
                     <div class="form-item input-group">
                         <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#000000" title="The lefter color of your username">
                         <input type="text" class="form-control" id="username" name="username" title="Your username" minlength="5" maxlength="30" required value="Player1">

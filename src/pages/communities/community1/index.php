@@ -147,7 +147,7 @@
                 
                 <div id="members-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Leaderboard used for member ranks and plays">
                                 <option value="Leaderboard1" selected>Leaderboard1</option>
                             </select>
@@ -155,7 +155,7 @@
                     </div>
 
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="only-show-admins" class="form-check-label" title="Only show rows of moderators, admins and the owner">
                                     <input type="checkbox" class="form-check-input" id="only-show-admins" name="only-show-admins">
@@ -168,7 +168,7 @@
 
                 <div id="members-insert-bottom" hidden>
                     <div class="col">
-                        <form class="form-table form-table-bottom" action="javascript:void(0);">
+                        <form class="table-form table-form-bottom" action="javascript:void(0);">
                             <button type="submit" class="btn bg-blue bg-blue-h">Your row</button>
                         </form>
                     </div>

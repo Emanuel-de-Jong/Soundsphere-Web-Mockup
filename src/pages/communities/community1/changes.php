@@ -17,7 +17,7 @@
             <section id="changes-section">
                 <div id="changes-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="hide-own-changes" class="form-check-label" title="Hide your own rows">
                                     <input type="checkbox" class="form-check-input" id="hide-own-changes" name="hide-own-changes">

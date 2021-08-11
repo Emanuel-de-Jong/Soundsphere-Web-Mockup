@@ -6,10 +6,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
+                <form class="modal-form">
                     <div class="form-item">
-                        <label for="form-modal-url" class="form-label form-required" title="The website link of the table">Table URL</label>
-                        <input type="url" class="form-control" id="form-modal-url" name="url" required>
+                        <label for="modal-form-url" class="form-label form-required" title="The website link of the table">Table URL</label>
+                        <input type="url" class="form-control" id="modal-form-url" name="url" required>
                     </div>
                 </form>
             </div>

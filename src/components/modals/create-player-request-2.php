@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
+                <form class="modal-form">
                     <div class="form-item">
                         <p>
                             Community1 is private and can't be joined directly.<br>
@@ -15,8 +15,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="form-modal-message" class="form-label" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="form-modal-message" name="message" maxlength="100">
+                        <label for="modal-form-message" class="form-label" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
+                        <input type="text" class="form-control" id="modal-form-message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>

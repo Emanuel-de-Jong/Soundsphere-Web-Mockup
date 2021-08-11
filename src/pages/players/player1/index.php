@@ -193,7 +193,7 @@
 
                 <div id="best-scores-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
@@ -202,7 +202,7 @@
                     </div>
                     
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
@@ -211,7 +211,7 @@
                     </div>
                     
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
                                     <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
@@ -344,7 +344,7 @@
 
                 <div id="all-scores-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
@@ -353,7 +353,7 @@
                     </div>
                     
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
@@ -362,7 +362,7 @@
                     </div>
                     
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
                                     <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">

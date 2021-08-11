@@ -6,8 +6,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
-                    <select class="form-select" id="form-modal-input-mode" name="input-mode" title="The input mode to add">
+                <form class="modal-form">
+                    <select class="form-select" id="modal-form-input-mode" name="input-mode" title="The input mode to add">
                         <option selected hidden>Select an input mode</option>
                         <!-- base -->
                         <option value="1key">1K</option>

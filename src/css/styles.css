@@ -323,31 +323,31 @@ textarea:invalid {
 }
 
 /* Modal */
-.form-modal .form-item {
+.modal-form .form-item {
   margin-bottom: 1rem;
 }
 
 /* Page */
-.form-page .input-group-text {
+.page-form .input-group-text {
   background-color: #f8f9fa;
 }
 
 /* CRUD */
-.form-crud {
+.crud-form {
   margin: auto;
   max-width: 37.5rem;
 }
 
-.form-crud textarea {
+.crud-form textarea {
   height: 6.875rem;
 }
 
-.form-crud .input-file-dragenter {
+.crud-form .input-file-dragenter {
   border-color: #86b7fe;
 }
 
 /* Login */
-.form-login {
+.login-form {
   width: 100%;
   margin: auto;
   margin-top: 35px;
@@ -355,43 +355,43 @@ textarea:invalid {
   max-width: 330px;
 }
 
-.form-login h1 {
+.login-form h1 {
   font-size: 2.185rem;
   font-weight: 400;
 }
 
-.form-login #email {
+.login-form #email {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.form-login #password {
+.login-form #password {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.form-login button {
+.login-form button {
   min-width: 110px;
   width: 40%;
 }
 
 /* Title */
-.form-table {
+.table-form {
   text-align: center;
 }
 
-.form-table select {
+.table-form select {
   display: inline-block;
   max-width: 13rem;
 }
 
-.form-table .form-check {
+.table-form .form-check {
   margin-top: 4px;
   margin-bottom: 0;
 }
 
-.form-table-bottom .btn {
+.table-form-bottom .btn {
   margin: 2px 0;
 }
 
@@ -552,7 +552,7 @@ tr:hover .table-icon-hide {
 }
 
 /* LIST */
-.list-multi-col {
+.multi-col-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,7 +567,7 @@ tr:hover .table-icon-hide {
   width: fit-content;
 }
 
-.list-multi-col .list-item {
+.multi-col-list .list-item {
   padding-right: 1.875rem;
 }
 
@@ -599,7 +599,7 @@ tr:hover .table-icon-hide {
   max-width: 40px;
 }
 
-#discord-tag {
+#player-edit #discord-tag {
   max-width: 65px;
 }
 

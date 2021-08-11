@@ -18,7 +18,7 @@
             <?php require('components/modals/confirm-delete.php'); ?>
             <?php require('components/modals/transfer-ownership.php'); ?>
             <section id="form-section">
-                <form class="form-crud" action="?a=communities_community1_index" method="post">
+                <form class="crud-form" action="?a=communities_community1_index" method="post">
                     <div class="row">
                         <div class="col-9">
                             <div class="form-item">

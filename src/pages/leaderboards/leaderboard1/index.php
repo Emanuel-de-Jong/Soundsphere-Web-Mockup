@@ -20,7 +20,7 @@
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
-                    <form class="form-page">
+                    <form class="page-form">
                         <div class="input-group" title="The input mode that the values and order of the page is based on">
                             <span class="input-group-text">Mode:</span>
                             <select class="form-select" id="input-mode" name="input-mode">
@@ -98,7 +98,7 @@
 
                     
                     <div class="col" id="community-ranking">
-                        <div class="list-multi-col">
+                        <div class="multi-col-list">
                             <div class="list-item" title="Community1"><span class="circle circle-s bg-red"></span> AAA</div>
                             <div class="list-item" title="Community2"><span class="circle circle-s bg-green"></span> BBB</div>
                             <div class="list-item" title="Community3"><span class="circle circle-s bg-blue"></span> CCC</div>
@@ -230,7 +230,7 @@
             <section id="ranking-section">
                 <div id="ranking-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="community" name="community" title="Filter the players shown by community">
                                 <option selected>All communities</option>
                                 <option value="Community1">Community1</option>
@@ -243,7 +243,7 @@
 
                 <div id="ranking-insert-bottom" hidden>
                     <div class="col">
-                        <form class="form-table form-table-bottom" action="javascript:void(0);">
+                        <form class="table-form table-form-bottom" action="javascript:void(0);">
                             <button type="submit" class="btn bg-blue bg-blue-h">Your row</button>
                         </form>
                     </div>

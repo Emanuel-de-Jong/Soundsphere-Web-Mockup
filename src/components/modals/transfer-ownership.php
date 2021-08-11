@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
+                <form class="modal-form">
                     <div class="form-item">
                         <p>
                             The selected member will become the new owner of Community1 and you will become an admin.
@@ -14,8 +14,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="form-modal-player" class="form-label form-required" title="The member to make the new owner">Member</label>
-                        <input class="form-control" list="player-options" id="form-modal-player" name="player" placeholder="Search for a member..." required>
+                        <label for="modal-form-player" class="form-label form-required" title="The member to make the new owner">Member</label>
+                        <input class="form-control" list="player-options" id="modal-form-player" name="player" placeholder="Search for a member..." required>
                         <datalist id="player-options">
                             <option value="Player1">
                             <option value="Player2">
@@ -24,8 +24,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="form-modal-community-name" class="form-label form-required" title="Type in the name of the community to confirm the transfer">Community name</label>
-                        <input type="text" class="form-control" id="form-modal-community-name" name="community-name" required>
+                        <label for="modal-form-community-name" class="form-label form-required" title="Type in the name of the community to confirm the transfer">Community name</label>
+                        <input type="text" class="form-control" id="modal-form-community-name" name="community-name" required>
                     </div>
                 </form>
             </div>

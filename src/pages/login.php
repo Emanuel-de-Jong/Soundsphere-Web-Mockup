@@ -1,7 +1,7 @@
 <div id="login">
     <main class="container">
         <div class="main-box">
-            <form class="form-login text-center" action="login.php" method="post">
+            <form class="login-form text-center" action="login.php" method="post">
                 <img class="mb-4" src="resources/logo.png" width="130" />
                 <h1 class="mb-3">Please login</h1>
 

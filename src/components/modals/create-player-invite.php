@@ -6,10 +6,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
+                <form class="modal-form">
                     <div class="form-item">
-                        <label for="form-modal-player" class="form-label form-required" title="The player to send an invite to">Player</label>
-                        <input class="form-control" list="player-options" id="form-modal-player" name="player" placeholder="Search for a player..." required>
+                        <label for="modal-form-player" class="form-label form-required" title="The player to send an invite to">Player</label>
+                        <input class="form-control" list="player-options" id="modal-form-player" name="player" placeholder="Search for a player..." required>
                         <datalist id="player-options">
                             <option value="Player1">
                             <option value="Player2">
@@ -18,8 +18,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="form-modal-message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="form-modal-message" name="message" maxlength="100">
+                        <label for="modal-form-message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
+                        <input type="text" class="form-control" id="modal-form-message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>

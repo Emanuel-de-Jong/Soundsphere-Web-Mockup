@@ -6,8 +6,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <form class="form-modal">
-                    <input class="form-control" list="bms-table-options" id="form-modal-bms-table" name="bms-table" title="The table to add" placeholder="Search for a table...">
+                <form class="modal-form">
+                    <input class="form-control" list="bms-table-options" id="modal-form-bms-table" name="bms-table" title="The table to add" placeholder="Search for a table...">
                     <datalist id="bms-table-options">
                         <option value="Table1">
                         <option value="Table2">

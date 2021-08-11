@@ -20,7 +20,7 @@
             <?php require('components/modals/confirm-delete.php'); ?>
             <?php require('components/modals/add-input-mode.php'); ?>
             <section id="form-section">
-                <form class="form-crud" action="?a=leaderboards_leaderboard1_index" method="post">
+                <form class="crud-form" action="?a=leaderboards_leaderboard1_index" method="post">
                     <div class="form-item">
                         <label for="leaderboard-name" class="form-label form-required" title="Leaderboard name">Name</label>
                         <input type="text" class="form-control" id="leaderboard-name" name="leaderboard-name" minlength="5" maxlength="30" required>

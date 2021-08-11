@@ -19,7 +19,7 @@
             <section id="communities-section">
                 <div id="communities-insert-top" hidden>
                     <div class="col">
-                        <form class="form-table form-table-top">
+                        <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="hide-joined-communities" class="form-check-label" title="Hide the rows of communities that you're in">
                                     <input type="checkbox" class="form-check-input" id="hide-joined-communities" name="hide-joined-communities">

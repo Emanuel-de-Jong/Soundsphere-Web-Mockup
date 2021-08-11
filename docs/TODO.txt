@@ -1,6 +1,5 @@
 GENERAL
 	CODE
-		consistent class names
 		less jqeury in custom.js
 		check different browsers
 		console warnings
