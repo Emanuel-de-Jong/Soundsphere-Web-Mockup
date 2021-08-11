@@ -1,227 +1,231 @@
-$(function() {
-    const dtDefaultOptions = {
-        scrollX: true,
-        dom:
-            "<'row'<'col'l><'col'f>>" +
-            "<'row'<'col'tr>>" +
-            "<'row'<'col'i><'col'p>>",
+ready(() => {
+    if (document.querySelector(".data-table") != null) {
+        const dtDefaultOptions = {
+            scrollX: true,
+            dom:
+                "<'row'<'col'l><'col'f>>" +
+                "<'row'<'col'tr>>" +
+                "<'row'<'col'i><'col'p>>",
+        }
+
+
+        document.querySelectorAll(".data-table-all").forEach(table => {
+            dtInit(table, {
+                ...dtDefaultOptions,
+            });
+        });
+
+        document.querySelectorAll(".data-table-slim").forEach(table => {
+            dtInit(table, {
+                ...dtDefaultOptions,
+                columnDefs: [
+                    { orderable: false, targets: ["_all"] }
+                ],
+                searching: false,
+                paging: false,
+                info: false,
+            });
+        });
+
+
+        function dtInit(table, options) {
+            options["order"] = dtOrder(table);
+
+            const insertTopId = table.getAttribute("data-insert-top");
+            const insertBottomId = table.getAttribute("data-insert-bottom");
+
+            let insertTopHTML;
+            let domTop = "<'row'<'col'l><'col'f>>";
+            if (insertTopId != null) {
+                insertTopHTML = dtInsertGet(insertTopId);
+                domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
+            }
+
+            let insertBottomHTML;
+            let domBottom = "<'row'<'col'i><'col'p>>";
+            if (insertBottomId != null) {
+                insertBottomHTML = dtInsertGet(insertBottomId);
+                domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
+            }
+
+            if (insertTopId != null || insertBottomId != null) {
+                options["dom"] = 
+                    domTop +
+                    "<'row'<'col'tr>>" +
+                    domBottom;
+            }
+
+            $(table).DataTable({
+                ...options,
+                initComplete: function(settings, json) {
+                    if (insertTopId != null)
+                        dtInsertSet(insertTopId, insertTopHTML);
+                    
+                    if (insertBottomId != null)
+                        dtInsertSet(insertBottomId, insertBottomHTML);
+                }
+            });
+        }
+
+
+        function dtOrder(table) {
+            let orderItems = [];
+            for (let i=0; i<10; i++) {
+                let col = table.getAttribute("data-c" + i);
+                let dir = table.getAttribute("data-d" + i);
+
+                if (col == null)
+                    break;
+                
+                if (dir == null)
+                    dir = "asc";
+
+                orderItems[i] = [parseInt(col), dir];
+            }
+            
+            if (orderItems.length == 0)
+                orderItems[0] = [0, "asc"];
+            
+            return orderItems;
+        }
+
+
+        function dtInsertGet(insertId) {
+            let insert = document.getElementById(insertId);
+
+            const insertHTML = insert.innerHTML;
+
+            insert.parentNode.removeChild(insert);
+
+            return insertHTML;
+        }
+
+        function dtInsertSet(insertId, insertHTML) {
+            document.querySelector("." + insertId).outerHTML = insertHTML;
+        }
     }
 
 
-    $(".data-table-all").each(function() {
-        dtInit($(this), {
-            ...dtDefaultOptions,
+
+    
+    if (document.querySelector("form") != null) {
+        document.querySelectorAll("form").forEach(form => form.setAttribute("novalidate", true));
+
+        querySelectorAlls(["input", "select", "textarea"]).forEach(input => {
+            let invalidMessage = input.getAttribute("data-invalid");
+
+            if (invalidMessage != null) {
+                input.setCustomValidity(invalidMessage);
+            } else {
+                invalidMessage = "";
+            }
+
+            if (getSiblingByClass(input, "form-invalid-message") == null) {
+                input.insertAdjacentHTML("afterend", "<div class=\"form-invalid-message\">" + invalidMessage + "</div>");
+            }
         });
-    });
 
-    $(".data-table-slim").each(function() {
-        dtInit($(this), {
-            ...dtDefaultOptions,
-            columnDefs: [
-                { orderable: false, targets: ["_all"] }
-            ],
-            searching: false,
-            paging: false,
-            info: false,
+
+        addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "input", (e) => {
+            validateInput(e.target);
         });
-    });
 
 
-    function dtInit(jTable, options) {
-        options["order"] = dtOrder(jTable);
+        addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "invalid", (e) => {
+            showInvalidMessage(e.target);
+        });
 
-        const insertTopId = jTable.attr("data-insert-top");
-        const insertBottomId = jTable.attr("data-insert-bottom");
 
-        let insertTopHTML;
-        let domTop = "<'row'<'col'l><'col'f>>";
-        if (insertTopId != null) {
-            insertTopHTML = dtInsertGet(insertTopId);
-            domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
+        addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "change", (e) => {
+            let input = e.target;
+
+            if (input.validity.customError) {
+                input.setCustomValidity("");
+                hideInvalidMessage(input);
+            }
+        });
+
+        addEventListeners(document.querySelectorAll("form"), "submit", (e) => {
+            let form = e.target;
+
+            if (!form.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        });
+
+
+        function validateInput(input) {
+            if (input.validity.valid) {
+                hideInvalidMessage(input);
+            } else {
+                showInvalidMessage(input);
+            }
         }
 
-        let insertBottomHTML;
-        let domBottom = "<'row'<'col'i><'col'p>>";
-        if (insertBottomId != null) {
-            insertBottomHTML = dtInsertGet(insertBottomId);
-            domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
+        
+        function showInvalidMessage(input) {
+            input.classList.add("form-invalid");
+
+            let messageDiv = getSiblingByClass(input, "form-invalid-message");
+            messageDiv.innerHTML = input.validationMessage;
         }
 
-        if (insertTopId != null || insertBottomId != null) {
-            options["dom"] = 
-                domTop +
-                "<'row'<'col'tr>>" +
-                domBottom;
-        }
+        function hideInvalidMessage(input) {
+            input.classList.remove("form-invalid");
 
-        jTable.DataTable({
-            ...options,
-            initComplete: function(settings, json) {
-                if (insertTopId != null)
-                    dtInsertSet(insertTopId, insertTopHTML);
-                
-                if (insertBottomId != null)
-                    dtInsertSet(insertBottomId, insertBottomHTML);
+            let messageDiv = getSiblingByClass(input, "form-invalid-message");
+            messageDiv.innerHTML = "";
+        }
+    }
+    
+
+
+
+    if (document.querySelector("input[type=file]") != null) {
+        addEventListeners(document.querySelectorAll("input[type=file]"), "dragenter", (e) => {
+            let input = e.target;
+
+            input.classList.add("input-file-dragenter");
+        });
+
+        addEventsListeners(document.querySelectorAll("input[type=file]"), ["dragleave", "drop"], (e) => {
+            let input = e.target;
+
+            input.classList.remove("input-file-dragenter");
+            input.focus();
+        });
+
+        const acceptedExtensions = ["png", "jpg", "jpeg"];
+        addEventListeners(document.querySelectorAll("input.input-image"), "change", (e) => {
+            let input = e.target;
+
+            const filepath = input.value;
+            if (acceptedExtensions.indexOf(filepath.split(".").pop().toLowerCase()) == -1)
+            {
+                e.preventDefault();
+                input.value = "";
             }
         });
     }
-
-
-    function dtOrder(jTable) {
-        let orderItems = [];
-        for (let i=0; i<10; i++) {
-            let col = jTable.attr("data-c" + i);
-            let dir = jTable.attr("data-d" + i);
-
-            if (col == null)
-                break;
-            
-            if (dir == null)
-                dir = "asc";
-
-            orderItems[i] = [parseInt(col), dir];
-        }
         
-        if (orderItems.length == 0)
-            orderItems[0] = [0, "asc"];
-        
-        return orderItems;
-    }
-
-
-    function dtInsertGet(insertId) {
-        let jInsert = $("#" + insertId);
-        const insertHTML = jInsert.html();
-
-        jInsert.remove();
-
-        return insertHTML;
-    }
-
-    function dtInsertSet(insertId, insertHTML) {
-        $("div." + insertId).replaceWith(insertHTML);
-    }
-
 
 
     
-    $("form").each(function() { $(this).attr("novalidate", true); });
+    if (document.getElementById("player-edit") != null) {
+        document.getElementById("username-color-l").addEventListener("change", showPlayerName);
+        document.getElementById("username-color-r").addEventListener("change", showPlayerName);
+        document.getElementById("username").addEventListener("change", showPlayerName);
 
-    $("input, select, textarea").each(function() {
-        let input = this;
-        let jInput = $(this);
-        
-        let invalidMessage = jInput.attr("data-invalid");
+        function showPlayerName() {
+            const colorL = document.getElementById("username-color-l").value;
+            const colorR = document.getElementById("username-color-r").value;
+            const name = document.getElementById("username").value;
 
-        if (invalidMessage != null) {
-            input.setCustomValidity(invalidMessage);
-        } else {
-            invalidMessage = "";
+            let preview = document.getElementById("username-preview");
+            preview.innerHTML = name;
+            preview.style.background = "linear-gradient(45deg, " + colorL + ", " + colorR + ")";
+            preview.style.webkitBackgroundClip = "text";
         }
-
-        if (jInput.siblings(".form-invalid-message")[0] == null) {
-            jInput.after("<div class=\"form-invalid-message\">" + invalidMessage + "</div>");
-        }
-    });
-
-
-    $("input, select, textarea").on("input", function() {
-        validateInput(this);
-    });
-
-
-    $("input, select, textarea").on("invalid", function() {
-        showInvalidMessage($(this));
-    });
-
-
-    $("input, select, textarea").on("change", function() {
-        let input = this;
-        let jInput = $(this);
-
-        if (input.validity.customError) {
-            input.setCustomValidity("");
-            hideInvalidMessage(jInput);
-        }
-    });
-
-    $("form").on("submit", function(e) {
-        let form = this;
-
-        if (!form.checkValidity()) {
-            e.preventDefault();
-            e.stopPropagation();
-        }
-    });
-
-
-    function validateInput(input) {
-        let jInput = $(input);
-        
-        if (input.validity.valid) {
-            hideInvalidMessage(jInput);
-        } else {
-            showInvalidMessage(jInput);
-        }
-    }
-
-    
-    function showInvalidMessage(jInput) {
-        jInput.addClass("form-invalid");
-
-        let jMessageDiv = jInput.siblings(".form-invalid-message");
-        jMessageDiv.html(jInput.get(0).validationMessage);
-    }
-
-    function hideInvalidMessage(jInput) {
-        jInput.removeClass("form-invalid");
-
-        let jMessageDiv = jInput.siblings(".form-invalid-message");
-        jMessageDiv.html("");
-    }
-    
-
-
-
-    $(".form-settings input[type=file]").on("dragenter", function() {
-        let jInput = $(this);
-        jInput.addClass("input-file-dragenter");
-    });
-
-    $(".form-settings input[type=file]").on("dragleave drop", function() {
-        let jInput = $(this);
-        jInput.removeClass("input-file-dragenter");
-        jInput.focus();
-    });
-
-    const acceptedExtensions = ["png", "jpg", "jpeg"];
-    $("input.input-image").on("change", function(e) {
-        let jInput = $(this);
-        const filepath = jInput.val();
-        if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
-        {
-            e.preventDefault();
-            $(this).val("");
-        }
-    });
-    
-
-
-    
-    $("#player-edit #username-color-l").on("change", showPlayerName);
-    $("#player-edit #username-color-r").on("change", showPlayerName);
-    $("#player-edit #username").on("change", showPlayerName);
-
-    function showPlayerName() {
-        const colorL = $("#player-edit #username-color-l").val();
-        const colorR = $("#player-edit #username-color-r").val();
-        const name = $("#player-edit #username").val();
-
-        let jPreview = $("#player-edit #username-preview");
-        jPreview.html(name);
-        jPreview.css({
-            "background": "linear-gradient(45deg, " + colorL + ", " + colorR + ")",
-            "-webkit-background-clip": "text"
-        });
     }
 });
