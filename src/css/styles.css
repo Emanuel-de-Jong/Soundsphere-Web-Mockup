@@ -450,6 +450,7 @@ textarea:invalid {
 }
 
 .form-invalid-message {
+  width: 100%;
   color: #dc3545;
 }
 

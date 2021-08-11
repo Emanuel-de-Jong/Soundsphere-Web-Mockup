@@ -24,6 +24,7 @@
                         <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#000000" title="The lefter color of your username">
                         <input type="text" class="form-control" id="username" name="username" title="Your username" minlength="5" maxlength="30" required value="Player1">
                         <input type="color" class="form-control form-control-color" id="username-color-r" name="username-color-r" required value="#000000" title="The righter color of your username">
+                        <div class="form-invalid-message"></div>
                     </div>
 
                     <div class="form-item">

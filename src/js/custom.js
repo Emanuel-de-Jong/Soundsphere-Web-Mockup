@@ -119,7 +119,9 @@ $(function() {
             invalidMessage = "";
         }
 
-        jInput.after("<div class=\"form-invalid-message\">" + invalidMessage + "</div>");
+        if (jInput.siblings(".form-invalid-message")[0] == null) {
+            jInput.after("<div class=\"form-invalid-message\">" + invalidMessage + "</div>");
+        }
     });
 
 
