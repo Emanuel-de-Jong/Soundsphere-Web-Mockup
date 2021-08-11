@@ -8,12 +8,16 @@ $(function() {
     }
 
 
+    // document.querySelectorAll(".data-table-all").forEach(table => {
+    //     dtInit($(table), {
     $(".data-table-all").each(function() {
         dtInit($(this), {
             ...dtDefaultOptions,
         });
     });
 
+    // document.querySelectorAll(".data-table-all").forEach(table => {
+    //     dtInit($(table), {
     $(".data-table-slim").each(function() {
         dtInit($(this), {
             ...dtDefaultOptions,
@@ -104,9 +108,12 @@ $(function() {
 
 
 
-
+    
+    // document.querySelectorAll("form").forEach(form => { $(form).attr("novalidate", true); });
     $("form").each(function() { $(this).attr("novalidate", true); });
 
+    // querySelectorAlls(["input", "select", "textarea"]).forEach(input => {
+    //     let jInput = $(input);
     $("input, select, textarea").each(function() {
         let input = this;
         let jInput = $(this);
@@ -223,6 +230,9 @@ $(function() {
 
 
     
+    // document.getElementById("username-color-l").addEventListener("change", showPlayerName);
+    // document.getElementById("username-color-r").addEventListener("change", showPlayerName);
+    // document.getElementById("username").addEventListener("change", showPlayerName);
     $("#player-edit #username-color-l").on("change", showPlayerName);
     $("#player-edit #username-color-r").on("change", showPlayerName);
     $("#player-edit #username").on("change", showPlayerName);
