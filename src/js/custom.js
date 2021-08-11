@@ -8,16 +8,12 @@ $(function() {
     }
 
 
-    // document.querySelectorAll(".data-table-all").forEach(table => {
-    //     dtInit($(table), {
     $(".data-table-all").each(function() {
         dtInit($(this), {
             ...dtDefaultOptions,
         });
     });
 
-    // document.querySelectorAll(".data-table-all").forEach(table => {
-    //     dtInit($(table), {
     $(".data-table-slim").each(function() {
         dtInit($(this), {
             ...dtDefaultOptions,
@@ -109,11 +105,8 @@ $(function() {
 
 
     
-    // document.querySelectorAll("form").forEach(form => { $(form).attr("novalidate", true); });
     $("form").each(function() { $(this).attr("novalidate", true); });
 
-    // querySelectorAlls(["input", "select", "textarea"]).forEach(input => {
-    //     let jInput = $(input);
     $("input, select, textarea").each(function() {
         let input = this;
         let jInput = $(this);
@@ -132,23 +125,16 @@ $(function() {
     });
 
 
-    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "input", (e) => {
-    //     validateInput(e.target);
     $("input, select, textarea").on("input", function() {
         validateInput(this);
     });
 
 
-    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "invalid", (e) => {
-    //     showInvalidMessage($(e.target));
     $("input, select, textarea").on("invalid", function() {
         showInvalidMessage($(this));
     });
 
 
-    // addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "change", (e) => {
-    //     let input = e.target;
-    //     let jInput = $(input);
     $("input, select, textarea").on("change", function() {
         let input = this;
         let jInput = $(this);
@@ -159,8 +145,6 @@ $(function() {
         }
     });
 
-    // addEventListeners(document.querySelectorAll("form"), "submit", (e) => {
-    //     let form = e.target;
     $("form").on("submit", function(e) {
         let form = this;
 
@@ -199,15 +183,11 @@ $(function() {
 
 
 
-    // addEventListeners(document.querySelectorAll("input[type=file]"), "dragenter", (e) => {
-    //     let jInput = $(e.target);
     $(".form-settings input[type=file]").on("dragenter", function() {
         let jInput = $(this);
         jInput.addClass("input-file-dragenter");
     });
 
-    // addEventsListeners(document.querySelectorAll("input[type=file]"), ["dragleave", "drop"], (e) => {
-    //     let jInput = $(e.target);
     $(".form-settings input[type=file]").on("dragleave drop", function() {
         let jInput = $(this);
         jInput.removeClass("input-file-dragenter");
@@ -215,8 +195,6 @@ $(function() {
     });
 
     const acceptedExtensions = ["png", "jpg", "jpeg"];
-    // addEventListeners(document.querySelectorAll("input.input-image"), "change", (e) => {
-    //     let jInput = $(e.target);
     $("input.input-image").on("change", function(e) {
         let jInput = $(this);
         const filepath = jInput.val();
@@ -230,9 +208,6 @@ $(function() {
 
 
     
-    // document.getElementById("username-color-l").addEventListener("change", showPlayerName);
-    // document.getElementById("username-color-r").addEventListener("change", showPlayerName);
-    // document.getElementById("username").addEventListener("change", showPlayerName);
     $("#player-edit #username-color-l").on("change", showPlayerName);
     $("#player-edit #username-color-r").on("change", showPlayerName);
     $("#player-edit #username").on("change", showPlayerName);

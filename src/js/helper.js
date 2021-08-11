@@ -1,15 +1,23 @@
-function addEventsListener(element, events, func) {
-    events.forEach(event => element.addEventListener(event, func));
+function ready(fn) {
+    if (document.readyState != 'loading') {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
 }
 
-function addEventListeners(elements, event, func) {
-    elements.forEach(element => element.addEventListener(event, func));
+function addEventsListener(element, events, fn) {
+    events.forEach(event => element.addEventListener(event, fn));
 }
 
-function addEventsListeners(elements, events, func) {
+function addEventListeners(elements, event, fn) {
+    elements.forEach(element => element.addEventListener(event, fn));
+}
+
+function addEventsListeners(elements, events, fn) {
     events.forEach(event => {
         elements.forEach(element => {
-            element.addEventListener(event, func)
+            element.addEventListener(event, fn)
         });
     });
 }
