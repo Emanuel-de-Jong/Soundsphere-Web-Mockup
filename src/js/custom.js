@@ -1,5 +1,5 @@
 $(function() {
-    var dtDefaultOptions = {
+    const dtDefaultOptions = {
         scrollX: true,
         dom:
             "<'row'<'col'l><'col'f>>" +
@@ -30,18 +30,18 @@ $(function() {
     function dtInit(table, options) {
         options["order"] = dtOrder(table);
 
-        var insertTopId = table.attr("data-insert-top");
-        var insertBottomId = table.attr("data-insert-bottom");
+        const insertTopId = table.attr("data-insert-top");
+        const insertBottomId = table.attr("data-insert-bottom");
 
-        var insertTopHTML;
-        var domTop = "<'row'<'col'l><'col'f>>";
+        let insertTopHTML;
+        let domTop = "<'row'<'col'l><'col'f>>";
         if (insertTopId != null) {
             insertTopHTML = dtInsertGet(insertTopId);
             domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
         }
 
-        var insertBottomHTML;
-        var domBottom = "<'row'<'col'i><'col'p>>";
+        let insertBottomHTML;
+        let domBottom = "<'row'<'col'i><'col'p>>";
         if (insertBottomId != null) {
             insertBottomHTML = dtInsertGet(insertBottomId);
             domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
@@ -68,10 +68,10 @@ $(function() {
 
 
     function dtOrder(table) {
-        var orderItems = [];
-        for (var i=0; i<10; i++) {
-            var col = table.attr("data-c" + i);
-            var dir = table.attr("data-d" + i);
+        let orderItems = [];
+        for (let i=0; i<10; i++) {
+            let col = table.attr("data-c" + i);
+            let dir = table.attr("data-d" + i);
 
             if (col == null)
                 break;
@@ -90,8 +90,8 @@ $(function() {
 
 
     function dtInsertGet(insertId) {
-        var insert = $("#" + insertId);
-        var insertHTML = insert.html();
+        let insert = $("#" + insertId);
+        const insertHTML = insert.html();
 
         insert.remove();
 
@@ -106,20 +106,20 @@ $(function() {
 
 
     $(".form-settings input[type=file]").on("dragenter", function() {
-        var input = $(this);
+        let input = $(this);
         input.addClass("input-file-dragenter");
     });
 
     $(".form-settings input[type=file]").on("dragleave drop", function() {
-        var input = $(this);
+        let input = $(this);
         input.removeClass("input-file-dragenter");
         input.focus();
     });
 
-    var acceptedExtensions = ["png", "jpg", "jpeg"];
+    const acceptedExtensions = ["png", "jpg", "jpeg"];
     $("input.input-image").on("change", function (e) {
-        var input = $(this);
-        var filepath = input.val();
+        let input = $(this);
+        const filepath = input.val();
         if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
         {
             e.preventDefault();
@@ -135,11 +135,11 @@ $(function() {
     $("#player-edit #username").on("change", showPlayerName);
 
     function showPlayerName() {
-        var colorL = $("#player-edit #username-color-l").val();
-        var colorR = $("#player-edit #username-color-r").val();
-        var name = $("#player-edit #username").val();
+        const colorL = $("#player-edit #username-color-l").val();
+        const colorR = $("#player-edit #username-color-r").val();
+        const name = $("#player-edit #username").val();
 
-        var preview = $("#player-edit #username-preview");
+        let preview = $("#player-edit #username-preview");
         preview.html(name);
         preview.css({
             "background": "linear-gradient(45deg, "+colorL+", "+colorR+")",
