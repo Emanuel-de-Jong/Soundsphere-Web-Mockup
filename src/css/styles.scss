@@ -621,3 +621,120 @@ tr:hover .table-icon-hide {
     max-height: 6.25rem;
     margin-bottom: 1rem;
 }
+
+
+
+
+/* COLORS */
+/* Gray */
+.gray {
+    color: $gray-500 !important;
+}
+.gray-h:hover {
+    color: $gray-550 !important;
+}
+.bg-gray {
+    background-color: $gray-500 !important;
+    color: white;
+}
+.bg-gray-h:hover {
+    background-color: $gray-550 !important;
+    color: white;
+}
+
+/* Dark gray */
+.dgray {
+    color: $gray-600 !important;
+}
+.dgray-h:hover {
+    color: $gray-650 !important;
+}
+.bg-dgray {
+    background-color: $gray-600 !important;
+    color: white;
+}
+.bg-dgray-h:hover {
+    background-color: $gray-650 !important;
+    color: white;
+}
+
+/* Red */
+.red {
+    color: $red-400 !important;
+}
+.red-h:hover {
+    color: $red-450 !important;
+}
+.bg-red {
+    background-color: $red-400 !important;
+    color: white;
+}
+.bg-red-h:hover {
+    background-color: $red-450 !important;
+    color: white;
+}
+
+
+/* Yellow */
+.yellow {
+    color: $yellow-400 !important;
+}
+.yellow-h:hover {
+    color: $yellow-450 !important;
+}
+.bg-yellow {
+    background-color: $yellow-400 !important;
+    color: white;
+}
+.bg-yellow-h:hover {
+    background-color: $yellow-450 !important;
+    color: white;
+}
+
+/* Orange */
+.orange {
+    color: $orange-500 !important;
+}
+.orange-h:hover {
+    color: $orange-550 !important;
+}
+.bg-orange {
+    background-color: $orange-500 !important;
+    color: white;
+}
+.bg-orange-h:hover {
+    background-color: $orange-550 !important;
+    color: white;
+}
+
+/* Green */
+.green {
+    color: $green-500 !important;
+}
+.green-h:hover {
+    color: $green-550 !important;
+}
+.bg-green {
+    background-color: $green-500 !important;
+    color: white;
+}
+.bg-green-h:hover {
+    background-color: $green-550 !important;
+    color: white;
+}
+
+/* Blue */
+.blue {
+    color: $blue-400 !important;
+}
+.blue-h:hover {
+    color: $blue-500 !important;
+}
+.bg-blue {
+    background-color: $blue-400 !important;
+    color: white;
+}
+.bg-blue-h:hover {
+    background-color: $blue-500 !important;
+    color: white;
+}
