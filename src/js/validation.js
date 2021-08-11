@@ -1,21 +1,22 @@
 $(function() {
-    $("form").each(function() {
-        let form = $(this);
-    });
-
     $("form").on("submit", function(event) {
-        let formElem = this;
-        let form = $(this);
+        let form = this;
+        let jForm = $(this);
 
-
-        let input = document.getElementById("community-name")
-        console.log(input.validity);
-
-        if (!formElem.checkValidity()) {
+        if (!form.checkValidity()) {
             event.preventDefault();
             event.stopPropagation();
         } else {
-            form.addClass("was-validated");
+            jForm.addClass("was-validated");
         }
     })
+
+    $("input").each(function() {
+        let jInput = $(this);
+
+        let message = jInput.attr("data-invalid");
+        if (message == null) {
+            return;
+        }
+    });
 });

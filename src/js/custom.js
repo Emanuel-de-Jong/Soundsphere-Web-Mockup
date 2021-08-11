@@ -27,11 +27,11 @@ $(function() {
     });
 
 
-    function dtInit(table, options) {
-        options["order"] = dtOrder(table);
+    function dtInit(jTable, options) {
+        options["order"] = dtOrder(jTable);
 
-        const insertTopId = table.attr("data-insert-top");
-        const insertBottomId = table.attr("data-insert-bottom");
+        const insertTopId = jTable.attr("data-insert-top");
+        const insertBottomId = jTable.attr("data-insert-bottom");
 
         let insertTopHTML;
         let domTop = "<'row'<'col'l><'col'f>>";
@@ -54,7 +54,7 @@ $(function() {
                 domBottom;
         }
 
-        table.DataTable({
+        jTable.DataTable({
             ...options,
             initComplete: function(settings, json) {
                 if (insertTopId != null)
@@ -67,11 +67,11 @@ $(function() {
     }
 
 
-    function dtOrder(table) {
+    function dtOrder(jTable) {
         let orderItems = [];
         for (let i=0; i<10; i++) {
-            let col = table.attr("data-c" + i);
-            let dir = table.attr("data-d" + i);
+            let col = jTable.attr("data-c" + i);
+            let dir = jTable.attr("data-d" + i);
 
             if (col == null)
                 break;
@@ -90,10 +90,10 @@ $(function() {
 
 
     function dtInsertGet(insertId) {
-        let insert = $("#" + insertId);
-        const insertHTML = insert.html();
+        let jInsert = $("#" + insertId);
+        const insertHTML = jInsert.html();
 
-        insert.remove();
+        jInsert.remove();
 
         return insertHTML;
     }
@@ -106,20 +106,20 @@ $(function() {
 
 
     $(".form-settings input[type=file]").on("dragenter", function() {
-        let input = $(this);
-        input.addClass("input-file-dragenter");
+        let jInput = $(this);
+        jInput.addClass("input-file-dragenter");
     });
 
     $(".form-settings input[type=file]").on("dragleave drop", function() {
-        let input = $(this);
-        input.removeClass("input-file-dragenter");
-        input.focus();
+        let jInput = $(this);
+        jInput.removeClass("input-file-dragenter");
+        jInput.focus();
     });
 
     const acceptedExtensions = ["png", "jpg", "jpeg"];
     $("input.input-image").on("change", function(event) {
-        let input = $(this);
-        const filepath = input.val();
+        let jInput = $(this);
+        const filepath = jInput.val();
         if ($.inArray(filepath.split(".").pop().toLowerCase(), acceptedExtensions) == -1)
         {
             event.preventDefault();
@@ -139,10 +139,10 @@ $(function() {
         const colorR = $("#player-edit #username-color-r").val();
         const name = $("#player-edit #username").val();
 
-        let preview = $("#player-edit #username-preview");
-        preview.html(name);
-        preview.css({
-            "background": "linear-gradient(45deg, "+colorL+", "+colorR+")",
+        let jPreview = $("#player-edit #username-preview");
+        jPreview.html(name);
+        jPreview.css({
+            "background": "linear-gradient(45deg, " + colorL + ", " + colorR + ")",
             "-webkit-background-clip": "text"
         });
     }

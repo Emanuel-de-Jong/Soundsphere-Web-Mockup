@@ -18,19 +18,19 @@
     <?php require('components/navbar.php'); ?>
 
     <?php
-    $page;
-    if (isset($_GET["a"])) {
-        $page = str_replace("_", "/", $_GET["a"]);
-    } else {
-        $page = "home";
-    }
+        $page;
+        if (isset($_GET["a"])) {
+            $page = str_replace("_", "/", $_GET["a"]);
+        } else {
+            $page = "home";
+        }
 
-    $filePath = 'pages/' . $page . '.php';
-    if (file_exists($filePath)){
-        require($filePath);
-    } else {
-        require('pages/errors/404.php');
-    }
+        $filePath = 'pages/' . $page . '.php';
+        if (file_exists($filePath)){
+            require($filePath);
+        } else {
+            require('pages/errors/404.php');
+        }
     ?>
 
     <?php require('components/footer.php'); ?>
