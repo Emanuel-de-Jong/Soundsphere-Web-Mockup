@@ -39,7 +39,7 @@
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -107,7 +107,7 @@
                             <th title="Input modes in community leaderboards">Input modes</th>
                             <th title="Member count">Members</th>
                             <th title="Short description">Description</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>

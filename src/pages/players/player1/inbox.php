@@ -24,7 +24,7 @@
                             <th title="The community member that sent the invite">Sender</th>
                             <th title="A message that the community attached to the invite">Message</th>
                             <th title="The date that the community sent the invite">Invite sent</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -61,7 +61,7 @@
                             <th title="Community name">Community</th>
                             <th title="The message that you attached to the request">Message</th>
                             <th title="The date that you sent the request">Request sent</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>

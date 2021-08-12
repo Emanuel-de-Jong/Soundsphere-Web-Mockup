@@ -1,6 +1,5 @@
 GENERAL
 	CODE
-		less jqeury in custom.js
 		check different browsers
 		console warnings
 		lighthouse improvements
@@ -8,8 +7,6 @@ GENERAL
 	VISUAL
 		make colors bright
 		*change "performance" to "pr" (player/personal record)
-		fix table icons
-		remove table icon orders
 		change crown icon
 		show logo in navbar differently
 		check mobile

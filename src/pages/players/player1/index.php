@@ -113,11 +113,11 @@
                         <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="0" data-c1="1">
                             <thead>
                                 <tr>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                     <th title="Community name">Name</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -155,11 +155,11 @@
                         <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="3">
                             <thead>
                                 <tr>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                     <th title="Leaderboard name">Name</th>
                                     <th title="Leaderboard input modes">Input modes</th>
                                     <th title="Rank of this player in the leaderboard">Rank</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -235,7 +235,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -332,7 +332,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>
@@ -385,7 +385,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -477,7 +477,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>

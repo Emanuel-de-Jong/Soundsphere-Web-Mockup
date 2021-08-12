@@ -39,7 +39,7 @@
                             <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc</th>
                             <th title="Community count">Communities</th>
                             <th title="Table count">Tables</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -107,7 +107,7 @@
                             <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc</th>
                             <th title="Community count">Communities</th>
                             <th title="Table count">Tables</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>

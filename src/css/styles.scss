@@ -500,9 +500,18 @@ textarea:invalid {
 }
 
 /* table icon */
+.table-icon-th {
+    padding-right: 8px !important;
+}
+.table-icon-th::before {
+    content: "" !important;
+}
+.table-icon-th::after {
+    content: "" !important;
+}
+
 .table-icon-cell {
     padding: 0 8px 0 0 !important;
-    width: 1px;
     white-space: nowrap;
     vertical-align: middle;
     text-align: right;

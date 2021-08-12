@@ -38,7 +38,7 @@
                                     <th title="To join private communities, you have to send a request">Public</th>
                                     <th title="Input modes in community leaderboards">Input modes</th>
                                     <th title="Player count">Members</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -68,7 +68,7 @@
                                     <th title="Leaderboard input modes">Input modes</th>
                                     <th title="Player count">Players</th>
                                     <th title="Table count">Tables</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -96,7 +96,7 @@
                 <table class="data-table data-table-all table table-icon-col-first" data-c0="6" data-c1="3" data-c2="1">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
                             <th title="Chart name">Difficulty</th>
                             <th title="Difficulty level">Level</th>
@@ -158,7 +158,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
                             <th title="Chart name">Difficulty</th>
                             <th title="Difficulty level">Level</th>

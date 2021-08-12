@@ -107,13 +107,13 @@
                 <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="0" data-c1="1">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Leaderboard name">Name</th>
                             <th title="Leaderboard input modes">Input modes</th>
                             <th title="Player on rank 1">Top player</th>
                             <th title="Player count">Players</th>
                             <th title="Table count">Tables</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -178,13 +178,13 @@
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Player name">Name</th>
                             <th title="The player's leaderboard performance">Performance</th>
                             <th title="Favourite modes">Fav modes</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -256,13 +256,13 @@
                     <tfoot>
                         <tr>
                             <th title="Rank of the selected leaderboard">Rank</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Player name">Name</th>
                             <th title="The player's leaderboard performance">Performance</th>
                             <th title="Favourite modes">Fav modes</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>

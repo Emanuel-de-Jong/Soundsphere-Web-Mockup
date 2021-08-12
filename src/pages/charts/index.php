@@ -8,7 +8,7 @@
                 <table class="data-table data-table-all table table-icon-col-first" data-c0="3" data-c1="1" data-c2="2">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
                             <th title="Chart name">Difficulty</th>
                             <th title="Difficulty level">Level</th>
@@ -70,7 +70,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
                             <th title="Chart name">Difficulty</th>
                             <th title="Difficulty level">Level</th>

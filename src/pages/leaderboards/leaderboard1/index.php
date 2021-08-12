@@ -148,11 +148,11 @@
                             <thead>
                                 <tr>
                                     <th title="Rank on leaderboard by performance">Rank</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                     <th title="Community name">Name</th>
                                     <th title="Total performance in leaderboard">Performance</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>

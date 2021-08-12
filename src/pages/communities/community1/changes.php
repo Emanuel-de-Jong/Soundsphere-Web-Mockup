@@ -32,7 +32,7 @@
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="The member">Member</th>
                             <th title="The change">Message</th>
                         </tr>
@@ -70,7 +70,7 @@
                     <tfoot>
                         <tr>
                             <th title="Change date">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                             <th title="The member">Member</th>
                             <th title="The change">Message</th>
                         </tr>

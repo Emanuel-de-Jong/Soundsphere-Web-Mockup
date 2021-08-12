@@ -110,7 +110,7 @@
                                     <th title="Modifier minumal value">Min value</th>
                                     <th title="Modifier maximal value">Max value</th>
                                     <th title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</th>
-                                    <th></th>
+                                    <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
                             <tbody>

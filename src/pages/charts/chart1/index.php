@@ -111,7 +111,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -194,7 +194,7 @@
                             <th title="Input mode the score was set with">Input mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
-                            <th></th>
+                            <th class="table-icon-th"></th>
                         </tr>
                     </tfoot>
                 </table>
