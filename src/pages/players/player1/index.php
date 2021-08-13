@@ -74,7 +74,7 @@
                         <td><a href="https://www.vk.ru/1234">vk.ru/1234</a></td>
                         <th title="Player roles">Roles:</th>
                         <td>
-                            <span class="badge role-badge bg-green" title="Donator">DNR</span>
+                            <span class="badge role-badge bg-teal" title="Donator">DNR</span>
                             <span class="badge role-badge bg-blue" title="Contributor">CTR</span>
                         </td>
                     </tr>
@@ -105,7 +105,7 @@
                     <div class="col">
                         <h2>
                             Communities
-                            <a href="?a=communities_create" class="title-icon h2-icon green green-h" title="Create community">
+                            <a href="?a=communities_create" class="title-icon h2-icon teal teal-h" title="Create community">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </h2>
@@ -147,7 +147,7 @@
                     <div class="col">
                         <h2>
                             Leaderboards
-                            <a href="#!" class="title-icon h2-icon green green-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
+                            <a href="#!" class="title-icon h2-icon teal teal-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </h2>
@@ -176,7 +176,7 @@
                                         <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                             <i class="fas fa-pen"></i>
                                         </a>
-                                        <a href="#!" class="table-icon green green-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
+                                        <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
                                             <i class="fas fa-sign-in-alt"></i>
                                         </a>
                                     </td>

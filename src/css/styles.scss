@@ -312,7 +312,7 @@ textarea:focus {
 }
 
 .form-required::after {
-    color: $red;
+    color: $red-400;
     font-weight: 600;
     content: " * ";
 }
@@ -320,12 +320,12 @@ textarea:focus {
 input:invalid,
 select:invalid,
 textarea:invalid {
-    border-color: $red !important;
+    border-color: $red-400 !important;
 }
 
 .form-invalid-message {
     width: 100%;
-    color: $red;
+    color: $red-400;
     font-size: 0.8rem;
 }
 
@@ -473,7 +473,7 @@ textarea:invalid {
     margin-left: -1.125rem;
     font-size: 0.875rem;
     color: $white;
-    background-color: $red;
+    background-color: $red-400;
     width: 1.125rem;
     height: 1.125rem;
     border-radius: 50%;
@@ -651,35 +651,19 @@ tr:hover .table-icon-hide {
     color: white;
 }
 
-/* Dark gray */
-.dgray {
-    color: $gray-600 !important;
-}
-.dgray-h:hover {
-    color: $gray-650 !important;
-}
-.bg-dgray {
-    background-color: $gray-600 !important;
-    color: white;
-}
-.bg-dgray-h:hover {
-    background-color: $gray-650 !important;
-    color: white;
-}
-
 /* Red */
 .red {
     color: $red-400 !important;
 }
 .red-h:hover {
-    color: $red-450 !important;
+    color: $red-500 !important;
 }
 .bg-red {
     background-color: $red-400 !important;
     color: white;
 }
 .bg-red-h:hover {
-    background-color: $red-450 !important;
+    background-color: $red-500 !important;
     color: white;
 }
 
@@ -689,46 +673,46 @@ tr:hover .table-icon-hide {
     color: $yellow-400 !important;
 }
 .yellow-h:hover {
-    color: $yellow-450 !important;
+    color: $yellow-500 !important;
 }
 .bg-yellow {
     background-color: $yellow-400 !important;
     color: white;
 }
 .bg-yellow-h:hover {
-    background-color: $yellow-450 !important;
+    background-color: $yellow-500 !important;
     color: white;
 }
 
 /* Orange */
 .orange {
-    color: $orange-500 !important;
+    color: $orange-400 !important;
 }
 .orange-h:hover {
-    color: $orange-550 !important;
+    color: $orange-500 !important;
 }
 .bg-orange {
-    background-color: $orange-500 !important;
+    background-color: $orange-400 !important;
     color: white;
 }
 .bg-orange-h:hover {
-    background-color: $orange-550 !important;
+    background-color: $orange-500 !important;
     color: white;
 }
 
-/* Green */
-.green {
-    color: $green-500 !important;
+/* Teal */
+.teal {
+    color: $teal-550 !important;
 }
-.green-h:hover {
-    color: $green-550 !important;
+.teal-h:hover {
+    color: $teal-600 !important;
 }
-.bg-green {
-    background-color: $green-500 !important;
+.bg-teal {
+    background-color: $teal-550 !important;
     color: white;
 }
-.bg-green-h:hover {
-    background-color: $green-550 !important;
+.bg-teal-h:hover {
+    background-color: $teal-600 !important;
     color: white;
 }
 

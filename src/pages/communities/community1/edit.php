@@ -72,7 +72,7 @@
                     <div class="form-item">
                         <label for="admins" class="form-label w-100" title="Players that can manage leaderboards">
                             Admins
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add admin" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -94,7 +94,7 @@
                     <div class="form-item">
                         <label for="moderators" class="form-label w-100" title="Players that can kick members">
                             Moderators
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add moderator" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add moderator" data-bs-toggle="modal" data-bs-target="#add-admin-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>

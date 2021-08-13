@@ -77,7 +77,7 @@
                     <div class="form-item">
                         <label class="form-label form-required w-100" title="Only scores with this input mode will be used">
                             Input modes
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add input mode" data-bs-toggle="modal" data-bs-target="#add-input-mode-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -90,7 +90,7 @@
                     <div class="form-item">
                         <label class="form-label w-100" title="The modifiers a score needs to/can't have to be counted">
                             Modifiers
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
@@ -111,7 +111,7 @@
                     <div class="form-item">
                         <label for="bms-tables" class="form-label form-required w-100" title="Tables of which the charts will be used for ranking">
                             Tables
-                            <a href="#!" class="title-icon label-icon green green-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>

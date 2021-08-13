@@ -40,8 +40,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn bg-green bg-green-h" data-bs-dismiss="modal">Add</button>
-                <button type="button" class="btn bg-dgray bg-dgray-h" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn bg-teal bg-teal-h" data-bs-dismiss="modal">Add</button>
+                <button type="button" class="btn bg-gray bg-gray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>

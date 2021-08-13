@@ -305,7 +305,7 @@ textarea:focus {
 }
 
 .form-required::after {
-  color: #dc3545;
+  color: #e35d6a;
   font-weight: 600;
   content: " * ";
 }
@@ -313,12 +313,12 @@ textarea:focus {
 input:invalid,
 select:invalid,
 textarea:invalid {
-  border-color: #dc3545 !important;
+  border-color: #e35d6a !important;
 }
 
 .form-invalid-message {
   width: 100%;
-  color: #dc3545;
+  color: #e35d6a;
   font-size: 0.8rem;
 }
 
@@ -461,7 +461,7 @@ textarea:invalid {
   margin-left: -1.125rem;
   font-size: 0.875rem;
   color: #fff;
-  background-color: #dc3545;
+  background-color: #e35d6a;
   width: 1.125rem;
   height: 1.125rem;
   border-radius: 50%;
@@ -641,32 +641,13 @@ tr:hover .table-icon-hide {
   color: white;
 }
 
-/* Dark gray */
-.dgray {
-  color: #6c757d !important;
-}
-
-.dgray-h:hover {
-  color: #5b636a !important;
-}
-
-.bg-dgray {
-  background-color: #6c757d !important;
-  color: white;
-}
-
-.bg-dgray-h:hover {
-  background-color: #5b636a !important;
-  color: white;
-}
-
 /* Red */
 .red {
   color: #e35d6a !important;
 }
 
 .red-h:hover {
-  color: #e04958 !important;
+  color: #dc3545 !important;
 }
 
 .bg-red {
@@ -675,7 +656,7 @@ tr:hover .table-icon-hide {
 }
 
 .bg-red-h:hover {
-  background-color: #e04958 !important;
+  background-color: #dc3545 !important;
   color: white;
 }
 
@@ -685,7 +666,7 @@ tr:hover .table-icon-hide {
 }
 
 .yellow-h:hover {
-  color: #ffc720 !important;
+  color: #ffc107 !important;
 }
 
 .bg-yellow {
@@ -694,45 +675,45 @@ tr:hover .table-icon-hide {
 }
 
 .bg-yellow-h:hover {
-  background-color: #ffc720 !important;
+  background-color: #ffc107 !important;
   color: white;
 }
 
 /* Orange */
 .orange {
-  color: #fd7e14 !important;
+  color: #fd9843 !important;
 }
 
 .orange-h:hover {
-  color: #e47112 !important;
+  color: #fd7e14 !important;
 }
 
 .bg-orange {
-  background-color: #fd7e14 !important;
+  background-color: #fd9843 !important;
   color: white;
 }
 
 .bg-orange-h:hover {
-  background-color: #e47112 !important;
+  background-color: #fd7e14 !important;
   color: white;
 }
 
-/* Green */
-.green {
-  color: #198754 !important;
+/* Teal */
+.teal {
+  color: #1db588 !important;
 }
 
-.green-h:hover {
-  color: #177a4c !important;
+.teal-h:hover {
+  color: #1aa179 !important;
 }
 
-.bg-green {
-  background-color: #198754 !important;
+.bg-teal {
+  background-color: #1db588 !important;
   color: white;
 }
 
-.bg-green-h:hover {
-  background-color: #177a4c !important;
+.bg-teal-h:hover {
+  background-color: #1aa179 !important;
   color: white;
 }
 
