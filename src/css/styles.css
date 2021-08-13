@@ -185,9 +185,9 @@ textarea:focus {
 
 .social-icon {
   display: inline-block;
-  color: #adb5bd;
+  color: #8d959d;
   font-size: 1.5rem;
-  border: 2px solid #adb5bd;
+  border: 2px solid #8d959d;
   border-radius: 50%;
   margin: 0 0.625rem;
   width: 2.625rem;
@@ -208,7 +208,7 @@ textarea:focus {
 }
 
 .footer-copyright {
-  color: #6c757d;
+  color: #5b636a;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -624,20 +624,20 @@ tr:hover .table-icon-hide {
 /* COLORS */
 /* Gray */
 .gray {
-  color: #adb5bd !important;
-}
-
-.gray-h:hover {
   color: #8d959d !important;
 }
 
+.gray-h:hover {
+  color: #6c757d !important;
+}
+
 .bg-gray {
-  background-color: #adb5bd !important;
+  background-color: #8d959d !important;
   color: white;
 }
 
 .bg-gray-h:hover {
-  background-color: #8d959d !important;
+  background-color: #6c757d !important;
   color: white;
 }
 
