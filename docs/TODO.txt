@@ -5,8 +5,8 @@ GENERAL
 		lighthouse improvements
 		js "use strict"
 	VISUAL
-		make colors bright
 		*change "performance" to "pr" (player/personal record)
+		make colors bright
 		change crown icon
 		show logo in navbar differently
 		check mobile
