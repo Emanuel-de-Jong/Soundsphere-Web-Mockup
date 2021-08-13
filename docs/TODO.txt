@@ -1,5 +1,6 @@
 GENERAL
 	CODE
+		put table orders in 1 data attribute
 		check different browsers
 		console warnings
 		lighthouse improvements
@@ -16,6 +17,8 @@ PLAYER
 
 SCORE
 	checkbox for more columns
+		hide on init for reverse start
+		fix not using "ready()"
 
 REGISTER
 	username
