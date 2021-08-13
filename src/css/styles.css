@@ -273,6 +273,11 @@ textarea:focus {
   height: 0;
 }
 
+.paginate_button.active a {
+  background-color: #3d8bfd !important;
+  border-color: #3d8bfd !important;
+}
+
 /* meta-table */
 .meta-table th, td {
   padding: 0.5rem 0.625rem;

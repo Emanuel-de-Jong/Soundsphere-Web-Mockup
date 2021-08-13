@@ -13,6 +13,7 @@
 
             <h1>Player1 - Inbox</h1>
 
+            
             <?php require('components/modals/delete.php'); ?>
             <section id="incoming-invites-section">
                 <h2>Incoming invites</h2>

@@ -17,9 +17,6 @@ PLAYER
 SCORE
 	checkbox for more columns
 
-LEADERBOARD
-	private
-
 REGISTER
 	username
 

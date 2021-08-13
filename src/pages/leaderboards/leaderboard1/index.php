@@ -105,9 +105,9 @@
                         </div>
 
                         <div class="progress">
-                            <div class="bg-red" style="width: 40%" title="Community1"></div>
-                            <div class="bg-teal" style="width: 35%" title="Community2"></div>
-                            <div class="bg-blue" style="width: 25%" title="Community3"></div>
+                            <div class="bg-red bg-red-h" style="width: 40%" title="Community1"></div>
+                            <div class="bg-teal bg-teal-h" style="width: 35%" title="Community2"></div>
+                            <div class="bg-blue bg-blue-h" style="width: 25%" title="Community3"></div>
                         </div>
                     </div>
                 </div>

@@ -13,6 +13,7 @@
 
             <h1>Community1 - Settings</h1>
 
+            
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-admin.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
