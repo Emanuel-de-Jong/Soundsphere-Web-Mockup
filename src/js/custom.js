@@ -1,19 +1,13 @@
 // ready(() => {
     if (document.querySelector(".data-table") != null) {
-        var dtTables = [];
+        var dtTables = {};
+
 
         function dtToggleCols(tableId) {
             let table = document.getElementById(tableId);
+            let dtTable = dtTables[tableId];
 
-            var dtTable;
-            dtTables.some(t => {
-                if (t.table().node().id == tableId){
-                    dtTable = t;
-                    return true;
-                }
-            });
-
-            var colIndexes = table.getAttribute("data-toggle-cols").split(" ");
+            let colIndexes = table.getAttribute("data-toggle-cols").split(" ").map(Number);
             colIndexes.forEach(index => {
                 let col = dtTable.column(index);
                 col.visible(!col.visible());
@@ -50,7 +44,16 @@
 
 
         function dtInit(table, options) {
-            options["order"] = dtOrder(table);
+            let toggleOption = dtGetToggleOption(table);
+            if (toggleOption != null) {
+                if (options.hasOwnProperty("columnDefs")) {
+                    options["columnDefs"].push(toggleOption);
+                } else {
+                    options["columnDefs"] = [toggleOption];
+                }
+            }
+
+            options["order"] = dtGetOrder(table);
 
             const insertTopId = table.getAttribute("data-insert-top");
             const insertBottomId = table.getAttribute("data-insert-bottom");
@@ -58,14 +61,14 @@
             let insertTopHTML;
             let domTop = "<'row'<'col'l><'col'f>>";
             if (insertTopId != null) {
-                insertTopHTML = dtInsertGet(insertTopId);
+                insertTopHTML = dtGetInsert(insertTopId);
                 domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
             }
 
             let insertBottomHTML;
             let domBottom = "<'row'<'col'i><'col'p>>";
             if (insertBottomId != null) {
-                insertBottomHTML = dtInsertGet(insertBottomId);
+                insertBottomHTML = dtGetInsert(insertBottomId);
                 domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
             }
 
@@ -76,22 +79,36 @@
                     domBottom;
             }
 
-            dtTables.push(
-                $(table).DataTable({
-                    ...options,
-                    initComplete: function(settings, json) {
-                        if (insertTopId != null)
-                            dtInsertSet(insertTopId, insertTopHTML);
-                        
-                        if (insertBottomId != null)
-                            dtInsertSet(insertBottomId, insertBottomHTML);
-                    }
-                })
-            );
+            let dtTable = $(table).DataTable({
+                ...options,
+                initComplete: function(settings, json) {
+                    if (insertTopId != null)
+                        dtSetInsert(insertTopId, insertTopHTML);
+                    
+                    if (insertBottomId != null)
+                        dtSetInsert(insertBottomId, insertBottomHTML);
+                }
+            })
+
+            dtTables[dtTable.table().node().id] = dtTable;
         }
 
 
-        function dtOrder(table) {
+        function dtGetToggleOption(table) {
+            let toggleCols = table.getAttribute("data-toggle-cols");
+
+            if (toggleCols != null){
+                let colIndexes = toggleCols.split(" ").map(Number);
+            
+                return {
+                    targets: colIndexes,
+                    visible: false
+                }
+            }
+        }
+
+
+        function dtGetOrder(table) {
             let orderItems = [];
             for (let i=0; i<10; i++) {
                 let col = table.getAttribute("data-c" + i);
@@ -113,7 +130,7 @@
         }
 
 
-        function dtInsertGet(insertId) {
+        function dtGetInsert(insertId) {
             let insert = document.getElementById(insertId);
 
             const insertHTML = insert.innerHTML;
@@ -123,7 +140,7 @@
             return insertHTML;
         }
 
-        function dtInsertSet(insertId, insertHTML) {
+        function dtSetInsert(insertId, insertHTML) {
             document.querySelector("." + insertId).outerHTML = insertHTML;
         }
     }

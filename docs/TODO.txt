@@ -17,7 +17,6 @@ PLAYER
 
 SCORE
 	checkbox for more columns
-		hide on init for reverse start
 		fix not using "ready()"
 
 REGISTER
