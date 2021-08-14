@@ -28,7 +28,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table" data-c0="0" data-d0="desc" data-insert-top="changes-insert-top">
+                <table class="data-table data-table-all table" data-orders="0d" data-insert-top="changes-insert-top">
                     <thead>
                         <tr>
                             <th title="Change date">Date</th>

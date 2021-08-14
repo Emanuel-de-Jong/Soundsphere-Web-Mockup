@@ -1,6 +1,5 @@
 GENERAL
 	CODE
-		put table orders in 1 data attribute
 		check different browsers
 		console warnings
 		lighthouse improvements

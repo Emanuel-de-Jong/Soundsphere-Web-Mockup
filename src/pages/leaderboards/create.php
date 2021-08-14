@@ -94,7 +94,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim table table-icon-col-last" data-c0="3" data-c1="0">
+                        <table class="data-table data-table-slim table table-icon-col-last" data-orders="3a 0a">
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>

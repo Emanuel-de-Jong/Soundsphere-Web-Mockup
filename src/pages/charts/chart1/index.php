@@ -40,7 +40,7 @@
             <section id="tables-section">
                 <h2>Tables</h2>
 
-                <table class="data-table data-table-slim table" data-c0="1" data-c1="0">
+                <table class="data-table data-table-slim table" data-orders="1a 0a">
                     <thead>
                         <tr>
                             <th title="Table name">Name</th>

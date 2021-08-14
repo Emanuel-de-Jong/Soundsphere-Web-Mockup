@@ -110,7 +110,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="0" data-c1="1">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -152,7 +152,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-c0="3">
+                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-orders="3a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -373,7 +373,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-c0="8" data-d0="desc" data-insert-top="all-scores-insert-top">
+                <table class="data-table data-table-all table table-icon-col-last" data-orders="8d" data-insert-top="all-scores-insert-top">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>

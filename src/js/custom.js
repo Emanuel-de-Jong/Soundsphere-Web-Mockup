@@ -110,21 +110,17 @@
 
         function dtGetOrder(table) {
             let orderItems = [];
-            for (let i=0; i<10; i++) {
-                let col = table.getAttribute("data-c" + i);
-                let dir = table.getAttribute("data-d" + i);
 
-                if (col == null)
-                    break;
-                
-                if (dir == null)
-                    dir = "asc";
-
-                orderItems[i] = [parseInt(col), dir];
-            }
-            
-            if (orderItems.length == 0)
+            let orders = table.getAttribute("data-orders");
+            if (orders != null) {
+                orders.split(" ").forEach(order => {
+                    let col = parseInt(order.slice(0, -1));
+                    let dir = order.slice(-1) == "a" ? "asc" : "desc";
+                    orderItems.push([col, dir]);
+                });
+            } else {
                 orderItems[0] = [0, "asc"];
+            }
             
             return orderItems;
         }
