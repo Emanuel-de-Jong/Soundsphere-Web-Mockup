@@ -205,7 +205,7 @@
                         <tr class="highlight-row">
                             <td>#2</td>
                             <td class="table-icon-cell">
-                                <span class="table-icon table-icon-s red" title="Community owner">
+                                <span class="table-icon table-icon-s orange" title="Community owner">
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
@@ -220,7 +220,7 @@
                             <td>#3</td>
                             <td class="table-icon-cell">
                                 <span class="table-icon table-icon-s orange" title="Community admin">
-                                    <i class="fas fa-crown"></i>
+                                    <i class="fas fa-user-shield"></i>
                                 </span>
                             </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>
@@ -238,7 +238,7 @@
                             <td>#4</td>
                             <td class="table-icon-cell">
                                 <span class="table-icon table-icon-s yellow" title="Community moderator">
-                                    <i class="fas fa-crown"></i>
+                                    <i class="fas fa-user-shield"></i>
                                 </span>
                             </td>
                             <td><a href="?a=players_player1_index">Player1</a></td>

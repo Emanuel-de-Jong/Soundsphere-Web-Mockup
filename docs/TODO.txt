@@ -5,7 +5,6 @@ GENERAL
 		lighthouse improvements
 		js "use strict"
 	VISUAL
-		change crown icon
 		show logo in navbar differently
 		check mobile
 

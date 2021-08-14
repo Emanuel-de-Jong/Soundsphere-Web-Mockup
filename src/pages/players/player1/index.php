@@ -123,7 +123,7 @@
                             <tbody>
                                 <tr>
                                     <td class="table-icon-cell">
-                                        <span class="table-icon table-icon-s red" title="The owner of the community">
+                                        <span class="table-icon table-icon-s orange" title="The owner of the community">
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
@@ -166,7 +166,7 @@
                                 <tr>
                                     <td class="table-icon-cell">
                                         <span class="table-icon table-icon-s orange" title="The owner, an admin or a mod of the community that owns this leaderboard">
-                                            <i class="fas fa-crown"></i>
+                                            <i class="fas fa-user-shield"></i>
                                         </span>
                                     </td>
                                     <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
