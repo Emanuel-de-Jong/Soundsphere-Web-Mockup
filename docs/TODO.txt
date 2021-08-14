@@ -1,5 +1,6 @@
 GENERAL
 	CODE
+		improve navbar code
 		check different browsers
 		console warnings
 		lighthouse improvements

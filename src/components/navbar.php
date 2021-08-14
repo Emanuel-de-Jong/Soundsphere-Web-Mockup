@@ -1,7 +1,6 @@
 <nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue">
     <div class="container">
         <a id="primary-navbar-icon" href="/">
-            <div id="primary-navbar-icon-bg"></div>
             <img src="resources/logo.png" />
         </a>
 
