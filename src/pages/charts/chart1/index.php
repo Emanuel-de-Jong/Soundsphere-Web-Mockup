@@ -83,7 +83,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns" onchange="dtToggleCols('scores-table');">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="scores-table">
                                     Show all columns
                                 </label>
                             </div>

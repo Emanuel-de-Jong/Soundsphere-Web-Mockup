@@ -214,7 +214,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="best-scores-table">
                                     Show all columns
                                 </label>
                             </div>
@@ -222,7 +222,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="best-scores-insert-top">
+                <table class="data-table data-table-all table table-icon-col-last" id="best-scores-table" data-insert-top="best-scores-insert-top" data-toggle-cols="2 4">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>
@@ -365,7 +365,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input" id="show-all-columns" name="show-all-columns">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="all-scores-table">
                                     Show all columns
                                 </label>
                             </div>
@@ -373,7 +373,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-orders="8d" data-insert-top="all-scores-insert-top">
+                <table class="data-table data-table-all table table-icon-col-last" id="all-scores-table" data-orders="8d" data-insert-top="all-scores-insert-top" data-toggle-cols="2 4">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>

@@ -1,9 +1,10 @@
-// ready(() => {
+ready(() => {
     if (document.querySelector(".data-table") != null) {
         var dtTables = {};
 
 
-        function dtToggleCols(tableId) {
+        function dtToggleCols(e) {
+            let tableId = e.target.getAttribute("data-table");
             let table = document.getElementById(tableId);
             let dtTable = dtTables[tableId];
 
@@ -87,6 +88,8 @@
                     
                     if (insertBottomId != null)
                         dtSetInsert(insertBottomId, insertBottomHTML);
+
+                    addEventListeners(document.querySelectorAll(".data-table-col-toggle"), "change", dtToggleCols);
                 }
             })
 
@@ -264,4 +267,4 @@
             preview.style.webkitBackgroundClip = "text";
         }
     }
-// });
+});

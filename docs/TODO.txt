@@ -16,7 +16,7 @@ PLAYER
 
 SCORE
 	checkbox for more columns
-		fix not using "ready()"
+		remove form
 
 REGISTER
 	username
