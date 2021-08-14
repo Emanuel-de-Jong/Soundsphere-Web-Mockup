@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="chart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Chart difficulty calculator</label>
+                        <label for="chart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Chart difficulty calculator</label>
                         <select class="form-select" id="chart-diff-calc" name="chart-diff-calc" required>
                             <option value="table-level" selected>Table level</option>
                             <option value="soundsphere">soundsphere</option>
@@ -41,8 +41,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="score-performance-calc" class="form-label form-required" title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Score performance calculator</label>
-                        <select class="form-select" id="score-performance-calc" name="score-performance-calc" required>
+                        <label for="score-pr-calc" class="form-label form-required" title="Decides how good a score is. The impressiveness changes how much performance rating a player gets.">Score PR calculator</label>
+                        <select class="form-select" id="score-pr-calc" name="score-pr-calc" required>
                             <option value="soundsphere" selected>soundsphere</option>
                             <option value="osu">osu!</option>
                             <option value="sdvx">SOUND VOLTEX</option>
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="score-combiner" class="form-label form-required" title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score combiner</label>
+                        <label for="score-combiner" class="form-label form-required" title="Decides how the performance rating of scores are combined to get the total performance rating of a player. It changes the order of the leaderboard.">Score combiner</label>
                         <select class="form-select" id="score-combiner" name="score-combiner" required>
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>
@@ -60,7 +60,7 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="community-combiner" class="form-label form-required" title="Decides how the member performances are combined to get the total performance of a community">Community combiner</label>
+                        <label for="community-combiner" class="form-label form-required" title="Decides how the member prs are combined to get the total performance rating of a community">Community combiner</label>
                         <select class="form-select" id="community-combiner" name="community-combiner" required>
                             <option value="logarithmic" selected>Logarithmic</option>
                             <option value="additive">Additive</option>

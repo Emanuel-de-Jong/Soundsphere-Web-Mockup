@@ -180,7 +180,7 @@
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>
                             <th class="table-icon-th"></th>
                             <th title="Player name">Name</th>
-                            <th title="The player's leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance rating">PR</th>
                             <th title="Favourite modes">Fav modes</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>
@@ -258,7 +258,7 @@
                             <th title="Rank of the selected leaderboard">Rank</th>
                             <th class="table-icon-th"></th>
                             <th title="Player name">Name</th>
-                            <th title="The player's leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance rating">PR</th>
                             <th title="Favourite modes">Fav modes</th>
                             <th title="Plays on the selected leaderboard">Plays</th>
                             <th title="Last submitted score">Last played</th>

@@ -82,16 +82,16 @@
                                 <td>10</td>
                             </tr>
                             <tr>
-                                <th title="Decides the difficulty of the charts. The difficulty changes how much performance players get.">Difficulty calc:</th>
-                                <td>Table level</td>
-                                <th title="Decides how good a score is. The impressiveness changes how much performance a player gets.">Performance calc:</th>
+                                <th title="Decides how the member prs are combined to get the total performance rating of a community">Community comb:</th>
+                                <td>Logarithmic</td>
+                                <th title="Decides how good a score is. The impressiveness changes how much performance rating a player gets.">PR calc:</th>
                                 <td>soundsphere</td>
                             </tr>
                             <tr>
-                                <th title="Decides how the performance of scores are combined to get the total performance of a player. It changes the order of the leaderboard.">Score comb:</th>
+                                <th title="Decides how the performance rating of scores are combined to get the total performance rating of a player. It changes the order of the leaderboard.">Score comb:</th>
                                 <td>Logarithmic</td>
-                                <th title="Decides how the member performances are combined to get the total performance of a community">Community comb:</th>
-                                <td>Logarithmic</td>
+                                <th title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Diff calc:</th>
+                                <td>Table level</td>
                             </tr>
                         </table>
                     </div>
@@ -147,10 +147,10 @@
                         <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
-                                    <th title="Rank on leaderboard by performance">Rank</th>
+                                    <th title="Rank on leaderboard by performance rating">Rank</th>
                                     <th class="table-icon-th"></th>
                                     <th title="Community name">Name</th>
-                                    <th title="Total performance in leaderboard">Performance</th>
+                                    <th title="Total performance rating in leaderboard">PR</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
@@ -255,7 +255,7 @@
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
-                            <th title="The player's leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance rating">PR</th>
                             <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                         </tr>
                     </thead>
@@ -294,7 +294,7 @@
                             <th title="Player rank in leaderboard">Rank</th>
                             <th title="Player name">Player</th>
                             <th title="Community abbreviation">Communities</th>
-                            <th title="The player's leaderboard performance">Performance</th>
+                            <th title="The player's leaderboard performance rating">PR</th>
                             <th title="The last time the player submitted a score to the leaderboard">Last played</th>
                         </tr>
                     </tfoot>

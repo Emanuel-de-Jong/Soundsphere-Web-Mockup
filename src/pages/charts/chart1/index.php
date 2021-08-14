@@ -104,7 +104,7 @@
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>
                             <th title="Player name">Player</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
@@ -187,7 +187,7 @@
                         <tr>
                             <th title="Players chart rank">Rank</th>
                             <th title="Player name">Player</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>

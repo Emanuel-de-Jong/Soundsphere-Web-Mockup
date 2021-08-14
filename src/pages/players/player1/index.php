@@ -229,7 +229,7 @@
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -326,7 +326,7 @@
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -379,7 +379,7 @@
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>
@@ -471,7 +471,7 @@
                             <th title="Chart title">Title</th>
                             <th title="Chart difficulty">Difficulty</th>
                             <th title="Chart level">Level</th>
-                            <th title="Players chart performance">Performance</th>
+                            <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Input mode</th>

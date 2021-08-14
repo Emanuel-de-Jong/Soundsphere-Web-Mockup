@@ -5,7 +5,6 @@ GENERAL
 		lighthouse improvements
 		js "use strict"
 	VISUAL
-		*change "performance" to "pr" (player/personal record)
 		change crown icon
 		show logo in navbar differently
 		check mobile
@@ -14,9 +13,6 @@ PLAYER
 	*first place scores
 	*random 4 digid tag for dupe usernames
 
-SCORE
-	checkbox for more columns
-		remove form
 
 REGISTER
 	username

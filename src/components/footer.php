@@ -14,8 +14,7 @@
         
         <p class="footer-copyright">Copyright © 
             <script>
-                var currentDate =new Date()
-                document.write(currentDate.getFullYear())
+                document.write(new Date().getFullYear());
             </script>
              soundsphere by semyon422. All Rights Reserved.
         </p>
