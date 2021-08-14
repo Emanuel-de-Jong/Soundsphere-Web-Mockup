@@ -1,5 +1,5 @@
 <div id="bms-table">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <h1>Table1</h1>
 

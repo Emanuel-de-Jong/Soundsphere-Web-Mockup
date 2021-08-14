@@ -1,5 +1,5 @@
 <div id="communities">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-right page-icons-never-collapsed">
                 <div class="navbar-nav">

@@ -1,7 +1,7 @@
 <nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue">
-    <div class="container">
+    <div class="container-md">
         <a id="primary-navbar-icon" href="/">
-            <img src="resources/logo.png" />
+            <img src="resources/logo-trans.png" />
         </a>
 
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

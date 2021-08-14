@@ -1,5 +1,5 @@
 <div id="players">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <h1>Players</h1>
 

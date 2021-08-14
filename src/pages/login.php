@@ -1,5 +1,5 @@
 <div id="login">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <form class="login-form text-center" action="login.php" method="post">
                 <img class="mb-4" src="resources/logo.png" width="130" />

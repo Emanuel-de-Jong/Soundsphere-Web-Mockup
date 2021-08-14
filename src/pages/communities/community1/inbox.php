@@ -1,5 +1,5 @@
 <nav id="secondary-navbar">
-    <div class="container">
+    <div class="container-md">
         <div class="nav">
             <a class="nav-link" href="#incoming-player-requests-section">Player incoming</a>
             <a class="nav-link" href="#outgoing-player-invites-section">Player outgoing</a>
@@ -12,7 +12,7 @@
 
 
 <div id="community-inbox">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">

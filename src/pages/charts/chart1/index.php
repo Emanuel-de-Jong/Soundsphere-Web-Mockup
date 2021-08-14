@@ -2,7 +2,7 @@
 
 
 <div id="chart">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <h1>Chart1 - Difficulty1</h1>
 

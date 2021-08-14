@@ -38,17 +38,21 @@ textarea:focus {
     box-shadow: none !important;
 }
 
+.container-md {
+    padding: 0;
+}
+
 
 
 
 /* NAVBAR */
-/* primary */
+/* Primary */
 #primary-navbar {
-    padding: 4px 0;
+    padding: 6px 0;
 }
 
-#primary-navbar .container {
-    padding: 0 72px;
+#primary-navbar .container-md {
+    padding: 0 3.75rem;
 }
 
 #primary-navbar .nav-link {
@@ -79,37 +83,39 @@ textarea:focus {
 }
 
 #primary-navbar-box {
-    min-height: 51px;
+    min-height: 55px;
 }
 
 @media (max-width: 991px) {
-    #primary-navbar .container {
-        padding: 0 12px;
+    #primary-navbar .container-md {
+        padding: 0;
     }
 }
 
-/* secondary */
+@media (max-width: 769px) {
+    #primary-navbar .container-md {
+        padding: 0 50px;
+    }
+}
+
+/* Secondary */
 #secondary-navbar {
     position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
     z-index: 100;
-    margin-top: 51px;
+    margin-top: 55px;
     background-color: $white;
     opacity: 0.9;
 }
 
-#secondary-navbar .container {
-    padding: 0 72px;
+#secondary-navbar .container-md {
+    padding: 0 3.75rem;
 }
 
 #secondary-navbar .nav {
-    padding-left: 35px;
-}
-
-#secondary-navbar .nav-link {
-    padding: 8px 20px;
+    padding-left: 39px;
 }
 
 #secondary-navbar-box {
@@ -117,8 +123,18 @@ textarea:focus {
 }
 
 @media (max-width: 991px) {
-    #secondary-navbar .container {
-        padding: 0 12px;
+    #secondary-navbar .container-md {
+        padding: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    #secondary-navbar .container-md {
+        padding: 0 50px;
+    }
+
+    #secondary-navbar .nav {
+        padding-left: 0;
     }
 }
 
@@ -172,7 +188,15 @@ textarea:focus {
 
 @media (max-width: 991px) {
     .main-box {
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .main-box {
+        margin-top: 0;
+        border-radius: 0;
     }
 }
 
@@ -607,10 +631,18 @@ tr:hover .table-icon-hide {
 /* Login and register */
 #login .main-box,
 #register .main-box {
-    max-width: 516px;
-    margin: auto;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+@media (max-width: 769px) {
+    #login .main-box,
+    #register .main-box {
+        margin-top: 1.875rem;
+    }
 }
 
 /* Player edit */

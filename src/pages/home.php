@@ -1,7 +1,7 @@
 <div id="home">
     <div style="background-color: rgb(60, 200, 100); height: 500px;"></div>
 
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <h1>soundsphere</h1>
 

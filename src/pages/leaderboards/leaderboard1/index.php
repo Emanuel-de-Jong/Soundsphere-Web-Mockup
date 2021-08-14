@@ -1,5 +1,5 @@
 <nav id="secondary-navbar">
-    <div class="container">
+    <div class="container-md">
         <div class="nav">
             <a class="nav-link" href="#info-community-ranking-section">Info</a>
             <a class="nav-link" href="#modifiers-section">Modifiers</a>
@@ -16,7 +16,7 @@
 
 
 <div id="leaderboard">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">

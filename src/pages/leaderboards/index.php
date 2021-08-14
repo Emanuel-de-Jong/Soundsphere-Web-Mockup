@@ -1,5 +1,5 @@
 <div id="leaderboards">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <?php require('components/modals/create-leaderboard.php'); ?>
             <nav class="navbar-expand page-icons page-icons-right page-icons-never-collapsed">

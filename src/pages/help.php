@@ -1,5 +1,5 @@
 <div id="help">
-    <main class="container">
+    <main class="container-md">
         <div class="main-box">
             <h1>Help</h1>
 
