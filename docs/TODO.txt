@@ -8,21 +8,9 @@ GENERAL
 		check mobile
 
 PLAYER
-	*first place scores
-	*random 4 digid tag for dupe usernames
-
-
-REGISTER
-	username
+	*first place scores as table or col
 
 LOGIN/REGISTER
-	vertical center
-	restructure
-
-HOME
-	restructure
-
-HELP
 	restructure
 
 

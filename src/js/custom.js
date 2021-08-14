@@ -151,6 +151,9 @@ ready(() => {
         document.querySelectorAll("form").forEach(form => form.setAttribute("novalidate", true));
 
         querySelectorAlls(["input", "select", "textarea"]).forEach(input => {
+            if (input.classList.contains("form-no-invalid-message"))
+                return;
+
             let invalidMessage = input.getAttribute("data-invalid");
 
             if (invalidMessage != null) {

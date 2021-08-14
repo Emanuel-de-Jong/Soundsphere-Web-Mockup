@@ -1,20 +1,20 @@
-<nav id="secondary-navbar">
-    <div class="container-md">
-        <div class="nav">
-            <a class="nav-link" href="#info-section">Info</a>
-            <a class="nav-link" href="#description-section">Description</a>
-            <a class="nav-link" href="#leaderboards-section">Leaderboards</a>
-            <a class="nav-link" href="#members-section">Members</a>
-        </div>
-    </div>
-</nav>
-<div id="secondary-navbar-box"></div>
-
-
-<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
-
-
 <div id="community">
+    <nav id="secondary-navbar">
+        <div class="container-md">
+            <div class="nav">
+                <a class="nav-link" href="#info-section">Info</a>
+                <a class="nav-link" href="#description-section">Description</a>
+                <a class="nav-link" href="#leaderboards-section">Leaderboards</a>
+                <a class="nav-link" href="#members-section">Members</a>
+            </div>
+        </div>
+    </nav>
+    <div id="secondary-navbar-box"></div>
+
+
+    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
     <main class="container-md">
         <div class="main-box">
             <?php require('components/modals/delete.php'); ?>

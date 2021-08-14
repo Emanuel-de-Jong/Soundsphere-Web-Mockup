@@ -1,7 +1,7 @@
-<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
-
-
 <div id="chart">
+    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
     <main class="container-md">
         <div class="main-box">
             <h1>Chart1 - Difficulty1</h1>

@@ -1,17 +1,17 @@
-<nav id="secondary-navbar">
-    <div class="container-md">
-        <div class="nav">
-            <a class="nav-link" href="#incoming-player-requests-section">Player incoming</a>
-            <a class="nav-link" href="#outgoing-player-invites-section">Player outgoing</a>
-            <a class="nav-link" href="#incoming-leaderboard-invites-section">Leaderboard incoming</a>
-            <a class="nav-link" href="#outgoing-leaderboard-invites-section">Leaderboard outgoing</a>
-        </div>
-    </div>
-</nav>
-<div id="secondary-navbar-box"></div>
-
-
 <div id="community-inbox">
+    <nav id="secondary-navbar">
+        <div class="container-md">
+            <div class="nav">
+                <a class="nav-link" href="#incoming-player-requests-section">Player incoming</a>
+                <a class="nav-link" href="#outgoing-player-invites-section">Player outgoing</a>
+                <a class="nav-link" href="#incoming-leaderboard-invites-section">Leaderboard incoming</a>
+                <a class="nav-link" href="#outgoing-leaderboard-invites-section">Leaderboard outgoing</a>
+            </div>
+        </div>
+    </nav>
+    <div id="secondary-navbar-box"></div>
+
+
     <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">

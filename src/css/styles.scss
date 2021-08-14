@@ -267,6 +267,10 @@ textarea:focus {
     opacity: 0.2;
 }
 
+.banner-solid {
+    position: static;
+}
+
 
 
 
@@ -390,32 +394,37 @@ textarea:invalid {
 
 /* Login */
 .login-form {
-    width: 100%;
-    margin: auto;
-    margin-top: 35px;
-    margin-bottom: 50px;
-    max-width: 330px;
+    text-align: center;
+}
+
+.login-form img {
+    width: 130px;
 }
 
 .login-form h1 {
-    font-size: 2.185rem;
+    font-size: 2.4rem;
     font-weight: 400;
+    width: 100%;
 }
 
-.login-form #email {
+.login-form .floating-input-top {
     margin-bottom: -1px;
-    border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
-.login-form #password {
+.login-form .floating-input-middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.login-form .floating-input-bottom {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
 .login-form button {
-    min-width: 110px;
-    width: 40%;
+    width: 160px;
 }
 
 /* Title */
@@ -631,11 +640,10 @@ tr:hover .table-icon-hide {
 /* Login and register */
 #login .main-box,
 #register .main-box {
-    max-width: 500px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 769px) {

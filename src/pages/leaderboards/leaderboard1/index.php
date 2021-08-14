@@ -1,21 +1,21 @@
-<nav id="secondary-navbar">
-    <div class="container-md">
-        <div class="nav">
-            <a class="nav-link" href="#info-community-ranking-section">Info</a>
-            <a class="nav-link" href="#modifiers-section">Modifiers</a>
-            <a class="nav-link" href="#communities-bms-tables-section">Communities</a>
-            <a class="nav-link" href="#communities-bms-tables-section">Tables</a>
-            <a class="nav-link" href="#ranking-section">Ranking</a>
-        </div>
-    </div>
-</nav>
-<div id="secondary-navbar-box"></div>
-
-
-<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
-
-
 <div id="leaderboard">
+    <nav id="secondary-navbar">
+        <div class="container-md">
+            <div class="nav">
+                <a class="nav-link" href="#info-community-ranking-section">Info</a>
+                <a class="nav-link" href="#modifiers-section">Modifiers</a>
+                <a class="nav-link" href="#communities-bms-tables-section">Communities</a>
+                <a class="nav-link" href="#communities-bms-tables-section">Tables</a>
+                <a class="nav-link" href="#ranking-section">Ranking</a>
+            </div>
+        </div>
+    </nav>
+    <div id="secondary-navbar-box"></div>
+
+
+    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
     <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">

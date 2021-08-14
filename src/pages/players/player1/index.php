@@ -1,22 +1,22 @@
-<nav id="secondary-navbar">
-    <div class="container-md">
-        <div class="nav">
-            <a class="nav-link" href="#info-section">Info</a>
-            <a class="nav-link" href="#description-section">Description</a>
-            <a class="nav-link" href="#communities-leaderboards-section">Communities</a>
-            <a class="nav-link" href="#communities-leaderboards-section">Leaderboards</a>
-            <a class="nav-link" href="#best-scores-section">Best scores</a>
-            <a class="nav-link" href="#all-scores-section">All scores</a>
-        </div>
-    </div>
-</nav>
-<div id="secondary-navbar-box"></div>
-
-
-<div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
-
-
 <div id="player">
+    <nav id="secondary-navbar">
+        <div class="container-md">
+            <div class="nav">
+                <a class="nav-link" href="#info-section">Info</a>
+                <a class="nav-link" href="#description-section">Description</a>
+                <a class="nav-link" href="#communities-leaderboards-section">Communities</a>
+                <a class="nav-link" href="#communities-leaderboards-section">Leaderboards</a>
+                <a class="nav-link" href="#best-scores-section">Best scores</a>
+                <a class="nav-link" href="#all-scores-section">All scores</a>
+            </div>
+        </div>
+    </nav>
+    <div id="secondary-navbar-box"></div>
+
+
+    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+
+
     <main class="container-md">
         <div class="main-box">
             <nav class="navbar-expand-xl page-icons page-icons-right">
