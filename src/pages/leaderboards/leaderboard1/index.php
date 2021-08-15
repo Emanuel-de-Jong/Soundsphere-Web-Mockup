@@ -231,7 +231,7 @@
                 <div id="ranking-insert-top" hidden>
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="community" name="community" title="Filter the players shown by community">
+                            <select class="form-select form-select-sm" id="ranking-community" name="community" title="Filter the players shown by community">
                                 <option selected>All communities</option>
                                 <option value="Community1">Community1</option>
                                 <option value="Community2">Community2</option>

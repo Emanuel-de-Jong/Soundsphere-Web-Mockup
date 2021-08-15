@@ -14,8 +14,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="modal-form-object-name" class="form-label form-required" title="The name of the object you want to delete">Object name</label>
-                        <input type="text" class="form-control" id="modal-form-object-name" name="object-name" required>
+                        <label for="confirm-delete-object-name" class="form-label form-required" title="The name of the object you want to delete">Object name</label>
+                        <input type="text" class="form-control" id="confirm-delete-object-name" name="object-name" required>
                     </div>
                 </form>
             </div>

@@ -194,7 +194,7 @@
                 <div id="best-scores-insert-top" hidden>
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
+                            <select class="form-select form-select-sm" id="best-scores-leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
                             </select>
@@ -203,7 +203,7 @@
                     
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="best-scores-table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>
@@ -214,7 +214,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="best-scores-table">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="best-scores-show-all-columns" name="show-all-columns" data-table="best-scores-table">
                                     Show all columns
                                 </label>
                             </div>
@@ -345,7 +345,7 @@
                 <div id="all-scores-insert-top" hidden>
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
+                            <select class="form-select form-select-sm" id="all-scores-leaderboard" name="leaderboard" title="Filter by leaderboard and use leaderboard calculators">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
                             </select>
@@ -354,7 +354,7 @@
                     
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="all-scores-table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>
@@ -365,7 +365,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="all-scores-table">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="all-scores-show-all-columns" name="show-all-columns" data-table="all-scores-table">
                                     Show all columns
                                 </label>
                             </div>

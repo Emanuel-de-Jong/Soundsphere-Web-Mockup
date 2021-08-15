@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <form class="modal-form">
-                    <select class="form-select" id="modal-form-input-mode" name="input-mode" title="The input mode to add">
+                    <select class="form-select" id="add-input-mode-input-mode" name="input-mode" title="The input mode to add">
                         <option selected hidden>Select an input mode</option>
                         <!-- base -->
                         <option value="1key">1K</option>

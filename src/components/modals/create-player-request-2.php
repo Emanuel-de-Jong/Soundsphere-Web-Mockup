@@ -15,8 +15,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="modal-form-message" class="form-label" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="modal-form-message" name="message" maxlength="100">
+                        <label for="create-player-request-2-message" class="form-label" title="You can add the reason that you want to join, or an identifier like a username from a different game etc.">Message</label>
+                        <input type="text" class="form-control" id="create-player-request-2-message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>

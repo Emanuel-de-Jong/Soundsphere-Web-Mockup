@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body">
                 <form class="modal-form">
-                    <select class="form-select" id="modal-form-community" name="community" title="The community to create the leaderboard for">
+                    <select class="form-select" id="create-leaderboard-community" name="community" title="The community to create the leaderboard for">
                         <option selected hidden>Select a community</option>
                         <option value="Community1">Community1</option>
                         <option value="Community2">Community2</option>

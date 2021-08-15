@@ -20,7 +20,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="hide-own-changes" class="form-check-label" title="Hide your own rows">
-                                    <input type="checkbox" class="form-check-input" id="hide-own-changes" name="hide-own-changes">
+                                    <input type="checkbox" class="form-check-input" id="changes-hide-own-changes" name="hide-own-changes">
                                     Hide own changes
                                 </label>
                             </div>

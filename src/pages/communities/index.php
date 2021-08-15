@@ -22,7 +22,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="hide-joined-communities" class="form-check-label" title="Hide the rows of communities that you're in">
-                                    <input type="checkbox" class="form-check-input" id="hide-joined-communities" name="hide-joined-communities">
+                                    <input type="checkbox" class="form-check-input" id="communities-hide-joined-communities" name="hide-joined-communities">
                                     Hide joined communities
                                 </label>
                             </div>

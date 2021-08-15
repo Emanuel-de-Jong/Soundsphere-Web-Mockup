@@ -70,7 +70,7 @@
                 <div id="scores-insert-top" hidden>
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="leaderboard" name="leaderboard" title="Only show scores from this leaderboard">
+                            <select class="form-select form-select-sm" id="scores-leaderboard" name="leaderboard" title="Only show scores from this leaderboard">
                                 <option selected>All leaderboards</option>
                                 <option value="Leaderboard1">Leaderboard1</option>
                                 <option value="Leaderboard2">Leaderboard2</option>
@@ -83,7 +83,7 @@
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
-                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="show-all-columns" name="show-all-columns" data-table="scores-table">
+                                    <input type="checkbox" class="form-check-input data-table-col-toggle" id="scores-show-all-columns" name="show-all-columns" data-table="scores-table">
                                     Show all columns
                                 </label>
                             </div>

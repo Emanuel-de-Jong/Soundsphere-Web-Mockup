@@ -8,8 +8,8 @@
             <div class="modal-body">
                 <form class="modal-form">
                     <div class="form-item">
-                        <label for="modal-form-player" class="form-label form-required" title="The player to send an invite to">Player</label>
-                        <input class="form-control" list="player-options" id="modal-form-player" name="player" placeholder="Search for a player..." required>
+                        <label for="create-player-invite-player" class="form-label form-required" title="The player to send an invite to">Player</label>
+                        <input class="form-control" list="player-options" id="create-player-invite-player" name="player" placeholder="Search for a player..." required>
                         <datalist id="player-options">
                             <option value="Player1">
                             <option value="Player2">
@@ -18,8 +18,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="modal-form-message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
-                        <input type="text" class="form-control" id="modal-form-message" name="message" maxlength="100">
+                        <label for="create-player-invite-message" class="form-label" title="You can add the reason for the invite, or an identifier like a username from a different game etc.">Message</label>
+                        <input type="text" class="form-control" id="create-player-invite-message" name="message" maxlength="100">
                     </div>
                 </form>
             </div>
