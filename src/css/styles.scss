@@ -17,8 +17,8 @@ p {
 :target:before {
     display: block;
     content: "";
-    height: 120px;
-    margin-top: -120px;
+    height: 100px;
+    margin-top: -100px;
 }
 
 /* Remove bootstrap box shadows */
@@ -406,7 +406,7 @@ textarea {
 }
 
 .login-form button {
-    width: 160px;
+    width: 10rem;
 }
 
 /* Table */
@@ -420,12 +420,12 @@ textarea {
 }
 
 .table-form .form-check {
-    margin-top: 4px;
+    margin-top: 0.25rem;
     margin-bottom: 0;
 }
 
 .table-form-bottom .btn {
-    margin: 2px 0;
+    margin: 0.125rem 0;
 }
 
 
@@ -527,7 +527,7 @@ textarea {
 
 /* table icon */
 .table-icon-th {
-    padding-right: 8px !important;
+    padding-right: 0.5rem !important;
 }
 .table-icon-th::before {
     content: "" !important;
@@ -537,24 +537,24 @@ textarea {
 }
 
 .table-icon-cell {
-    padding: 0 8px 0 0 !important;
+    padding: 0 0.5rem 0 0 !important;
     white-space: nowrap;
     vertical-align: middle;
     text-align: right;
 }
 
 .table-icon-col-first tr td:first-child {
-    padding-left: 8px !important;
+    padding-left: 0.5rem !important;
 }
 
 .table-icon-col-last tr td:last-child {
-    padding-right: 20px !important;
+    padding-right: 1.25rem !important;
 }
 
 .table-icon {
     font-size: 1.185rem;
     text-decoration: none;
-    margin-left: 8px;
+    margin-left: 0.5rem;
     vertical-align: middle;
 }
 
@@ -622,7 +622,7 @@ tr:hover .table-icon-hide {
 /* Login and register */
 #login .main-box,
 #register .main-box {
-    max-width: 450px;
+    max-width: 28rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -630,7 +630,7 @@ tr:hover .table-icon-hide {
 
 #login img,
 #register img {
-    width: 130px;
+    width: 8.125rem;
     margin-bottom: 1.5rem;
 }
 
@@ -664,11 +664,11 @@ tr:hover .table-icon-hide {
 
 #player-edit #username-color-l,
 #player-edit #username-color-r {
-    max-width: 40px;
+    max-width: 2.5rem;
 }
 
 #player-edit #discord-tag {
-    max-width: 65px;
+    max-width: 4.065rem;
 }
 
 /* Leaderboard */
