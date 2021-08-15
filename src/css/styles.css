@@ -362,6 +362,14 @@ textarea:invalid {
   font-size: 0.8rem;
 }
 
+textarea {
+  height: 6.875rem;
+}
+
+.input-file-dragenter {
+  border-color: #86b7fe;
+}
+
 /* Modal */
 .modal-form .form-item {
   margin-bottom: 1rem;
@@ -378,49 +386,24 @@ textarea:invalid {
   max-width: 37.5rem;
 }
 
-.crud-form textarea {
-  height: 6.875rem;
-}
-
-.crud-form .input-file-dragenter {
-  border-color: #86b7fe;
-}
-
 /* Login */
 .login-form {
   text-align: center;
 }
 
-.login-form img {
-  width: 130px;
+.login-form .form-item {
+  margin-bottom: 1rem;
 }
 
-.login-form h1 {
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-
-.login-form .floating-input-top {
-  margin-bottom: -1px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.login-form .floating-input-middle {
-  margin-bottom: -1px;
-  border-radius: 0;
-}
-
-.login-form .floating-input-bottom {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.login-form input:invalid {
+  border-color: #ced4da !important;
 }
 
 .login-form button {
   width: 160px;
 }
 
-/* Title */
+/* Table */
 .table-form {
   text-align: center;
 }
@@ -633,6 +616,21 @@ tr:hover .table-icon-hide {
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#login img,
+#register img {
+  width: 130px;
+  margin-bottom: 1.5rem;
+}
+
+#login h1,
+#register h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 769px) {

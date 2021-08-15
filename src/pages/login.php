@@ -1,28 +1,33 @@
 <div id="login">
     <main class="container-md">
         <div class="main-box">
-            <form class="login-form" action="login.php" method="post">
-                <img class="mb-4" src="resources/logo.png" alt="Logo">
-                
-                <h1 class="mb-3">Please login</h1>
+            <img src="resources/logo.png" alt="Logo">
 
-                <div class="form-floating">
-                    <input type="email" class="form-control floating-input-top" id="email" name="email" placeholder="Email address">
-                    <label>Email address</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="password" class="form-control floating-input-bottom" id="password" name="password" placeholder="Password">
-                    <label>Password</label>
-                </div>
+            <h1>Please login</h1>
 
-                <div class="mb-3">
-                    <label>
-                        <input type="checkbox" class="form-no-invalid-message" id="remember-me" name="remember-me"> Remember me
-                    </label>
-                </div>
 
-                <button type="submit" class="btn btn-lg bg-blue bg-blue-h mb-5">Login</button>
-            </form>
+            <section id="form-section">
+                <form class="login-form" action="login.php" method="post">
+                    <div class="form-item form-floating">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="x" required>
+                        <label>Email address</label>
+                    </div>
+
+                    <div class="form-item form-floating">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="x" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="form-item form-check">
+                        <label for="remember-me" class="form-check-label" title="Stay logged in on this device">
+                            <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me">
+                            Remember me
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-lg bg-blue bg-blue-h">Login</button>
+                </form>
+            </section>
         </div>
     </main>
 </div>
