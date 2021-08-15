@@ -1,8 +1,11 @@
 /* DEFAULT STYLE */
+html {
+  font-size: 16px;
+}
+
 body {
   min-height: 100%;
   background-color: #e9ecef;
-  font-size: 16px;
 }
 
 p {
