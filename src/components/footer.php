@@ -12,11 +12,9 @@
             </a>
         </div>
         
-        <p class="footer-copyright">Copyright © 
-            <script>
-                document.write(new Date().getFullYear());
-            </script>
-             soundsphere by semyon422. All Rights Reserved.
+        <p class="footer-copyright">Copyright ©
+            <?php echo date("Y"); ?>
+            soundsphere by semyon422. All Rights Reserved.
         </p>
     </div>
 </footer>

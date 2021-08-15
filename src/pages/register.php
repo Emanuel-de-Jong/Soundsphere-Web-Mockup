@@ -2,7 +2,7 @@
     <main class="container-md">
         <div class="main-box">
             <form class="login-form" action="login.php" method="post">
-                <img class="mb-4" src="resources/logo.png">
+                <img class="mb-4" src="resources/logo.png" alt="Logo">
                 
                 <h1 class="mb-3">Make an account</h1>
 

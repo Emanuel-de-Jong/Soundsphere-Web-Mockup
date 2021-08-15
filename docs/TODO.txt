@@ -8,9 +8,6 @@ GENERAL
 			check db
 	CODE
 		check different browsers
-		console warnings
-		lighthouse improvements
-		js "use strict"
 	VISUAL
 		support mobile (360x640)
 

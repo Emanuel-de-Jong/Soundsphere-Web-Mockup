@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <script src="https://kit.fontawesome.com/dbaf22a3a8.js"></script>
+    <meta name="description" content="Soundsphere is a rhythm game that aims for high customization. On this offical site, players can compare scores, join communities and much more!">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/dbaf22a3a8.js?v=1.0"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
 
     <title>soundsphere</title>
 </head>
@@ -38,7 +39,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
-    <script src="js/helper.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/helper.js?v=1.0"></script>
+    <script src="js/custom.js?v=1.0"></script>
 </body>
 </html>
