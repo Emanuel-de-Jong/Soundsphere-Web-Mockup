@@ -163,7 +163,7 @@ textarea:focus {
     margin-bottom: 3.75rem;
 }
 
-.main-box h1 {
+.main-box > h1 {
     font-size: 2.75rem;
     margin: auto;
     margin-bottom: 4.375rem;
@@ -404,7 +404,6 @@ textarea:invalid {
 .login-form h1 {
     font-size: 2.4rem;
     font-weight: 400;
-    width: 100%;
 }
 
 .login-form .floating-input-top {
@@ -643,7 +642,6 @@ tr:hover .table-icon-hide {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
 }
 
 @media (max-width: 769px) {

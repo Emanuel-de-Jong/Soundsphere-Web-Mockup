@@ -1,17 +1,18 @@
 GENERAL
+	FEATURE
+		*show full info of objects
+			url get
+			cms
+			"~" on page
+			hidden button
+			check db
 	CODE
 		check different browsers
 		console warnings
 		lighthouse improvements
 		js "use strict"
 	VISUAL
-		check mobile
-
-PLAYER
-	*first place scores as table or col
-
-LOGIN/REGISTER
-	restructure
+		support mobile (360x640)
 
 
 
@@ -35,6 +36,7 @@ CHART
 	bpm
 	
 SCORE
+	rank compared to others
 	chart format
 	max combo
 	score

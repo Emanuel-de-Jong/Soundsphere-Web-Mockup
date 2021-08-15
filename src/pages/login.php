@@ -21,7 +21,7 @@
                     </label>
                 </div>
 
-                <button type="submit" class="btn btn-lg bg-blue bg-blue-h">Login</button>
+                <button type="submit" class="btn btn-lg bg-blue bg-blue-h mb-5">Login</button>
             </form>
         </div>
     </main>
