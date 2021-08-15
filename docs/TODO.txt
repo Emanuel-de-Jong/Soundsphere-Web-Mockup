@@ -11,7 +11,7 @@ GENERAL
 		check different browsers
 	VISUAL
 		support mobile (360x640)
-			change px to rem
+			make all rem valid px converts
 
 PLAYER
 	EDIT
