@@ -1,6 +1,6 @@
 <nav id="primary-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue">
     <div class="container-md">
-        <a id="primary-navbar-icon" href="/">
+        <a class="primary-navbar-icon" href="/">
             <img src="resources/logo-trans.png" alt="Logo">
         </a>
 

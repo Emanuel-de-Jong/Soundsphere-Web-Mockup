@@ -78,10 +78,10 @@ textarea:focus {
     opacity: 1;
 }
 
-#primary-navbar-icon {
+.primary-navbar-icon {
     padding: 0.185rem 0.5rem 0.06rem 0;
 }
-#primary-navbar-icon img {
+.primary-navbar-icon img {
     width: 2.435rem;
 }
 
@@ -145,7 +145,7 @@ textarea:focus {
 
 
 /* MAIN */
-.main-box {
+#main-box {
     position: relative;
     margin: 1.875rem 3.75rem;
     padding: 2.5rem 3.125rem 0.063rem 3.125rem;
@@ -154,50 +154,50 @@ textarea:focus {
     box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.075);
 }
 
-.main-box section {
+#main-box section {
     margin-bottom: 3.75rem;
 }
 
-.main-box section.section-grid {
+#main-box section.section-grid {
     margin-bottom: 0;
 }
 
-.main-box section.section-grid > .row > div {
+#main-box section.section-grid > .row > div {
     margin-bottom: 3.75rem;
 }
 
-.main-box > h1 {
+#main-box > h1 {
     font-size: 2.75rem;
     margin: auto;
     margin-bottom: 4.375rem;
     text-align: center;
     width: 75%;
 }
-.main-box h2 {
+#main-box h2 {
     font-size: 1.875rem;
     margin-bottom: 0.75rem;
 }
 
-.main-box h3 {
+#main-box h3 {
     font-size: 1.625rem;
     font-weight: 400;
 }
 
 @media (max-width: 1199px) {
-    .main-box h1 {
+    #main-box h1 {
         width: 80%;
     }
 }
 
 @media (max-width: 991px) {
-    .main-box {
+    #main-box {
         margin-left: 0;
         margin-right: 0;
     }
 }
 
 @media (max-width: 769px) {
-    .main-box {
+    #main-box {
         margin-top: 0;
         border-radius: 0;
     }
@@ -207,8 +207,9 @@ textarea:focus {
 
 
 /* FOOTER */
-.footer {
+#footer {
     margin-bottom: 0.94rem;
+    text-align: center;
 }
 
 .social {
@@ -623,8 +624,8 @@ tr:hover .table-icon-hide {
 
 /* PAGE */
 /* Login and register */
-#login .main-box,
-#register .main-box {
+#login #main-box,
+#register #main-box {
     max-width: 28rem;
     margin-left: auto;
     margin-right: auto;
@@ -646,8 +647,8 @@ tr:hover .table-icon-hide {
 }
 
 @media (max-width: 769px) {
-    #login .main-box,
-    #register .main-box {
+    #login #main-box,
+    #register #main-box {
         margin-top: 1.875rem;
     }
 }

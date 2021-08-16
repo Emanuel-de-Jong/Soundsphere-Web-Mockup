@@ -1,4 +1,4 @@
-<footer class="footer text-center mt-auto">
+<footer id="footer">
     <div class="container">
         <div class="social">
             <a href="https://discord.gg/ubKMtTk" class="social-icon">
