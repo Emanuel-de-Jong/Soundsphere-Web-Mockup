@@ -1,4 +1,7 @@
 <div id="leaderboard">
+    <?php require('components/modals/properties.php'); ?>
+
+
     <nav id="secondary-navbar">
         <div class="container-md">
             <div class="nav">

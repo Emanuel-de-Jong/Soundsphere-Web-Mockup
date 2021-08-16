@@ -1,4 +1,19 @@
 ready(() => {
+    if (document.getElementById("properties-modal") != null) {
+        var propModal = document.getElementById("properties-modal");
+        var bsPropModal = new bootstrap.Modal(propModal);
+
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key == "`") {
+                bsPropModal.toggle();
+            }
+        })
+    }
+
+
+
+
     if (document.querySelector(".data-table") != null) {
         var dtTables = {};
 

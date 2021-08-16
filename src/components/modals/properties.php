@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <table class="meta-table">
+                <table class="meta-table w-100">
                     <tr>
                         <th>Key1:</th>
                         <td>Value1</td>

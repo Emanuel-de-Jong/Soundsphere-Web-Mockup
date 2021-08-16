@@ -1,4 +1,7 @@
 <div id="chart">
+    <?php require('components/modals/properties.php'); ?>
+
+
     <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
 
 

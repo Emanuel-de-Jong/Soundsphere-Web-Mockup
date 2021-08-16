@@ -1,6 +1,5 @@
 <div id="bms-table">
     <?php require('components/modals/properties.php'); ?>
-    <a href="#!" data-bs-toggle="modal" data-bs-target="#properties-modal">ASD</a>
 
 
     <main class="container-md">

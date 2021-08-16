@@ -1,7 +1,4 @@
 GENERAL
-	FEATURE
-		*show full info of objects
-			"~" modal
 	CODE
 		improve SEO
 		check different browsers
