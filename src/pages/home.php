@@ -3,7 +3,7 @@
 
     
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <h1>soundsphere</h1>
 
             

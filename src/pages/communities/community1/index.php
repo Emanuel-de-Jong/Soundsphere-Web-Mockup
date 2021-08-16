@@ -16,7 +16,7 @@
 
 
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-leaderboard.php'); ?>
             <nav class="page-icons page-icons-right page-icons-always-collapsed">

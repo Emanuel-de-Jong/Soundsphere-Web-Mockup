@@ -1,6 +1,6 @@
 <div id="player-inbox">
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
                     <a href="?a=players_player1_index" class="page-icon" title="Go back to the previous page">

@@ -1,6 +1,6 @@
 <div id="charts">
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <h1>Charts</h1>
 
 

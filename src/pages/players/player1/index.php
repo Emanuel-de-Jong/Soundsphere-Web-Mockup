@@ -18,7 +18,7 @@
 
 
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <nav class="navbar-expand-xl page-icons page-icons-right">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
                     <i class="fas fa-ellipsis-v"></i>

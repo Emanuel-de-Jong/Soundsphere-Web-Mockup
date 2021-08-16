@@ -1,6 +1,6 @@
 <div id="help">
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <h1>Help</h1>
 
 

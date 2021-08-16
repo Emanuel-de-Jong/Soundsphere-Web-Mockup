@@ -1,6 +1,6 @@
 <div id="register">
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <img src="resources/logo.png" alt="Logo">
 
             <h1>Make an account</h1>

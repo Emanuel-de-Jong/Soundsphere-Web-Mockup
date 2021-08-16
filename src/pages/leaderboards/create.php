@@ -1,6 +1,6 @@
 <div id="leaderboards-create">
     <main class="container-md">
-        <div class="main-box">
+        <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
                     <a href="?a=leaderboards_index" class="page-icon" title="Go back to the previous page">
