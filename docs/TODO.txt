@@ -1,21 +1,13 @@
 GENERAL
 	FEATURE
 		*show full info of objects
-			url get
-			cms
-			"~" on page
-			hidden button
-			check db
+			"~" modal
 	CODE
 		improve SEO
 		check different browsers
 	VISUAL
 		support mobile (360x640)
 			make all rem valid px converts
-
-PLAYER
-	EDIT
-		*change email and password
 
 
 

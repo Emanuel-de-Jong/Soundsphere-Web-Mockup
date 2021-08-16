@@ -49,7 +49,7 @@
 
                         <div class="col-6">
                             <div class="form-item">
-                                <label for="discord-name" class="form-label" title="Your Discord tag">Discord</label>
+                                <label for="discord-name" class="form-label" title="Your Discord username and tag">Discord</label>
                                 <div class="input-group">
                                     <input type="text" class="form-control" id="discord-name" name="discord-name" minlength="3" maxlength="100" value="Player">
                                     <span class="input-group-text" id="inputGroupPrepend2">#</span>
