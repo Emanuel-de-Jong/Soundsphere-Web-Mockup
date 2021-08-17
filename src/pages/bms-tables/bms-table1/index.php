@@ -39,7 +39,7 @@
                                 <tr>
                                     <th title="Community name">Name</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
-                                    <th title="Input modes in community leaderboards">Input modes</th>
+                                    <th title="Input modes in community leaderboards">Modes</th>
                                     <th title="Player count">Members</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
@@ -68,7 +68,7 @@
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
-                                    <th title="Leaderboard input modes">Input modes</th>
+                                    <th title="Leaderboard input modes">Modes</th>
                                     <th title="Player count">Players</th>
                                     <th title="Table count">Tables</th>
                                     <th class="table-icon-th"></th>
@@ -105,7 +105,7 @@
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
-                            <th title="Chart input mode">Input mode</th>
+                            <th title="Chart input mode">Mode</th>
                             <th title="File format">Format</th>
                         </tr>
                     </thead>
@@ -167,7 +167,7 @@
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
-                            <th title="Chart input mode">Input mode</th>
+                            <th title="Chart input mode">Mode</th>
                             <th title="File format">Format</th>
                         </tr>
                     </tfoot>

@@ -32,7 +32,6 @@ ready(() => {
 
 
         const dtDefaultOptions = {
-            scrollX: true,
             dom:
                 "<'row'<'col'l><'col'f>>" +
                 "<'row'<'col'tr>>" +
@@ -43,6 +42,7 @@ ready(() => {
         document.querySelectorAll(".data-table-all").forEach(table => {
             dtInit(table, {
                 ...dtDefaultOptions,
+                scrollX: true,
             });
         });
 

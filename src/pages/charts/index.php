@@ -14,7 +14,7 @@
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
-                            <th title="Chart input mode">Input mode</th>
+                            <th title="Chart input mode">Mode</th>
                             <th title="File format">Format</th>
                         </tr>
                     </thead>
@@ -76,7 +76,7 @@
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
-                            <th title="Chart input mode">Input mode</th>
+                            <th title="Chart input mode">Mode</th>
                             <th title="File format">Format</th>
                         </tr>
                     </tfoot>

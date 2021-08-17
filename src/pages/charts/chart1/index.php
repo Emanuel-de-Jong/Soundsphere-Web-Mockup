@@ -48,7 +48,7 @@
                         <tr>
                             <th title="Table name">Name</th>
                             <th title="The level of the chart in the table">Chart level</th>
-                            <th title="Input modes in the table charts">Input modes</th>
+                            <th title="Input modes in the table charts">Modes</th>
                             <th title="Chart count">Charts</th>
                             <th title="Plays over all charts">Plays</th>
                         </tr>
@@ -111,7 +111,7 @@
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
@@ -194,7 +194,7 @@
                             <th title="Player score">Score</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>

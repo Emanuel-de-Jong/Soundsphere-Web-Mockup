@@ -34,7 +34,7 @@
                     <thead>
                         <tr>
                             <th title="Leaderboard name">Name</th>
-                            <th title="Leaderboard input modes">Input modes</th>
+                            <th title="Leaderboard input modes">Modes</th>
                             <th title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Diff calc</th>
                             <th title="Decides how good a score is. The impressiveness changes how much performance rating a player gets.">PR calc</th>
                             <th title="Community count">Communities</th>
@@ -102,7 +102,7 @@
                     <tfoot>
                         <tr>
                             <th title="Leaderboard name">Name</th>
-                            <th title="Leaderboard input modes">Input modes</th>
+                            <th title="Leaderboard input modes">Modes</th>
                             <th title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Diff calc</th>
                             <th title="Decides how good a score is. The impressiveness changes how much performance rating a player gets.">PR calc</th>
                             <th title="Community count">Communities</th>

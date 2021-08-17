@@ -112,7 +112,7 @@
                         <tr>
                             <th class="table-icon-th"></th>
                             <th title="Leaderboard name">Name</th>
-                            <th title="Leaderboard input modes">Input modes</th>
+                            <th title="Leaderboard input modes">Modes</th>
                             <th title="Player on rank 1">Top player</th>
                             <th title="Player count">Players</th>
                             <th title="Table count">Tables</th>

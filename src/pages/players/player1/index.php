@@ -119,7 +119,7 @@
                                     <th class="table-icon-th"></th>
                                     <th title="Community name">Name</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
-                                    <th title="Input modes in community leaderboards">Input modes</th>
+                                    <th title="Input modes in community leaderboards">Modes</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
                             </thead>
@@ -160,7 +160,7 @@
                                 <tr>
                                     <th class="table-icon-th"></th>
                                     <th title="Leaderboard name">Name</th>
-                                    <th title="Leaderboard input modes">Input modes</th>
+                                    <th title="Leaderboard input modes">Modes</th>
                                     <th title="Rank of this player in the leaderboard">Rank</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
@@ -235,7 +235,7 @@
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
@@ -332,7 +332,7 @@
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
@@ -385,7 +385,7 @@
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
@@ -477,7 +477,7 @@
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
-                            <th title="Input mode the score was set with">Input mode</th>
+                            <th title="Input mode the score was set with">Mode</th>
                             <th title="All mods the score was set with">Modifiers</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>

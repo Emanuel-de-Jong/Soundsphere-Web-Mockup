@@ -5,7 +5,6 @@ GENERAL
 	VISUAL
 		support mobile (360x640)
 			table insert breakpoints
-			fix datatables in cols
 
 
 
