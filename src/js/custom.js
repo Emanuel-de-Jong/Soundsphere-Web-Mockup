@@ -196,7 +196,7 @@ ready(() => {
         addEventListeners(querySelectorAlls(["input", "select", "textarea"]), "change", (e) => {
             let input = e.target;
 
-            if (input.validity.customError) {
+            if (input.getAttribute("data-invalid") != null && input.validity.customError) {
                 input.setCustomValidity("");
                 hideInvalidMessage(input);
             }
@@ -234,8 +234,30 @@ ready(() => {
             let messageDiv = getSiblingByClass(input, "form-invalid-message");
             messageDiv.innerHTML = "";
         }
-    }
     
+
+
+        if (document.querySelector(".login-form") != null) {
+            var password = document.getElementById("password");
+            var confPassword = document.getElementById("confirm-password");
+        
+        
+            addEventListeners([password, confPassword], "input", (e) => {
+                if (confPassword.value == "") {
+                    return;
+                }
+        
+                if (password.value != confPassword.value) {
+                    confPassword.setCustomValidity("Passwords don't match.");
+                    confPassword.checkValidity();
+                } else {
+                    confPassword.setCustomValidity("");
+                    hideInvalidMessage(confPassword);
+                }
+            });
+        }
+    }
+
 
 
 

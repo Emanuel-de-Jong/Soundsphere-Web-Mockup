@@ -23,6 +23,11 @@
                         <label>Password</label>
                     </div>
 
+                    <div class="form-item form-floating">
+                        <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="x" required>
+                        <label>Confirm password</label>
+                    </div>
+
                     <button type="submit" class="btn btn-lg bg-blue bg-blue-h">Register</button>
                 </form>
             </section>
