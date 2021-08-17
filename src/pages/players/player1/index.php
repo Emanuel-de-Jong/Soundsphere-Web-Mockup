@@ -206,7 +206,7 @@
                     
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="best-scores-table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="best-scores-bms-table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>
@@ -357,7 +357,7 @@
                     
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="all-scores-table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="all-scores-bms-table" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>

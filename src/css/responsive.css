@@ -60,4 +60,31 @@
     margin-top: 1.875rem;
   }
 }
+
+@media (max-width: 577px) {
+  /* NAVBAR */
+  /* Primary */
+  #primary-navbar .container-lg {
+    padding: 0 1.5rem;
+  }
+  /* Secondary */
+  #secondary-navbar .container-lg {
+    padding: 0 1.5rem;
+  }
+  /* MAIN */
+  #main-box {
+    margin-top: 0;
+    border-radius: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* ICON */
+  /* Page icon */
+  .page-icons-left {
+    left: 1.5rem;
+  }
+  .page-icons-right {
+    right: 1.5rem;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
