@@ -240,28 +240,29 @@ ready(() => {
             let messageDiv = getSiblingByClass(input, "form-invalid-message");
             messageDiv.innerHTML = "";
         }
+    }
+
+
+
+
+    if (document.getElementById("confirm-password") != null) {
+        var password = document.getElementById("password");
+        var confPassword = document.getElementById("confirm-password");
     
-
-
-        if (document.querySelector(".login-form") != null) {
-            var password = document.getElementById("password");
-            var confPassword = document.getElementById("confirm-password");
-        
-        
-            addEventListeners([password, confPassword], "input", (e) => {
-                if (confPassword.value == "") {
-                    return;
-                }
-        
-                if (password.value != confPassword.value) {
-                    confPassword.setCustomValidity("Passwords don't match.");
-                    confPassword.checkValidity();
-                } else {
-                    confPassword.setCustomValidity("");
-                    hideInvalidMessage(confPassword);
-                }
-            });
-        }
+    
+        addEventListeners([password, confPassword], "input", (e) => {
+            if (confPassword.value == "") {
+                return;
+            }
+    
+            if (password.value != confPassword.value) {
+                confPassword.setCustomValidity("Passwords don't match.");
+                confPassword.checkValidity();
+            } else {
+                confPassword.setCustomValidity("");
+                hideInvalidMessage(confPassword);
+            }
+        });
     }
 
 
