@@ -20,8 +20,8 @@ p {
 :target:before {
     display: block;
     content: "";
-    height: 6.3rem;
-    margin-top: -6.3rem;
+    height: 6.3125rem;
+    margin-top: -6.3125rem;
 }
 
 /* Remove bootstrap box shadows */
@@ -51,7 +51,7 @@ textarea:focus {
 /* NAVBAR */
 /* Primary */
 #primary-navbar {
-    padding: 0.438rem 0 0.375rem 0;
+    padding: 0.4375rem 0 0.375rem 0;
 }
 
 #primary-navbar .container-md {
@@ -60,7 +60,7 @@ textarea:focus {
 
 #primary-navbar .nav-link {
     color: $gray-200;
-    font-size: 1.065rem;
+    font-size: 1.0625rem;
     font-weight: 500;
 }
 #primary-navbar .nav-link:hover {
@@ -79,10 +79,10 @@ textarea:focus {
 }
 
 .primary-navbar-icon {
-    padding: 0.185rem 0.5rem 0.06rem 0;
+    padding: 0.1875rem 0.5rem 0.0625rem 0;
 }
 .primary-navbar-icon img {
-    width: 2.435rem;
+    width: 2.4375rem;
 }
 
 #primary-navbar-box {
@@ -118,7 +118,7 @@ textarea:focus {
 }
 
 #secondary-navbar .nav {
-    padding-left: 2.44rem;
+    padding-left: 2.4375rem;
 }
 
 #secondary-navbar-box {
@@ -148,7 +148,7 @@ textarea:focus {
 #main-box {
     position: relative;
     margin: 1.875rem 3.75rem;
-    padding: 2.5rem 3.125rem 0.063rem 3.125rem;
+    padding: 2.5rem 3.125rem 0.0625rem 3.125rem;
     border-radius: 0.25rem;
     background-color: $white;
     box-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.075);
@@ -209,7 +209,7 @@ textarea:focus {
 /* FOOTER */
 #footer {
     margin-top: auto;
-    margin-bottom: 0.94rem;
+    margin-bottom: 0.9375rem;
     text-align: center;
 }
 
@@ -233,11 +233,11 @@ textarea:focus {
 }
 
 .social-icon-s {
-    font-size: 1.4rem;
+    font-size: 1.375rem;
 }
 
 .social-icon-l {
-    font-size: 1.65rem;
+    font-size: 1.625rem;
 }
 
 .footer-copyright {
@@ -370,7 +370,7 @@ textarea:invalid {
 .form-invalid-message {
     width: 100%;
     color: $red-400;
-    font-size: 0.8rem;
+    font-size: 0.8125rem;
 }
 
 textarea {
@@ -459,7 +459,7 @@ textarea {
 }
 
 .page-icon {
-    font-size: 1.65rem;
+    font-size: 1.625rem;
     color: $gray-900;
     text-decoration: none;
 }
@@ -490,7 +490,7 @@ textarea {
     }
 
     .page-icons-never-collapsed .page-icon {
-        font-size: 1.65rem;
+        font-size: 1.625rem;
     }
 
     .page-icons-never-collapsed .page-icon-text {
@@ -509,7 +509,7 @@ textarea {
     height: 1.125rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 1.065rem;
+    line-height: 1.0625rem;
 }
 
 /* Title icon */
@@ -521,7 +521,7 @@ textarea {
 /* H2 icon */
 .h2-icon {
     font-size: 1.5rem;
-    padding-top: 0.315rem;
+    padding-top: 0.3125rem;
 }
 
 /* Label icon */
@@ -557,14 +557,14 @@ textarea {
 }
 
 .table-icon {
-    font-size: 1.185rem;
+    font-size: 1.1875rem;
     text-decoration: none;
     margin-left: 0.5rem;
     vertical-align: middle;
 }
 
 .table-icon-s {
-    font-size: 1.065rem;
+    font-size: 1.0625rem;
 }
 
 .table-icon-l {
@@ -584,7 +584,7 @@ tr:hover .table-icon-hide {
 
 /* Role badge */
 .role-badge {
-    padding: 0.315rem;
+    padding: 0.3125rem;
     text-align: center;
     width: 2.25rem;
 }
@@ -641,7 +641,7 @@ tr:hover .table-icon-hide {
 
 #login h1,
 #register h1 {
-    font-size: 2.4rem;
+    font-size: 2.375rem;
     font-weight: 400;
     width: 100%;
     margin-bottom: 1rem;
@@ -673,12 +673,12 @@ tr:hover .table-icon-hide {
 }
 
 #player-edit #discord-tag {
-    max-width: 4.065rem;
+    max-width: 4.0625rem;
 }
 
 /* Leaderboard */
 #leaderboard #community-ranking .list-multi-col {
-    margin-top: 2.815rem;
+    margin-top: 2.8125rem;
     max-height: 6.25rem;
     margin-bottom: 1rem;
 }
