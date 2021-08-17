@@ -3,7 +3,7 @@
 
 
     <nav id="secondary-navbar">
-        <div class="container-md">
+        <div class="container-lg">
             <div class="nav">
                 <a class="nav-link" href="#info-section">Info</a>
                 <a class="nav-link" href="#description-section">Description</a>
@@ -20,7 +20,7 @@
     <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
 
 
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <nav class="navbar-expand-xl page-icons page-icons-right">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">

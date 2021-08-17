@@ -2,7 +2,7 @@
     <?php require('components/modals/properties.php'); ?>
 
 
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <h1>Table1</h1>
 

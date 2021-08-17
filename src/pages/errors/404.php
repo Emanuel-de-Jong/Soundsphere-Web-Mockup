@@ -1,5 +1,5 @@
 <div id="error-404">
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <h1>404 - Page not found</h1>
 

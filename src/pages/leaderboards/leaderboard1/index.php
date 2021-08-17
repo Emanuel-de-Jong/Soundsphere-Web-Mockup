@@ -3,7 +3,7 @@
 
 
     <nav id="secondary-navbar">
-        <div class="container-md">
+        <div class="container-lg">
             <div class="nav">
                 <a class="nav-link" href="#info-community-ranking-section">Info</a>
                 <a class="nav-link" href="#modifiers-section">Modifiers</a>
@@ -19,12 +19,12 @@
     <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
 
 
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
                     <form class="page-form">
-                        <div class="input-group" title="The input mode that the values and order of the page is based on">
+                        <div class="input-group input-group-sm" title="The input mode that the values and order of the page is based on">
                             <span class="input-group-text">Mode:</span>
                             <select class="form-select" id="input-mode" name="input-mode">
                                 <option selected>All</option>
@@ -74,7 +74,7 @@
 
             <section id="info-community-ranking-section" class="section-grid">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col">
                         <h2>Info</h2>
 
                         <table class="meta-table">

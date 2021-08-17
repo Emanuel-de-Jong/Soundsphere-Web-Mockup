@@ -1,5 +1,5 @@
 <div id="charts">
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <h1>Charts</h1>
 

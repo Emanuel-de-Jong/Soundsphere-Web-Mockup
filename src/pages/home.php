@@ -2,7 +2,7 @@
     <div class="banner banner-solid" style="background-image: url(../resources/banner.jpg);"></div>
 
     
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <h1>soundsphere</h1>
 

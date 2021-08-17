@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/responsive.css?v=1.0">
 
     <title>soundsphere</title>
 </head>

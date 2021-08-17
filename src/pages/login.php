@@ -1,5 +1,5 @@
 <div id="login">
-    <main class="container-md">
+    <main class="container-lg">
         <div id="main-box">
             <img src="resources/logo.png" alt="Logo">
 
