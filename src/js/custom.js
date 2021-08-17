@@ -32,10 +32,18 @@ ready(() => {
 
 
         const dtDefaultOptions = {
-            dom:
-                "<'row'<'col'l><'col'f>>" +
-                "<'row'<'col'tr>>" +
-                "<'row'<'col'i><'col'p>>",
+            language: {
+                lengthMenu: "Rows: _MENU_",
+                info: "_START_ to _END_ of _TOTAL_ rows",
+                infoEmpty: "0 to 0 of 0 rows",
+                infoFiltered: "(_MAX_ total)",
+                paginate: {
+                    first:      "First",
+                    last:       "Last",
+                    next:       "Next",
+                    previous:   "Prev"
+                },
+            },
         }
 
 
@@ -75,25 +83,23 @@ ready(() => {
             const insertBottomId = table.getAttribute("data-insert-bottom");
 
             let insertTopHTML;
-            let domTop = "<'row'<'col'l><'col'f>>";
+            let domTop = "";
             if (insertTopId != null) {
                 insertTopHTML = dtGetInsert(insertTopId);
-                domTop = "<'row'<'col'l><'" + insertTopId + "'><'col'f>>";
+                domTop = "<'" + insertTopId + "'>";
             }
 
             let insertBottomHTML;
-            let domBottom = "<'row'<'col'i><'col'p>>";
+            let domBottom = "";
             if (insertBottomId != null) {
                 insertBottomHTML = dtGetInsert(insertBottomId);
-                domBottom = "<'row'<'col'i><'" + insertBottomId + "'><'col'p>>";
+                domBottom = "<'" + insertBottomId + "'>";
             }
 
-            if (insertTopId != null || insertBottomId != null) {
-                options["dom"] = 
-                    domTop +
-                    "<'row'<'col'tr>>" +
-                    domBottom;
-            }
+            options["dom"] =
+                "<'row'<'col'l>" + domTop + "<'col'f>>" +
+                "<'row'<'col'tr>>" +
+                "<'row'<'col'i>" + domBottom + "<'col'p>>";
 
             let dtTable = $(table).DataTable({
                 ...options,

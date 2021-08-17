@@ -86,7 +86,27 @@
 
 
 
-@media (max-width: 577px) {
+@media (max-width: 767px) {
+    /* TABLE */
+    /* data-table */
+    .dataTables_length,
+    .dataTables_info {
+        text-align: left !important;
+    }
+
+    .dataTables_filter {
+        text-align: right !important;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        justify-content: flex-end !important;
+    }
+}
+
+
+
+
+@media (max-width: 575px) {
     /* NAVBAR */
     /* Primary */
     #primary-navbar .container-lg {

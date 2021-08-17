@@ -100,7 +100,7 @@
                     </div>
 
                     
-                    <div class="col" id="community-ranking">
+                    <div class="col-sm-5" id="community-ranking">
                         <div class="multi-col-list">
                             <div class="list-item" title="Community1"><span class="circle circle-s bg-red"></span> AAA</div>
                             <div class="list-item" title="Community2"><span class="circle circle-s bg-teal"></span> BBB</div>
@@ -144,7 +144,7 @@
             <?php require('components/modals/delete.php'); ?>
             <section id="communities-bms-tables-section" class="section-grid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>Communities</h2>
 
                         <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
@@ -204,7 +204,7 @@
                     </div>
 
 
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>Tables</h2>
 
                         <table class="data-table data-table-slim table" data-orders="1a 0a">

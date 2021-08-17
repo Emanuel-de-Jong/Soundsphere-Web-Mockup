@@ -105,7 +105,7 @@
             <?php require('components/modals/create-leaderboard.php'); ?>
             <section id="communities-leaderboards-section" class="section-grid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>
                             Communities
                             <a href="?a=communities_create" class="title-icon h2-icon teal teal-h" title="Create community">
@@ -147,7 +147,7 @@
                     </div>
 
                     
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>
                             Leaderboards
                             <a href="#!" class="title-icon h2-icon teal teal-h" title="Create leaderboard" data-bs-toggle="modal" data-bs-target="#create-leaderboard-modal">
@@ -218,7 +218,7 @@
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
                                     <input type="checkbox" class="form-check-input data-table-col-toggle" id="best-scores-show-all-columns" name="show-all-columns" data-table="best-scores-table">
-                                    Show all columns
+                                    All values
                                 </label>
                             </div>
                         </form>
@@ -369,7 +369,7 @@
                             <div class="form-check form-switch">
                                 <label for="show-all-columns" class="form-check-label" title="Show more info about the scores">
                                     <input type="checkbox" class="form-check-input data-table-col-toggle" id="all-scores-show-all-columns" name="show-all-columns" data-table="all-scores-table">
-                                    Show all columns
+                                    All values
                                 </label>
                             </div>
                         </form>

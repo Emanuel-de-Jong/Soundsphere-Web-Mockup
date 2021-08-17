@@ -31,7 +31,7 @@
             <?php require('components/modals/add-leaderboard.php'); ?>
             <section id="communities-leaderboards-section" class="section-grid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>Communities</h2>
 
                         <table class="data-table data-table-slim table table-icon-col-last">
@@ -61,7 +61,7 @@
                     </div>
 
 
-                    <div class="col">
+                    <div class="col-sm-6">
                         <h2>Leaderboards</h2>
 
                         <table class="data-table data-table-slim table table-icon-col-last">
