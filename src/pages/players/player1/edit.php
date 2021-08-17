@@ -33,21 +33,21 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="form-item">
                                 <label for="twitter" class="form-label" title="Link to your Twitter">Twitter</label>
                                 <input type="text" class="form-control" id="twitter" name="twitter" minlength="5" maxlength="100" value="https://www.twitter.com/1234">
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="form-item">
                                 <label for="facebook" class="form-label" title="Link to your Facebook">Facebook</label>
                                 <input type="text" class="form-control" id="facebook" name="facebook" minlength="3" maxlength="100" value="">
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="form-item">
                                 <label for="discord-name" class="form-label" title="Your Discord username and tag">Discord</label>
                                 <div class="input-group">
@@ -59,7 +59,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-sm-6">
                             <div class="form-item">
                                 <label for="other-social" class="form-label" title="A different social media">Other social</label>
                                 <input type="text" class="form-control" id="other-social" name="other-social" minlength="3" maxlength="100" value="https://www.vk.ru/1234">

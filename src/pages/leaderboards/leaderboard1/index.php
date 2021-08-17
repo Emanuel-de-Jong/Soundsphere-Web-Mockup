@@ -74,7 +74,7 @@
 
             <section id="info-community-ranking-section" class="section-grid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-7">
                         <h2>Info</h2>
 
                         <table class="meta-table">

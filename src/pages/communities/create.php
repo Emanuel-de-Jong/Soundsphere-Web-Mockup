@@ -17,14 +17,14 @@
             <section id="form-section">
                 <form class="crud-form" action="?a=communities_community1_index" method="post">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-sm-9">
                             <div class="form-item">
                                 <label for="community-name" class="form-label form-required" title="Community name">Name</label>
                                 <input type="text" class="form-control" id="community-name" name="community-name" minlength="5" maxlength="30" required>
                             </div>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="form-item">
                                 <label for="alias" class="form-label form-required" title="3 to 5 characters that represent the community">Alias</label>
                                 <input type="text" class="form-control" id="alias" name="alias" minlength="3" maxlength="5" required>
