@@ -89,14 +89,14 @@ ready(() => {
             const insertBottomId = table.getAttribute("data-insert-bottom");
 
             let insertTopHTML;
-            let domTop = "";
+            let domTop = "<'col-3'>";
             if (insertTopId != null) {
                 insertTopHTML = dtGetInsert(insertTopId);
                 domTop = "<'" + insertTopId + "'>";
             }
 
             let insertBottomHTML;
-            let domBottom = "";
+            let domBottom = "<'col-3'>";
             if (insertBottomId != null) {
                 insertBottomHTML = dtGetInsert(insertBottomId);
                 domBottom = "<'" + insertBottomId + "'>";

@@ -379,10 +379,12 @@ textarea {
 /* Table */
 .table-form {
     text-align: center;
+    white-space: nowrap;
 }
 
 .table-form select {
     display: inline-block;
+    min-width: 8.75rem;
     max-width: 13rem;
 }
 
@@ -393,6 +395,14 @@ textarea {
 
 .table-form-bottom .btn {
     margin: 0.125rem 0;
+}
+
+.dataTables_wrapper .row:first-child {
+    flex-wrap: wrap-reverse;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 10rem;
 }
 
 
