@@ -245,13 +245,18 @@ textarea:focus {
 }
 
 /* data-table */
-.data-table {
+table.data-table {
     min-width: 99%;
+    margin-top: 0 !important;
 }
 
 .data-table th,
 .data-table td {
     border-color: $gray-300 !important;
+}
+
+.data-table th {
+    white-space: nowrap;
 }
 
 .data-table tbody tr:nth-child(odd) {
@@ -389,12 +394,19 @@ textarea {
 }
 
 .table-form .form-check {
-    margin-top: 0.25rem;
-    margin-bottom: 0;
+    margin-top: 0.125rem;
+}
+
+.table-form .form-check-input {
+    margin-top: 0.3125rem;
 }
 
 .table-form-bottom .btn {
     margin: 0.125rem 0;
+}
+
+.dataTables_wrapper > .row > div {
+    margin-bottom: 6px;
 }
 
 .dataTables_wrapper .row:first-child {

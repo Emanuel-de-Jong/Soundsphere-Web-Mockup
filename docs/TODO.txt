@@ -3,8 +3,6 @@ GENERAL
 		support mobile (360x640)
 			slim table scroll
 			page icons above title
-			table insert breakpoints
-				text no wrap
 
 
 
