@@ -433,6 +433,20 @@ div.dataTables_wrapper div.dataTables_filter input {
   text-align: right;
 }
 
+.page-icons .navbar-collapse.show {
+  padding-bottom: 0.3125rem;
+  background-color: #f8f9fa;
+  border: 2px solid #dee2e6;
+}
+
+.page-icons-right .navbar-collapse.show {
+  padding-left: 0.5rem;
+}
+
+.page-icons-left .navbar-collapse.show {
+  padding-right: 0.5rem;
+}
+
 .page-icon-box {
   display: inline-block;
   text-align: center;

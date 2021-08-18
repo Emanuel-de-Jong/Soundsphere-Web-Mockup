@@ -61,6 +61,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  #main-box > h1 {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
+
 @media (max-width: 575px) {
   /* NAVBAR */
   /* Primary */
