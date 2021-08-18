@@ -75,7 +75,7 @@ textarea:focus {
 #primary-navbar .nav-link::after {
   display: block;
   content: "";
-  border-bottom: 0.125rem solid #fff;
+  border-bottom: 2px solid #fff;
   opacity: 0;
 }
 
@@ -176,9 +176,9 @@ textarea:focus {
   display: inline-block;
   color: #8d959d;
   font-size: 1.5rem;
-  border: 0.125rem solid #8d959d;
+  line-height: 2.375rem;
+  border: 2px solid #8d959d;
   border-radius: 50%;
-  margin: 0 0.625rem;
   width: 2.625rem;
   height: 2.625rem;
 }
@@ -255,6 +255,10 @@ table.data-table {
 
 .data-table th {
   white-space: nowrap;
+}
+
+.data-table td {
+  vertical-align: middle;
 }
 
 .data-table tbody tr:nth-child(odd) {
@@ -524,7 +528,6 @@ div.dataTables_wrapper div.dataTables_filter input {
 .table-icon-cell {
   padding: 0 0.5rem 0 0 !important;
   white-space: nowrap;
-  vertical-align: middle;
   text-align: right;
 }
 
@@ -557,10 +560,6 @@ div.dataTables_wrapper div.dataTables_filter input {
 
 tr:hover .table-icon-hide {
   visibility: visible;
-}
-
-.table-icon-blank {
-  visibility: hidden !important;
 }
 
 /* Role badge */
