@@ -23,7 +23,13 @@ ready(() => {
             let table = document.getElementById(tableId);
             let dtTable = dtTables[tableId];
 
-            let colIndexes = table.getAttribute("data-toggle-cols").split(" ").map(Number);
+            let colIndexes = table.getAttribute("data-toggle-cols").split(" ");
+            if (colIndexes[0] == "") {
+                return;
+            }
+
+            colIndexes = colIndexes.map(Number);
+
             colIndexes.forEach(index => {
                 let col = dtTable.column(index);
                 col.visible(!col.visible());
@@ -122,7 +128,12 @@ ready(() => {
             let toggleCols = table.getAttribute("data-toggle-cols");
 
             if (toggleCols != null){
-                let colIndexes = toggleCols.split(" ").map(Number);
+                let colIndexes = toggleCols.split(" ");
+                if (colIndexes[0] == "") {
+                    return;
+                }
+
+                colIndexes = colIndexes.map(Number);
             
                 return {
                     targets: colIndexes,

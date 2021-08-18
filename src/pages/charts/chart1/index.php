@@ -102,7 +102,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="2 4">
+                <table class="data-table data-table-all table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>

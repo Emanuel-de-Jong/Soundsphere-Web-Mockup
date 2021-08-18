@@ -1,0 +1,40 @@
+community
+	communities
+	leaderboard
+	table
+	player
+
+leaderboard
+	leaderboards
+	community
+	table
+	player
+
+table
+	tables
+	leaderboard
+	chart
+
+player
+	players
+	community
+	leaderboard
+
+chart
+	charts
+	table
+
+score
+	player
+	chart
+
+modifier
+	leaderboard
+	leaderboard edit
+
+inbox
+	community edit
+	player edit
+
+changes
+	community changes
