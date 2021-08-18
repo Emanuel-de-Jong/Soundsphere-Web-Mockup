@@ -53,24 +53,30 @@ ready(() => {
         }
 
 
-        document.querySelectorAll(".data-table-all").forEach(table => {
-            dtInit(table, {
-                ...dtDefaultOptions,
-                scrollX: true,
-            });
-        });
+        var dtAllOptions = {
+            ...dtDefaultOptions,
+            scrollX: true,
+        }
+        document.querySelectorAll(".data-table-all").forEach(table => { dtInit(table, dtAllOptions); });
 
-        document.querySelectorAll(".data-table-slim").forEach(table => {
-            dtInit(table, {
-                ...dtDefaultOptions,
-                columnDefs: [
-                    { orderable: false, targets: ["_all"] }
-                ],
-                searching: false,
-                paging: false,
-                info: false,
-            });
-        });
+
+        var dtColOptions = {
+            ...dtDefaultOptions,
+            searching: false,
+            paging: false,
+            info: false,
+            columnDefs: [
+                { orderable: false, targets: ["_all"] }
+            ],
+        }
+        document.querySelectorAll(".data-table-col").forEach(table => { dtInit(table, dtColOptions); });
+
+        
+        var dtSlimOptions = {
+            ...dtColOptions,
+            scrollX: true,
+        }
+        document.querySelectorAll(".data-table-slim").forEach(table => { dtInit(table, dtSlimOptions); });
 
 
         function dtInit(table, options) {
@@ -89,14 +95,14 @@ ready(() => {
             const insertBottomId = table.getAttribute("data-insert-bottom");
 
             let insertTopHTML;
-            let domTop = "<'col-3'>";
+            let domTop = "<'col'>";
             if (insertTopId != null) {
                 insertTopHTML = dtGetInsert(insertTopId);
                 domTop = "<'" + insertTopId + "'>";
             }
 
             let insertBottomHTML;
-            let domBottom = "<'col-3'>";
+            let domBottom = "<'col'>";
             if (insertBottomId != null) {
                 insertBottomHTML = dtGetInsert(insertBottomId);
                 domBottom = "<'" + insertBottomId + "'>";

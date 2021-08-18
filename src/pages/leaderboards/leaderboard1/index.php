@@ -147,7 +147,7 @@
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last">
+                        <table class="data-table data-table-col table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Rank on leaderboard by performance rating">Rank</th>
@@ -207,7 +207,7 @@
                     <div class="col-sm-6">
                         <h2>Tables</h2>
 
-                        <table class="data-table data-table-slim table" data-orders="1a 0a">
+                        <table class="data-table data-table-col table" data-orders="1a 0a">
                             <thead>
                                 <tr>
                                     <th title="Table name">Name</th>

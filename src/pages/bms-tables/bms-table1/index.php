@@ -34,7 +34,7 @@
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-last">
+                        <table class="data-table data-table-col table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
@@ -64,7 +64,7 @@
                     <div class="col-sm-6">
                         <h2>Leaderboards</h2>
 
-                        <table class="data-table data-table-slim table table-icon-col-last">
+                        <table class="data-table data-table-col table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
