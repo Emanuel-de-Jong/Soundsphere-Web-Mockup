@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Communities - Create</h1>
+            <h1>Make a community</h1>
 
 
             <section id="form-section">

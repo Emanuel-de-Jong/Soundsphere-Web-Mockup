@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Player1 - Inbox</h1>
+            <h1>Inbox</h1>
 
             
             <?php require('components/modals/delete.php'); ?>

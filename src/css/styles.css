@@ -244,7 +244,7 @@ textarea:focus {
 
 /* data-table */
 .data-table {
-  min-width: 99.5%;
+  min-width: 99%;
 }
 
 .data-table th,

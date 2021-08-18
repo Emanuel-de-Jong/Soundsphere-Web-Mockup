@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Community1 - Changes</h1>
+            <h1>Community changes</h1>
 
 
             <section id="changes-section">
@@ -21,7 +21,7 @@
                             <div class="form-check form-switch">
                                 <label for="hide-own-changes" class="form-check-label" title="Hide your own rows">
                                     <input type="checkbox" class="form-check-input" id="changes-hide-own-changes" name="hide-own-changes">
-                                    Hide own changes
+                                    Hide own
                                 </label>
                             </div>
                         </form>

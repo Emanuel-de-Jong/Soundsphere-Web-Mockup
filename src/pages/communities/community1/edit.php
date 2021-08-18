@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Community1 - Settings</h1>
+            <h1>Community settings</h1>
 
             
             <?php require('components/modals/delete.php'); ?>

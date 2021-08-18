@@ -162,7 +162,7 @@
                             <div class="form-check form-switch">
                                 <label for="only-show-admins" class="form-check-label" title="Only show rows of moderators, admins and the owner">
                                     <input type="checkbox" class="form-check-input" id="members-only-show-admins" name="only-show-admins">
-                                    Only show admins
+                                    Admins only
                                 </label>
                             </div>
                         </form>

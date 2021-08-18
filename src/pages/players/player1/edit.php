@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Player1 - Settings</h1>
+            <h1>Settings</h1>
 
 
             <?php require('components/modals/delete.php'); ?>

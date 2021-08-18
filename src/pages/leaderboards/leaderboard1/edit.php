@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Leaderboard1 - Settings</h1>
+            <h1>Leaderboard settings</h1>
 
 
             <?php require('components/modals/delete.php'); ?>

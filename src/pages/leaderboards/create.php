@@ -11,7 +11,7 @@
                 </div>
             </nav>
 
-            <h1>Leaderboards - Create</h1>
+            <h1>Make a leaderboard</h1>
 
 
             <?php require('components/modals/delete.php'); ?>

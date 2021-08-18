@@ -24,7 +24,7 @@
                 </div>
             </nav>
 
-            <h1>Community1 - Inbox</h1>
+            <h1>Community inbox</h1>
 
 
             <h2>Players</h2>
