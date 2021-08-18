@@ -79,7 +79,7 @@
 
                         <table class="meta-table">
                             <tr>
-                                <th title="Leaderboard input modes">Input modes:</th>
+                                <th title="Leaderboard input modes">Modes:</th>
                                 <td>7K, 10K</td>
                                 <th title="Player count">Players:</th>
                                 <td>10</td>

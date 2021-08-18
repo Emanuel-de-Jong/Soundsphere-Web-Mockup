@@ -12,7 +12,7 @@
 
                 <table class="meta-table">
                     <tr>
-                        <th title="Input modes in the table charts">Input modes:</th>
+                        <th title="Input modes in the table charts">Modes:</th>
                         <td>7K</td>
                         <th title="Chart count">Charts:</th>
                         <td>20</td>
@@ -20,7 +20,7 @@
                     <tr>
                         <th title="Plays over all charts">Plays:</th>
                         <td>115</td>
-                        <th title="The link to the original table">URL:</th>
+                        <th title="The link to the original table">Link:</th>
                         <td><a href="https://stellabms.xyz/st/table.html">stellabms.xyz/st/table.html</a></td>
                     </tr>
                 </table>

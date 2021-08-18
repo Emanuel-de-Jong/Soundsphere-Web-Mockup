@@ -17,7 +17,7 @@
                     <tr>
                         <th title="Creator name">Charter:</th>
                         <td>A charter</td>
-                        <th title="Chart input mode">Input mode:</th>
+                        <th title="Chart input mode">Mode:</th>
                         <td>7K</td>
                     </tr>
                     <tr>
@@ -112,7 +112,7 @@
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
@@ -195,7 +195,7 @@
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>

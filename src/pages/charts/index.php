@@ -10,7 +10,7 @@
                         <tr>
                             <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
-                            <th title="Chart name">Difficulty</th>
+                            <th title="Chart name">Diff</th>
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>
@@ -72,7 +72,7 @@
                         <tr>
                             <th class="table-icon-th"></th>
                             <th title="Chart set name">Title</th>
-                            <th title="Chart name">Difficulty</th>
+                            <th title="Chart name">Diff</th>
                             <th title="Difficulty level">Level</th>
                             <th title="Creator name">Charter</th>
                             <th title="Artist name">Artist</th>

@@ -71,7 +71,7 @@
                     <tr>
                         <th title="Member count">Members:</th>
                         <td>10</td>
-                        <th title="Input modes in community leaderboards">Input modes:</th>
+                        <th title="Input modes in community leaderboards">Modes:</th>
                         <td>7K, 10K</td>
                     </tr>
                     <tr>

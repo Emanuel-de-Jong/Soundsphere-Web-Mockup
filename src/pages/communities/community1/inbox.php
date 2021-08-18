@@ -38,7 +38,7 @@
                         <tr>
                             <th title="Player name">Player</th>
                             <th title="A message that the player attached to the request">Message</th>
-                            <th title="The date that the player sent the request">Request sent</th>
+                            <th title="The date that the player sent the request">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
                     </thead>
@@ -76,7 +76,7 @@
                             <th title="Player the invite is for">Player</th>
                             <th title="Community member that sent the invite">Sender</th>
                             <th title="A message that the sender attached to the invite">Message</th>
-                            <th title="The date that the sender sent the invite">Invite sent</th>
+                            <th title="The date that the sender sent the invite">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
                     </thead>
@@ -109,7 +109,7 @@
                             <th title="Community member that sent the INVITE">Sender</th>
                             <th title="The leaderboard in question">Leaderboard</th>
                             <th title="A message that the community attached to the invite">Message</th>
-                            <th title="The date that the community sent the invite">Invite sent</th>
+                            <th title="The date that the community sent the invite">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
                     </thead>
@@ -150,7 +150,7 @@
                             <th title="Community member that sent the invite">Sender</th>
                             <th title="The leaderboard to send the invite for">Leaderboard</th>
                             <th title="A message that the sender attached to the invite">Message</th>
-                            <th title="The date that the sender sent the invite">Invite sent</th>
+                            <th title="The date that the sender sent the invite">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
                     </thead>

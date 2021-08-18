@@ -61,19 +61,19 @@
                         <td>42h</td>
                     </tr>
                     <tr>
-                        <th title="Total play count">Plays:</th>
-                        <td>200</td>
                         <th title="Total unique charts played">Charts played:</th>
                         <td>120</td>
+                        <th title="Total play count">Plays:</th>
+                        <td>200</td>
                     </tr>
                     <tr>
-                        <th title="A link to the player's Twitter">Twitter:</th>
-                        <td><a href="https://www.twitter.com/1234">twitter.com/1234</a></td>
                         <th title="The player's Discord tag">Discord:</th>
                         <td>Player#1234</td>
+                        <th title="A link to the player's Twitter">Twitter:</th>
+                        <td><a href="https://www.twitter.com/1234">twitter.com/1234</a></td>
                     </tr>
                     <tr>
-                        <th title="A different social media">Other social:</th>
+                        <th title="A link to something related to the player">Custom link:</th>
                         <td><a href="https://www.vk.ru/1234">vk.ru/1234</a></td>
                         <th title="Player roles">Roles:</th>
                         <td>
@@ -230,13 +230,13 @@
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>
                             <th title="Chart title">Title</th>
-                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart difficulty">Diff</th>
                             <th title="Chart level">Level</th>
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
@@ -327,13 +327,13 @@
                         <tr>
                             <th title="Rank compared to other scores of the player">Rank</th>
                             <th title="Chart title">Title</th>
-                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart difficulty">Diff</th>
                             <th title="Chart level">Level</th>
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
@@ -380,13 +380,13 @@
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>
-                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart difficulty">Diff</th>
                             <th title="Chart level">Level</th>
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>
@@ -472,13 +472,13 @@
                     <tfoot>
                         <tr>
                             <th title="Chart title">Title</th>
-                            <th title="Chart difficulty">Difficulty</th>
+                            <th title="Chart difficulty">Diff</th>
                             <th title="Chart level">Level</th>
                             <th title="Players chart performance rating">PR</th>
                             <th title="Player accuracy">Acc</th>
                             <th title="Player miss count">Misses</th>
                             <th title="Input mode the score was set with">Mode</th>
-                            <th title="All mods the score was set with">Modifiers</th>
+                            <th title="All modifiers the score was set with">Mods</th>
                             <th title="Score date and time">Date</th>
                             <th class="table-icon-th"></th>
                         </tr>

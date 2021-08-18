@@ -35,6 +35,18 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-item">
+                                <label for="discord-name" class="form-label" title="Your Discord username and tag">Discord</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="discord-name" name="discord-name" minlength="3" maxlength="100" value="Player">
+                                    <span class="input-group-text" id="inputGroupPrepend2">#</span>
+                                    <input type="text" class="form-control" id="discord-tag" name="discord-tag" minlength="4" maxlength="4" value="1234">
+                                    <div class="form-invalid-message"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-item">
                                 <label for="twitter" class="form-label" title="Link to your Twitter">Twitter</label>
                                 <input type="text" class="form-control" id="twitter" name="twitter" minlength="5" maxlength="100" value="https://www.twitter.com/1234">
                             </div>
@@ -49,20 +61,8 @@
 
                         <div class="col-sm-6">
                             <div class="form-item">
-                                <label for="discord-name" class="form-label" title="Your Discord username and tag">Discord</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="discord-name" name="discord-name" minlength="3" maxlength="100" value="Player">
-                                    <span class="input-group-text" id="inputGroupPrepend2">#</span>
-                                    <input type="text" class="form-control" id="discord-tag" name="discord-tag" minlength="4" maxlength="4" value="1234">
-                                    <div class="form-invalid-message"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="form-item">
-                                <label for="other-social" class="form-label" title="A different social media">Other social</label>
-                                <input type="text" class="form-control" id="other-social" name="other-social" minlength="3" maxlength="100" value="https://www.vk.ru/1234">
+                                <label for="custom-link" class="form-label" title="Any link to something that is related to you">Custom link</label>
+                                <input type="text" class="form-control" id="custom-link" name="custom-link" minlength="3" maxlength="100" value="https://www.vk.ru/1234">
                             </div>
                         </div>
                     </div>
