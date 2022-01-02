@@ -1,7 +1,7 @@
 <div id="login">
     <main class="container-lg">
         <div id="main-box">
-            <img src="resources/logo.png" alt="Logo">
+            <img src="static/resources/logo.png" alt="Logo">
 
             <h1>Please login</h1>
 

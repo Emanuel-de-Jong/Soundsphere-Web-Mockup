@@ -16,7 +16,7 @@
     <div id="secondary-navbar-box"></div>
 
 
-    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+    <div class="banner" style="background-image: url(../static/resources/banner.jpg);"></div>
 
 
     <main class="container-lg">
@@ -59,7 +59,7 @@
                             </div>
                         </a>
 
-                        <a href="?a=leaderboards_leaderboard1_edit" class="page-icon" title="leaderboard settings">
+                        <a href="?a=leaderboards_leaderboard_edit" class="page-icon" title="leaderboard settings">
                             <span class="page-icon-text">Settings</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-cog"></i>
@@ -120,7 +120,7 @@
             <section id="modifiers-section">
                 <h2>Modifiers</h2>
 
-                <table class="data-table data-table-col table" data-orders="3a 0a">
+                <table class="data-table data-table-col table" data-orders="2a 0a">
                     <thead>
                         <tr>
                             <th title="Modifier name">Name</th>
@@ -160,7 +160,7 @@
                                 <tr>
                                     <td>#1</td>
                                     <td></td>
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td><a href="?a=communities_community_index">Community1</a></td>
                                     <td>5000</td>
                                     <td>No</td>
                                     <td class="table-icon-cell">
@@ -172,7 +172,7 @@
                                 <tr>
                                     <td>#2</td>
                                     <td></td>
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td><a href="?a=communities_community_index">Community1</a></td>
                                     <td>4000</td>
                                     <td>No</td>
                                     <td class="table-icon-cell">
@@ -188,7 +188,7 @@
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td><a href="?a=communities_community_index">Community1</a></td>
                                     <td>3000</td>
                                     <td>No</td>
                                     <td class="table-icon-cell">
@@ -264,28 +264,28 @@
                         <tr>
                             <td>#1</td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td><a href="?a=communities_community1_index">AAA</a></td>
+                            <td><a href="?a=communities_community_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr class="highlight-row">
                             <td>#2</td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td><a href="?a=communities_community1_index">AAA</a></td>
+                            <td><a href="?a=communities_community_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#3</td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td><a href="?a=communities_community1_index">AAA</a></td>
+                            <td><a href="?a=communities_community_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#4</td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td><a href="?a=communities_community1_index">AAA</a></td>
+                            <td><a href="?a=communities_community_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>

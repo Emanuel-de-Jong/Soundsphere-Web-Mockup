@@ -15,7 +15,7 @@
 
 
             <section id="form-section">
-                <form class="crud-form" action="?a=communities_community1_index" method="post">
+                <form class="crud-form" action="?a=communities_community_index" method="post">
                     <div class="row">
                         <div class="col-sm-9">
                             <div class="form-item">

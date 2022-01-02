@@ -30,7 +30,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td><a href="?a=users_user_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21 12:16</td>
@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">

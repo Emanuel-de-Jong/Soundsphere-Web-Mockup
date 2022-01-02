@@ -15,7 +15,7 @@
     <div id="secondary-navbar-box"></div>
 
 
-    <div class="banner" style="background-image: url(/resources/banner.jpg);"></div>
+    <div class="banner" style="background-image: url(/static/resources/banner.jpg);"></div>
     
 
     <main class="container-lg">
@@ -36,7 +36,7 @@
                             </div>
                         </a>
 
-                        <a href="?a=communities_community1_inbox" class="page-icon" title="Accept requests and send invites">
+                        <a href="?a=communities_community_inbox" class="page-icon" title="Accept requests and send invites">
                             <span class="page-icon-text">Inbox</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-inbox"></i>
@@ -44,14 +44,14 @@
                             </div>
                         </a>
 
-                        <a href="?a=communities_community1_changes" class="page-icon" title="All community changes and who made them">
+                        <a href="?a=communities_community_changes" class="page-icon" title="All community changes and who made them">
                             <span class="page-icon-text">Changes</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-list-alt"></i>
                             </div>
                         </a>
 
-                        <a href="?a=communities_community1_edit" class="page-icon" title="Community settings">
+                        <a href="?a=communities_community_edit" class="page-icon" title="Community settings">
                             <span class="page-icon-text">Settings</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-cog"></i>
@@ -126,13 +126,13 @@
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td><a href="?a=users_user_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
                             <td class="table-icon-cell">
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                <a href="?a=leaderboards_leaderboard_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
                                 </a>
                                 <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">

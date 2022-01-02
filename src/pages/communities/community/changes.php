@@ -3,7 +3,7 @@
         <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
-                    <a href="?a=communities_community1_index" class="page-icon" title="Go back to the previous page">
+                    <a href="?a=communities_community_index" class="page-icon" title="Go back to the previous page">
                         <div class="page-icon-box">
                             <i class="fas fa-arrow-left"></i>
                         </div>
@@ -58,13 +58,13 @@
                             <td>21-07-21 12:16</td>
                             <td></td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td>Changed <a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a> Score combiner to Additive</td>
+                            <td>Changed <a href="?a=leaderboards_leaderboard_index">Leaderboard1</a> Score combiner to Additive</td>
                         </tr>
                         <tr>
                             <td>20-07-21 12:16</td>
                             <td></td>
                             <td><a href="?a=users_user_index">Player1</a></td>
-                            <td>Created <a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td>Created <a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                         </tr>
                     </tbody>
                     <tfoot>

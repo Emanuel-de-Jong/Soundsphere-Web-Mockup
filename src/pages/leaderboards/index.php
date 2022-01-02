@@ -44,14 +44,14 @@
                     </thead>
                     <tbody>
                         <tr class="highlight-row">
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td>Table level</td>
                             <td>soundsphere</td>
                             <td>1</td>
                             <td>1</td>
                             <td class="table-icon-cell">
-                                <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                <a href="?a=leaderboards_leaderboard_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                     <i class="fas fa-pen"></i>
                                 </a>
                                 <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">
@@ -60,7 +60,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td>Table level</td>
                             <td>soundsphere</td>
@@ -73,7 +73,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td>Table level</td>
                             <td>soundsphere</td>
@@ -86,7 +86,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                            <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
                             <td>Table level</td>
                             <td>soundsphere</td>

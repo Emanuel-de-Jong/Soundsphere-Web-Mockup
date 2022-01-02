@@ -1,5 +1,5 @@
 <div id="home">
-    <div class="banner banner-solid" style="background-image: url(../resources/banner.jpg);"></div>
+    <div class="banner banner-solid" style="background-image: url(../static/resources/banner.jpg);"></div>
 
 
     <main class="container-lg">

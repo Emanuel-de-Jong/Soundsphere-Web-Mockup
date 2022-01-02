@@ -17,7 +17,7 @@
     <div id="secondary-navbar-box"></div>
 
 
-    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
+    <div class="banner" style="background-image: url(../static/resources/banner.jpg);"></div>
 
 
     <main class="container-lg">
@@ -130,11 +130,11 @@
                                             <i class="fas fa-crown"></i>
                                         </span>
                                     </td>
-                                    <td><a href="?a=communities_community1_index">Community1</a></td>
+                                    <td><a href="?a=communities_community_index">Community1</a></td>
                                     <td>No</td>
                                     <td>7K, 10K</td>
                                     <td class="table-icon-cell">
-                                        <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
+                                        <a href="?a=communities_community_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
                                             <i class="fas fa-pen"></i>
                                         </a>
                                         <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -172,11 +172,11 @@
                                             <i class="fas fa-user-shield"></i>
                                         </span>
                                     </td>
-                                    <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
+                                    <td><a href="?a=leaderboards_leaderboard_index">Leaderboard1</a></td>
                                     <td>7K, 10K</td>
                                     <td>#3</td>
                                     <td class="table-icon-cell">
-                                        <a href="?a=leaderboards_leaderboard1_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
+                                        <a href="?a=leaderboards_leaderboard_edit" class="table-icon table-icon-s orange orange-h" title="Edit leaderboard">
                                             <i class="fas fa-pen"></i>
                                         </a>
                                         <a href="#!" class="table-icon teal teal-h" title="Add to community" data-bs-toggle="modal" data-bs-target="#add-leaderboard-modal">

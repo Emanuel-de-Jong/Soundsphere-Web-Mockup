@@ -43,14 +43,14 @@
                     </thead>
                     <tbody>
                         <tr class="highlight-row">
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
                             <td>7K, 10K</td>
                             <td>10</td>
                             <td>The first community. Which automatically makes it the best one.</td>
                             <td class="table-icon-cell">
-                                <a href="?a=communities_community1_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
+                                <a href="?a=communities_community_edit" class="table-icon table-icon-s orange orange-h" title="Edit community">
                                     <i class="fas fa-pen"></i>
                                 </a>
                                 <a href="#!" class="table-icon red red-h" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -59,7 +59,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
                             <td>7K, 10K</td>
@@ -72,7 +72,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
                             <td>7K, 10K</td>
@@ -85,7 +85,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><a href="?a=communities_community1_index">Community1</a></td>
+                            <td><a href="?a=communities_community_index">Community1</a></td>
                             <td>AAA</td>
                             <td>No</td>
                             <td>7K, 10K</td>
