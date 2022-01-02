@@ -13,9 +13,9 @@
 
             <h1>Community settings</h1>
 
-            
+
             <?php require('components/modals/delete.php'); ?>
-            <?php require('components/modals/add-admin.php'); ?>
+            <?php require('components/modals/add-user.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
             <?php require('components/modals/transfer-ownership.php'); ?>
             <section id="form-section">
@@ -81,7 +81,7 @@
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="?a=players_player1_index">Player1</a></td>
+                                    <td><a href="?a=users_user_index">Player1</a></td>
                                     <td class="table-icon-cell">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove admin" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>
@@ -103,7 +103,7 @@
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="?a=players_player1_index">Player1</a></td>
+                                    <td><a href="?a=users_user_index">Player1</a></td>
                                     <td class="table-icon-cell">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove moderator" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>

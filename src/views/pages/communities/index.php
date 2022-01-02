@@ -15,7 +15,7 @@
 
 
             <?php require('components/modals/delete.php'); ?>
-            <?php require('components/modals/create-player-request-2.php'); ?>
+            <?php require('components/modals/create-user-request-2.php'); ?>
             <section id="communities-section">
                 <div id="communities-insert-top" hidden>
                     <div class="col">
@@ -29,8 +29,7 @@
                         </form>
                     </div>
                 </div>
-
-                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="communities-insert-top">
+                <table id="communities-table" class="data-table table table-icon-col-last" data-insert-top="communities-insert-top">
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>

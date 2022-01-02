@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="leaderboards-insert-top">
+                <table id="leaderboards-table" class="data-table table table-icon-col-last" data-insert-top="leaderboards-insert-top">
                     <thead>
                         <tr>
                             <th title="Leaderboard name">Name</th>

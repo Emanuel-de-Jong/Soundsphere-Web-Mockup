@@ -1,4 +1,4 @@
-<div id="bms-table">
+<div id="difftable">
     <?php require('components/modals/properties.php'); ?>
 
 
@@ -34,12 +34,12 @@
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table data-table-col table table-icon-col-last">
+                        <table id="difftable-communities-table" class="data-table table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
                                     <th title="To join private communities, you have to send a request">Public</th>
-                                    <th title="Input modes in community leaderboards">Modes</th>
+                                    <th title="Input modes in community difftables">Modes</th>
                                     <th title="Player count">Members</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
@@ -64,7 +64,7 @@
                     <div class="col-sm-6">
                         <h2>Leaderboards</h2>
 
-                        <table class="data-table data-table-col table table-icon-col-last">
+                        <table id="difftable-leaderboards-table" class="data-table table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
@@ -93,10 +93,10 @@
             </section>
 
 
-            <section id="charts-section">
+            <section id="notecharts-section">
                 <h2>Charts</h2>
 
-                <table class="data-table data-table-all table table-icon-col-first" data-orders="6a 3a 1a">
+                <table id="difftable-notecharts-table" class="data-table table table-icon-col-first" data-orders="6a 3a 1a">
                     <thead>
                         <tr>
                             <th class="table-icon-th"></th>
@@ -113,7 +113,7 @@
                         <tr>
                             <td></td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
@@ -123,7 +123,7 @@
                         <tr>
                             <td></td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
@@ -137,7 +137,7 @@
                                 </span>
                             </td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>
@@ -151,7 +151,7 @@
                                 </span>
                             </td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>15</td>
                             <td>A charter</td>
                             <td>An artist</td>

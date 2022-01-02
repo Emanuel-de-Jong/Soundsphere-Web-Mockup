@@ -15,8 +15,8 @@
     <div id="secondary-navbar-box"></div>
 
 
-    <div class="banner" style="background-image: url(../resources/banner.jpg);"></div>
-
+    <div class="banner" style="background-image: url(/resources/banner.jpg);"></div>
+    
 
     <main class="container-lg">
         <div id="main-box">
@@ -26,7 +26,7 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
                     <i class="fas fa-ellipsis-v"></i>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="page-icons-right">
                     <div class="navbar-nav">
                         <a href="#!" class="page-icon" title="Leave community" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -86,7 +86,7 @@
 
             <section id="description-section">
                 <h2>Description</h2>
-
+                
                 <p>
                     Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                     velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet
@@ -107,7 +107,7 @@
                     </a>
                 </h2>
 
-                <table class="data-table data-table-slim table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
+                <table id="community-leaderboards-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
                     <thead>
                         <tr>
                             <th class="table-icon-th"></th>
@@ -128,7 +128,7 @@
                             </td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td>7K, 10K</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>12</td>
                             <td>1</td>
                             <td class="table-icon-cell">
@@ -147,12 +147,12 @@
 
             <section id="members-section">
                 <h2>Members</h2>
-                
+
                 <div id="members-insert-top" hidden>
                     <div class="col">
                         <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="members-leaderboard" name="leaderboard" title="Leaderboard used for member ranks and plays">
-                                <option value="Leaderboard1" selected>Leaderboard1</option>
+                                <option value="1" selected>Leaderboard1</option>
                             </select>
                         </form>
                     </div>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" data-insert-top="members-insert-top" data-insert-bottom="members-insert-bottom">
+                <table id="community-users-table" class="data-table table table-icon-col-last" data-insert-top="members-insert-top" data-insert-bottom="members-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>
@@ -194,7 +194,7 @@
                         <tr>
                             <td>#1</td>
                             <td></td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>7K</td>
                             <td>200</td>
@@ -212,7 +212,7 @@
                                     <i class="fas fa-crown"></i>
                                 </span>
                             </td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>7K</td>
                             <td>200</td>
@@ -226,7 +226,7 @@
                                     <i class="fas fa-user-shield"></i>
                                 </span>
                             </td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>7K</td>
                             <td>200</td>
@@ -244,7 +244,7 @@
                                     <i class="fas fa-user-shield"></i>
                                 </span>
                             </td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>7K</td>
                             <td>200</td>

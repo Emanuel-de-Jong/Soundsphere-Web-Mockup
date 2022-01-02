@@ -1,4 +1,4 @@
-<div id="chart">
+<div id="notechart">
     <?php require('components/modals/properties.php'); ?>
 
 
@@ -55,7 +55,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
+                            <td><a href="?a=difftables_difftable_index">Table1</a></td>
                             <td>15</td>
                             <td>7K</td>
                             <td>20</td>
@@ -81,7 +81,7 @@
                             </select>
                         </form>
                     </div>
-                    
+
                     <div class="col">
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="">
+                <table id="notechart-scores-table" class="data-table table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>
@@ -120,7 +120,7 @@
                     <tbody>
                         <tr>
                             <td>#1</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -136,7 +136,7 @@
                         </tr>
                         <tr class="highlight-row">
                             <td>#2</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -155,7 +155,7 @@
                         </tr>
                         <tr>
                             <td>#3</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>
@@ -171,7 +171,7 @@
                         </tr>
                         <tr>
                             <td>#4</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>1000</td>
                             <td>1000</td>
                             <td>20</td>

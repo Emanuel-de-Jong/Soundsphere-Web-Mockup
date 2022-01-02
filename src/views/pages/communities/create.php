@@ -38,8 +38,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="short-description" class="form-label form-required" title="Description shown in tables">Short description</label>
-                        <input type="text" class="form-control" id="short-description" name="short-description" minlength="5" maxlength="75" required>
+                        <label for="short-description" class="form-label" title="Description shown in tables">Short description</label>
+                        <input type="text" id="short-description" class="form-control" name="short-description" minlength="5" maxlength="75">
                     </div>
 
                     <div class="form-item">

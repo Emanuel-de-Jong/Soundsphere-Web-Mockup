@@ -1,7 +1,7 @@
 <div id="home">
     <div class="banner banner-solid" style="background-image: url(../resources/banner.jpg);"></div>
 
-    
+
     <main class="container-lg">
         <div id="main-box">
             <h1>soundsphere</h1>
@@ -30,7 +30,28 @@
                     ante in nunc. Praesent rhoncus lobortis elementum. Etiam efficitur velit sed iaculis molestie. Vivamus vulputate,
                     metus non lobortis laoreet, tellus diam vulputate velit, at sagittis orci ante et nulla. Duis lacus elit, bibendum in
                     nisi ac, pretium bibendum massa. Nullam id diam eu massa auctor tempor. Phasellus dapibus condimentum felis sit amet
-                    iaculis. Suspendisse massa sem, placerat vel nibh lacinia, maximus mollis magna.
+                    iaculis. Suspendisse massa sem, placerat vel nibh lacinia, maximus mollis magna. Integer volutpat leo ac mauris
+                    pharetra, sit amet volutpat magna lobortis. Vivamus porttitor maximus quam, eget tincidunt enim suscipit sit amet.
+                    Curabitur ac fermentum metus, id vehicula leo. Vivamus euismod dui id augue eleifend, ut lobortis ipsum laoreet. Nulla
+                    maximus, purus ac posuere tincidunt, elit ligula tristique lacus, sit amet mattis nulla eros tempus lectus. Integer
+                    elit augue, consectetur eu quam vitae, posuere cursus augue. Proin tortor dui, elementum at risus in, tincidunt rutrum
+                    justo. Morbi non orci porta, volutpat odio in, placerat erat. Donec efficitur libero a quam bibendum porta. Maecenas
+                    aliquam commodo tempor. In ultrices quam nec nisi viverra, nec porttitor turpis vehicula. Nullam sed rutrum odio, eu
+                    ullamcorper felis. Quisque at tincidunt ex. In quis velit nec enim facilisis blandit et et est. Donec fringilla auctor
+                    enim. Maecenas varius tellus quis mi blandit facilisis. Vivamus faucibus urna vitae arcu accumsan, nec
+                    tincidunt sapien iaculis. Aenean vehicula, tortor vitae lobortis ullamcorper, sem erat lobortis dui, a placerat enim
+                    ante in nunc. Praesent rhoncus lobortis elementum. Etiam efficitur velit sed iaculis molestie. Vivamus vulputate,
+                    metus non lobortis laoreet, tellus diam vulputate velit, at sagittis orci ante et nulla. Duis lacus elit, bibendum in
+                    nisi ac, pretium bibendum massa. Nullam id diam eu massa auctor tempor. Phasellus dapibus condimentum felis sit amet
+                    iaculis. Suspendisse massa sem, placerat vel nibh lacinia, maximus mollis magna. Integer volutpat leo ac mauris
+                    pharetra, sit amet volutpat magna lobortis. Vivamus porttitor maximus quam, eget tincidunt enim suscipit sit amet.
+                    Curabitur ac fermentum metus, id vehicula leo. Vivamus euismod dui id augue eleifend, ut lobortis ipsum laoreet. Nulla
+                    maximus, purus ac posuere tincidunt, elit ligula tristique lacus, sit amet mattis nulla eros tempus lectus. Integer
+                    elit augue, consectetur eu quam vitae, posuere cursus augue. Proin tortor dui, elementum at risus in, tincidunt rutrum
+                    justo. Morbi non orci porta, volutpat odio in, placerat erat. Donec efficitur libero a quam bibendum porta. Maecenas
+                    aliquam commodo tempor. In ultrices quam nec nisi viverra, nec porttitor turpis vehicula. Nullam sed rutrum odio, eu
+                    ullamcorper felis. Quisque at tincidunt ex. In quis velit nec enim facilisis blandit et et est. Donec fringilla auctor
+                    enim.
                 </p>
             </section>
         </div>

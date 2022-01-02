@@ -11,9 +11,12 @@
                 <i class="fab fa-patreon"></i>
             </a>
         </div>
-        
+
         <p class="footer-copyright">Copyright ©
-            <?php echo date("Y"); ?>
+            <script>
+                var currentDate = new Date()
+                document.write(currentDate.getFullYear())
+            </script>
             soundsphere by semyon422. All Rights Reserved.
         </p>
     </div>

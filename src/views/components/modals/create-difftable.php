@@ -1,4 +1,4 @@
-<div class="modal" id="create-bms-table-modal">
+<div class="modal" id="create-difftable-modal">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -7,14 +7,16 @@
             </div>
             <div class="modal-body">
                 <form class="modal-form">
-                    <div class="form-item">
-                        <label for="create-bms-table-link" class="form-label form-required" title="The website link of the table">Table link</label>
-                        <input type="url" class="form-control" id="create-bms-table-link" name="link" required>
-                    </div>
+                    <select class="form-select" id="create-difftable-community" name="community" title="The community to create the difftable for">
+                        <option selected hidden>Select a community</option>
+                        <option value="Community1">
+                        <option value="Community2">
+                        <option value="Community3">
+                    </select>
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="?a=bms-tables_bms-table1_index" class="btn bg-teal bg-teal-h">Create</a>
+                <a href="?a=difftables_difftable_index" class="btn bg-teal bg-teal-h">Create</a>
                 <button type="button" class="btn bg-gray bg-gray-h" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>

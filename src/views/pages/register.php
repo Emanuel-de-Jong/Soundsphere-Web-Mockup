@@ -28,6 +28,8 @@
                         <label>Confirm password</label>
                     </div>
 
+                    <div class="form-invalid-message"></div>
+
                     <button type="submit" class="btn btn-lg bg-blue bg-blue-h">Register</button>
                 </form>
             </section>

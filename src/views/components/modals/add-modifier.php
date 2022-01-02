@@ -18,13 +18,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="add-modifier-min-value" class="form-label" title="Modifier minumal value">Min value</label>
-                        <input type="text" class="form-control" id="add-modifier-min-value" name="min-value">
-                    </div>
-
-                    <div class="form-item">
-                        <label for="add-modifier-max-value" class="form-label" title="Modifier maximal value">Max value</label>
-                        <input type="text" class="form-control" id="add-modifier-max-value" name="max-value">
+                        <label for="add-modifier-value" class="form-label" title="Modifier value">Value</label>
+                        <input type="text" class="form-control" id="add-modifier-value" name="value">
                     </div>
 
                     <div class="form-item">

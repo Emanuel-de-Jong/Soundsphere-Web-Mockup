@@ -1,4 +1,4 @@
-<div id="player">
+<div id="user">
     <?php require('components/modals/properties.php'); ?>
 
 
@@ -26,10 +26,10 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
                     <i class="fas fa-ellipsis-v"></i>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="page-icons-right">
                     <div class="navbar-nav">
-                        <a href="?a=players_player1_inbox" class="page-icon" title="Accept requests and send invites">
+                        <a href="?a=users_user_inbox" class="page-icon" title="Accept requests and send invites">
                             <span class="page-icon-text">Inbox</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-inbox"></i>
@@ -37,7 +37,7 @@
                             </div>
                         </a>
 
-                        <a href="?a=players_player1_edit" class="page-icon" title="Your settings">
+                        <a href="?a=users_user_inbox" class="page-icon" title="Your settings">
                             <span class="page-icon-text">Settings</span>
                             <div class="page-icon-box">
                                 <i class="fas fa-cog"></i>
@@ -113,7 +113,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-col table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
+                        <table id="user-communities-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -146,7 +146,7 @@
                         </table>
                     </div>
 
-                    
+
                     <div class="col-sm-6">
                         <h2>
                             Leaderboards
@@ -155,7 +155,7 @@
                             </a>
                         </h2>
 
-                        <table class="data-table data-table-col table table-icon-col-first table-icon-col-last" data-orders="3a">
+                        <table id="user-leaderboards-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="3a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -203,16 +203,16 @@
                             </select>
                         </form>
                     </div>
-                    
+
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="best-scores-bms-table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="best-scores-difftable" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>
                         </form>
                     </div>
-                    
+
                     <div class="col">
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" id="best-scores-table" data-insert-top="best-scores-insert-top" data-toggle-cols="">
+                <table id="user-best-scores-table" class="data-table table table-icon-col-last" id="best-scores-table" data-insert-top="best-scores-insert-top" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>
@@ -245,7 +245,7 @@
                         <tr>
                             <td>#1</td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -265,7 +265,7 @@
                         <tr>
                             <td>#2</td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -285,7 +285,7 @@
                         <tr>
                             <td>#3</td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -305,7 +305,7 @@
                         <tr>
                             <td>#4</td>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -354,16 +354,16 @@
                             </select>
                         </form>
                     </div>
-                    
+
                     <div class="col">
                         <form class="table-form table-form-top">
-                            <select class="form-select form-select-sm" id="all-scores-bms-table" name="table" title="Filter by table">
+                            <select class="form-select form-select-sm" id="all-scores-difftable" name="table" title="Filter by table">
                                 <option selected>All tables</option>
                                 <option value="Table1">Table1</option>
                             </select>
                         </form>
                     </div>
-                    
+
                     <div class="col">
                         <form class="table-form table-form-top">
                             <div class="form-check form-switch">
@@ -376,7 +376,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table table-icon-col-last" id="all-scores-table" data-orders="8d" data-insert-top="all-scores-insert-top" data-toggle-cols="">
+                <table id="user-all-scores-table" class="data-table table table-icon-col-last" id="all-scores-table" data-orders="8d" data-insert-top="all-scores-insert-top" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>
@@ -394,7 +394,7 @@
                     <tbody>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -413,7 +413,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -432,7 +432,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>
@@ -451,7 +451,7 @@
                         </tr>
                         <tr>
                             <td>Chart1</td>
-                            <td><a href="?a=charts_chart1_index">Difficulty1</a></td>
+                            <td><a href="?a=notecharts_notechart_index">Difficulty1</a></td>
                             <td>12</td>
                             <td>1000</td>
                             <td>20</td>

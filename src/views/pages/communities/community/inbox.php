@@ -2,8 +2,8 @@
     <nav id="secondary-navbar">
         <div class="container-lg">
             <div class="nav">
-                <a class="nav-link" href="#incoming-player-requests-section">Player incoming</a>
-                <a class="nav-link" href="#outgoing-player-invites-section">Player outgoing</a>
+                <a class="nav-link" href="#incoming-user-requests-section">Player incoming</a>
+                <a class="nav-link" href="#outgoing-user-invites-section">Player outgoing</a>
                 <a class="nav-link" href="#incoming-leaderboard-invites-section">Leaderboard incoming</a>
                 <a class="nav-link" href="#outgoing-leaderboard-invites-section">Leaderboard outgoing</a>
             </div>
@@ -30,10 +30,10 @@
             <h2>Players</h2>
 
             <?php require('components/modals/delete.php'); ?>
-            <section id="incoming-player-requests-section">
+            <section id="incoming-user-requests-section">
                 <h3>Incoming requests</h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last" data-orders="2d">
+                <table id="users-requests-table" class="data-table table table-icon-col-last" data-orders="2d">
                     <thead>
                         <tr>
                             <th title="Player name">Player</th>
@@ -44,7 +44,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>Hey it's Bob from Bob's Burgers.</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
@@ -61,16 +61,16 @@
             </section>
 
 
-            <?php require('components/modals/create-player-invite.php'); ?>
-            <section id="outgoing-player-invites-section">
+            <?php require('components/modals/create-user-invite.php'); ?>
+            <section id="outgoing-user-invites-section">
                 <h3>
                     Outgoing invites
-                    <a href="#!" class="title-icon h3-icon teal teal-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-player-invite-modal">
+                    <a href="#!" class="title-icon h3-icon teal teal-h" title="Send an invite to a player" data-bs-toggle="modal" data-bs-target="#create-user-invite-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last" data-orders="3d">
+                <table id="users-invitations-table" class="data-table table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="Player the invite is for">Player</th>
@@ -82,8 +82,8 @@
                     </thead>
                     <tbody>
                         <tr class="highlight-row">
-                            <td><a href="?a=players_player1_index">Player1</a></td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
@@ -102,7 +102,7 @@
             <section id="incoming-leaderboard-invites-section">
                 <h3>Incoming invites</h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last" data-orders="3d">
+                <table id="leaderboards-incoming-table" class="data-table table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>
@@ -116,7 +116,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td></td>
                             <td>20-07-21 12:16</td>
@@ -143,7 +143,7 @@
                     </a>
                 </h3>
 
-                <table class="data-table data-table-slim table table-icon-col-last" data-orders="3d">
+                <table id="leaderboards-outgoing-table" class="data-table table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="community the invite is for">Community</th>
@@ -157,7 +157,7 @@
                     <tbody>
                         <tr class="highlight-row">
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=leaderboards_leaderboard1_index">Leaderboard1</a></td>
                             <td></td>
                             <td>20-07-21 12:16</td>

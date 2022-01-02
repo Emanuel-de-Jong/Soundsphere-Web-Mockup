@@ -7,8 +7,8 @@
             <div class="nav">
                 <a class="nav-link" href="#info-community-ranking-section">Info</a>
                 <a class="nav-link" href="#modifiers-section">Modifiers</a>
-                <a class="nav-link" href="#communities-bms-tables-section">Communities</a>
-                <a class="nav-link" href="#communities-bms-tables-section">Tables</a>
+                <a class="nav-link" href="#communities-difftables-section">Communities</a>
+                <a class="nav-link" href="#communities-difftables-section">Tables</a>
                 <a class="nav-link" href="#ranking-section">Ranking</a>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#page-icons-right">
                     <i class="fas fa-ellipsis-v"></i>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="page-icons-right">
                     <div class="navbar-nav">
                         <a href="#!" class="page-icon" title="Leaderboard description" data-bs-toggle="modal" data-bs-target="#leaderboard-description-modal">
@@ -99,7 +99,7 @@
                         </table>
                     </div>
 
-                    
+
                     <div class="col-sm-5" id="community-ranking">
                         <div class="multi-col-list">
                             <div class="list-item" title="Community1"><span class="circle circle-s bg-red"></span> AAA</div>
@@ -124,8 +124,7 @@
                     <thead>
                         <tr>
                             <th title="Modifier name">Name</th>
-                            <th title="Modifier minumal value">Min value</th>
-                            <th title="Modifier maximal value">Max value</th>
+                            <th title="Modifier value">Value</th>
                             <th title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</th>
                         </tr>
                     </thead>
@@ -133,7 +132,6 @@
                         <tr>
                             <td>SpeedMode</td>
                             <td>Avg</td>
-                            <td></td>
                             <td>Required</td>
                         </tr>
                     </tbody>
@@ -142,12 +140,12 @@
 
 
             <?php require('components/modals/delete.php'); ?>
-            <section id="communities-bms-tables-section" class="section-grid">
+            <section id="communities-difftables-section" class="section-grid">
                 <div class="row">
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table class="data-table data-table-col table table-icon-col-first table-icon-col-last">
+                        <table id="leaderboard-communities-table" class="data-table table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Rank on leaderboard by performance rating">Rank</th>
@@ -207,7 +205,7 @@
                     <div class="col-sm-6">
                         <h2>Tables</h2>
 
-                        <table class="data-table data-table-col table" data-orders="1a 0a">
+                        <table id="leaderboard-difftables-table" class="data-table table" data-orders="1a 0a">
                             <thead>
                                 <tr>
                                     <th title="Table name">Name</th>
@@ -218,7 +216,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
+                                    <td><a href="?a=difftables_difftable_index">Table1</a></td>
                                     <td>7K</td>
                                     <td>20</td>
                                     <td>115</td>
@@ -252,7 +250,7 @@
                     </div>
                 </div>
 
-                <table class="data-table data-table-all table" data-insert-top="ranking-insert-top" data-insert-bottom="ranking-insert-bottom">
+                <table id="leaderboard-users-table" class="data-table table" data-insert-top="ranking-insert-top" data-insert-bottom="ranking-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>
@@ -265,28 +263,28 @@
                     <tbody>
                         <tr>
                             <td>#1</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr class="highlight-row">
                             <td>#2</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#3</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>
                         </tr>
                         <tr>
                             <td>#4</td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td><a href="?a=communities_community1_index">AAA</a></td>
                             <td>1000</td>
                             <td>10-10-21 15:28</td>

@@ -1,9 +1,9 @@
-<div id="player-inbox">
+<div id="user-inbox">
     <main class="container-lg">
         <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
-                    <a href="?a=players_player1_index" class="page-icon" title="Go back to the previous page">
+                    <a href="?a=users_user_index" class="page-icon" title="Go back to the previous page">
                         <div class="page-icon-box">
                             <i class="fas fa-arrow-left"></i>
                         </div>
@@ -13,7 +13,7 @@
 
             <h1>Inbox</h1>
 
-            
+
             <?php require('components/modals/delete.php'); ?>
             <section id="incoming-invites-section">
                 <h2>Incoming invites</h2>
@@ -31,7 +31,7 @@
                     <tbody>
                         <tr>
                             <td><a href="?a=communities_community1_index">Community1</a></td>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>We are proud to invite you to the one and only first community!!</td>
                             <td>20-07-21 12:16</td>
                             <td class="table-icon-cell">
@@ -47,11 +47,11 @@
                 </table>
             </section>
 
-            <?php require('components/modals/create-player-request.php'); ?>
+            <?php require('components/modals/create-user-request.php'); ?>
             <section id="outgoing-requests-section">
                 <h2>
                     Outgoing requests
-                    <a href="#!" class="title-icon h2-icon teal teal-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-player-request-modal">
+                    <a href="#!" class="title-icon h2-icon teal teal-h" title="Send a request to a community" data-bs-toggle="modal" data-bs-target="#create-user-request-modal">
                         <i class="fas fa-plus"></i>
                     </a>
                 </h2>

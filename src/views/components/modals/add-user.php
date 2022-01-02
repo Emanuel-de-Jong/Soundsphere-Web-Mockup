@@ -2,13 +2,13 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Add admin</h5>
+                <h5 class="modal-title">Add player</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
                 <form class="modal-form">
-                    <input class="form-control" list="player-options" id="add-admin-player" name="player" title="The member to make an admin" placeholder="Search for a member...">
-                    <datalist id="player-options">
+                    <input class="form-control" list="user-options" id="add-admin-user" name="user" title="The member to make an admin" placeholder="Search for a member...">
+                    <datalist id="user-options">
                         <option value="Player1">
                         <option value="Player2">
                         <option value="Player3">

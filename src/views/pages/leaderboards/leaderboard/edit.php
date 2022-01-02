@@ -16,7 +16,7 @@
 
             <?php require('components/modals/delete.php'); ?>
             <?php require('components/modals/add-modifier.php'); ?>
-            <?php require('components/modals/add-bms-table.php'); ?>
+            <?php require('components/modals/add-difftable.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
             <?php require('components/modals/add-input-mode.php'); ?>
             <section id="form-section">
@@ -32,8 +32,8 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="chart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Chart difficulty calculator</label>
-                        <select class="form-select" id="chart-diff-calc" name="chart-diff-calc" required>
+                        <label for="notechart-diff-calc" class="form-label form-required" title="Decides the difficulty of the charts. The difficulty changes how much performance rating players get.">Chart difficulty calculator</label>
+                        <select class="form-select" id="notechart-diff-calc" name="notechart-diff-calc" required>
                             <option value="table-level" selected>Table level</option>
                             <option value="soundsphere">soundsphere</option>
                             <option value="osu">osu!</option>
@@ -68,7 +68,7 @@
                             <option value="sdvx">SOUND VOLTEX</option>
                         </select>
                     </div>
-                    
+
                     <div class="form-item">
                         <label for="banner" class="form-label" title="The uploaded image will be blurred and shown behind your leaderboard page">Blurred banner image</label>
                         <input type="file" class="form-control input-image" id="banner" name="banner" accept=".png, .jpg, .jpeg">
@@ -84,14 +84,14 @@
                         <table class="data-table data-table-slim data-table-nohead table table-icon-col-last">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
-                                <tr>
+                                    <tr>
                                     <td>7K</td>
-                                    <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                        <td class="table-icon-cell">
+                                            <a href="#!" class="table-icon table-icon-l red red-h" title="Remove input mode" data-bs-toggle="modal" data-bs-target="#delete-modal">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
                             </tbody>
                         </table>
                     </div>
@@ -107,8 +107,7 @@
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>
-                                    <th title="Modifier minumal value">Min value</th>
-                                    <th title="Modifier maximal value">Max value</th>
+                                    <th title="Modifier value">Value</th>
                                     <th title="No rule: modifier not allowed. Allowed: modifier doesn't matter. Required: modifier needed.">Rule</th>
                                     <th class="table-icon-th"></th>
                                 </tr>
@@ -117,10 +116,9 @@
                                 <tr>
                                     <td>SpeedMode</td>
                                     <td>Avg</td>
-                                    <td></td>
                                     <td>Required</td>
                                     <td class="table-icon-cell">
-                                        <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#add-modifier-modal">
+                                        <a href="#!" class="table-icon table-icon-s orange orange-h" title="Edit modifier" data-bs-toggle="modal" data-bs-target="#edit-modifier-modal">
                                             <i class="fas fa-pen"></i>
                                         </a>
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove modifier" data-bs-toggle="modal" data-bs-target="#delete-modal">
@@ -133,17 +131,17 @@
                     </div>
 
                     <div class="form-item">
-                        <label for="bms-tables" class="form-label form-required w-100" title="Tables of which the charts will be used for ranking">
+                        <label for="difftables" class="form-label form-required w-100" title="Tables of which the charts will be used for ranking">
                             Tables
-                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-bms-table-modal">
+                            <a href="#!" class="title-icon label-icon teal teal-h" title="Add table" data-bs-toggle="modal" data-bs-target="#add-difftable-modal">
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last" id="bms-tables">
+                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last" id="difftables">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="?a=bms-tables_bms-table1_index">Table1</a></td>
+                                    <td><a href="?a=difftables_difftable_index">Table1</a></td>
                                     <td class="table-icon-cell">
                                         <a href="#!" class="table-icon table-icon-l red red-h" title="Remove table" data-bs-toggle="modal" data-bs-target="#delete-modal">
                                             <i class="fas fa-times"></i>

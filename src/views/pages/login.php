@@ -18,6 +18,8 @@
                         <label>Password</label>
                     </div>
 
+                    <div class="form-invalid-message"></div>
+
                     <div class="form-item form-check">
                         <label for="remember-me" class="form-check-label" title="Stay logged in on this device">
                             <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me">

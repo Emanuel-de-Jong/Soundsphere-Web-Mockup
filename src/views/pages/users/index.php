@@ -1,11 +1,11 @@
-<div id="players">
+<div id="users">
     <main class="container-lg">
         <div id="main-box">
             <h1>Players</h1>
 
-            
-            <section id="players-section">
-                <table class="data-table data-table-all table">
+
+            <section id="users-section">
+                <table id="users-table" class="data-table table">
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>
@@ -16,25 +16,25 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>7K</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr class="highlight-row">
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>7K</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>7K</td>
                             <td>200</td>
                             <td>18-04-21</td>
                         </tr>
                         <tr>
-                            <td><a href="?a=players_player1_index">Player1</a></td>
+                            <td><a href="?a=users_user_index">Player1</a></td>
                             <td>7K</td>
                             <td>200</td>
                             <td>18-04-21</td>

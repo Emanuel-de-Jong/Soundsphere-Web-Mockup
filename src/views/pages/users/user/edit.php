@@ -1,9 +1,9 @@
-<div id="player-edit">
+<div id="user-edit">
     <main class="container-lg">
         <div id="main-box">
             <nav class="navbar-expand page-icons page-icons-left page-icons-never-collapsed">
                 <div class="navbar-nav">
-                    <a href="?a=players_player1_index" class="page-icon" title="Go back to the previous page">
+                    <a href="?a=users_user_index" class="page-icon" title="Go back to the previous page">
                         <div class="page-icon-box">
                             <i class="fas fa-arrow-left"></i>
                         </div>
@@ -18,7 +18,7 @@
             <?php require('components/modals/add-input-mode.php'); ?>
             <?php require('components/modals/confirm-delete.php'); ?>
             <section id="form-section">
-                <form class="crud-form" action="?a=players_player1_index" method="post">
+                <form class="crud-form" action="?a=users_user_index" method="post">
                     <label for="username" id="username-preview" title="A preview that shows how your username will look">Player1</label>
                     <div class="form-item input-group">
                         <input type="color" class="form-control form-control-color" id="username-color-l" name="username-color-l" required value="#000000" title="The lefter color of your username">
