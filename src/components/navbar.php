@@ -20,7 +20,7 @@
                 <a class="nav-link" href="https://dl.soundsphere.xyz/soundsphere.zip" target="_blank" rel="noopener">Download</a>
             </div>
 
-            <?php if (!isset($_COOKIE["logged-in"])): ?>
+            <?php if (isset($_COOKIE["logged-in"])): ?>
                 <div class="navbar-nav">
                     <a class="nav-link" href="?a=users_user_index">
                         Profile
