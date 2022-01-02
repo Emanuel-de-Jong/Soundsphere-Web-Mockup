@@ -5,7 +5,7 @@
 
 
             <section id="users-section">
-                <table id="users-table" class="data-table table">
+                <table id="users-table" class="data-table data-table-all table">
                     <thead>
                         <tr>
                             <th title="Player name">Name</th>

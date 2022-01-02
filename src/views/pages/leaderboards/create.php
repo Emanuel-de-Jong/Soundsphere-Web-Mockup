@@ -81,7 +81,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last">
+                        <table class="data-table data-table-col data-table-nohead table table-icon-col-last">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody></tbody>
                         </table>
@@ -94,7 +94,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim table table-icon-col-last" data-orders="3a 0a">
+                        <table class="data-table data-table-col table table-icon-col-last" data-orders="3a 0a">
                             <thead>
                                 <tr>
                                     <th title="Modifier name">Name</th>
@@ -114,7 +114,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last" id="difftables">
+                        <table class="data-table data-table-col data-table-nohead table table-icon-col-last" id="difftables">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody></tbody>
                         </table>

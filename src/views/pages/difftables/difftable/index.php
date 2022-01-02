@@ -34,7 +34,7 @@
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table id="difftable-communities-table" class="data-table table table-icon-col-last">
+                        <table id="difftable-communities-table" class="data-table data-table-col table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Community name">Name</th>
@@ -64,7 +64,7 @@
                     <div class="col-sm-6">
                         <h2>Leaderboards</h2>
 
-                        <table id="difftable-leaderboards-table" class="data-table table table-icon-col-last">
+                        <table id="difftable-leaderboards-table" class="data-table data-table-col table table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Leaderboard name">Name</th>
@@ -96,7 +96,7 @@
             <section id="notecharts-section">
                 <h2>Charts</h2>
 
-                <table id="difftable-notecharts-table" class="data-table table table-icon-col-first" data-orders="6a 3a 1a">
+                <table id="difftable-notecharts-table" class="data-table data-table-all table table-icon-col-first" data-orders="6a 3a 1a">
                     <thead>
                         <tr>
                             <th class="table-icon-th"></th>

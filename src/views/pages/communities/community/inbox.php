@@ -33,7 +33,7 @@
             <section id="incoming-user-requests-section">
                 <h3>Incoming requests</h3>
 
-                <table id="users-requests-table" class="data-table table table-icon-col-last" data-orders="2d">
+                <table id="users-requests-table" class="data-table data-table-col table table-icon-col-last" data-orders="2d">
                     <thead>
                         <tr>
                             <th title="Player name">Player</th>
@@ -70,7 +70,7 @@
                     </a>
                 </h3>
 
-                <table id="users-invitations-table" class="data-table table table-icon-col-last" data-orders="3d">
+                <table id="users-invitations-table" class="data-table data-table-col table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="Player the invite is for">Player</th>
@@ -102,7 +102,7 @@
             <section id="incoming-leaderboard-invites-section">
                 <h3>Incoming invites</h3>
 
-                <table id="leaderboards-incoming-table" class="data-table table table-icon-col-last" data-orders="3d">
+                <table id="leaderboards-incoming-table" class="data-table data-table-col table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="Community name">Community</th>
@@ -143,7 +143,7 @@
                     </a>
                 </h3>
 
-                <table id="leaderboards-outgoing-table" class="data-table table table-icon-col-last" data-orders="3d">
+                <table id="leaderboards-outgoing-table" class="data-table data-table-col table table-icon-col-last" data-orders="3d">
                     <thead>
                         <tr>
                             <th title="community the invite is for">Community</th>

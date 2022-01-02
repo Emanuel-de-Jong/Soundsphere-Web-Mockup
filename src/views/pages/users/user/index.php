@@ -113,7 +113,7 @@
                             </a>
                         </h2>
 
-                        <table id="user-communities-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
+                        <table id="user-communities-table" class="data-table data-table-col table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -155,7 +155,7 @@
                             </a>
                         </h2>
 
-                        <table id="user-leaderboards-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="3a">
+                        <table id="user-leaderboards-table" class="data-table data-table-col table table-icon-col-first table-icon-col-last" data-orders="3a">
                             <thead>
                                 <tr>
                                     <th class="table-icon-th"></th>
@@ -225,7 +225,7 @@
                     </div>
                 </div>
 
-                <table id="user-best-scores-table" class="data-table table table-icon-col-last" id="best-scores-table" data-insert-top="best-scores-insert-top" data-toggle-cols="">
+                <table id="user-best-scores-table" class="data-table data-table-all table table-icon-col-last" id="best-scores-table" data-insert-top="best-scores-insert-top" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank compared to other scores of the player">Rank</th>
@@ -376,7 +376,7 @@
                     </div>
                 </div>
 
-                <table id="user-all-scores-table" class="data-table table table-icon-col-last" id="all-scores-table" data-orders="8d" data-insert-top="all-scores-insert-top" data-toggle-cols="">
+                <table id="user-all-scores-table" class="data-table data-table-all table table-icon-col-last" id="all-scores-table" data-orders="8d" data-insert-top="all-scores-insert-top" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th title="Chart title">Title</th>

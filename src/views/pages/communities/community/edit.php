@@ -77,7 +77,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last">
+                        <table class="data-table data-table-col data-table-nohead table table-icon-col-last">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
                                 <tr>
@@ -99,7 +99,7 @@
                                 <i class="fas fa-plus"></i>
                             </a>
                         </label>
-                        <table class="data-table data-table-slim data-table-nohead table table-icon-col-last">
+                        <table class="data-table data-table-col data-table-nohead table table-icon-col-last">
                             <thead><tr> <th></th> <th></th> </tr></thead>
                             <tbody>
                                 <tr>

@@ -43,7 +43,7 @@
             <section id="tables-section">
                 <h2>Tables</h2>
 
-                <table class="data-table data-table-slim table" data-orders="1a 0a">
+                <table class="data-table data-table-col table" data-orders="1a 0a">
                     <thead>
                         <tr>
                             <th title="Table name">Name</th>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
 
-                <table id="notechart-scores-table" class="data-table table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="">
+                <table id="notechart-scores-table" class="data-table data-table-all table table-icon-col-last" id="scores-table" data-insert-top="scores-insert-top" data-insert-bottom="scores-insert-bottom" data-toggle-cols="">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Players chart rank">Rank</th>

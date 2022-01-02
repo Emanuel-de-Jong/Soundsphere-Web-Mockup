@@ -120,7 +120,7 @@
             <section id="modifiers-section">
                 <h2>Modifiers</h2>
 
-                <table class="data-table data-table-slim table" data-orders="3a 0a">
+                <table class="data-table data-table-col table" data-orders="3a 0a">
                     <thead>
                         <tr>
                             <th title="Modifier name">Name</th>
@@ -145,7 +145,7 @@
                     <div class="col-sm-6">
                         <h2>Communities</h2>
 
-                        <table id="leaderboard-communities-table" class="data-table table table-icon-col-first table-icon-col-last">
+                        <table id="leaderboard-communities-table" class="data-table data-table-col table table-icon-col-first table-icon-col-last">
                             <thead>
                                 <tr>
                                     <th title="Rank on leaderboard by performance rating">Rank</th>
@@ -205,7 +205,7 @@
                     <div class="col-sm-6">
                         <h2>Tables</h2>
 
-                        <table id="leaderboard-difftables-table" class="data-table table" data-orders="1a 0a">
+                        <table id="leaderboard-difftables-table" class="data-table data-table-col table" data-orders="1a 0a">
                             <thead>
                                 <tr>
                                     <th title="Table name">Name</th>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
 
-                <table id="leaderboard-users-table" class="data-table table" data-insert-top="ranking-insert-top" data-insert-bottom="ranking-insert-bottom">
+                <table id="leaderboard-users-table" class="data-table data-table-all table" data-insert-top="ranking-insert-top" data-insert-bottom="ranking-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Player rank in leaderboard">Rank</th>

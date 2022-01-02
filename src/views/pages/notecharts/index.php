@@ -5,7 +5,7 @@
 
 
             <section id="notecharts-section">
-                <table id="notecharts-table" class="data-table table table-icon-col-first" data-orders="3a 1a 2a">
+                <table id="notecharts-table" class="data-table data-table-all table table-icon-col-first" data-orders="3a 1a 2a">
                     <thead>
                         <tr>
                             <th class="table-icon-th"></th>

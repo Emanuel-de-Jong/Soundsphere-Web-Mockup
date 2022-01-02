@@ -16,7 +16,7 @@
 
 
             <section id="difftables-section">
-                <table id="difftables-table" class="data-table table">
+                <table id="difftables-table" class="data-table data-table-all table">
                     <thead>
                         <tr>
                             <th title="Table name">Name</th>

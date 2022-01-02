@@ -107,7 +107,7 @@
                     </a>
                 </h2>
 
-                <table id="community-leaderboards-table" class="data-table table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
+                <table id="community-leaderboards-table" class="data-table data-table-col table table-icon-col-first table-icon-col-last" data-orders="0a 1a">
                     <thead>
                         <tr>
                             <th class="table-icon-th"></th>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
 
-                <table id="community-users-table" class="data-table table table-icon-col-last" data-insert-top="members-insert-top" data-insert-bottom="members-insert-bottom">
+                <table id="community-users-table" class="data-table data-table-all table table-icon-col-last" data-insert-top="members-insert-top" data-insert-bottom="members-insert-bottom">
                     <thead>
                         <tr>
                             <th class="table-col-minwidth" title="Rank of the selected leaderboard">Rank</th>

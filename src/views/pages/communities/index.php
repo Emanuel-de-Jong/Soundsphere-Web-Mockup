@@ -29,7 +29,7 @@
                         </form>
                     </div>
                 </div>
-                <table id="communities-table" class="data-table table table-icon-col-last" data-insert-top="communities-insert-top">
+                <table id="communities-table" class="data-table data-table-all table table-icon-col-last" data-insert-top="communities-insert-top">
                     <thead>
                         <tr>
                             <th title="Community name">Name</th>
