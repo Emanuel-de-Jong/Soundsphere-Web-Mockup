@@ -16,7 +16,7 @@
 
 
     <div class="banner" style="background-image: url(/static/resources/banner.jpg);"></div>
-    
+
 
     <main class="container-lg">
         <div id="main-box">
@@ -86,7 +86,7 @@
 
             <section id="description-section">
                 <h2>Description</h2>
-                
+
                 <p>
                     Maecenas at orci feugiat, pharetra est quis, vulputate neque. Vestibulum elementum, orci nec laoreet pretium, lectus
                     velit viverra lacus, at blandit lorem purus sed ex. Cras erat elit, condimentum at dignissim ut, sodales sit amet
@@ -152,6 +152,7 @@
                     <div class="col">
                         <form class="table-form table-form-top">
                             <select class="form-select form-select-sm" id="members-leaderboard" name="leaderboard" title="Leaderboard used for member ranks and plays">
+                                <option value="">No leaderboard</option>
                                 <option value="1" selected>Leaderboard1</option>
                             </select>
                         </form>

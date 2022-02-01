@@ -30,7 +30,7 @@
                         <textarea class="form-control" id="description" name="description" required></textarea>
                     </div>
 
-                    <button type="submit" class="btn bg-blue bg-blue-h" @click="post">Create</button>
+                    <button type="submit" class="btn bg-blue bg-blue-h">Create</button>
                 </form>
             </section>
         </div>

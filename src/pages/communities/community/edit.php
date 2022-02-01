@@ -54,6 +54,7 @@
                     <div class="form-item">
                         <label for="default-ranking-leaderboard" class="form-label" title="Leaderboard selected at the member table">Default member ranking leaderboard</label>
                         <select class="form-select" id="default-ranking-leaderboard" name="default-ranking-leaderboard">
+                            <option>Select default leaderboard</option>
                             <option value="Leaderboard1" selected>Leaderboard1</option>
                             <option value="Leaderboard2">Leaderboard2</option>
                             <option value="Leaderboard3">Leaderboard3</option>

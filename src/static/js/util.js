@@ -39,19 +39,24 @@ function delete_cookie(name) {
 
 const encode_get_params = p => "?" + Object.entries(p).map(kv => kv.map(encodeURIComponent).join("=")).join("&");
 
-async function handle_500(response) {
-	if (response.status != 500) return
+async function handle_not_ok(response) {
+	alert(response.status + ' ' + response.statusText)
 	let response_json = await response.json()
 	if (response_json.trace) {
 		console.log(response_json.err)
 		console.log(response_json.trace)
-		return true
 	}
+	return response
 }
 
-async function handle_not_ok(response) {
-	alert(response.status + ' ' + response.statusText)
-	return handle_500(response)
+function set_error_message(obj, response_json) {
+	if (response_json.message) {
+		obj.innerHTML = response_json.message
+	} else if (response_json.errors) {
+		obj.innerHTML = response_json.errors.join(", ")
+	} else {
+		obj.innerHTML = ""
+	}
 }
 
 var inputmodesMap = {
@@ -81,7 +86,23 @@ var inputmodesMap = {
 }
 
 function inputmodesToString(inputmodes) {
-	return Array.isArray(inputmodes) ? inputmodes.map((i) => inputmodesMap[i]).join(', ') : ''
+	return Array.isArray(inputmodes) ? inputmodes.map((i) => inputmodesMap[i.inputmode]).join(', ') : ''
+}
+
+function rolesToText(roles) {
+	return Array.isArray(roles) ? roles.map((i) => i.role).join(', ') : ''
+}
+
+var rolesMap = {
+	creator: '<span class="badge role-badge bg-teal" title="Creator">CRR</span>',
+	admin: '<span class="badge role-badge bg-teal" title="Admin">ADM</span>',
+	moderator: '<span class="badge role-badge bg-teal" title="Moderator">MOD</span>',
+	donator: '<span class="badge role-badge bg-teal" title="Donator">DNR</span>',
+	contributor: '<span class="badge role-badge bg-blue" title="Contributor">CTR</span>',
+}
+
+function rolesToHtml(roles) {
+	return Array.isArray(roles) ? roles.map((i) => rolesMap[i.role]).join(', ') : ''
 }
 
 function toArray(a) {
@@ -99,9 +120,11 @@ async function _get(url, obj) {
 		method: 'GET',
 		credentials: 'same-origin'
 	})
-	if (!response.ok && await handle_not_ok(response)) return false
-	let response_json = await response.json()
-	return response_json
+	if (!response.ok && response.status >= 500) return await handle_not_ok(response)
+	return response
+	// let response_json
+	// await response.json().then((res_json) => response_json = res_json).catch(() => (response_json = null))
+	// return [response_json, response.status, response.headers]
 }
 
 async function _fetch(url, obj, method) {
@@ -119,9 +142,10 @@ async function _fetch(url, obj, method) {
 			credentials: 'same-origin'
 		})
 	}
-	if (!response.ok && await handle_not_ok(response)) return false
-	let response_json = await response.json()
-	return response_json
+	if (!response.ok && response.status >= 500) return await handle_not_ok(response)
+	return response
+	// await response.json().then((res_json) => response_json = res_json).catch(() => (response_json = null))
+	// return [response_json, response.status, response.headers]
 }
 
 async function _post(url, obj) {
@@ -140,9 +164,27 @@ async function _delete(url, obj) {
 	return await _fetch(url, obj, "DELETE")
 }
 
+// https://stackoverflow.com/questions/11866781/how-do-i-convert-an-integer-to-a-javascript-color/11866980
+function toColor(num) {
+	num >>>= 0;
+	var b = num & 0xFF,
+		g = (num & 0xFF00) >>> 8,
+		r = (num & 0xFF0000) >>> 16,
+		a = 1;
+		// a = ((num & 0xFF000000) >>> 24) / 255;
+	return "rgba(" + [r, g, b, a].join(",") + ")";
+}
+
 function userLink(user) {
 	if (user) {
-		return '<a href="/users/' + user.id + '">' + user.name + '</a>'
+		return `
+			<a href="/users/${user.id}"
+			style="
+			background: linear-gradient(45deg, ${toColor(user.color_left)}, ${toColor(user.color_right)});
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			">${user.name}</a>
+			`
 	}
 	return ''
 }
@@ -170,7 +212,31 @@ function difftableLink(difftable) {
 
 function notechartLink(notechart) {
 	if (notechart) {
-		return '<a href="/notecharts/' + notechart.id + '">' + notechart.name + '</a>'
+		return '<a href="/notecharts/' + notechart.id + '">' + notechart.difficulty_name + '</a>'
 	}
 	return ''
+}
+
+function renderBlurhashBanner(blurhash) {
+	const validRes = isBlurhashValid(blurhash)
+	if (!validRes.result) {
+		return "/resources/banner.jpg"
+	}
+
+	const pixels = blurhashDecode(blurhash, 32, 32)
+
+	const canvas = document.createElement("canvas")
+    canvas.width = 32
+    canvas.height = 32
+	const ctx = canvas.getContext("2d")
+	const imageData = ctx.createImageData(32, 32)
+	imageData.data.set(pixels)
+	ctx.putImageData(imageData, 0, 0)
+
+	// canvas.style.background = canvas.toDataURL("image/jpeg")
+
+	return canvas.toDataURL("image/jpeg")
+	// document.body.style.background = imageData
+
+	// element.appendChild(canvas)
 }
