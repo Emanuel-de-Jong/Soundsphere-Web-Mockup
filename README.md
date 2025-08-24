@@ -6,7 +6,7 @@ A code based mockup of which the design and frontend code was used to create the
 
 | | |
 | :---: | :---: |
-| ![](/Screenshots/1-Home.gif.png) | ![](/Screenshots/2-Register.png) |
+| ![](/Screenshots/1-Home.gif) | ![](/Screenshots/2-Register.png) |
 | ![](/Screenshots/3-Progile.png) | ![](/Screenshots/4-Leaderboards.png) |
 | ![](/Screenshots/5-Chart.png) | ![](/Screenshots/.png) |
 | ![](/Screenshots/6-Settings.png) | ![](/Screenshots/7-Inbox-Send_Request.png) |
