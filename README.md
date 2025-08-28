@@ -11,3 +11,4 @@ A code based mockup of which the design and frontend code was used to create the
 | ![](/Screenshots/5-Community.png) | ![](/Screenshots/6-Chart.png) |
 | ![](/Screenshots/7-Settings.png) | ![](/Screenshots/8-Inbox-Send_Request.png) |
 | ![](/Screenshots/9-Mobile-Profile.png) | ![](/Screenshots/10-Mobile-Menu.png) |
+ 
